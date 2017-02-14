@@ -30,6 +30,7 @@ def spider(url, word, maxPages):
     pagesToVisit = [url]
     numberVisited = 0
     foundWord = False
+    rp = robotparser.RobotFileParser()
     while numberVisited < maxPages and pagesToVisit != [] and not foundWord:
         numberVisited = numberVisited +1
         url = pagesToVisit[0]
@@ -37,7 +38,6 @@ def spider(url, word, maxPages):
         try:
             print(numberVisited, "Visiting:", url)
             parser = LinkParser()
-            rp = robotparser.RobotFileParser()
             data, links = parser.getLinks(url)
             if data.find(word)>-1:
                 foundWord = True
