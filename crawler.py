@@ -37,6 +37,7 @@ def spider(url, word, maxPages):
         try:
             print(numberVisited, "Visiting:", url)
             parser = LinkParser()
+            rp = robotparser.RobotFileParser()
             data, links = parser.getLinks(url)
             if data.find(word)>-1:
                 foundWord = True
