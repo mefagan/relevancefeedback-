@@ -34,6 +34,7 @@ def spider(url, word, maxPages):
     foundWord = False
     rp = robotparser.RobotFileParser()
     rp.set_url(urljoin(url, 'robots.txt'))
+    rp.read()
     while numberVisited < maxPages and pagesToVisit != [] and not foundWord:
         numberVisited = numberVisited +1
         url = pagesToVisit[0]
