@@ -3,6 +3,8 @@ from html.parser import HTMLParser
 from urllib.request import urlopen 
 from urllib import parse
 from urllib import robotparser
+from urllib.parse import urlparse
+from urllib.parse import urljoin
 
 
 class LinkParser(HTMLParser):
@@ -31,6 +33,7 @@ def spider(url, word, maxPages):
     numberVisited = 0
     foundWord = False
     rp = robotparser.RobotFileParser()
+    rp.set_url(urljoin(url, 'robots.txt'))
     while numberVisited < maxPages and pagesToVisit != [] and not foundWord:
         numberVisited = numberVisited +1
         url = pagesToVisit[0]
