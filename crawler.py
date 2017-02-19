@@ -1,11 +1,6 @@
-#crawler code taken from http://www.netinstructions.com/how-to-make-a-web-crawler-in-under-50-lines-of-python-code/
-from html.parser import HTMLParser  
-from urllib.request import urlopen 
+from html.parser import HTMLParser
+from urllib.request import urlopen
 from urllib import parse
-from urllib import robotparser
-from urllib.parse import urlparse
-from urllib.parse import urljoin
-
 
 class LinkParser(HTMLParser):
 
@@ -15,6 +10,7 @@ class LinkParser(HTMLParser):
                 if key == 'href':
                     newUrl = parse.urljoin(self.baseUrl, value)
                     self.links = self.links + [newUrl]
+
 
     def getLinks(self, url):
         self.links = []
@@ -28,14 +24,11 @@ class LinkParser(HTMLParser):
         else:
             return "",[]
 
-def spider(url, word, maxPages):  
+def spider(url, word, maxPages):
     pagesToVisit = [url]
     numberVisited = 0
     foundWord = False
-    rp = robotparser.RobotFileParser()
-    rp.set_url(urljoin(url, 'robots.txt'))
-    rp.read()
-    while numberVisited < maxPages and pagesToVisit != [] and not foundWord and rp.can_fetch("*", url):
+    while numberVisited < maxPages and pagesToVisit != [] and not foundWord:
         numberVisited = numberVisited +1
         url = pagesToVisit[0]
         pagesToVisit = pagesToVisit[1:]
@@ -45,13 +38,11 @@ def spider(url, word, maxPages):
             data, links = parser.getLinks(url)
             if data.find(word)>-1:
                 foundWord = True
-                pagesToVisit = pagesToVisit + links
-                print(" **Success!**")
+            pagesToVisit = pagesToVisit + links
+            print(" **Success!**")
         except:
             print(" **Failed!**")
     if foundWord:
         print("The word", word, "was found at", url)
     else:
         print("Word never found")
-
-
