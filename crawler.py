@@ -2,6 +2,8 @@ from urllib import robotparser
 from html.parser import HTMLParser
 from urllib.request import urlopen
 from urllib import parse
+from urllib.parse import urlparse
+from urllib.parse import urljoin
 
 class LinkParser(HTMLParser):
 
@@ -26,6 +28,15 @@ class LinkParser(HTMLParser):
         else:
             return "",[]
 
+
+
+
+def checkRobots(url):
+    rp = robotparser.RobotFileParser()
+    rp.set_url(urljoin(url, 'robots.txt'))
+    rp.read()
+    return rp.can_fetch("*", url)
+
 def spider(url, word, maxPages):
     pagesToVisit = [url]
     numberVisited = 0
@@ -33,16 +44,19 @@ def spider(url, word, maxPages):
     while numberVisited < maxPages and pagesToVisit != [] and not foundWord:
         numberVisited = numberVisited +1
         url = pagesToVisit[0]
+        robot_url = pagesToVisit[0]
         pagesToVisit = pagesToVisit[1:]
         try:
-            print(numberVisited, "Visiting:", url)
-            parser = LinkParser()
-            rp = robotparser.RobotFileParser()
-            data, links = parser.getLinks(url)
-            if data.find(word)>-1:
-                foundWord = True
-            pagesToVisit = pagesToVisit + links
-            print(" **Success!**")
+            if checkRobots(robot_url):
+                print(numberVisited, "Visiting:", url)
+                parser = LinkParser()
+                data, links = parser.getLinks(url)
+                if data.find(word)>-1:
+                    foundWord = True
+                pagesToVisit = pagesToVisit + links
+                print(" **Success!**")
+            else:
+                print ("Robot exclusion forbids crawling this page")
         except:
             print(" **Failed!**")
     if foundWord:
