@@ -1,4 +1,5 @@
-pyfrom html.parser import HTMLParser
+from urllib import robotparser
+from html.parser import HTMLParser
 from urllib.request import urlopen
 from urllib import parse
 
@@ -15,7 +16,8 @@ class LinkParser(HTMLParser):
     def getLinks(self, url):
         self.links = []
         self.baseUrl = url
-        response = urlopen(url)
+        response = urlopen(url) 
+	
         if response.getheader('Content-Type')=='text/html':
             htmlBytes = response.read()
             htmlString = htmlBytes.decode("utf-8")
@@ -35,6 +37,7 @@ def spider(url, word, maxPages):
         try:
             print(numberVisited, "Visiting:", url)
             parser = LinkParser()
+            rp = robotparser.RobotFileParser()
             data, links = parser.getLinks(url)
             if data.find(word)>-1:
                 foundWord = True
