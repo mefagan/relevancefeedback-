@@ -1,3 +1,5 @@
+#robot code taken from https://docs.python.org/2/library/robotparser.html
+#crawler code taken from http://www.netinstructions.com/how-to-make-a-web-crawler-in-under-50-lines-of-python-code/
 from urllib import robotparser
 from html.parser import HTMLParser
 from urllib.request import urlopen
@@ -27,9 +29,6 @@ class LinkParser(HTMLParser):
             return htmlString, self.links
         else:
             return "",[]
-
-
-
 
 def checkRobots(url):
     rp = robotparser.RobotFileParser()
