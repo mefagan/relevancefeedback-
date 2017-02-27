@@ -6,6 +6,7 @@ from urllib.request import urlopen
 from urllib import parse
 from urllib.parse import urlparse
 from urllib.parse import urljoin
+from url_normalize import url_normalize
 
 class LinkParser(HTMLParser):
 
@@ -36,11 +37,10 @@ def checkRobots(url):
     rp.read()
     return rp.can_fetch("*", url)
 
-def spider(url, word, maxPages):
+def spider(url, maxPages):
     pagesToVisit = [url]
     numberVisited = 0
-    foundWord = False
-    while numberVisited < maxPages and pagesToVisit != [] and not foundWord:
+    while numberVisited < maxPages and pagesToVisit != []:
         numberVisited = numberVisited +1
         url = pagesToVisit[0]
         robot_url = pagesToVisit[0]
@@ -50,15 +50,11 @@ def spider(url, word, maxPages):
                 print(numberVisited, "Visiting:", url)
                 parser = LinkParser()
                 data, links = parser.getLinks(url)
-                if data.find(word)>-1:
-                    foundWord = True
                 pagesToVisit = pagesToVisit + links
                 print(" **Success!**")
             else:
                 print ("Robot exclusion forbids crawling this page")
         except:
             print(" **Failed!**")
-    if foundWord:
-        print("The word", word, "was found at", url)
-    else:
-        print("Word never found")
+    print (len(numberVisit))
+
