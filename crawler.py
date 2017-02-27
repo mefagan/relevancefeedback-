@@ -1,6 +1,6 @@
 #robot code taken from https://docs.python.org/2/library/robotparser.html
 #crawler code taken from http://www.netinstructions.com/how-to-make-a-web-crawler-in-under-50-lines-of-python-code/
-#index code from https://mydevelopedworld.wordpress.com/2012/08/30/want-it-faster-hash-table-is-the-answer/
+#domain code found on http://stackoverflow.com/questions/14625693/find-http-and-or-www-and-strip-from-domain-leaving-domain-com
 from urllib import robotparser
 from html.parser import HTMLParser
 from urllib.request import urlopen
@@ -37,12 +37,6 @@ def checkRobots(url):
     rp.set_url(urljoin(url, 'robots.txt'))
     rp.read()
     return rp.can_fetch("*", url)
-
-def add_to_index(index, keyword, url):
-    if keyword in index:
-        index[keyword].append(url)
-    else:
-        index[keyword] = [url]
 
 def spider(url, maxPages, domain):
     crawled = []
