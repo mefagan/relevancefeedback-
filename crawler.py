@@ -1,5 +1,6 @@
 #robot code taken from https://docs.python.org/2/library/robotparser.html
 #crawler code taken from http://www.netinstructions.com/how-to-make-a-web-crawler-in-under-50-lines-of-python-code/
+#index code from https://mydevelopedworld.wordpress.com/2012/08/30/want-it-faster-hash-table-is-the-answer/
 from urllib import robotparser
 from html.parser import HTMLParser
 from urllib.request import urlopen
@@ -37,12 +38,18 @@ def checkRobots(url):
     rp.read()
     return rp.can_fetch("*", url)
 
+def add_to_index(index, keyword, url):
+    if keyword in index:
+        index[keyword].append(url)
+    else:
+        index[keyword] = [url]
+
 def spider(url, maxPages):
     pagesToVisit = [url]
     numberVisited = 0
     while numberVisited < maxPages and pagesToVisit != []:
         numberVisited = numberVisited +1
-        url = pagesToVisit[0]
+        url = url_normalize(pagesToVisit[0])
         robot_url = pagesToVisit[0]
         pagesToVisit = pagesToVisit[1:]
         try:
@@ -56,5 +63,4 @@ def spider(url, maxPages):
                 print ("Robot exclusion forbids crawling this page")
         except:
             print(" **Failed!**")
-    print (len(numberVisit))
 
