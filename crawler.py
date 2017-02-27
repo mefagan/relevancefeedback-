@@ -44,23 +44,41 @@ def add_to_index(index, keyword, url):
     else:
         index[keyword] = [url]
 
-def spider(url, maxPages):
+def spider(url, maxPages, domain):
+    crawled = []
     pagesToVisit = [url]
     numberVisited = 0
     while numberVisited < maxPages and pagesToVisit != []:
         numberVisited = numberVisited +1
         url = url_normalize(pagesToVisit[0])
+        parsed_domain_url = urlparse(domain)
+        parsed_url = urlparse(url)
+        if domain.startswith('http'):
+            domain = parsed_domain_url.netloc
+        else:
+            domain = parsed_domain_url.path
+        if url.startswith('http'):
+            search_domain = parsed_url.netloc
+        else:
+            search_domain = parsed_url.path
         robot_url = pagesToVisit[0]
         pagesToVisit = pagesToVisit[1:]
         try:
-            if checkRobots(robot_url):
+            if checkRobots(robot_url) and url not in crawled and domain in search_domain:
                 print(numberVisited, "Visiting:", url)
+                crawled.append(url)
                 parser = LinkParser()
                 data, links = parser.getLinks(url)
                 pagesToVisit = pagesToVisit + links
                 print(" **Success!**")
             else:
-                print ("Robot exclusion forbids crawling this page")
+                if not checkRobots(robot_url):
+                    print ("Robot exclusion forbids crawling this page", url)
+                if url in crawled:
+                    print("crawl already contains", url)
+                if not domain in search_domain:
+                    print("outside domain", url)
         except:
             print(" **Failed!**")
+    print(len(crawled))
 
