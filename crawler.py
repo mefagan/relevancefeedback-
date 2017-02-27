@@ -39,7 +39,7 @@ def checkRobots(url):
     return rp.can_fetch("*", url)
 
 def spider(url, maxPages, domain):
-    crawled = []
+    crawled = {}
     pagesToVisit = [url]
     numberVisited = 0
     while len(crawled) < maxPages and pagesToVisit != []:
@@ -60,9 +60,9 @@ def spider(url, maxPages, domain):
         try:
             if checkRobots(robot_url) and url not in crawled and domain in search_domain:
                 print(numberVisited, "Visiting:", url)
-                crawled.append(url)
                 parser = LinkParser()
                 data, links = parser.getLinks(url)
+                crawled[url] = data
                 pagesToVisit = pagesToVisit + links
                 print(" **Success!**")
             else:
@@ -75,4 +75,5 @@ def spider(url, maxPages, domain):
         except:
             print(" **Failed!**")
     print(len(crawled))
+    return crawled
 
