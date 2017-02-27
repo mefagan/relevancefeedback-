@@ -10,7 +10,7 @@ if __name__ == "__main__":
     analyzer = StandardAnalyzer(Version.LUCENE_30)
     searcher = IndexSearcher(dir)
     
-    query = QueryParser(Version.LUCENE_30, "text", analyzer).parse("Find this sentence please")
+    query = QueryParser(Version.LUCENE_30, "text", analyzer).parse("nyu courant the")
     MAX = 1000
     hits = searcher.search(query, MAX)
     

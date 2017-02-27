@@ -12,7 +12,7 @@ if __name__ == "__main__":
     
     indexDir = "/Tmp/REMOVEME.index-dir"
 
-    print "lucene version is:", lucene.VERSION
+    print ("lucene version is:", lucene.VERSION)
     
     #get the analyzer
     analyzer = StandardAnalyzer(Version.LUCENE_30)
@@ -22,12 +22,14 @@ if __name__ == "__main__":
    
     writer = IndexWriter(dir, analyzer, True, IndexWriter.MaxFieldLength(512))
     
-    print "%d docs in index" % writer.numDocs()
-    print "Reading lines from sys.stdin..."
+    print ("%d docs in index", writer.numDocs())
+
+    crawled = []
+    crawled.append("http://cs.nyu.edu/home/undergrad/overview.html")
+    crawled.append("http://cs.nyu.edu/")
 
     i = 0
-    print >> sys.stderr, "Reading lines from sys.stdin..."
-    for l in sys.stdin:
+    for l in crawled:
         i += 1
         doc = Document()
         doc.add(Field("text", l, Field.Store.YES, Field.Index.ANALYZED))
