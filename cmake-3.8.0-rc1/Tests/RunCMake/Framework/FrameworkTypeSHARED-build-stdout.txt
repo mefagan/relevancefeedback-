@@ -1,1 +1,0 @@
-.*/Framework: Mach-O[^\n]* dynamically linked shared library.*

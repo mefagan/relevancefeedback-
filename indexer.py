@@ -1,5 +1,6 @@
 import sys
 import lucene
+from pytidylib import tidy_document
 
 from lucene import \
     SimpleFSDirectory, System, File, \
@@ -26,7 +27,7 @@ if __name__ == "__main__":
 
     crawled = []
     crawled.append("http://cs.nyu.edu/home/undergrad/overview.html")
-    crawled.append("http://cs.nyu.edu/")
+    
 
     i = 0
     for l in crawled:
