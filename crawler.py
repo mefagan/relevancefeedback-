@@ -42,7 +42,7 @@ def spider(url, maxPages, domain):
     crawled = []
     pagesToVisit = [url]
     numberVisited = 0
-    while numberVisited < maxPages and pagesToVisit != []:
+    while len(crawled) < maxPages and pagesToVisit != []:
         numberVisited = numberVisited +1
         url = url_normalize(pagesToVisit[0])
         parsed_domain_url = urlparse(domain)

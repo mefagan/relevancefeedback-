@@ -29,8 +29,6 @@ if __name__ == "__main__":
     print >> sys.stderr, "Reading lines from sys.stdin..."
     for l in sys.stdin:
         i += 1
-        
-        
         doc = Document()
         doc.add(Field("text", l, Field.Store.YES, Field.Index.ANALYZED))
         writer.addDocument(doc)
