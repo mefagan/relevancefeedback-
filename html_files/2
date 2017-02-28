@@ -51,7 +51,7 @@
   <script type="text/javascript" src="/scripts/ClearSearch.js"></script>
 
   <meta name="csrf-param" content="authenticity_token"/>
-<meta name="csrf-token" content="zFGIgixXDiH4IwNVKDyqvQXG0KZlk+AyrpJmAY///90="/>
+<meta name="csrf-token" content="WY4OJ2XeDzsAtHpql5GNU3nL0F6txPlb2IA6NPIBPAM="/>
   <script type="text/javascript">
 //<![CDATA[
 var USERNAME = '';
@@ -61,7 +61,7 @@ var USERNAME = '';
   
   <script type="text/javascript">
 //<![CDATA[
-var AUTH_TOKEN = 'zFGIgixXDiH4IwNVKDyqvQXG0KZlk+AyrpJmAY///90=';
+var AUTH_TOKEN = 'WY4OJ2XeDzsAtHpql5GNU3nL0F6txPlb2IA6NPIBPAM=';
 //]]>
 </script>
 
@@ -424,7 +424,7 @@ meh - not showing full url, not so simple
 <p>Please login using your NYU CIMS account.</p>
 
 
-<form action="/webapps/login/cims" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="zFGIgixXDiH4IwNVKDyqvQXG0KZlk+AyrpJmAY///90=" /></div>
+<form action="/webapps/login/cims" method="post"><div style="margin:0;padding:0;display:inline"><input name="authenticity_token" type="hidden" value="WY4OJ2XeDzsAtHpql5GNU3nL0F6txPlb2IA6NPIBPAM=" /></div>
   <input id="origin" name="origin" type="hidden" value="/webapps/portal" />
   <p>
     Username<br />

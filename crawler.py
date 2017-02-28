@@ -79,6 +79,9 @@ def spider(url, maxPages, domain):
                     print("outside domain", url)
         except:
             print(" **Failed!**")
-
+def main():
+    spider("https://cims.nyu.edu/", 10, "nyu.edu")
+if __name__ == '__main__':
+    main()
 
 
