@@ -1,6 +1,7 @@
 import sys
 import lucene
-from pytidylib import tidy_document
+from crawler import crawled
+
 
 from lucene import \
     SimpleFSDirectory, System, File, \

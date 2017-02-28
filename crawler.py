@@ -1,3 +1,4 @@
+#! /usr/bin/env/python3
 #robot code taken from https://docs.python.org/2/library/robotparser.html
 #crawler code taken from http://www.netinstructions.com/how-to-make-a-web-crawler-in-under-50-lines-of-python-code/
 #domain code found on http://stackoverflow.com/questions/14625693/find-http-and-or-www-and-strip-from-domain-leaving-domain-com
@@ -39,7 +40,7 @@ def checkRobots(url):
     return rp.can_fetch("*", url)
 
 def spider(url, maxPages, domain):
-    crawled = {}
+    crawled = []
     pagesToVisit = [url]
     numberVisited = 0
     while len(crawled) < maxPages and pagesToVisit != []:
@@ -62,7 +63,11 @@ def spider(url, maxPages, domain):
                 print(numberVisited, "Visiting:", url)
                 parser = LinkParser()
                 data, links = parser.getLinks(url)
-                crawled[url] = data
+                filename = str(len(crawled)) + "html.txt"
+                file_ = open(filename, 'w')
+                file_.write(data)
+                file_.close()
+                crawled.append(url)
                 pagesToVisit = pagesToVisit + links
                 print(" **Success!**")
             else:
@@ -74,6 +79,6 @@ def spider(url, maxPages, domain):
                     print("outside domain", url)
         except:
             print(" **Failed!**")
-    print(len(crawled))
-    return crawled
+
+
 
