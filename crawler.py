@@ -65,7 +65,6 @@ def spider(url, maxPages, domain):
                 print(numberVisited, "Visiting:", url)
                 parser = LinkParser()
                 data, links = parser.getLinks(url)
-                print(url)
                 urllib.request.urlretrieve(url, "html_files/" + str(len(crawled)))
                 crawled.append(url)
                 pagesToVisit = pagesToVisit + links
