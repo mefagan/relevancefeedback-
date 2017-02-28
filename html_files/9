@@ -1,0 +1,959 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>M.S. in Mathematics | Department of Mathematics | NYU Courant</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <!-- Custom styles for this template -->
+				<link href="/static/math/main.css?20170228" rel="stylesheet">
+        <link href="/static/math/sidebar.css" rel="stylesheet">
+
+        <!-- Custom styles for carousel -->
+        <link href="/static/math/carousel.css" rel="stylesheet">
+
+
+        
+
+    </head>
+    <body>
+      
+
+      <div id="main-container" class="container">
+
+        <div id="header" class="hidden-xs" style="position:relative;">
+          <a href="/dynamic/">
+            <img id="header-img" src="/static/math/images/math-django-header.png" alt="NYU Courant Department of Mathematics">
+            
+          </a>
+          
+        </div>
+
+        <nav class="navbar navbar-default navbar-custom">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="hidden-sm hidden-md hidden-lg" href="/">
+                <img class="navbar-brand navbar-brand-custom" src="/static/math/images/math-django-header-xs.png" alt="NYU Courant Department of Mathematics">
+              </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                
+
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                People
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/faculty/"><span>Faculty</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/postdocs/"><span>Postdocs</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/visitors/"><span>Visitors</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/staff/"><span>Staff</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/phd-students/"><span>Ph.D. Students</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/phd-alumni/"><span>Ph.D. Alumni</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/leadership/"><span>Departmental Leadership</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Research
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/research/research-areas/"><span>Research Areas</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/research/research-centers-labs/"><span>Research Centers &amp; Labs</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/research/postdoctoral-and-visitor-programs/"><span>Postdoctoral and Visitor Programs</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/research/faculty-recognition/"><span>Faculty Recognition</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Courses
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/course-schedules/"><span>Course Schedules</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/graduate-course-descriptions/"><span>Graduate Course Descriptions</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/undergraduate-course-descriptions/"><span>Undergraduate Course Descriptions</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/undergraduate-exam-schedules/"><span>Undergraduate Exam Schedules</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/office-hours/"><span>Office Hours</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                PhD
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/overview/"><span>Overview</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/admissions-financial-support/"><span>Admissions &amp; Financial Support</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/phd-mathematics/"><span>Ph.D. in Mathematics</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/phd-atmosphere-ocean-science/"><span>Ph.D. in Atmosphere Ocean Science</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/awards/"><span>Awards</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="ancestor
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Master&#39;s
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/overview/"><span>Overview</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/admission/"><span>Admissions</span></a>
+        
+    </li>
+    
+
+    <li class="
+         active
+        ">
+        
+            <a href="/dynamic/masters/ms-mathematics/"><span>M.S. in Mathematics</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/ms-scientific-computing/"><span>M.S. in Scientific Computing</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/ms-mathematics-finance/"><span>M.S. in Mathematics in Finance</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/non-degree-study/"><span>Non-Degree Study</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Undergrad
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/overview/"><span>Overview</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/majors-minors/"><span>Majors &amp; Minors</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/advisement/"><span>Advisement</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/transfer-students/"><span>Transfer Students</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/activities-research/"><span>Activities &amp; Research</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/calculus-information/"><span>Calculus Information</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/placement-exams/"><span>Placement Exams</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/enrollment-graduate-courses/"><span>Enrollment in Graduate Courses</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/tutoring/"><span>Tutoring</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/study-abroad-opportunities/"><span>Study Abroad</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/undergraduate-awards/"><span>Awards</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/alumni/"><span>Alumni</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Resources
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/resources/courant-resources/"><span>Courant Resources</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/resources/graduate-student-resource-pages/"><span>Graduate Student Resource Pages</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/resources/courant-library/"><span>Courant Library</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/resources/courant-computing-technology/"><span>Courant Computing &amp; Technology</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Calendars
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/calendars/seminars/"><span>Seminars</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/calendars/events/"><span>Events</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/calendars/courant-classroom-calendar-reservations/"><span>Courant Classroom Calendar &amp; Reservations</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/calendars/nyu-academic-calendar/"><span>NYU Academic Calendar</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                About
+            </a>
+						<ul class="dropdown-menu pull-right">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/math-courant/"><span>Math @ Courant</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/contact-us/"><span>Contact Us</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/job-openings/"><span>Employment</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/directions/"><span>Directions</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/outreach/"><span>Outreach</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <div class="content">
+          
+  <div class="row has-sidebar">
+    <div class="col-sm-2">
+      <div class="sidebar">
+        <ul>
+          
+
+
+<li class="child">
+	<a href="/dynamic/people/faculty/">People</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/research/research-areas/">Research</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/courses/course-schedules/">Courses</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/phd/overview/">PhD</a>
+	
+</li>
+
+<li class="child ancestor">
+	<a href="/dynamic/masters/overview/">Master&#39;s</a>
+	
+	<ul>
+		
+
+
+<li class="child sibling">
+	<a href="/dynamic/masters/overview/">Overview</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/masters/admission/">Admissions</a>
+	
+</li>
+
+<li class="child selected">
+	<a href="/dynamic/masters/ms-mathematics/">M.S. in Mathematics</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/masters/ms-scientific-computing/">M.S. in Scientific Computing</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="http://math.nyu.edu/financial_mathematics/">M.S. in Mathematics in Finance</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/masters/non-degree-study/">Non-Degree Study</a>
+	
+</li>
+
+	</ul>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/undergrad/overview/">Undergrad</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/resources/">Resources</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/calendars/seminars/">Calendars</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/about/math-courant/">About</a>
+	
+</li>
+
+          
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-10">
+      <div class="inner"> 
+        
+          <h1>M.S. in Mathematics</h1>
+
+<hr>
+<p>The Master's degree in mathematics encompasses the basic graduate curriculum in mathematics, and also offers the opportunity of some more specialized training in an area of interest.  A typical Master's course of study will involve basic courses in real analysis, complex analysis and linear algebra, followed by other fundamental courses such as probability, scientific computing, and differential equations. Depending on their mathematical interests, students will then be able to take more advanced graduate courses in pure and applied mathematics. <br>
+<br>
+Information about admission on a non-degree basis is <a href="/dynamic/masters/non-degree-study/">here</a>.</p>
+
+<p> </p>
+
+<h3><a name="Overview"></a>Degree Requirements</h3>
+
+<p>A candidate for the Master's degree in mathematics must fulfill the following departmental requirements:</p>
+
+<ul>
+	<li>36 credits with at least a 3.0 GPA or higher and pass the written comprehensive examinations with an overall grade of B</li>
+</ul>
+
+<p style="margin-left: 40px;">OR</p>
+
+<ul>
+	<li>32 credits with at least a 3.7 GPA or higher, and a Master's thesis, completed under the supervision of a faculty member and approved by a second reader. The 3.7 GPA requirement is effective for students admitted in the Fall 2017 semester and later.</li>
+</ul>
+
+<p>Students may be able to transfer up to 8-12 credits from other academic institutions with the approval of the Director of Graduate Studies and GSAS Office of Academic Affairs. At least 24 credits must be taken within the NYU Mathematics department.</p>
+
+<p> </p>
+
+<h3><a name="Admission"></a>Coursework</h3>
+
+<p>Students are required to take eight courses (24 credits) from the list below.  All four courses in Group I, two courses from Group II, and two additional courses from Group II or Group III must be taken. Substitute courses are listed at the end. </p>
+
+<p><strong>Group I</strong> (Mandatory Preparation)</p>
+
+<ul>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga1410-001">MATH-GA 1410</a> Introduction to Math Analysis I (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2450-001">MATH-GA 2450</a> Complex Variables I (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2110-001">MATH-GA 2110</a> Linear Algebra I (fall, spring, and possibly summer)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga1002-001">MATH-GA 1002</a> Multivariable Analysis (spring)</li>
+</ul>
+
+<p><strong>Group II</strong> (Fundamentals)</p>
+
+<ul>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga1420-001">MATH-GA 1420</a> Introduction to Math Analysis II (spring)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2460-001">MATH-GA 2460</a> Complex Variables II (spring)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2120-001">MATH-GA 2120</a> Linear Algebra II (spring)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2901-001">MATH-GA 2901</a> Basic Probability (fall, spring, summer)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2043-001">MATH-GA 2043</a> Scientific Computing (fall, spring)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2470-001">MATH-GA 2470</a> Ordinary Differential Equations (spring)</li>
+</ul>
+
+<p><strong>Group III </strong>(more advanced core graduate courses)</p>
+
+<ul>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2010-001">MATH-GA 2010</a> Numerical Methods I (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2020-001">MATH-GA 2020</a> Numerical Methods II (spring)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2130-001">MATH-GA 2130</a> Algebra I (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2310-001">MATH-GA 2310</a> Topology I (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2210-001">MATH-GA 2210</a> Number Theory (spring)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2350-001">MATH-GA 2350</a> Differential Geometry I (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2490-001">MATH-GA 2490</a> Partial Differential Equations (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2701-001">MATH-GA 2701</a> Methods of Applied Math (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2702-001">MATH-GA 2702</a> Fluid Dynamics (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2550-001">MATH-GA 2550</a> Functional Analysis (spring)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2563-001">MATH-GA 2563</a> Harmonic Analysis (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2911-001">MATH-GA 2911</a> Probability: Limit Theorems I (fall)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2902-001">MATH-GA 2902</a> Stochastic Calculus (fall, spring and summer)</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2962-001">MATH-GA 2962</a> Mathematical Statistics (spring) or DS-GA 1002 Statistical and Mathematical Methods (fall)</li>
+</ul>
+
+<p><strong>Substitutes</strong></p>
+
+<ul>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2430-001">MATH-GA 2430</a>  Real Variables (one-term) is a substitute for <a href="/dynamic/courses/graduate-course-descriptions/#math-ga1410-001">MATH-GA 1410</a> and <a href="/dynamic/courses/graduate-course-descriptions/#math-ga1420-001">1420</a> Introduction to Math Analysis I and II.</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2451-001">MATH-GA 2451</a> Complex Variables (one-term) is a substitute for <a href="/dynamic/courses/graduate-course-descriptions/#math-ga2450-001">MATH-GA 2450</a> and <a href="/dynamic/courses/graduate-course-descriptions/#math-ga2460-001">2460</a> Complex Variables I and II.</li>
+	<li><a href="/dynamic/courses/graduate-course-descriptions/#math-ga2111-001">MATH-GA 2111</a> Linear Algebra (one-term) is a substitute for <a href="/dynamic/courses/graduate-course-descriptions/#math-ga2110-001">MATH-GA 2110</a> and <a href="/dynamic/courses/graduate-course-descriptions/#math-ga2120-001">2120</a> Linear Algebra I and II.</li>
+</ul>
+
+<p>A substitute one-term course may be taken after the first term of its equivalent two-term course, but may not be taken after the equivalent two-term sequence is  completed.  Resolution of conflicts will require the approval of the Director of Graduate Studies.  Only the credits of the completed courses will count toward the degree.</p>
+
+<p>Please note that master's and non-degree students in their first year of study are generally not permitted to register for any Advanced Topics courses.  In further semesters, students are allowed to register for such courses with permission of both the course instructor and the Director of Graduate Studies for the M.S. Program.</p>
+
+<p> </p>
+
+<h3>The Written Comprehensive Examinations</h3>
+
+<p>Master’s students who choose the Written Comprehensive Examinations option must pass with an overall grade of B. The three-part Written Comprehensive Examination is administered by the department twice a year in early September and early January. Most Master's students tend to take the exam toward the end of their graduate studies.</p>
+
+<p>Students are permitted to take the written examinations twice with no special permission.  A third and final attempt may be granted by the Department on a case-by-case basis.</p>
+
+<p>The examinations, in advanced calculus, complex variables and linear algebra, may include some of the following material:</p>
+
+<p><strong>Advanced Calculus:</strong> Real numbers. Functions of one variable: continuity, mean-value, differentiability, maxima and minima, integrals, fundamental theorem of calculus, inequalities, estimation of sums and integrals, elementary functions and their power series. Funtions of several variables: partial derivatives, chain rule, MacLaurin expansion, critical points, Lagrange multipliers, inverse and implicit function theorems, jacobian, divergence and curl, theorems of Green and Stokes.</p>
+
+<p><strong>Complex Variables: </strong>Complex numbers, analytical functions, Cauchy-Riemann equations, Cauchy's integral and applications, power series, maximum principle, Liouville's theorem, elementary functions and their conformal maps, bilinear transformation, classification of singularities, residue theorem and contour integration, Laurent series, Rouche's theorem, number of zeros and poles. </p>
+
+<p><strong>Linear Algebra:</strong> Vector spaces, linear dependence, basis, dimension, linear transformation, inner product, systems of linear equations, matrices, determinants, ranks, eigenvalues, diagonalization of matrices, quadratics forms, symmetric and orthogonal transformations.</p>
+
+<p>Cooperative preparation is encouraged, as it is for all examinations. Students may also find the following books helpful:</p>
+
+<p>Buck, <em>Advanced Calculus</em>; Courant and John, <em>Introduction to Calculus and Analysis</em>; Strang, <em>Linear Algebra</em>; Churchill, <em>Complex Variables and Applications</em>.</p>
+
+<p> </p>
+
+<h3>Master's Thesis</h3>
+
+<p>Students who have earned a GPA of 3.7 or higher and taken at least 18 credits in the program have the option to write a Master's thesis under the supervision of a Mathematics faculty member. In certain cases involving interdisciplinary research, a second advisor outside the Department of Mathematics may be approved by the Director of Graduate Studies. All students must submit the <a href="/media/math/filer_public/c9/7d/c97d1340-e7a9-4ec2-b8d8-f6d0d299cb3e/thesis_proposal_and_advisor_form.pdf">Thesis Proposal and Advisor Approval form</a>, outlining the research plan for the thesis which has been approved by the thesis advisor, to the Program Administrator at least four months prior to the graduation date. The completed Master's thesis must be approved by two readers -- the thesis advisor and a second reader. At least one of the readers must be a full-time Courant Mathematics faculty member. You can find more detailed information in the <a href="/media/math/filer_public/84/c0/84c0d9fb-88f0-4980-a819-2aeb2c918d22/thesis_guidelines.pdf">Thesis Guidelines FAQ</a>.</p>
+
+<p> </p>
+
+<h3>Academic Standards</h3>
+
+<p>To continue registering for courses in the Department of Mathematics, a student must be in a good academic standing, fulfilling the following requirements:</p>
+
+<ul>
+	<li>Students must maintain an average of B or better (3.0) in their first 12 credits. Students failing to achieve this will not be permitted to continue in the program. Students cannot obtain an M.S. degree unless they have maintained an overall average of at least B</li>
+</ul>
+
+<ul>
+	<li>Students will be allowed no more than four no-credit grades, withdrawals, or unresolved incomplete grades during their academic tenure, and no more than two such grades in the first six courses for which they have registered.</li>
+</ul>
+
+<ul>
+	<li>Credit will be given for up to two core courses taken elsewhere, subject to the normal GSAS restrictions on transfer of credit and the approval of the Program Coordinator. At least 24 course points must be taken at New York University.</li>
+</ul>
+
+<p> </p>
+
+<hr>
+<p>For any questions contact us at:</p>
+
+<p><strong>Office of Admissions and Student Affairs</strong><br>
+Department of Mathematics<br>
+Courant Institute of Mathematical Sciences<br>
+251 Mercer Street<br>
+New York, NY 10012-1185<br>
+Phone (212) 998-3238<br>
+Fax (212) 995-4121<br>
+<a href="mailto:admissions@math.nyu.edu">admissions@math.nyu.edu</a></p>
+
+<dl>
+</dl>
+
+        
+      </div>
+    </div>
+  </div>
+
+        </div>
+
+        <footer class="footer">
+          <a title="Courant Institute of Mathematical Sciences"
+            href="http://cims.nyu.edu/">
+            <img src="/static/math/images/courant_short_black_301x40.png" style="height: 2em; display: block; margin-left: auto; margin-right: auto;"
+              alt="NYU Courant">
+          </a>
+          <ul class="school-links list-inline">
+            <li><a title="New York University" href="http://www.nyu.edu/">New York University</a></li>
+            <li><a title="NYU Arts &amp; Science"  href="http://as.nyu.edu/">Arts &amp; Science</a></li>
+            <li><a title="NYU College of Arts &amp; Science" href="http://cas.nyu.edu/">College of Arts &amp; Science</a></li>
+            <li><a title="NYU Graduate School of Arts &amp; Science" href="http://gsas.nyu.edu/">Graduate School of Arts &amp; Science</a></li>
+            
+          </ul>
+          <p style="text-align: center; clear: both;">&copy; New York University</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+
+      </div> <!-- end main container -->
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-63794280-4', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+    </body>
+</html>

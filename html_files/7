@@ -1,0 +1,895 @@
+
+<!doctype html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Overview | Department of Mathematics | NYU Courant</title>
+        <meta name="viewport" content="width=device-width,initial-scale=1">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
+
+        <!-- Custom styles for this template -->
+				<link href="/static/math/main.css?20170228" rel="stylesheet">
+        <link href="/static/math/sidebar.css" rel="stylesheet">
+
+        <!-- Custom styles for carousel -->
+        <link href="/static/math/carousel.css" rel="stylesheet">
+
+
+        
+
+    </head>
+    <body>
+      
+
+      <div id="main-container" class="container">
+
+        <div id="header" class="hidden-xs" style="position:relative;">
+          <a href="/dynamic/">
+            <img id="header-img" src="/static/math/images/math-django-header.png" alt="NYU Courant Department of Mathematics">
+            
+          </a>
+          
+        </div>
+
+        <nav class="navbar navbar-default navbar-custom">
+          <div class="container">
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="hidden-sm hidden-md hidden-lg" href="/">
+                <img class="navbar-brand navbar-brand-custom" src="/static/math/images/math-django-header-xs.png" alt="NYU Courant Department of Mathematics">
+              </a>
+            </div>
+            <div id="navbar" class="collapse navbar-collapse">
+              <ul class="nav navbar-nav">
+                
+
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                People
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/faculty/"><span>Faculty</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/postdocs/"><span>Postdocs</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/visitors/"><span>Visitors</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/staff/"><span>Staff</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/phd-students/"><span>Ph.D. Students</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/phd-alumni/"><span>Ph.D. Alumni</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/people/leadership/"><span>Departmental Leadership</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Research
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/research/research-areas/"><span>Research Areas</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/research/research-centers-labs/"><span>Research Centers &amp; Labs</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/research/postdoctoral-and-visitor-programs/"><span>Postdoctoral and Visitor Programs</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/research/faculty-recognition/"><span>Faculty Recognition</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Courses
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/course-schedules/"><span>Course Schedules</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/graduate-course-descriptions/"><span>Graduate Course Descriptions</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/undergraduate-course-descriptions/"><span>Undergraduate Course Descriptions</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/undergraduate-exam-schedules/"><span>Undergraduate Exam Schedules</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/courses/office-hours/"><span>Office Hours</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                PhD
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/overview/"><span>Overview</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/admissions-financial-support/"><span>Admissions &amp; Financial Support</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/phd-mathematics/"><span>Ph.D. in Mathematics</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/phd-atmosphere-ocean-science/"><span>Ph.D. in Atmosphere Ocean Science</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/phd/awards/"><span>Awards</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Master&#39;s
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/overview/"><span>Overview</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/admission/"><span>Admissions</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/ms-mathematics/"><span>M.S. in Mathematics</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/ms-scientific-computing/"><span>M.S. in Scientific Computing</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/ms-mathematics-finance/"><span>M.S. in Mathematics in Finance</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/masters/non-degree-study/"><span>Non-Degree Study</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="ancestor
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Undergrad
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+         active
+        ">
+        
+            <a href="/dynamic/undergrad/overview/"><span>Overview</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/majors-minors/"><span>Majors &amp; Minors</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/advisement/"><span>Advisement</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/transfer-students/"><span>Transfer Students</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/activities-research/"><span>Activities &amp; Research</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/calculus-information/"><span>Calculus Information</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/placement-exams/"><span>Placement Exams</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/enrollment-graduate-courses/"><span>Enrollment in Graduate Courses</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/tutoring/"><span>Tutoring</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/study-abroad-opportunities/"><span>Study Abroad</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/undergraduate-awards/"><span>Awards</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/undergrad/alumni/"><span>Alumni</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Resources
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/resources/courant-resources/"><span>Courant Resources</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/resources/graduate-student-resource-pages/"><span>Graduate Student Resource Pages</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/resources/courant-library/"><span>Courant Library</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/resources/courant-computing-technology/"><span>Courant Computing &amp; Technology</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                Calendars
+            </a>
+						<ul class="dropdown-menu">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/calendars/seminars/"><span>Seminars</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/calendars/events/"><span>Events</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/calendars/courant-classroom-calendar-reservations/"><span>Courant Classroom Calendar &amp; Reservations</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/calendars/nyu-academic-calendar/"><span>NYU Academic Calendar</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+    <li class="
+        
+         dropdown">
+        
+            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
+                About
+            </a>
+						<ul class="dropdown-menu pull-right">
+                
+
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/math-courant/"><span>Math @ Courant</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/contact-us/"><span>Contact Us</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/job-openings/"><span>Employment</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/directions/"><span>Directions</span></a>
+        
+    </li>
+    
+
+    <li class="
+        
+        ">
+        
+            <a href="/dynamic/about/outreach/"><span>Outreach</span></a>
+        
+    </li>
+    
+
+
+            </ul>
+        
+    </li>
+    
+
+
+              </ul>
+            </div><!--/.nav-collapse -->
+          </div>
+        </nav>
+
+        <div class="content">
+          
+  <div class="row has-sidebar">
+    <div class="col-sm-2">
+      <div class="sidebar">
+        <ul>
+          
+
+
+<li class="child">
+	<a href="/dynamic/people/faculty/">People</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/research/research-areas/">Research</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/courses/course-schedules/">Courses</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/phd/overview/">PhD</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/masters/overview/">Master&#39;s</a>
+	
+</li>
+
+<li class="child ancestor">
+	<a href="/dynamic/undergrad/overview/">Undergrad</a>
+	
+	<ul>
+		
+
+
+<li class="child selected">
+	<a href="/dynamic/undergrad/overview/">Overview</a>
+	
+	<ul>
+		
+
+
+<li class="child descendant">
+	<a href="/dynamic/undergrad/overview/why-study-math/">Why study Math?</a>
+	
+</li>
+
+<li class="child descendant">
+	<a href="/dynamic/undergrad/overview/admissions/">Admissions</a>
+	
+</li>
+
+	</ul>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/majors-minors/">Majors &amp; Minors</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/advisement/">Advisement</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/transfer-students/">Transfer Students</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/activities-research/">Activities &amp; Research</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/calculus-information/">Calculus Information</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/placement-exams/">Placement Exams</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/enrollment-graduate-courses/">Enrollment in Graduate Courses</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/tutoring/">Tutoring</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/study-abroad-opportunities/">Study Abroad</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/undergraduate-awards/">Awards</a>
+	
+</li>
+
+<li class="child sibling">
+	<a href="/dynamic/undergrad/alumni/">Alumni</a>
+	
+</li>
+
+	</ul>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/resources/">Resources</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/calendars/seminars/">Calendars</a>
+	
+</li>
+
+<li class="child">
+	<a href="/dynamic/about/math-courant/">About</a>
+	
+</li>
+
+          
+        </ul>
+      </div>
+    </div>
+    <div class="col-sm-10">
+      <div class="inner"> 
+        
+          <h1>Undergraduate Program</h1>
+
+<hr>
+<p>The undergraduate division of the Department of Mathematics offers a wide variety of courses in pure and applied mathematics taught by a distinguished faculty with a tradition of excellence in teaching and research.  Most of the faculty is associated with the University’s Courant Institute of Mathematical Sciences, noted for its advanced training and research programs.</p>
+
+<ul>
+	<li><a href="/dynamic/undergrad/overview/why-study-math/">Why study Math?</a></li>
+	<li><a href="/dynamic/undergrad/overview/admissions/">Admissions</a></li>
+</ul>
+
+<hr>
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/majors-minors/">Majors &amp; Minors</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/advisement/">Advisement</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/transfer-students/">Transfer Students</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/activities-research/">Activities &amp; Research</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/calculus-information/">Calculus Information</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/placement-exams/">Placement Exams</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/enrollment-graduate-courses/">Enrollment in Graduate Level Courses</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/alumni/">Alumni</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/tutoring/">Tutoring</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/study-abroad-opportunities/">Study Abroad</a></p>
+
+<p><span style="color: #0c83de;" class="glyphicon glyphicon-triangle-right"> </span><a href="/dynamic/undergrad/undergraduate-awards/">Awards</a></p>
+
+        
+      </div>
+    </div>
+  </div>
+
+        </div>
+
+        <footer class="footer">
+          <a title="Courant Institute of Mathematical Sciences"
+            href="http://cims.nyu.edu/">
+            <img src="/static/math/images/courant_short_black_301x40.png" style="height: 2em; display: block; margin-left: auto; margin-right: auto;"
+              alt="NYU Courant">
+          </a>
+          <ul class="school-links list-inline">
+            <li><a title="New York University" href="http://www.nyu.edu/">New York University</a></li>
+            <li><a title="NYU Arts &amp; Science"  href="http://as.nyu.edu/">Arts &amp; Science</a></li>
+            <li><a title="NYU College of Arts &amp; Science" href="http://cas.nyu.edu/">College of Arts &amp; Science</a></li>
+            <li><a title="NYU Graduate School of Arts &amp; Science" href="http://gsas.nyu.edu/">Graduate School of Arts &amp; Science</a></li>
+            
+          </ul>
+          <p style="text-align: center; clear: both;">&copy; New York University</p>
+        </footer>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
+        
+
+      </div> <!-- end main container -->
+
+      <script>
+        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+        ga('create', 'UA-63794280-4', 'auto');
+        ga('send', 'pageview');
+
+      </script>
+    </body>
+</html>

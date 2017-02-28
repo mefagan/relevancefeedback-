@@ -1,0 +1,129 @@
+<html xmlns:comem3="xalan://com.em3" xmlns:em3="http://www.em3.com/2002/widget">
+<head>
+<META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Center for Atmosphere Ocean Science | New York University</title>
+<link type="text/css" href="/object/caos.css" rel="stylesheet">
+<style>
+
+/************************
+EDIT BUTTON
+************************/
+.button-onsiteedit {z-index:1;position: fixed !important; left: 5px !important; bottom: 5px !important;
+  _position:absolute;
+  _top:expression(document.body.scrollTop+document.body.clientHeight-this.clientHeight);
+}
+.button-onsiteedit img {border:none !important;margin:0px !important;padding:0px !important;_margin-bottom:1px;}
+
+</style>
+<style>
+/***** IE PNG fix *******/
+img, div, a, li { behavior: url(/docs/TEMPLATE/775/iepngfix.htc); }
+</style>
+<link type="text/css" href="/object/caos_nav.css" rel="stylesheet">
+</head>
+<body marginheight="0" marginwidth="0" topmargin="0" leftmargin="0" BACKGROUND="/docs/IO/357/img357.gif" BGCOLOR="#FFFFFF">
+<table height="100%" CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="743">
+<tr valign="top">
+<td>
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="743">
+<tr>
+<td height="131"><img USEMAP="#header" alt="CAOS" border="0" src="/docs/IO/358/img358.gif"></td>
+</tr>
+<tr>
+<td height="21">
+<table height="21" CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="743">
+<tr valign="top">
+<td height="1" bgcolor="#3399cc" colspan="5"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td><td rowspan="2" width="1" bgcolor="#3399cc"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td><td width="200" align="right" rowspan="2"><img alt="" border="0" src="/docs/IO/359/img359.gif"></td>
+</tr>
+<tr height="19">
+<td width="130" align="center"><a class="schoolnav_n" href="/object/link.nyu"> NEW YORK UNIVERSITY</a></td><td width="1" bgcolor="#3399cc"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td><td width="180" align="center"><a class="schoolnav_f" href="/object/link.fas">ARTS AND SCIENCE</a></td><td width="1" bgcolor="#3399cc"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td><td width="230" align="center"><a class="schoolnav_g" href="/object/link.gsas">GRADUATE SCHOOL OF ARTS AND SCIENCE</a></td>
+</tr>
+<tr>
+<td height="1" bgcolor="#3399cc" colspan="7"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="21">
+<table height="20" CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="743">
+<tr>
+<td height="20" rowspan="2"><img height="1" width="540" alt="" border="0" src="/docs/IO/214/img214.gif"></td><td height="19" width="1" bgcolor="#3399cc"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td><td align="center" WIDTH="75"><a class="nav_contact" href="/page/contactus">CONTACT US</a></td><td width="1" bgcolor="#3399cc"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td><td align="center" WIDTH="59"><a class="nav_search" href="/page/searchsite">SEARCH</a></td><td width="1" bgcolor="#3399cc"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td><td align="center" WIDTH="64"><a class="nav_sitemap" href="/page/sitemap">SITEMAP</a></td>
+</tr>
+<tr>
+<td colspan="6" height="1" bgcolor="#3399cc"><img height="1" width="1" alt="" border="0" src="/docs/IO/214/img214.gif"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td height="21"><img width="1" height="21" alt="" border="0" src="/docs/IO/214/img214.gif"></td>
+</tr>
+</table>
+<table CELLPADDING="0" CELLSPACING="0" BORDER="0" WIDTH="743">
+<tr valign="top">
+<td WIDTH="133"><img height="1" alt="" width="143" border="0" src="/docs/IO/214/img214.gif"></td><td><font align="left" color="blue" size="4"><img alt="caos_logo.gif" src="/docs/CP/59/caos_logo.gif" align="left" border="0" height="120">The Center for Atmosphere Ocean Science (CAOS) </font>is an interdisciplinary research and graduate program within the Courant Institute of Mathematical Sciences. The mission of the Center is to bridge the gap between the theoretical advances in those branches of applied mathematics relevant to geophysical flows, and the understanding of phenomena observed in the climate system. The research expertise within the Courant Institute that is directly relevant to the kinds of problems addressed within atmospheric and oceanic sciences includes partial differential equations, numerical analysis, turbulence, fluid dynamics, dynamical systems and chaos, statistical mechanics, adaptive meshes, visualization and data mining, to name a few. Associated and core faculty in CAOS are active members of the international science community in all of the scientific disciplines intersecting with the mission of the Center, including dynamical meteorology, physical oceanography and climate dynamics. The placement of the Center within the Courant environment, and the diverse constituent faculty of the Center itself, creates the potential for important advances in the climate sciences. 
+<p></p>
+<li><strong><a href="http://caos.cims.nyu.edu/page/what_is">What is Atmosphere Ocean Science?</a></strong></li>
+<li><a href="/docs/CP/59/CAOS_poster3.jpg"><strong>AOSM PhD Program Flier:</strong></a><br><img alt="CAOS_poster_small.jpg" src="/docs/CP/59/CAOS_poster_small.jpg" align="left" border="0" hspace="0" width="300"></li></td><td width="200">
+<div style="margin-left: 10px">
+<img width="1" height="10" alt="" border="0" src="/docs/IO/214/img214.gif"><br>
+<div class="special">
+<b>Quick Links</b>
+<li style="margin-left:15px">
+<a class="level1" href="/object/caos_student.seminar">Student Seminar</a>
+<br>
+</li>
+<li style="margin-left:15px">
+<a class="level1" href="http://caos.cims.nyu.edu/page/events_colloquium">AOS Colloquium</a>
+<br>
+</li>
+<li style="margin-left:15px">
+<a class="level1" href="http://caos.cims.nyu.edu/page/grad_apply">Apply to our Ph.D. Program</a>
+<br>
+</li>
+</div>
+</div>
+<br>
+<img height="1" width="200" alt="" border="0" src="/docs/IO/214/img214.gif"></td>
+</tr>
+</table>
+</td>
+</tr>
+<tr>
+<td valign="bottom">
+<table BORDER="0" CELLAPDDING="0" CELLSPACING="0">
+<tr>
+<td class="ooctable" HEIGHT="30">&copy;
+           NEW YORK UNIVERSITY
+          <br>
+<a class="ooctable" HREF="/object/link.fascomm">CREATED BY NYU, FACULTY OF ARTS AND SCIENCE, OFFICE OF COMMUNICATIONS</a></td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<script src="/object/nav.js" language="JavaScript"></script><script src="/object/caos_nav_items.js" language="JavaScript"></script><script src="/object/caos_nav_style.js" language="JavaScript"></script><script language="JavaScript">
+// each menu gets two parameters (see demo files)
+// 1. items structure
+// 2. geometry structure
+new menu (CAOS_MENU_ITEMS, CAOS_MENU_POS);
+// also take a look at stylesheets loaded in header in order to set styles
+</script>
+<map NAME="header">
+<area SHAPE="rect" COORDS="250,110,585,127" TARGET="_top" HREF="http://www.cims.nyu.edu/">
+</map>
+<div class="button-onsiteedit">
+<a target="_blank" href="http://ionadmin.fas.nyu.edu/admin/ContextPageEditAction.ion?method=setup&key=59"><img height="8" width="8" alt="" src="/docs/TEMPLATE/1033/edit.png"></a>
+</div>
+<script type="text/javascript">
+   (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+   (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+   m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+   })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+   ga('create', 'UA-5727322-10', 'auto');  // Replace with your property ID.
+   ga('send', 'pageview');
+  </script>
+</body>
+</html>

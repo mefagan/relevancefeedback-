@@ -1,0 +1,2232 @@
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" class="ui-moble">
+<head>
+
+	<!--  
+		The following link tag brings in the Cloud Typography fonts (Gotham, etc.) used on the site. Per their
+		documentation, it should be the first element inside the <head> JSM 12/22/16  
+	-->
+	<link rel="stylesheet" type="text/css" href="//cloud.typography.com/7436432/714802/css/fonts.css">
+	<base href="//www.nyu.edu/giving/" />
+	<title>New York University - Give Now</title>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<meta name="viewport" content="initial-scale=1.0, width=device-width, maximum-scale=1.0, user-scalable=no">
+	<meta name="author" content="NYU Web & Communications, Alumni Relations" />
+    <meta name="description" content="Gifts to New York University (NYU) directly benefit our extraordinary students and scholars, who come to NYU to take advantage of the unique educational opportunities that only we can offer, from our renowned faculty and innovative schools and programs to our location in the heart of New York City." />
+	<meta name="keywords" content="New York University, NYU, scholarships, gift, giving, legacy, fund an NYU dream" />
+	<link rel="icon" href="/common/images/favicon.ico" type="image/x-icon"/>
+		
+	<link rel="stylesheet" type="text/css" href="//www.nyu.edu/giving/styles/master.css">	
+	<link rel="stylesheet" type="text/css" href="//www.nyu.edu/giving/styles/givingv70.css">	
+	
+	<!-- GENERAL SCRIPTS -->	
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+	<script type="text/javascript" src="//www.nyu.edu/giving/assets/js/jquery.mobile-1.4.5.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.tablesorter/2.22.3/js/jquery.tablesorter.min.js"></script>
+	<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+	<script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery.touchswipe/1.6.15/jquery.touchSwipe.js"></script>
+	<script type="text/javascript" src="//www.nyu.edu/giving/assets/js/jquery.jcarousel.min.js"></script>
+	<script type="text/javascript" src="//www.nyu.edu/giving/assets/js/jcarousel.basic.js"></script>
+	<script type="text/javascript" src="//www.nyu.edu/giving/assets/js/jquery.mCustomScrollbar.concat.min.js"></script>
+	<script type="text/javascript" src="//www.nyu.edu/giving/assets/js/master_scripts.js"></script>
+
+	<link rel="stylesheet" href="//www.nyu.edu/giving/css/stern-legacy.css" type="text/css" media="screen">
+
+
+	<!-- GENERIC STYLE SHEETS -->
+	
+	<!--[if IE 8]>
+		<link rel="stylesheet" href="/common/css/v60.ie8.css" type="text/css" media="screen" />
+	<![endif]-->
+	
+	<!--[if IE 7]>
+		<link rel="stylesheet" href="/common/css/v60.ie7.css" type="text/css" media="screen" />
+	<![endif]-->
+	
+	<!--[if IE 6]>
+		<link rel="stylesheet" href="/common/css/v60.ie6.css" type="text/css" media="screen" />
+		<script type="text/javascript" src="http://nyu.edu/common/js/unitpngfix.js"></script>	
+	<![endif]-->	
+    
+    <!--[if lt IE 8]>
+        <link rel="stylesheet" href="css/localStyleSheet.ie.css" type="text/css" media="screen" />
+	<![endif]-->
+	
+    <!-- Form -->
+    <script src="js/form.js" type="text/javascript"></script>
+<!--     <script src="js/cart.js" type="text/javascript"></script> -->
+    
+    <!-- List Expander -->
+    <script src="js/slideme.js" type="text/javascript"></script>
+    
+    <!-- Carousel -->
+<!--    <script src="//www.nyu.edu/giving/assets/js/jquery.jcarousel.min.js" type="text/javascript"></script>
+    <script src="//www.nyu.edu/giving/assets/js/jcarousel.basic.js" type="text/javascript"></script>
+ -->
+    
+    <!-- Google Analytics -->
+	<script>
+	  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+	  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+	  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+	  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+	
+	  ga('create', 'UA-11110356-3', 'auto');
+	  ga('require', 'linkid');
+	  ga('send', 'pageview');
+
+	</script>
+	<!--  END Google Analytics -->
+	<script type="text/javascript">
+		/* The following variables are set to true if the form is used with a direct link to the allocation or to the campaign.
+		 * They are set to false at the beginning and then switched to true if needed. James M. 11/18/2016 
+		 */
+		isDirectLinkCampaign = false;
+		isDirectLinkFund = false;
+				
+	
+		/* If the form is used with a direct link (request param ID=XXXX), the normal javascript doesn't set the hidden form field
+		 * merchantDefined2 which is used to transmit the allocation number to OGA. This javascript sets the value of this field in
+		 * the case of a direct link. The function is called on mouseover of the html form "giftform" and also, for the case of a user
+		 * not using a mouse, on focus of the FIRST_NAME field. 
+		 * ServiceNow 2861294 James M. 12/21/2015
+		*/
+		function setDirectLinkField() {
+			var fund = document.getElementById('FUND_CODE_GFT_1').value;
+			var dept = document.getElementById('DEPTID_GFT_1').value;
+			var program = document.getElementById('PROGRAM_CODE_GFT_1').value;
+			var project = document.getElementById('PROJECT_ID_GFT_1').value;
+			var merchantDefined2 = '';
+			if ( (fund+dept+program+project).length > 0) {
+				merchantDefined2 = fund + '-' + dept;
+				if (program.length > 0) {
+					merchantDefined2 = merchantDefined2 + '-' + program;
+				} else {
+					if (project.length > 0) {
+						merchantDefined2 = merchantDefined2 + '-' + project;
+					}
+				}
+				document.getElementById('merchantDefinedData2').value = merchantDefined2;
+			}
+		}
+	
+	</script>
+
+<script type="text/javascript">
+//     function getParameterByName(name) {
+//         name = name.replace(/[\[]/, "\\[").replace(/[\]]/, "\\]");
+//         var regex = new RegExp("[\\?&]" + name + "=([^&#]*)");  // var regex = new RegExp("[\\?&]" + name + "=([^&#]*)"),
+//         var results = regex.exec(location.search);
+//         return results === null ? "" : decodeURIComponent(results[1].replace(/\+/g, " "));
+//     }   
+
+</script>
+	</head>
+
+	<body class="ui-mobile-viewport ui-overlay-a give-now">
+
+
+<!-- BEGIN HEADER CONTAINER -->
+<div class="studyabroad content1">
+	<div class="header" style="padding-top: 0px;">
+                <!-- Main navigation component -->
+                <header class="main-navigation-wrapper">
+                    <div class="main-navigation-inner">
+                        <a href="#" class="hamburger ui-link">☰</a>
+                        <a href="//www.nyu.edu" class="ui-link"><div class="logo"></div></a>
+                        <div class="main-navigation">
+                            <ul class="main-navigation-menu">
+                                <li class="has-submenu open">
+                                    <div class="main-navigation-menu-link-top">
+                                        <a class="main-navigation-menu-link-title ui-link main-nav-menu-link-sa" href="//www.nyu.edu/giving">Giving</a>
+                                    </div>
+ 	<div class="mega-menu">
+		<div class="in-this-section">
+			<ul class="in-this-section-menu">
+	
+<li>
+	<a href="annual-giving" class="nav-link ui-link">Annual Giving</a>
+</li><li>
+	<a href="donor-recognition" class="nav-link ui-link">Donor Recognition</a>
+</li><li>
+	<a href="ways-to-give" class="nav-link ui-link">Ways You Can Give</a>
+</li><li>
+	<a href="special-campaigns" class="nav-link ui-link">Special Campaigns</a>
+</li><li>
+	<a href="momentum" class="nav-link ui-link">Momentum Campaign</a>
+</li><li>
+	<a href="give-now-resp" class="nav-link ui-link">Give Now</a>
+</li><li>
+	<a href="contact" class="nav-link ui-link">Contact Us</a>
+</li><li>
+	<a href="help" class="nav-link ui-link">Help & FAQs</a>
+</li><li>
+	<a href="give-now" class="nav-link active ui-link">Give Now</a>
+</li>	
+			</ul>
+		</div>
+	</div>		                                </li>
+                            </ul>
+                        </div>
+                </header>
+                
+                <!-- / Main navigation component -->
+                <!-- Breadcrumb component -->
+                <div class="breadcrumb-wrapper" id="top">
+                    <div class="breadcrumb-inner">
+                        <ul class="breadcrumb">
+                                <li>
+                                        <a class="breadcrumb-link ui-link" href="//www.nyu.edu">NYU</a>
+                                </li>
+                                <!--Ellipsis should appear when breadcrumbs too long-->
+<!--                                         <div class="ellipsis"> -->
+<!--                                                 <div class="ellipsis-foreground">...</div> -->
+<!--                                                 <div class="ellipsis-cta">Click to see full trail</div> -->
+<!--                                         </div> -->
+                                <!--end Ellipsis-->
+<li><a href="//www.nyu.edu/giving/" class="breadcrumb-link ui-link">Giving</a></li><li class="last"><a href="give-now" class="breadcrumb-link ui-link">Give Now</a></li>                                
+                        </ul>
+                    </div>
+                </div>
+                <!-- / Breadcrumb component -->
+	</div><!-- END HEADER CONTAINER -->
+<!--  BEGIN BODY -->
+<div class="body">
+	<h1 class="page-title">Give Now</h1>
+	<div class="navigation">
+		<ul class="navigation-content">
+<li>
+	<a href="annual-giving" class="nav-link ui-link">Annual Giving</a>
+</li><li>
+	<a href="donor-recognition" class="nav-link ui-link">Donor Recognition</a>
+</li><li>
+	<a href="ways-to-give" class="nav-link ui-link">Ways You Can Give</a>
+</li><li>
+	<a href="special-campaigns" class="nav-link ui-link">Special Campaigns</a>
+</li><li>
+	<a href="momentum" class="nav-link ui-link">Momentum Campaign</a>
+</li><li>
+	<a href="give-now-resp" class="nav-link ui-link">Give Now</a>
+</li><li>
+	<a href="contact" class="nav-link ui-link">Contact Us</a>
+</li><li>
+	<a href="help" class="nav-link ui-link">Help & FAQs</a>
+</li><li>
+	<a href="give-now" class="nav-link active ui-link">Give Now</a>
+</li>	
+		</ul>
+	</div>		
+<div class="content">
+	<!-- 2/3 box -->
+	<div class="col cc_66-33_c0" style="clear:none;">
+
+
+	<script type="text/javascript">
+		campaignName = 'Courant Institute of Mathematical Sciences';
+		campaignTypeID = '1';
+		fundName = '';
+		fundID = '';
+		campaignID = '4';
+		isDirectLinkCampaign = true;
+		isDirectLinkFund = false;
+	</script>
+
+<script type="text/javascript">
+
+	var requiredFields = [['FIRST_NAME','First Name'],['LAST_NAME','Last Name'],['ADDRESS_LINE_1','Street Address'],['CITY','City'],['STATE','State'],['POSTAL_CODE','Postal Code'],['PHONE','Phone'],['EMAIL','Email'],['FUND_CODE_GFT_1','Gift Designation']];
+
+	var fundCodeMap = {};
+	var fundDeptIdMap = {};
+	var fundProgramIdMap = {};
+	var fundProjectIdMap = {};
+
+			fundCodeMap['1'] = '10';
+		fundDeptIdMap['1'] = '98003';
+		fundProgramIdMap['1'] = '';
+		fundProjectIdMap['1'] = '';
+			fundCodeMap['2'] = '10';
+		fundDeptIdMap['2'] = '98003';
+		fundProgramIdMap['2'] = 'AF001';
+		fundProjectIdMap['2'] = '';
+			fundCodeMap['3'] = '22';
+		fundDeptIdMap['3'] = '98003';
+		fundProgramIdMap['3'] = 'R7280';
+		fundProjectIdMap['3'] = '';
+			fundCodeMap['6'] = '22';
+		fundDeptIdMap['6'] = '95002';
+		fundProgramIdMap['6'] = 'R2320';
+		fundProjectIdMap['6'] = '';
+			fundCodeMap['7'] = '22';
+		fundDeptIdMap['7'] = '92101';
+		fundProgramIdMap['7'] = '';
+		fundProjectIdMap['7'] = 'R9275';
+			fundCodeMap['8'] = '10';
+		fundDeptIdMap['8'] = '93004';
+		fundProgramIdMap['8'] = '';
+		fundProjectIdMap['8'] = '';
+			fundCodeMap['9'] = '10';
+		fundDeptIdMap['9'] = '93004';
+		fundProgramIdMap['9'] = 'AF001';
+		fundProjectIdMap['9'] = '';
+			fundCodeMap['10'] = '22';
+		fundDeptIdMap['10'] = '93001';
+		fundProgramIdMap['10'] = '';
+		fundProjectIdMap['10'] = 'R1691';
+			fundCodeMap['12'] = '10';
+		fundDeptIdMap['12'] = '92030';
+		fundProgramIdMap['12'] = '';
+		fundProjectIdMap['12'] = '';
+			fundCodeMap['13'] = '10';
+		fundDeptIdMap['13'] = '93003';
+		fundProgramIdMap['13'] = '';
+		fundProjectIdMap['13'] = '';
+			fundCodeMap['14'] = '10';
+		fundDeptIdMap['14'] = '93003';
+		fundProgramIdMap['14'] = 'AF001';
+		fundProjectIdMap['14'] = '';
+			fundCodeMap['15'] = '10';
+		fundDeptIdMap['15'] = '94002';
+		fundProgramIdMap['15'] = '';
+		fundProjectIdMap['15'] = '';
+			fundCodeMap['16'] = '10';
+		fundDeptIdMap['16'] = '94002';
+		fundProgramIdMap['16'] = 'AF001';
+		fundProjectIdMap['16'] = '';
+			fundCodeMap['17'] = '22';
+		fundDeptIdMap['17'] = '05120';
+		fundProgramIdMap['17'] = 'R9383';
+		fundProjectIdMap['17'] = '';
+			fundCodeMap['20'] = '10';
+		fundDeptIdMap['20'] = '67002';
+		fundProgramIdMap['20'] = '';
+		fundProjectIdMap['20'] = '';
+			fundCodeMap['21'] = '10';
+		fundDeptIdMap['21'] = '67915';
+		fundProgramIdMap['21'] = '';
+		fundProjectIdMap['21'] = '';
+			fundCodeMap['22'] = '22';
+		fundDeptIdMap['22'] = '74400';
+		fundProgramIdMap['22'] = '';
+		fundProjectIdMap['22'] = 'R1949';
+			fundCodeMap['24'] = '10';
+		fundDeptIdMap['24'] = '62001';
+		fundProgramIdMap['24'] = '';
+		fundProjectIdMap['24'] = '';
+			fundCodeMap['25'] = '22';
+		fundDeptIdMap['25'] = '62000';
+		fundProgramIdMap['25'] = '';
+		fundProjectIdMap['25'] = 'R1786';
+			fundCodeMap['26'] = '10';
+		fundDeptIdMap['26'] = '62001';
+		fundProgramIdMap['26'] = 'AF001';
+		fundProjectIdMap['26'] = '';
+			fundCodeMap['27'] = '10';
+		fundDeptIdMap['27'] = '89540';
+		fundProgramIdMap['27'] = '';
+		fundProjectIdMap['27'] = '';
+			fundCodeMap['29'] = '10';
+		fundDeptIdMap['29'] = '89540';
+		fundProgramIdMap['29'] = 'AF002';
+		fundProjectIdMap['29'] = '';
+			fundCodeMap['30'] = '22';
+		fundDeptIdMap['30'] = '89000';
+		fundProgramIdMap['30'] = 'R2124';
+		fundProjectIdMap['30'] = '';
+			fundCodeMap['32'] = '22';
+		fundDeptIdMap['32'] = '83555';
+		fundProgramIdMap['32'] = '';
+		fundProjectIdMap['32'] = 'R1055';
+			fundCodeMap['33'] = '22';
+		fundDeptIdMap['33'] = '83555';
+		fundProgramIdMap['33'] = '';
+		fundProjectIdMap['33'] = 'R2035';
+			fundCodeMap['34'] = '22';
+		fundDeptIdMap['34'] = '83555';
+		fundProgramIdMap['34'] = '';
+		fundProjectIdMap['34'] = 'R5069';
+			fundCodeMap['47'] = '10';
+		fundDeptIdMap['47'] = '45002';
+		fundProgramIdMap['47'] = '';
+		fundProjectIdMap['47'] = '';
+			fundCodeMap['48'] = '10';
+		fundDeptIdMap['48'] = '44001';
+		fundProgramIdMap['48'] = '';
+		fundProjectIdMap['48'] = '';
+			fundCodeMap['52'] = '10';
+		fundDeptIdMap['52'] = '53522';
+		fundProgramIdMap['52'] = '';
+		fundProjectIdMap['52'] = '';
+			fundCodeMap['54'] = '22';
+		fundDeptIdMap['54'] = '53430';
+		fundProgramIdMap['54'] = 'R0580';
+		fundProjectIdMap['54'] = '';
+			fundCodeMap['55'] = '22';
+		fundDeptIdMap['55'] = '53495';
+		fundProgramIdMap['55'] = 'R6583';
+		fundProjectIdMap['55'] = '';
+			fundCodeMap['56'] = '22';
+		fundDeptIdMap['56'] = '53130';
+		fundProgramIdMap['56'] = 'R0521';
+		fundProjectIdMap['56'] = '';
+			fundCodeMap['57'] = '10';
+		fundDeptIdMap['57'] = '43000';
+		fundProgramIdMap['57'] = '';
+		fundProjectIdMap['57'] = '';
+			fundCodeMap['58'] = '10';
+		fundDeptIdMap['58'] = '55006';
+		fundProgramIdMap['58'] = '';
+		fundProjectIdMap['58'] = '';
+			fundCodeMap['60'] = '10';
+		fundDeptIdMap['60'] = '58000';
+		fundProgramIdMap['60'] = '';
+		fundProjectIdMap['60'] = '';
+			fundCodeMap['62'] = '22';
+		fundDeptIdMap['62'] = '58041';
+		fundProgramIdMap['62'] = 'R7490';
+		fundProjectIdMap['62'] = '';
+			fundCodeMap['63'] = '22';
+		fundDeptIdMap['63'] = '41000';
+		fundProgramIdMap['63'] = 'R0306';
+		fundProjectIdMap['63'] = '';
+			fundCodeMap['64'] = '22';
+		fundDeptIdMap['64'] = '31100';
+		fundProgramIdMap['64'] = 'R0226';
+		fundProjectIdMap['64'] = '';
+			fundCodeMap['65'] = '22';
+		fundDeptIdMap['65'] = '31100';
+		fundProgramIdMap['65'] = '';
+		fundProjectIdMap['65'] = 'R5726';
+			fundCodeMap['68'] = '41';
+		fundDeptIdMap['68'] = '45500';
+		fundProgramIdMap['68'] = 'ER356';
+		fundProjectIdMap['68'] = '';
+			fundCodeMap['69'] = '22';
+		fundDeptIdMap['69'] = '95206';
+		fundProgramIdMap['69'] = 'R7407';
+		fundProjectIdMap['69'] = '';
+			fundCodeMap['70'] = '22';
+		fundDeptIdMap['70'] = '90231';
+		fundProgramIdMap['70'] = '';
+		fundProjectIdMap['70'] = 'R6484';
+			fundCodeMap['71'] = '22';
+		fundDeptIdMap['71'] = '90531';
+		fundProgramIdMap['71'] = 'R1309';
+		fundProjectIdMap['71'] = '';
+			fundCodeMap['72'] = '22';
+		fundDeptIdMap['72'] = '95202';
+		fundProgramIdMap['72'] = '';
+		fundProjectIdMap['72'] = 'R1504';
+			fundCodeMap['73'] = '22';
+		fundDeptIdMap['73'] = '07000';
+		fundProgramIdMap['73'] = '';
+		fundProjectIdMap['73'] = 'R6604';
+			fundCodeMap['74'] = '22';
+		fundDeptIdMap['74'] = '95201';
+		fundProgramIdMap['74'] = 'R1258';
+		fundProjectIdMap['74'] = '';
+			fundCodeMap['75'] = '22';
+		fundDeptIdMap['75'] = '07546';
+		fundProgramIdMap['75'] = 'R6928';
+		fundProjectIdMap['75'] = '';
+			fundCodeMap['76'] = '22';
+		fundDeptIdMap['76'] = '95205';
+		fundProgramIdMap['76'] = 'R1695';
+		fundProjectIdMap['76'] = '';
+			fundCodeMap['77'] = '22';
+		fundDeptIdMap['77'] = '95204';
+		fundProgramIdMap['77'] = 'R1321';
+		fundProjectIdMap['77'] = '';
+			fundCodeMap['78'] = '10';
+		fundDeptIdMap['78'] = '00030';
+		fundProgramIdMap['78'] = '';
+		fundProjectIdMap['78'] = '';
+			fundCodeMap['79'] = '16';
+		fundDeptIdMap['79'] = '07360';
+		fundProgramIdMap['79'] = 'A0746';
+		fundProjectIdMap['79'] = '';
+			fundCodeMap['83'] = '22';
+		fundDeptIdMap['83'] = '02004';
+		fundProgramIdMap['83'] = 'R0071';
+		fundProjectIdMap['83'] = '';
+			fundCodeMap['85'] = '22';
+		fundDeptIdMap['85'] = '08028';
+		fundProgramIdMap['85'] = '';
+		fundProjectIdMap['85'] = 'R0279';
+			fundCodeMap['87'] = '10';
+		fundDeptIdMap['87'] = '89540';
+		fundProgramIdMap['87'] = 'AF006';
+		fundProjectIdMap['87'] = '';
+			fundCodeMap['1000012'] = '22';
+		fundDeptIdMap['1000012'] = '74400';
+		fundProgramIdMap['1000012'] = '';
+		fundProjectIdMap['1000012'] = 'R1919';
+			fundCodeMap['1000026'] = '10';
+		fundDeptIdMap['1000026'] = '67002';
+		fundProgramIdMap['1000026'] = 'AF001';
+		fundProjectIdMap['1000026'] = '';
+			fundCodeMap['1000027'] = '10';
+		fundDeptIdMap['1000027'] = '53522';
+		fundProgramIdMap['1000027'] = 'AF001';
+		fundProjectIdMap['1000027'] = '';
+			fundCodeMap['1000028'] = '22';
+		fundDeptIdMap['1000028'] = '67900';
+		fundProgramIdMap['1000028'] = '';
+		fundProjectIdMap['1000028'] = 'R9492';
+			fundCodeMap['1000029'] = '10';
+		fundDeptIdMap['1000029'] = '44001';
+		fundProgramIdMap['1000029'] = 'AF001';
+		fundProjectIdMap['1000029'] = '';
+			fundCodeMap['1000030'] = '10';
+		fundDeptIdMap['1000030'] = '43000';
+		fundProgramIdMap['1000030'] = 'AF001';
+		fundProjectIdMap['1000030'] = '';
+			fundCodeMap['1000031'] = '10';
+		fundDeptIdMap['1000031'] = '55006';
+		fundProgramIdMap['1000031'] = 'AF001';
+		fundProjectIdMap['1000031'] = '';
+			fundCodeMap['1000032'] = '22';
+		fundDeptIdMap['1000032'] = '83555';
+		fundProgramIdMap['1000032'] = '';
+		fundProjectIdMap['1000032'] = 'R7241';
+			fundCodeMap['1000033'] = '22';
+		fundDeptIdMap['1000033'] = '83555';
+		fundProgramIdMap['1000033'] = '';
+		fundProjectIdMap['1000033'] = 'R7242';
+			fundCodeMap['1000034'] = '10';
+		fundDeptIdMap['1000034'] = '45002';
+		fundProgramIdMap['1000034'] = 'AF001';
+		fundProjectIdMap['1000034'] = '';
+			fundCodeMap['1000042'] = '22';
+		fundDeptIdMap['1000042'] = '89000';
+		fundProgramIdMap['1000042'] = 'R2145';
+		fundProjectIdMap['1000042'] = '';
+			fundCodeMap['1000050'] = '22';
+		fundDeptIdMap['1000050'] = '07511';
+		fundProgramIdMap['1000050'] = '';
+		fundProjectIdMap['1000050'] = 'R7432';
+			fundCodeMap['1000051'] = '22';
+		fundDeptIdMap['1000051'] = '07511';
+		fundProgramIdMap['1000051'] = '';
+		fundProjectIdMap['1000051'] = 'R0045';
+			fundCodeMap['1000063'] = '10';
+		fundDeptIdMap['1000063'] = '20191';
+		fundProgramIdMap['1000063'] = '';
+		fundProjectIdMap['1000063'] = '';
+			fundCodeMap['1000065'] = '22';
+		fundDeptIdMap['1000065'] = '07503';
+		fundProgramIdMap['1000065'] = 'R7427';
+		fundProjectIdMap['1000065'] = '';
+			fundCodeMap['1000067'] = '22';
+		fundDeptIdMap['1000067'] = '07502';
+		fundProgramIdMap['1000067'] = 'R7428';
+		fundProjectIdMap['1000067'] = '';
+			fundCodeMap['1000073'] = '22';
+		fundDeptIdMap['1000073'] = '56210';
+		fundProgramIdMap['1000073'] = '';
+		fundProjectIdMap['1000073'] = 'R9165';
+			fundCodeMap['1000088'] = '22';
+		fundDeptIdMap['1000088'] = '31100';
+		fundProgramIdMap['1000088'] = '';
+		fundProjectIdMap['1000088'] = 'R7830';
+			fundCodeMap['1000092'] = '22';
+		fundDeptIdMap['1000092'] = '93001';
+		fundProgramIdMap['1000092'] = 'R1691';
+		fundProjectIdMap['1000092'] = '';
+			fundCodeMap['1000093'] = '22';
+		fundDeptIdMap['1000093'] = '02004';
+		fundProgramIdMap['1000093'] = 'R9206';
+		fundProjectIdMap['1000093'] = '';
+			fundCodeMap['1000096'] = '22';
+		fundDeptIdMap['1000096'] = '67900';
+		fundProgramIdMap['1000096'] = 'R6988';
+		fundProjectIdMap['1000096'] = '';
+			fundCodeMap['1000097'] = '22';
+		fundDeptIdMap['1000097'] = '44000';
+		fundProgramIdMap['1000097'] = 'R0357';
+		fundProjectIdMap['1000097'] = '';
+			fundCodeMap['1000098'] = '10';
+		fundDeptIdMap['1000098'] = '43000';
+		fundProgramIdMap['1000098'] = '';
+		fundProjectIdMap['1000098'] = '';
+			fundCodeMap['1000099'] = '22';
+		fundDeptIdMap['1000099'] = '55000';
+		fundProgramIdMap['1000099'] = 'R3313';
+		fundProjectIdMap['1000099'] = '';
+			fundCodeMap['1000110'] = '22';
+		fundDeptIdMap['1000110'] = '07546';
+		fundProgramIdMap['1000110'] = '';
+		fundProjectIdMap['1000110'] = 'R9307';
+			fundCodeMap['1000123'] = '22';
+		fundDeptIdMap['1000123'] = '58000';
+		fundProgramIdMap['1000123'] = '';
+		fundProjectIdMap['1000123'] = 'R9392';
+			fundCodeMap['1000140'] = '22';
+		fundDeptIdMap['1000140'] = '78010';
+		fundProgramIdMap['1000140'] = 'EU930';
+		fundProjectIdMap['1000140'] = 'R7467';
+			fundCodeMap['1000143'] = '22';
+		fundDeptIdMap['1000143'] = '78010';
+		fundProgramIdMap['1000143'] = 'G0347';
+		fundProjectIdMap['1000143'] = 'R7467';
+			fundCodeMap['1000148'] = '22';
+		fundDeptIdMap['1000148'] = '67000';
+		fundProgramIdMap['1000148'] = '';
+		fundProjectIdMap['1000148'] = 'R7812';
+			fundCodeMap['1000149'] = '22';
+		fundDeptIdMap['1000149'] = '08081';
+		fundProgramIdMap['1000149'] = '';
+		fundProjectIdMap['1000149'] = 'RA025';
+			fundCodeMap['1000151'] = '22';
+		fundDeptIdMap['1000151'] = '08014';
+		fundProgramIdMap['1000151'] = '';
+		fundProjectIdMap['1000151'] = 'R9902';
+			fundCodeMap['1000154'] = '';
+		fundDeptIdMap['1000154'] = '';
+		fundProgramIdMap['1000154'] = '';
+		fundProjectIdMap['1000154'] = '';
+			fundCodeMap['1000156'] = '22';
+		fundDeptIdMap['1000156'] = '08600';
+		fundProgramIdMap['1000156'] = '';
+		fundProjectIdMap['1000156'] = 'R9597';
+			fundCodeMap['1000159'] = '22';
+		fundDeptIdMap['1000159'] = '00001';
+		fundProgramIdMap['1000159'] = 'R9493';
+		fundProjectIdMap['1000159'] = '';
+			fundCodeMap['1000162'] = '10';
+		fundDeptIdMap['1000162'] = '64000';
+		fundProgramIdMap['1000162'] = 'R9639';
+		fundProjectIdMap['1000162'] = '';
+			fundCodeMap['1000166'] = '10';
+		fundDeptIdMap['1000166'] = '63000';
+		fundProgramIdMap['1000166'] = '';
+		fundProjectIdMap['1000166'] = '';
+			fundCodeMap['1000167'] = '10';
+		fundDeptIdMap['1000167'] = '63000';
+		fundProgramIdMap['1000167'] = 'PY199';
+		fundProjectIdMap['1000167'] = '';
+			fundCodeMap['1000168'] = '22';
+		fundDeptIdMap['1000168'] = '07546';
+		fundProgramIdMap['1000168'] = '';
+		fundProjectIdMap['1000168'] = 'R9963';
+			fundCodeMap['1000169'] = '22';
+		fundDeptIdMap['1000169'] = '58002';
+		fundProgramIdMap['1000169'] = 'RA173';
+		fundProjectIdMap['1000169'] = '';
+			fundCodeMap['1000171'] = '75';
+		fundDeptIdMap['1000171'] = '72000';
+		fundProgramIdMap['1000171'] = 'AD141';
+		fundProjectIdMap['1000171'] = '';
+			fundCodeMap['1000172'] = '22';
+		fundDeptIdMap['1000172'] = '02614';
+		fundProgramIdMap['1000172'] = 'R9977';
+		fundProjectIdMap['1000172'] = '';
+			fundCodeMap['1000175'] = '22';
+		fundDeptIdMap['1000175'] = '08023';
+		fundProgramIdMap['1000175'] = '';
+		fundProjectIdMap['1000175'] = 'R9342';
+			fundCodeMap['1000183'] = '22';
+		fundDeptIdMap['1000183'] = '00001';
+		fundProgramIdMap['1000183'] = 'R9493';
+		fundProjectIdMap['1000183'] = '';
+			fundCodeMap['1000184'] = '10';
+		fundDeptIdMap['1000184'] = '98003';
+		fundProgramIdMap['1000184'] = 'AF001';
+		fundProjectIdMap['1000184'] = '';
+			fundCodeMap['1000185'] = '10';
+		fundDeptIdMap['1000185'] = '93004';
+		fundProgramIdMap['1000185'] = 'AF001';
+		fundProjectIdMap['1000185'] = '';
+			fundCodeMap['1000186'] = '10';
+		fundDeptIdMap['1000186'] = '93003';
+		fundProgramIdMap['1000186'] = 'AF001';
+		fundProjectIdMap['1000186'] = '';
+			fundCodeMap['1000187'] = '10';
+		fundDeptIdMap['1000187'] = '62001';
+		fundProgramIdMap['1000187'] = 'AF001';
+		fundProjectIdMap['1000187'] = '';
+			fundCodeMap['1000190'] = '22';
+		fundDeptIdMap['1000190'] = '02004';
+		fundProgramIdMap['1000190'] = 'R0071';
+		fundProjectIdMap['1000190'] = '';
+			fundCodeMap['1000191'] = '10';
+		fundDeptIdMap['1000191'] = '67002';
+		fundProgramIdMap['1000191'] = 'AF001';
+		fundProjectIdMap['1000191'] = '';
+			fundCodeMap['1000192'] = '10';
+		fundDeptIdMap['1000192'] = '53522';
+		fundProgramIdMap['1000192'] = 'AF001';
+		fundProjectIdMap['1000192'] = '';
+			fundCodeMap['1000193'] = '22';
+		fundDeptIdMap['1000193'] = '67900';
+		fundProgramIdMap['1000193'] = 'R9492';
+		fundProjectIdMap['1000193'] = '';
+			fundCodeMap['1000194'] = '10';
+		fundDeptIdMap['1000194'] = '44001';
+		fundProgramIdMap['1000194'] = 'AF001';
+		fundProjectIdMap['1000194'] = '';
+			fundCodeMap['1000195'] = '10';
+		fundDeptIdMap['1000195'] = '43000';
+		fundProgramIdMap['1000195'] = 'AF001';
+		fundProjectIdMap['1000195'] = '';
+			fundCodeMap['1000196'] = '10';
+		fundDeptIdMap['1000196'] = '55006';
+		fundProgramIdMap['1000196'] = 'AF001';
+		fundProjectIdMap['1000196'] = '';
+			fundCodeMap['1000197'] = '22';
+		fundDeptIdMap['1000197'] = '83555';
+		fundProgramIdMap['1000197'] = '';
+		fundProjectIdMap['1000197'] = 'R7241';
+			fundCodeMap['1000198'] = '22';
+		fundDeptIdMap['1000198'] = '83555';
+		fundProgramIdMap['1000198'] = '';
+		fundProjectIdMap['1000198'] = 'R7242';
+			fundCodeMap['1000200'] = '22';
+		fundDeptIdMap['1000200'] = '02004';
+		fundProgramIdMap['1000200'] = 'R9206';
+		fundProjectIdMap['1000200'] = '';
+			fundCodeMap['1000201'] = '10';
+		fundDeptIdMap['1000201'] = '45002';
+		fundProgramIdMap['1000201'] = 'AF001';
+		fundProjectIdMap['1000201'] = '';
+			fundCodeMap['1000202'] = '10';
+		fundDeptIdMap['1000202'] = '94002';
+		fundProgramIdMap['1000202'] = 'AF001';
+		fundProjectIdMap['1000202'] = '';
+			fundCodeMap['1000203'] = '10';
+		fundDeptIdMap['1000203'] = '58000';
+		fundProgramIdMap['1000203'] = 'AF001';
+		fundProjectIdMap['1000203'] = '';
+			fundCodeMap['1000204'] = '10';
+		fundDeptIdMap['1000204'] = '89540';
+		fundProgramIdMap['1000204'] = 'AF006';
+		fundProjectIdMap['1000204'] = '';
+			fundCodeMap['1000205'] = '22';
+		fundDeptIdMap['1000205'] = '74400';
+		fundProgramIdMap['1000205'] = 'R7845';
+		fundProjectIdMap['1000205'] = '';
+			fundCodeMap['1000206'] = '10';
+		fundDeptIdMap['1000206'] = '63000';
+		fundProgramIdMap['1000206'] = 'PY199';
+		fundProjectIdMap['1000206'] = '';
+			fundCodeMap['1000207'] = '';
+		fundDeptIdMap['1000207'] = '';
+		fundProgramIdMap['1000207'] = '';
+		fundProjectIdMap['1000207'] = '';
+			fundCodeMap['1000210'] = '22';
+		fundDeptIdMap['1000210'] = '83555';
+		fundProgramIdMap['1000210'] = '';
+		fundProjectIdMap['1000210'] = 'R9598';
+			fundCodeMap['1000211'] = '22';
+		fundDeptIdMap['1000211'] = '83555';
+		fundProgramIdMap['1000211'] = '';
+		fundProjectIdMap['1000211'] = 'R9632';
+			fundCodeMap['1000212'] = '22';
+		fundDeptIdMap['1000212'] = '83555';
+		fundProgramIdMap['1000212'] = '';
+		fundProjectIdMap['1000212'] = 'R9630';
+			fundCodeMap['1000213'] = '22';
+		fundDeptIdMap['1000213'] = '90551';
+		fundProgramIdMap['1000213'] = '';
+		fundProjectIdMap['1000213'] = 'RA090';
+			fundCodeMap['1000214'] = '45';
+		fundDeptIdMap['1000214'] = '45000';
+		fundProgramIdMap['1000214'] = 'ER372';
+		fundProjectIdMap['1000214'] = '';
+			fundCodeMap['1000216'] = '22';
+		fundDeptIdMap['1000216'] = '00001';
+		fundProgramIdMap['1000216'] = '';
+		fundProjectIdMap['1000216'] = 'R9488';
+			fundCodeMap['1000219'] = '41';
+		fundDeptIdMap['1000219'] = '55000';
+		fundProgramIdMap['1000219'] = '';
+		fundProjectIdMap['1000219'] = 'EE130';
+			fundCodeMap['1000220'] = '22';
+		fundDeptIdMap['1000220'] = '55000';
+		fundProgramIdMap['1000220'] = '';
+		fundProjectIdMap['1000220'] = 'R0692';
+			fundCodeMap['1000221'] = '22';
+		fundDeptIdMap['1000221'] = '08600';
+		fundProgramIdMap['1000221'] = '';
+		fundProjectIdMap['1000221'] = 'T2061';
+			fundCodeMap['1000222'] = '22';
+		fundDeptIdMap['1000222'] = '74400';
+		fundProgramIdMap['1000222'] = '';
+		fundProjectIdMap['1000222'] = 'R7845';
+			fundCodeMap['1000223'] = '22';
+		fundDeptIdMap['1000223'] = '55000';
+		fundProgramIdMap['1000223'] = '';
+		fundProjectIdMap['1000223'] = 'R0692';
+			fundCodeMap['1000232'] = '10';
+		fundDeptIdMap['1000232'] = '61510';
+		fundProgramIdMap['1000232'] = 'G0727';
+		fundProjectIdMap['1000232'] = '';
+			fundCodeMap['1000235'] = '22';
+		fundDeptIdMap['1000235'] = '63319';
+		fundProgramIdMap['1000235'] = '';
+		fundProjectIdMap['1000235'] = 'R4138';
+			fundCodeMap['1000236'] = '22';
+		fundDeptIdMap['1000236'] = '44000';
+		fundProgramIdMap['1000236'] = '';
+		fundProjectIdMap['1000236'] = 'T2125';
+			fundCodeMap['1000238'] = '22';
+		fundDeptIdMap['1000238'] = '45000';
+		fundProgramIdMap['1000238'] = '';
+		fundProjectIdMap['1000238'] = 'T2146';
+			fundCodeMap['1000239'] = '22';
+		fundDeptIdMap['1000239'] = '07000';
+		fundProgramIdMap['1000239'] = '';
+		fundProjectIdMap['1000239'] = 'R6604';
+			fundCodeMap['1000240'] = '22';
+		fundDeptIdMap['1000240'] = '07000';
+		fundProgramIdMap['1000240'] = '';
+		fundProjectIdMap['1000240'] = 'R3228';
+			fundCodeMap['1000245'] = '22';
+		fundDeptIdMap['1000245'] = '67000';
+		fundProgramIdMap['1000245'] = '';
+		fundProjectIdMap['1000245'] = 'T2195';
+			fundCodeMap['1000246'] = '22';
+		fundDeptIdMap['1000246'] = '07000';
+		fundProgramIdMap['1000246'] = '';
+		fundProjectIdMap['1000246'] = 'R9265';
+			fundCodeMap['1000247'] = '22';
+		fundDeptIdMap['1000247'] = '67000';
+		fundProgramIdMap['1000247'] = '';
+		fundProjectIdMap['1000247'] = 'T2203';
+			fundCodeMap['1000284'] = '10';
+		fundDeptIdMap['1000284'] = '61510';
+		fundProgramIdMap['1000284'] = 'G0727';
+		fundProjectIdMap['1000284'] = '';
+			fundCodeMap['1000289'] = '22';
+		fundDeptIdMap['1000289'] = '58041';
+		fundProgramIdMap['1000289'] = '';
+		fundProjectIdMap['1000289'] = 'T2306';
+	
+	function isBlank (string) {
+		for (var i = 0; i < string.length; i++) {
+			var c = string.charAt(i);
+			if ((c != ' ') && (c != '\n') && (c != '\t')) return false;
+		}
+		return true;
+	}
+
+	function verifyForm(required, whichForm, defaultErrorMsg) {
+		var msg			= "";
+		var error		= false;
+		var errorMsg	= "";
+
+		//	Split string of required fields into an array
+		//var reqList = required.split(/\s*,\s*/);
+		var reqList = required;
+
+
+		//	Test for empty required fields and list name if empty
+		for (var i = 0; i < reqList.length; i++) {
+			var whichElement = eval("whichForm." + reqList[i][0]);
+			if ((whichElement.value == null) || (whichElement.value == "") || isBlank(whichElement.value))
+				errorMsg += reqList[i][1] + "\n";
+
+		}
+
+		if (whichForm.EMAIL.value != "") {
+			var x = whichForm.EMAIL.value;
+			re = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/;
+			valid=re.exec(x);
+			if (!valid) errorMsg += 'Email Address is Invalid.\n';
+		}
+
+		//We're also getting error information from another function, and
+		//we'd like to have that handled.
+		if (defaultErrorMsg.length > 0)
+		{
+			errorMsg += defaultErrorMsg + "\n";
+
+		}
+
+
+		var netIdMessage = "";
+		var netIDStr = document.getElementById('OTHER_ID').value;
+		var regStr = /^([a-zA-Z]{1,5}[0-9]{1,5})$/;
+		if ('' != netIDStr && !netIDStr.match(regStr))
+			netIdMessage = "Your NetID is in the wrong format (it should be up to five letters followed by up to five numbers).";
+
+		if (netIdMessage.length > 0)
+			errorMsg += netIdMessage + "\n";
+
+		//	If everything is ok, return true and submit the form already...
+		if ( errorMsg == "" ) return true;
+
+		//	Shucks, we have to create an error message
+		msg += "_________________________________________________________\n\n";
+		msg += "The form was not submitted because some required fields\n"
+			+  "were left blank.\n\n"
+		msg += "Please correct these error(s) and re-submit.\n";
+		msg += "_________________________________________________________\n\n";
+		msg += "Some required fields are missing.\n";
+		msg += errorMsg;
+
+		//	Show error message
+		alert(msg);
+
+		//	Prevent form from submitting
+		return false;
+	}
+
+	function giftcheck(f) {
+
+		if (document.getElementById('displaySingleGift').checked) {
+			if (f.AMOUNT_GFT_1.value == 0)
+				return "You must input a gift amount.";
+			if (f.AMOUNT_GFT_1.value >= 100000)
+				return "For credit card gifts of $100,000 or more please contact the NYU Office of Gift Administration at 1-800-698-4144.";
+			else
+				return "";
+		} else if (document.getElementById('displayRecurringGift').checked) {
+			if (f.recurringSubscriptionInfo_amount.value == 0)
+				return "You must input a gift amount.";
+			if (f.recurringSubscriptionInfo_amount.value >= 100000)
+				return "For credit card gifts of $100,000 or more please contact the NYU Office of Gift Administration at 1-800-698-4144.";
+			else
+				return "";
+		}
+	}
+
+	function addZero(n){
+		if (n.toString().length==1){
+			n="0"+n;
+			}
+			return n;
+	}
+
+	function clearLess5Msg() {
+		document.getElementById('gift_1_display').innerHTML = "";
+		document.getElementById('recurring_display').innerHTML = "";
+	}
+
+
+	//Recurring Gift Functions
+
+	function calcSubscription() {
+		var f = new Number(document.giftform.gift_frequency.value);
+		var d = new Number(document.giftform.num_payments.value);
+		var numPayments= f*d;
+		document.giftform.recurringSubscriptionInfo_numberOfPayments.value=(numPayments-1);//subtract one for first payment
+		setFrequency();
+	}
+	function setFrequency() {
+
+		var f = document.giftform.gift_frequency.value;
+
+		switch (f) {
+		case "52":
+		document.giftform.recurringSubscriptionInfo_frequency.value="weekly";
+		break;
+		case "26":
+		document.giftform.recurringSubscriptionInfo_frequency.value="bi-weekly";
+		break;
+		case "24":
+		document.giftform.recurringSubscriptionInfo_frequency.value="semi-monthly";
+		break;
+		case "13":
+		document.giftform.recurringSubscriptionInfo_frequency.value="quad-weekly";
+		break;
+		case "12":
+		document.giftform.recurringSubscriptionInfo_frequency.value="monthly";
+		break;
+		case "4":
+		document.giftform.recurringSubscriptionInfo_frequency.value="quarterly";
+		break;
+		case "2":
+		document.giftform.recurringSubscriptionInfo_frequency.value="semi-annually";
+		break;
+		case "1":
+		document.giftform.recurringSubscriptionInfo_frequency.value="annually";
+		break;
+		default:
+		break;
+		}
+	}
+
+	function clearOther() {
+		document.getElementById('recurringGiftOtherAmt').value='';
+	}
+
+	function setRGift() {
+		document.getElementById('item_0_unitPrice').value=document.getElementById('recurringGiftOtherAmt').value;
+		document.getElementById('recurringSubscriptionInfo_amount').value=document.getElementById('recurringGiftOtherAmt').value;
+		setStartDate();
+	}
+	// Recurring payment frequency choices
+
+	function checkYear() {//when a user selects annual recurring payment; remove 1 year from duration choices
+	if (document.giftform.gift_frequency.value=="1") {
+			document.giftform.num_payments.options.length=0;
+			document.giftform.num_payments.options[0]=new Option("2 years", "2");
+			document.giftform.num_payments.options[1]=new Option("3 years", "3");
+			} else {
+			document.giftform.num_payments.options.length=0;
+			document.giftform.num_payments.options[0]=new Option("1 year", "1");
+			document.giftform.num_payments.options[1]=new Option("2 years", "2");
+			document.giftform.num_payments.options[2]=new Option("3 years", "3");
+			}
+	}
+
+	function setStartDate() { //first recurring payment date is one month from today's date by default; when user selects different option, start date changes
+		var today = new Date();
+		var Y;
+		var m;
+		var d;
+
+
+		if (document.giftform.gift_frequency.value==12) {
+
+			today.setMonth(today.getMonth()+1);// one month from today (monthly payments)
+			Y=today.getFullYear();
+			m=addZero(today.getMonth()+1); // month in format 0-11 (add one, append zero to front)
+			d=addZero(today.getDate());
+
+			document.giftform.recurringSubscriptionInfo_startDate.value=''+Y+m+d;
+
+		}
+		if (document.giftform.gift_frequency.value==4) {
+
+			today.setMonth(today.getMonth()+3);// three months from today (quarterly payments)
+			Y=today.getFullYear();
+			m=addZero(today.getMonth()+1); // month in format 0-11 (add one, append zero to front)
+			d=addZero(today.getDate());
+
+			document.giftform.recurringSubscriptionInfo_startDate.value=''+Y+m+d;
+
+		}
+		if (document.giftform.gift_frequency.value==1) {
+			today.setMonth(today.getMonth()+12);// 12 months from today (yearly payments)
+			Y=today.getFullYear();
+			m=addZero(today.getMonth()+1); // month in format 0-11 (add one, append zero to front)
+			d=addZero(today.getDate());
+
+			document.giftform.recurringSubscriptionInfo_startDate.value=''+Y+m+d;
+
+		}
+
+	}
+
+
+</script>
+
+<form class="form" method="post" action="https://epaygate.nyu.edu/paygateapp/controller?PG_MODE=PG_WEB" name="giftform" id="giftform"
+	onsubmit="addressLine2(); return verifyForm(requiredFields, this, giftcheck(this));" onmouseover="setDirectLinkField();">
+
+<!--form method="post" action="https://pciqa.its.nyu.edu/paygateapp/controller?PG_MODE=PG_WEB" name="giftform" id="giftform"
+	onsubmit="addressLine2(); return verifyForm(requiredFields, this, giftcheck(this));"-->
+
+	<!--<input type="hidden" name="FORM_ID" value="" />-->
+  <input type="hidden" name="FORM_ID" value="1041" />
+	<input type="hidden" name="appealCode" value="" />
+	<input type='hidden' name='merchantDefinedData4' value="" />
+  <input type="hidden" name="TEST_FLAG" value="N" /><!-- when POST to QA, set to N; when POST to production test:Y prod:N -->
+
+  
+  <input type="hidden" name="orderPage_colorScheme" id="orderPage_colorScheme" value="custom" />
+  <input type="hidden" name="orderPage_barColor" id="orderPage_barColor" value="#57068c" />
+  <input type="hidden" name="orderPage_barTextColor" id="orderPage_barTextColor" value="white" />
+  <input type="hidden" name="orderPage_requiredFieldColor" id="orderPage_requiredFieldColor" value="#57068c" />
+  <input type="hidden" name="orderPage_messageBoxBackgroundColor" id="orderPage_messageBoxBackgroundColor" value="#eeeeee" />
+
+	<script type="text/javascript">
+
+	function designation1Select(designation1Selected) {
+			$('#designation2').empty();
+			$('#designation3').empty();
+                        
+			$('#des2_' + designation1Selected + '-button').clone().appendTo('#designation2');
+			$('#designation3').append('<option value="">Please Select Below</option>');
+
+            var hideDes1and2 = "0";
+
+			//if 'Other' option is selected - hide designation2 and designation3 drop-downs and display 'Please Specify' input field
+			if ('5' == designation1Selected) {
+				$('#designation2').empty();
+				$('#designation2').append('<option value="">Select your school or college</option>');
+				$('#designation3').empty();
+				$('#designation3').append('<option value="">Please Select Below</option>');
+
+				document.getElementById('designation2').style.display = 'none';
+				document.getElementById('designation3').style.display = 'none';
+				document.getElementById('otherFundLabel').style.display = 'block';
+				document.getElementById('OTHER_DESIGNATION').style.display = 'block';
+				requiredFields = [['FIRST_NAME','First Name'],['LAST_NAME','Last Name'],['ADDRESS_LINE_1','Street Address'],['CITY','City'],['STATE','State'],['POSTAL_CODE','Postal Code'],['PHONE','Phone'],['EMAIL','Email'],['OTHER_DESIGNATION','Please Specify your fund']];
+
+			} else if ('3' == designation1Selected) {//Momentum
+				designation2Select('1000110');
+				document.getElementById('designation2').style.display = 'none';
+				document.getElementById('designation3').style.display = (selectElementValue == '5') ? 'none' : 'block';
+				//document.getElementById('otherFundLabel').style.display = 'none';
+				//document.getElementById('OTHER_DESIGNATION').style.display = 'none';
+				document.getElementById('OTHER_DESIGNATION').value = '';
+				requiredFields = [['FIRST_NAME','First Name'],['LAST_NAME','Last Name'],['ADDRESS_LINE_1','Street Address'],['CITY','City'],['STATE','State'],['POSTAL_CODE','Postal Code'],['PHONE','Phone'],['EMAIL','Email'],['FUND_CODE_GFT_1','Gift Designation']];
+
+			} else if ('2' == designation1Selected) {//Library or culture
+				document.getElementById('designation2').style.display = 'block';
+				document.getElementById('designation3').style.display = (selectElementValue == '5') ? 'none' : 'block'; //'block';
+				//document.getElementById('otherFundLabel').style.display = 'none';
+				//document.getElementById('OTHER_DESIGNATION').style.display = 'none';
+				document.getElementById('OTHER_DESIGNATION').value = '';
+				requiredFields = [['FIRST_NAME','First Name'],['LAST_NAME','Last Name'],['ADDRESS_LINE_1','Street Address'],['CITY','City'],['STATE','State'],['POSTAL_CODE','Postal Code'],['PHONE','Phone'],['EMAIL','Email'],['FUND_CODE_GFT_1','Gift Designation']];
+			} else if ('4' == designation1Selected) {//Student Life
+				document.getElementById('designation2').style.display = 'block';
+				document.getElementById('designation3').style.display = (selectElementValue == '5') ? 'none' : 'block'; //'block';
+				//document.getElementById('otherFundLabel').style.display = 'none';
+				//document.getElementById('OTHER_DESIGNATION').style.display = 'none';
+				document.getElementById('OTHER_DESIGNATION').value = '';
+				requiredFields = [['FIRST_NAME','First Name'],['LAST_NAME','Last Name'],['ADDRESS_LINE_1','Street Address'],['CITY','City'],['STATE','State'],['POSTAL_CODE','Postal Code'],['PHONE','Phone'],['EMAIL','Email'],['FUND_CODE_GFT_1','Gift Designation']];
+
+			} else if ('' == designation1Selected) {
+				$('#designation2').empty();
+				$('#designation2').append('<option value="">Select your school or college</option>');
+				$('#designation3').empty();
+				$('#designation3').append('<option value="">Please Select Below</option>');
+				$('#designation2').show()
+				$('#designation3').css('display', (designation1Selected == '5') ? 'none' : 'block'); 
+// 				$('#otherFundLabel').hide()
+				$('#OTHER_DESIGNATION').css('top','-3000px').css('height','0').css('position','absolute');
+				$('#OTHER_DES_BOX').val('');
+				requiredFields = [['FIRST_NAME','First Name'],['LAST_NAME','Last Name'],['ADDRESS_LINE_1','Street Address'],['CITY','City'],['STATE','State'],['POSTAL_CODE','Postal Code'],['PHONE','Phone'],['EMAIL','Email'],['FUND_CODE_GFT_1','Gift Designation']];
+
+			} else {
+				$('#designation2').show();
+				$('#designation3').css('display', designation1Selected == '5' ? 'none' : 'block'); //'block';
+//				$('#otherFundLabel').hide();
+				$('#OTHER_DESIGNATION').css('top','-3000px').css('height','0').css('position','absolute');
+				$('#OTHER_DESIGNATION').value = '';
+				requiredFields = [['FIRST_NAME','First Name'],['LAST_NAME','Last Name'],['ADDRESS_LINE_1','Street Address'],['CITY','City'],['STATE','State'],['POSTAL_CODE','Postal Code'],['PHONE','Phone'],['EMAIL','Email'],['FUND_CODE_GFT_1','Gift Designation']];
+			}
+                        
+                        if (hideDes1and2 == "1") {
+                            document.getElementById('designation1').style.display = 'none';
+                            document.getElementById('designation2').style.display = 'none';                    
+                        }                        
+		}
+
+	$('#designation1-menu').click(function() {designation1Select($('#designation1').val());});
+
+	function designation2Select(selectElementValue) {
+			$('#designation3').empty();
+
+			if (selectElementValue != "") {
+				$('#des3_' + selectElementValue + ' option').clone().appendTo('#designation3');
+			} else {
+				$('#designation3').append('<option value="">Please Select Below</option>');
+			}
+
+            var hideDes1and2 = "0";
+			var des3 = $('#designation3');
+			var l = des3.options.length;
+			if (2 == l && hideDes1and2 == "0") { //only one fund for this campaign and not stern under/grad
+				des3.selectedIndex = 1;
+				if ('' != des3.options[1].value) {
+					setSelectedFundFields(des3.options[1].value);
+					document.getElementById('designation3').style.display = 'none';
+				} else {
+					document.getElementById('designation3').style.display = 'block';
+					setSelectedFundFields('');
+				}
+			} else {
+				setSelectedFundFields('');
+				document.getElementById('designation3').style.display = 'block';
+			}
+
+                        var hideDes1and2 = "0";
+                        if (hideDes1and2 == "1") {
+                            document.getElementById('designation1').style.display = 'none';
+                            document.getElementById('designation2').style.display = 'none';                    
+                        }                        
+                        
+		}
+
+	function medSchoolHandler(campaignID){//if Schools/NYU Langone Medical Center is selected or not
+			if ('11' == campaignID) {
+				document.getElementById('submitButton').disabled = true;
+				document.getElementById('submitButton').style.display = 'none';
+
+				document.getElementById('medSchoolNotice').style.display = 'block';
+				document.getElementById('medSchoolHide').style.display = 'none';
+
+			} else {
+				document.getElementById('submitButton').disabled = false;
+				document.getElementById('submitButton').style.display = 'block';
+
+				document.getElementById('medSchoolNotice').style.display = 'none';
+				document.getElementById('medSchoolHide').style.display = 'block';
+			}
+		}
+
+	function medSchoolFundHandler(fundID){//if Momentum/NYU Langone Medical Center is selected or not
+			if ('1000207' == fundID) {
+				document.getElementById('submitButton').disabled = true;
+				document.getElementById('submitButton').style.display = 'none';
+
+				document.getElementById('medSchoolNotice').style.display = 'block';
+				document.getElementById('medSchoolHide').style.display = 'none';
+
+			} else {
+				document.getElementById('submitButton').disabled = false;
+				document.getElementById('submitButton').style.display = 'block';
+
+				document.getElementById('medSchoolNotice').style.display = 'none';
+				document.getElementById('medSchoolHide').style.display = 'block';
+			}
+		}
+
+	function addressLine2() { //create ADDRESS_LINE_2 if data from user; otherwise do not submit this value
+		var address2value = document.giftform["Add_line_2"].value;
+			if (address2value!= "") {
+					document.getElementById('Address2').innerHTML = "<input type='hidden' id='ADDRESS_LINE_2' name='ADDRESS_LINE_2' value=''/>";
+	      			document.getElementById('ADDRESS_LINE_2').value=address2value;
+			}
+		}
+
+	// --></script>
+
+	<input type="hidden" name="fund1" id="fund1" value="" />
+	<input type="hidden" name="FUND_CODE_GFT_1" id="FUND_CODE_GFT_1" value="" />
+	<input type="hidden" name="DEPTID_GFT_1" id="DEPTID_GFT_1" value="" />
+	<input type="hidden" name="PROGRAM_CODE_GFT_1" id="PROGRAM_CODE_GFT_1" value="" />
+	<input type="hidden" name="PROJECT_ID_GFT_1" id="PROJECT_ID_GFT_1" value="" />
+  <input type="hidden" name="merchantDefinedData2" id="merchantDefinedData2" value="" />
+	<div id="required-note">(Fields marked with <span style="color:#D11255;">*</span> are
+		required)</div>
+		<fieldset>
+			<legend>I would like to make my gift to:<span style="color:#D11255;"> *</legend>
+			<div class="ui-input-select">
+				<label for="designation1"></label>
+				<select id="designation1" class="frm-select" name="designation1" onchange="medSchoolHandler(''); setSelectedFundFields('');">
+					<option value="">Please select</option>  <!-- selected="selected" -->
+				<option value="1">Schools & Colleges</option>
+<option value="2">Library & Cultural Institutions</option>
+<option value="3">Scholarships - Momentum Campaign</option>
+<option value="4">Student Life</option>
+					<option value="5">Other</option>
+				</select>
+			</div>
+		
+			<div id="OTHER_DESIGNATION" style="top:-3000px; position: absolute; height: 0;">
+				<label id="otherFundLabel" for="OTHER_DES_BOX">Please Specify your fund<span style="color:#D11255;"> *</span></label>
+				<input id="OTHER_DES_BOX" name="OTHER_DESIGNATION" class="halfSize" type="text"/>
+			</div>
+		        
+		    <script type="text/javascript">
+				if ("99" == "") {
+					document.getElementById('otherFundLabel').style.display = 'block';
+					document.getElementById('OTHER_DESIGNATION').style.display = 'block';
+					requiredFields = [['FIRST_NAME','First Name'],['LAST_NAME','Last Name'],['ADDRESS_LINE_1','Street Address'],['CITY','City'],['STATE','State'],['POSTAL_CODE','Postal Code'],['PHONE','Phone'],['EMAIL','Email'],['OTHER_DESIGNATION','Fund Name']];
+				}
+	
+            var URLSpecialDisabledFundID = "";
+	
+			var URLCampaignID = "4";
+			var URLFundID = "";
+			var hideDes1and2 = "0";
+	
+			if (URLSpecialDisabledFundID != "") {
+				$('#designation1').hide();
+				$('#designation2').hide();
+				$('#designation3').hide();
+	
+			} else if (URLCampaignID !="") {
+				var URLCampaignTypeID = (URLCampaignID == "99") ? "5" : "1";
+	                        if (URLCampaignID == "99") {                            
+	                            document.getElementById('designation1').value = "5";
+	                            document.getElementById('designation3').style.display = 'none';                            
+	                        }
+				if (URLCampaignTypeID !="") {
+	                                $('#designation1').find('option[value=5]').attr('selected', 'selected').end().trigger('onselect');
+					$('#designation1').val(URLCampaignTypeID);
+					designation1Select(URLCampaignTypeID);
+					$('#designation2').val(URLCampaignID);
+					designation2Select(URLCampaignID);
+	
+					if (URLFundID !="") {
+						$('#designation3').val(URLFundID);
+						document.getElementById('designation1').style.display = 'none';
+						document.getElementById('designation2').style.display = 'none';
+						document.getElementById('designation3').style.display = 'none';
+						setSelectedFundFields(URLFundID);
+					}
+				}
+	
+			} else {
+				var designation1PreSelect = document.getElementById('designation1');
+				var designation1PreSelected = designation1PreSelect.options[designation1PreSelect.selectedIndex];
+				designation1Select(designation1PreSelected.value);
+			}
+	                
+	                if (hideDes1and2 == "1") {
+	                    document.getElementById('designation1').style.display = 'none';
+	                    document.getElementById('designation2').style.display = 'none'; 
+	                    setSelectedFundFields(document.getElementById('designation3').options[0].value);
+	                }
+		</script>
+	<div id="des2_1" name="des2_1" style="position:absolute;top:-3000px;height:0;" class="des2Box">
+<select id="des2_select_1" name="des2_1">
+<option selected="selected" value="">Please select</option>
+<option value="1000103">Abu Dhabi</option>
+<option value="1">Arts and Science</option>
+<option value="1000101">Center for Urban Science + Progress</option>
+<option value="2">College of Dentistry</option>
+<option value="10000002">College of Global Public Health</option>
+<option value="4">Courant Institute of Mathematical Sciences</option>
+<option value="5">Gallatin School of Individualized Study</option>
+<option value="1000109">Heights Colleges</option>
+<option value="1000095">Institute for the Study of the Ancient World</option>
+<option value="6">Institute of Fine Arts</option>
+<option value="11">Langone Medical Center and School</option>
+<option value="7">Leonard N. Stern School of Business</option>
+<option value="1000098">NYU Entrepreneurial Institute</option>
+<option value="1000096">NYU Reynolds Program in Social Entrepreneurship</option>
+<option value="9">Robert F. Wagner Graduate School of Public Service</option>
+<option value="3">Rory Meyers College of Nursing</option>
+<option value="12">School of Law</option>
+<option value="10">School of Professional Studies</option>
+<option value="1000104">Shanghai</option>
+<option value="13">Silver School of Social Work</option>
+<option value="14">Steinhardt School of Culture, Education, and Human Development</option>
+<option value="1000102">Tandon School of Engineering</option>
+<option value="33">The New York Institute for the Humanities</option>
+<option value="15">Tisch School of the Arts</option>
+</select>
+</div>
+<div id="des2_2" name="des2_2" style="position:absolute;top:-3000px;height:0;" class="des2Box">
+<select id="des2_select_2" name="des2_2">
+<option selected="selected" value="">Please select</option>
+<option value="20">Asian/Pacific/American Institute</option>
+<option value="31">Grey Art Gallery</option>
+<option value="1000111">International Houses</option>
+<option value="1000114">Jordan Center</option>
+<option value="30">NYU Libraries</option>
+<option value="32">Skirball Center for the Performing Arts</option>
+</select>
+</div>
+<div id="des2_3" name="des2_3" style="position:absolute;top:-3000px;height:0;" class="des2Box">
+<select id="des2_select_3" name="des2_3">
+<option selected="selected" value="">Please select</option>
+<option value="1000110">Scholarships - Momentum Campaign</option>
+</select>
+</div>
+<div id="des2_4" name="des2_4" style="position:absolute;top:-3000px;height:0;" class="des2Box">
+<select id="des2_select_4" name="des2_4">
+<option selected="selected" value="">Please select</option>
+<option value="1000112">Alternative Spring Break</option>
+<option value="29">Athletics/Violet Booster Club</option>
+<option value="1000004">LGBT Student Services</option>
+<option value="10000001">Opportunity Programs</option>
+<option value="1000100">Study Away Stipends</option>
+<option value="1000005">The Center for Multicultural Education & Programs</option>
+<option value="23">The Edgar M. Bronfman Center for Jewish Student Life</option>
+<option value="25">The Islamic Center at NYU</option>
+</select>
+</div>
+<div id="des2_5" name="des2_5" style="position:absolute;top:-3000px;height:0;" class="des2Box">
+<select id="des2_select_5" name="des2_5">
+<option selected="selected" value="">Please select</option>
+<option value="1000099">The Center for Spiritual Life</option>
+</select>
+</div>
+
+	<div id="des3_1000103" name="des3_1000103" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000103" name="des3_1000103">
+<option selected="selected" value="">Please select</option>
+<option value="1000171">NYU Abu Dhabi Annual Fund</option>
+</select>
+</div><div id="des3_1" name="des3_1" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1" name="des3_1">
+<option selected="selected" value="">Please select</option>
+<option value="8">CAS Annual Alumni Fund</option>
+<option value="9">CAS Annual Alumni Scholarship Fund</option>
+<option value="10">CAS Parents Fund</option>
+<option value="6">FAS Dean's Discretionary Fund</option>
+<option value="7">FAS Science Dean's Fund</option>
+<option value="16">GSAS Annual Alumni Fellowship Fund</option>
+<option value="15">GSAS Annual Alumni Fund</option>
+<option value="1">Liberal Studies Annual Fund</option>
+<option value="2">Liberal Studies Annual Fund-Scholarship</option>
+<option value="3">Liberal Studies Parents Fund</option>
+</select>
+</div><div id="des3_1000101" name="des3_1000101" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000101" name="des3_1000101">
+<option selected="selected" value="">Please select</option>
+<option value="1000162">CUSP Annual Fund</option>
+</select>
+</div><div id="des3_2" name="des3_2" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_2" name="des3_2">
+<option selected="selected" value="">Please select</option>
+<option value="20">College of Dentistry Annual Fund</option>
+<option value="1000026">College of Dentistry Annual Scholarship Fund</option>
+<option value="1000247">College of Dentistry Local Outreach Fund</option>
+<option value="1000148">College of Dentistry Outreach Fund</option>
+</select>
+</div><div id="des3_10000002" name="des3_10000002" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_10000002" name="des3_10000002">
+<option selected="selected" value="">Please select</option>
+<option value="1000284">College of Global Public Health<br />Annual Fund</option>
+</select>
+</div><div id="des3_4" name="des3_4" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_4" name="des3_4">
+<option selected="selected" value="">Please select</option>
+<option value="22">Courant Annual Fund</option>
+<option value="1000012">Courant Fellowship Fund</option>
+<option value="1000222">Math Finance</option>
+</select>
+</div><div id="des3_5" name="des3_5" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_5" name="des3_5">
+<option selected="selected" value="">Please select</option>
+<option value="24">Gallatin School Alumni Annual Fund</option>
+<option value="25">Gallatin School Parent Annual Fund</option>
+<option value="26">Gallatin School Scholarship Fund</option>
+</select>
+</div><div id="des3_1000109" name="des3_1000109" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000109" name="des3_1000109">
+<option selected="selected" value="">Please select</option>
+<option value="13">Heights Annual Alumni Fund-Arts</option>
+<option value="12">Heights Annual Alumni Fund-Engineering</option>
+<option value="14">Heights Annual Alumni Scholarship Fund</option>
+</select>
+</div><div id="des3_1000095" name="des3_1000095" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000095" name="des3_1000095">
+<option selected="selected" value="">Please select</option>
+<option value="1000140">ISAW Annual Fund</option>
+<option value="1000143">ISAW Libraries Fund</option>
+</select>
+</div><div id="des3_6" name="des3_6" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_6" name="des3_6">
+<option selected="selected" value="">Please select</option>
+<option value="87">1932 Fellowship Fund</option>
+<option value="27">IFA Alumni Fund</option>
+<option value="29">IFA Annual Fund</option>
+<option value="30">IFA Connoisseurs Circle</option>
+<option value="1000042">Institute of Fine Arts&mdash;Conservation Center Annual Fund</option>
+</select>
+</div><div id="des3_11" name="des3_11" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_11" name="des3_11">
+<option selected="selected" value="">Please select</option>
+<option value="1000154">NYU Langone Medical Center and School</option>
+</select>
+</div><div id="des3_7" name="des3_7" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_7" name="des3_7">
+<option selected="selected" value="">Please select</option>
+<option value="1000210">2016 Stern Legacy Campaign</option>
+<option value="1000211">NYU Langone 2015 Class Gift</option>
+<option value="1000212">NYU Stern - Full Time MBA 2015 Class Gift</option>
+<option value="34">Stern - Parents Fund</option>
+<option value="33">Stern Fund - Graduate</option>
+<option value="1000032">Stern Fund - Graduate Scholarships</option>
+<option value="32">Stern Fund - Undergraduate</option>
+<option value="1000033">Stern Fund - Undergraduate Scholarships</option>
+</select>
+</div><div id="des3_1000098" name="des3_1000098" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000098" name="des3_1000098">
+<option selected="selected" value="">Please select</option>
+<option value="1000151">NYU Entrepreneurial Institute</option>
+</select>
+</div><div id="des3_1000096" name="des3_1000096" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000096" name="des3_1000096">
+<option selected="selected" value="">Please select</option>
+<option value="1000149">NYU Reynolds Program in Social Entrepreneurship Fund</option>
+</select>
+</div><div id="des3_9" name="des3_9" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_9" name="des3_9">
+<option selected="selected" value="">Please select</option>
+<option value="1000214">Ellen Schall Experience Fund</option>
+<option value="1000238">The Anthony R. Kovner Visitor in Residence in Evidence-Based Management</option>
+<option value="47">Wagner Annual Fund</option>
+<option value="1000034">Wagner Scholarship Fund</option>
+</select>
+</div><div id="des3_3" name="des3_3" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_3" name="des3_3">
+<option selected="selected" value="">Please select</option>
+<option value="21">College of Nursing Annual Fund</option>
+<option value="1000096">College of Nursing Parents Fund</option>
+<option value="1000028">College of Nursing Scholarship Annual Fund</option>
+</select>
+</div><div id="des3_12" name="des3_12" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_12" name="des3_12">
+<option selected="selected" value="">Please select</option>
+<option value="55">Loan Repayment Assistance Program</option>
+<option value="1000027">NYU Law Alumni Scholarship Fund</option>
+<option value="52">NYU Law Fund</option>
+<option value="54">Root-Tilden-Kern Fund</option>
+<option value="56">Wallace-Lyon-Eustice Tax Fund</option>
+</select>
+</div><div id="des3_10" name="des3_10" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_10" name="des3_10">
+<option selected="selected" value="">Please select</option>
+<option value="1000236">NYUSPS Discover Program Fund</option>
+<option value="48">School of Professional Studies Annual Fund</option>
+<option value="1000029">SPS Alumni Scholarship Fund</option>
+<option value="1000097">SPS Parents Fund</option>
+</select>
+</div><div id="des3_1000104" name="des3_1000104" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000104" name="des3_1000104">
+<option selected="selected" value="">Please select</option>
+<option value="1000172">NYU Shanghai Annual Fund</option>
+</select>
+</div><div id="des3_13" name="des3_13" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_13" name="des3_13">
+<option selected="selected" value="">Please select</option>
+<option value="57">Silver School of Social Work Annual Fund</option>
+<option value="1000098">Silver School of Social Work Parents Fund</option>
+<option value="1000030">Social Work Annual Scholarship Fund</option>
+</select>
+</div><div id="des3_14" name="des3_14" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_14" name="des3_14">
+<option selected="selected" value="">Please select</option>
+<option value="1000031">Steinhardt Alumni Scholarship Fund</option>
+<option value="1000099">Steinhardt Parents Fund</option>
+<option value="58">Steinhardt School of Culture, Education, and Human Development Annual Fund</option>
+</select>
+</div><div id="des3_1000102" name="des3_1000102" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000102" name="des3_1000102">
+<option selected="selected" value="">Please select</option>
+<option value="1000166">Polytechnic Fund (General support for Engineering)</option>
+<option value="1000167">Promise Scholarship Fund (Scholarships for Engineering students)</option>
+</select>
+</div><div id="des3_33" name="des3_33" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_33" name="des3_33">
+<option selected="selected" value="">Please select</option>
+<option value="85">The New York Institute for the Humanities</option>
+</select>
+</div><div id="des3_15" name="des3_15" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_15" name="des3_15">
+<option selected="selected" value="">Please select</option>
+<option value="62">Tisch Alumni Program Fund</option>
+<option value="1000289">Tisch Parents Outreach Fund</option>
+<option value="1000203">Tisch School of the Arts Annual Scholarship Fund</option>
+<option value="1000169">Tisch Talent Identification Process</option>
+<option value="60">TSOA Annual Alumni Fund</option>
+</select>
+</div><div id="des3_20" name="des3_20" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_20" name="des3_20">
+<option selected="selected" value="">Please select</option>
+<option value="70">Asian/Pacific/American Institute Support Fund</option>
+</select>
+</div><div id="des3_31" name="des3_31" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_31" name="des3_31">
+<option selected="selected" value="">Please select</option>
+<option value="17">Grey Art Gallery</option>
+</select>
+</div><div id="des3_1000111" name="des3_1000111" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000111" name="des3_1000111">
+<option selected="selected" value="">Please select</option>
+<option value="69">Africa House Fund</option>
+<option value="71">Casa Italiana Zerilli-Marim&ograve; Annual Fund</option>
+<option value="72">Deutsches Haus at NYU Cultural Program</option>
+<option value="77">La Maison Fran&ccedil;aise Annual Fund</option>
+<option value="74">The Lewis L. and Loretta Brennan Glucksman Ireland House Program Support Fund</option>
+</select>
+</div><div id="des3_1000114" name="des3_1000114" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000114" name="des3_1000114">
+<option selected="selected" value="">Please select</option>
+<option value="1000213">The Jordan Center for the Advanced Study of Russia</option>
+</select>
+</div><div id="des3_30" name="des3_30" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_30" name="des3_30">
+<option selected="selected" value="">Please select</option>
+<option value="65">Fales Library</option>
+<option value="64">Friends of Bobst Library</option>
+<option value="1000088">Tamiment Library &<br> Robert F. Wagner Labor Archives</option>
+</select>
+</div><div id="des3_32" name="des3_32" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_32" name="des3_32">
+<option selected="selected" value="">Please select</option>
+<option value="79">Friends of the Skirball Center</option>
+</select>
+</div><div id="des3_1000110" name="des3_1000110" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000110" name="des3_1000110">
+<option selected="selected" value="">Please select</option>
+<option value="1000185">CAS Annual Alumni Scholarship Fund</option>
+<option value="1000191">College of Dentistry Alumni Scholarship Fund</option>
+<option value="1000193">College of Nursing Annual Scholarship Fund</option>
+<option value="1000205">Courant Fellowship Fund</option>
+<option value="1000187">Gallatin School Scholarship Fund</option>
+<option value="1000202">GSAS Annual Alumni Fellowship Fund</option>
+<option value="1000186">Heights Annual Alumni Scholarship Fund</option>
+<option value="1000204">IFA 1932 Fund for Student Fellowships</option>
+<option value="1000184">Liberal Studies Annual Fund-Scholarship</option>
+<option value="1000200">Multicultural Alumni Scholarship Fund</option>
+<option value="1000207">NYU Langone Medical Center and School</option>
+<option value="1000192">NYU Law Alumni Scholarship Fund</option>
+<option value="1000206">NYU Polytechnic School of Engineering Promise Scholarship Fund</option>
+<option value="1000195">Social Work Alumni Annual Scholarship Fund</option>
+<option value="1000194">SPS Alumni Scholarship Fund</option>
+<option value="1000196">Steinhardt Alumni Scholarship Fund</option>
+<option value="1000197">Stern Fund - Graduate Scholarships</option>
+<option value="1000198">Stern Fund - Undergraduate Scholarships</option>
+<option value="1000183">Study Away Stipends</option>
+<option value="1000203">Tisch School of the Arts Annual Scholarship Fund</option>
+<option value="1000190">University General Scholarship Fund</option>
+<option value="1000201">Wagner Scholarship Fund</option>
+</select>
+</div><div id="des3_1000112" name="des3_1000112" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000112" name="des3_1000112">
+<option selected="selected" value="">Please select</option>
+<option value="1000051">Alternative Breaks Program Fund</option>
+</select>
+</div><div id="des3_29" name="des3_29" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_29" name="des3_29">
+<option selected="selected" value="">Please select</option>
+<option value="63">Athletics/Violet Booster Club</option>
+</select>
+</div><div id="des3_1000004" name="des3_1000004" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000004" name="des3_1000004">
+<option selected="selected" value="">Please select</option>
+<option value="1000065">LGBT Student Services</option>
+</select>
+</div><div id="des3_10000001" name="des3_10000001" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_10000001" name="des3_10000001">
+<option selected="selected" value="">Please select</option>
+<option value="1000216">Opportunity Programs</option>
+</select>
+</div><div id="des3_1000100" name="des3_1000100" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000100" name="des3_1000100">
+<option selected="selected" value="">Please select</option>
+<option value="1000159">Study Away Stipends</option>
+</select>
+</div><div id="des3_1000005" name="des3_1000005" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000005" name="des3_1000005">
+<option selected="selected" value="">Please select</option>
+<option value="1000067">Center for Multicultural Education & Programs</option>
+</select>
+</div><div id="des3_23" name="des3_23" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_23" name="des3_23">
+<option selected="selected" value="">Please select</option>
+<option value="73">Bronfman Center for Jewish Student Life Annual Fund</option>
+<option value="1000240">Bronfman Global</option>
+<option value="1000246">Jewish Learning Fellowship</option>
+<option value="1000239">Shabbat for 2000</option>
+</select>
+</div><div id="des3_25" name="des3_25" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_25" name="des3_25">
+<option selected="selected" value="">Please select</option>
+<option value="1000168">Muharram Fund</option>
+<option value="1000110">Ramadan Fund</option>
+<option value="75">The Islamic Center at NYU</option>
+</select>
+</div><div id="des3_1000099" name="des3_1000099" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_1000099" name="des3_1000099">
+<option selected="selected" value="">Please select</option>
+<option value="1000221">Global Spiritual Life</option>
+<option value="1000156">Of Many Institute for Multifaith Leadership</option>
+<option value="1000223">To Name a Table ($500+) (22-55000-R0692)</option>
+</select>
+</div><div id="des3_9999999" name="des3_9999999" style="position:absolute;top:-3000px;height:0;" class="des3Box">
+<select id="des3_select_9999999" name="des3_9999999">
+<option value="1000218"><h4>Robert F. Wagner Graduate School of Public Service</h4><h2>The Walter Stafford Project on Inequality in New York City</h2></option>
+<option value="1000269">After School Dental Program</option>
+<option value="1000119">Animal Studies</option>
+<option value="1000253">Aphrodisias Excavations</option>
+<option value="86">Arts and Science&mdash;Arthur L. Carter Journalism Institute Fund</option>
+<option value="19">Arts and Science&mdash;Institute of Journalism Science, Health, and Environmental Reporting Program Scholarship Award</option>
+<option value="1000178">Arts and Science&mdash;Matthew Power Literary Reporting Award</option>
+<option value="46">Arts and Science&mdash;Postdoctoral in Psychotherapy and Psychoanalysis Annual Fund</option>
+<option value="1000255">Basic Science Advancement Fund</option>
+<option value="1000256">Biomaterials/Biomimetics Advancement Fund</option>
+<option value="53">BLAPA General Fund</option>
+<option value="1000257">Bluestone Center Advancement Fund</option>
+<option value="1000258">Cariology and Comprehensive Care Advancement Fund</option>
+<option value="1000286">CAS Dean's Undergraduate Research Fund</option>
+<option value="1000068">CAS Dean's Undesignated Fund</option>
+<option value="1000282">Center for Mathematical Talent</option>
+<option value="1000251">Center for Publishing</option>
+<option value="1000233">College of Dentistry Oral Cancer Walk</option>
+<option value="1000259">Dean&apos;s Advancement Fund</option>
+<option value="1000057">Deborah R. Labovitz Enhancement Fund</option>
+<option value="1000273">Dental Care for Children Program</option>
+<option value="1000272">Dental Care for the Aging Program</option>
+<option value="1000274">Dental Care for Victims of Domestic Violence Program</option>
+<option value="1000260">Dental Hygiene Advancement Fund</option>
+<option value="1000230">Diversity Undergraduate Research Incubator Program</option>
+<option value="1000005">Division of Programs in Business</option>
+<option value="1000261">Endodontics Advancement Fund</option>
+<option value="1000118">Environmental Studies</option>
+<option value="1000262">Epidemiology Advancement Fund</option>
+<option value="1000287">First Generation Scholarships</option>
+<option value="1000058">Frieda J. Behlen Occupational Therapy Scholarship Fund</option>
+<option value="1000241">Gladys Gonzalez-Ramos Memorial Scholarship Fund</option>
+<option value="1000280">Global Outreach Fund</option>
+<option value="1000122">Graduate Acting Department Scholarship Fund</option>
+<option value="1000226">Helen Hill Award Fund</option>
+<option value="1000225">Hemispheric Institute Fund</option>
+<option value="1000003">Jonathan M. Tisch Center for Hospitality, Tourism, and Sports Management</option>
+<option value="1000254">LeDoux Lab &ndash; Center for Neural Science</option>
+<option value="1000061">Libraries&mdash;Margaret Sanger Papers Project</option>
+<option value="1000279">Local Outreach Fund</option>
+<option value="1000217">Marlene Sanders Journalism Award</option>
+<option value="1000145">McSilver Institute for Poverty Policy and Research</option>
+<option value="1000270">NYU Alumni Association Scholarship Fund</option>
+<option value="1000229">NYU Game Center EVO Scholarship</option>
+<option value="1000271">NYU Production Lab</option>
+<option value="1000244">NYU Radio Alumni Gift</option>
+<option value="1000252">NYU SPS 5K Run</option>
+<option value="1000283">NYU Washington, DC Campus</option>
+<option value="1000264">Oral &amp; Maxillofacial Pathology, Radiology and Medicine Advancement Fund</option>
+<option value="1000263">Oral &amp; Maxillofacial Surgery Advancement Fund</option>
+<option value="1000275">Oro-Facial Injury Protection Program</option>
+<option value="1000224">Orphan Conference Fund</option>
+<option value="1000265">Orthodontics Advancement Fund</option>
+<option value="1000004">Paul McGhee Division</option>
+<option value="1000266">Pediatric Dentistry Advancement Fund</option>
+<option value="1000103">Performance Studies Fund</option>
+<option value="1000267">Periodontics &amp; Implant Dentistry Advancement Fund</option>
+<option value="1000227">Photography &amp; Imaging Department Chair&rsquo;s Discretionary Fund</option>
+<option value="99">Please specify your fund</option>
+<option value="82">Presidents Undesignated Fund</option>
+<option value="1000268">Prosthodontics Advancement Fund</option>
+<option value="1000291">Public Books</option>
+<option value="1000292">Robert J. Landy Scholarship</option>
+<option value="1000231">Robert Sklar Memorial Scholarship Fund</option>
+<option value="1000237">Roger Bagnall Travel Fund</option>
+<option value="49">School of Professional Studies&mdash;Center for Global Affairs</option>
+<option value="1000121">School of Professional Studies&mdash;Preston Robert Tisch Center for Hospitality, Tourism, and Sports Management - NYU International Hospitality Industry Investment Conference Scholarships</option>
+<option value="1000276">Smiles for Workforce Re-entry Program</option>
+<option value="1000086">Steinhardt School of Culture, Education, and Human Development&mdash;Visual Arts Administration Alumni Council Awards, Professional Development Grants, and Scholarships</option>
+<option value="1000277">Survivors of Torture Program</option>
+<option value="1000290">The Alma Carten Scholarship Fund</option>
+<option value="1000234">The Center for Ballet and the Arts Fund</option>
+<option value="1000136">The Hartford Institute for Geriatric Nursing at NYU</option>
+<option value="1000248">The National Center of Gerontological Nursing Excellence</option>
+<option value="1000249">The Schack Institute for Real Estate</option>
+<option value="1000002">The Schack Institute of Real Estate</option>
+<option value="1000242">Tisch 50th Anniversary Gala</option>
+<option value="1000250">Tisch Institute for Sports Management, Media and Business</option>
+<option value="1000285">Tisch Parents Outreach Fund</option>
+<option value="1000228">Tom Drysdale Production Fund</option>
+<option value="1000243">VAA Carlo Lamagna Award</option>
+<option value="1000278">Van - Mobile Dental Van Fund</option>
+<option value="1000007">Where Needed Most&mdash;SPS Dean's Discretionary Fund</option>
+<option value="1000281">Zelda Fichandler Memorial Scholarship Fund</option>
+<option value="1000045">Zelda Foster Studies</option>
+</select>
+</div>	
+		<span id="medSchoolHide" style="display:none;">Gifts to the NYU Langone Medical Center and School of Medicine can be made online at <a href="http://nyulangone.org/give/funds/">http://nyulangone.org/give/</a>. Thank you!</span>
+	</fieldset>
+	<div id="GiftTypeContent" class="">
+		<fieldset class="ui-radio" id="gift-type">
+			<legend>What type of gift would you like to make?</legend>
+		
+			<label>Gift Type<span style="color:#D11255;"> * &nbsp;</span></label>
+			<label for="displayRecurringGift" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-off">
+				<span></span> Recurring Gift
+			</label><span style="border: 1px solid #512890; padding: 0px 5px; color: #512890; cursor: pointer;" onclick="alert(this.title)" onmouseover=""  title="A recurring gift is the easy way to give! For example, if you would like to give $10 each month, simply enter $10 in the &quot;Gift Amount&quot; box and select &quot;Monthly&quot; in the Frequency box. Your total gift amount will be reflected on the confirmation page.">?</span>
+			<input id="displayRecurringGift" type="radio" name="gift-type" value="recurringGift" onclick="giftSwitch('recurringGift'); clearLess5Msg();"/>
+			<label for="displaySingleGift" class="ui-btn ui-corner-all ui-btn-inherit ui-btn-icon-left ui-radio-on">
+				<span></span> One-Time Gift
+			</label>
+			<input id="displaySingleGift" type="radio" name="gift-type" value="onetimeGift" class="ui-radio" onclick="giftSwitch('onetimeGift'); clearLess5Msg();" checked/>
+		</fieldset>
+	</div>
+        
+
+
+	<div id="oneTimeGiftContent">
+			<fieldset>
+				<legend>I would like to make a   gift of:</legend>
+				<label for="gift_1">Gift Amount<span style="color:#D11255;"> *</span></label>
+		
+				<input id="gift_1" name="gift_1" type="text" autocomplete="off" class="quarterSize" value="" onChange="formatMoney(this.value, this.id); setGift(this.value);" style="margin-left:3px;" placeholder="$"/>
+				<label id="gift_1_display" class="formMsg" style="margin-right: 5px;"></label>
+				<input type="hidden" id="gift_2_display" value="" />
+			</fieldset>
+		</div>
+	
+		<input type="hidden" name="AMOUNT_GFT_1" id="AMOUNT_GFT_1" value="">
+		<input type="hidden" name="gift_2" id="gift_2" value="">
+		<input type="hidden" name="AMOUNT_GFT_2" id="AMOUNT_GFT_2" value="">
+		<input type="hidden" name="fund2" id="fund2" value="">
+  
+    <!-- START RECURRING GIFT SECTION -->
+	<div id="RecurringGiftContent">
+	<fieldset style="padding-top: 10px;">
+		<input type="hidden" name="subscription_title" id="subscription_title" value=""/>
+		<input type="hidden" name="orderPage_transactionType" id="orderPage_transactionType" value="sale,subscription"/>
+		<input type="hidden" name="paySubscriptionCreateService_run" id="paySubscriptionCreateService_run" value="true">
+		<input type="hidden" name="purchaseTotals_currency" id="purchaseTotals_currency" value="USD">
+		<input type="hidden" name="recurringSubscriptionInfo_approvalRequired" id="recurringSubscriptionInfo_approvalRequired" value="false">
+		<input type="hidden" name="recurringSubscriptionInfo_automaticRenew"  id="recurringSubscriptionInfo_automaticRenew" value="false">
+
+		<!-- both values set below come from recurringGiftAmount select above -->
+		<input type="hidden" name="item_0_unitPrice" id="item_0_unitPrice" value=""/>
+		<input type="hidden" name="recurringSubscriptionInfo_amount" id="recurringSubscriptionInfo_amount" value=""/>
+		<input type="hidden" name="recurringSubscriptionInfo_frequency" id="recurringSubscriptionInfo_frequency" value="">
+		<label for="gift_frequency" style="display:block;">Gift Frequency<span style="color:#D11255;"> *</span></label>
+		<select name="gift_frequency" id="gift_frequency" onChange="checkYear(); setStartDate(); calcSubscription();">
+			<option value="12" selected="selected">monthly</option>
+			<option value="4">quarterly</option>
+			<option value="1">annually</option>
+		</select>
+		<div style="width:100%; clear:both;"></div>
+		<label for="num_payments" style="display: block;">Gift Duration</label>
+
+		<select name="num_payments" id="num_payments"	onChange="calcSubscription();">
+			<option value="1" selected="selected">1 year</option>
+			<option value="2">2 years</option>
+			<option value="3">3 years</option>
+		</select>
+
+
+		<input type="hidden" name="recurringSubscriptionInfo_numberOfPayments" id="recurringSubscriptionInfo_numberOfPayments" value="">
+
+		<!--Date of first recurring gift payment-->
+		
+		<input type="hidden" name="recurringSubscriptionInfo_startDate" id="recurringSubscriptionInfo_startDate" value="">
+		<input type="hidden" name="subscription_paymentMethod" id="subscription_paymentMethod" value="credit card">
+
+		<label id="recurring_display" class="formMsg" style="margin-right: 5px;"></label>
+	</fieldset>
+	</div>
+	<!-- END RECURRING GIFT SECTION -->	
+	
+		<!-- end giftInfo -->
+		<div id="donorInfo">
+		<fieldset>
+		    <legend>Donor Info:</legend>
+		    <label for="FIRST_NAME">First Name<span style="color:#D11255;"> *</span></label>
+		    <input type="text" name="FIRST_NAME" id="FIRST_NAME" onfocus="setDirectLinkField();"/>
+		    <label for="MIDDLE_NAME">Middle Name</label>
+		    <input type="text" name="MIDDLE_NAME" id="MIDDLE_NAME" class="halfSize"/>
+		    <label for="LAST_NAME">Last Name<span style="color:#D11255;"> *</span></label>
+		    <input type="text" name="LAST_NAME" id="LAST_NAME" class="halfSize" />
+		
+		    <label for="ADDRESS_LINE_1">Street Address<span style="color:#D11255;"> *</span></label>
+		    <input type="text" name="ADDRESS_LINE_1" id="ADDRESS_LINE_1" class="fullSize"/>
+		    <input type="text" name="Add_line_2" id="Add_line_2" class="fullSize" />
+		    <!-- 
+		    	Javascript appends hidden input ADDRESS_LINE_2 here if user fills in Add_line_2 above; 
+		    	guessing Payment Gateway can't handle getting an empty box for this if the donor doesn't 
+		    	use it. JSM 12/07/2016 
+		    -->
+		    <div id="Address2"></div> 
+		    <label for="CITY">City<span style="color:#D11255;"> *</span></label>
+		    <input type="text" name="CITY" id="CITY"/>
+		    <label for="STATE">State<span style="color:#D11255;"> *</span></label>
+		    <select name="STATE" id="STATE">
+				<option value='' style="font-weight: bold;"> </option>
+				<option value="NA">Non-US</option>
+				<option value='' style="font-weight: bold;">- American States</option>
+				<option value="AL">Alabama</option>
+				<option value="AK">Alaska</option>
+				<option value="AZ">Arizona</option>
+				<option value="AR">Arkansas</option>
+				<option value="CA">California</option>
+				<option value="CO">Colorado</option>
+				<option value="CT">Connecticut</option>
+				<option value="DE">Delaware</option>
+				<option value="DC">District of Columbia</option>
+				<option value="FL">Florida</option>
+				<option value="GA">Georgia</option>
+				<option value="HI">Hawaii</option>
+				<option value="ID">Idaho</option>
+				<option value="IL">Illinois</option>
+				<option value="IN">Indiana</option>
+				<option value="IA">Iowa</option>
+				<option value="KS">Kansas</option>
+				<option value="KY">Kentucky</option>
+				<option value="LA">Louisiana</option>
+				<option value="ME">Maine</option>
+				<option value="MD">Maryland</option>
+				<option value="MA">Massachusetts</option>
+				<option value="MI">Michigan</option>
+				<option value="MN">Minnesota</option>
+				<option value="MS">Mississippi</option>
+				<option value="MO">Missouri</option>
+				<option value="MT">Montana</option>
+				<option value="NE">Nebraska</option>
+				<option value="NV">Nevada</option>
+				<option value="NH">New Hampshire</option>
+				<option value="NJ">New Jersey</option>
+				<option value="NM">New Mexico</option>
+				<option value="NY">New York</option>
+				<option value="NC">North Carolina</option>
+				<option value="ND">North Dakota</option>
+				<option value="OH">Ohio</option>
+				<option value="OK">Oklahoma</option>
+				<option value="OR">Oregon</option>
+				<option value="PA">Pennsylvania</option>
+				<option value="RI">Rhode Island</option>
+				<option value="SC">South Carolina</option>
+				<option value="SD">South Dakota</option>
+				<option value="TN">Tennessee</option>
+				<option value="TX">Texas</option>
+				<option value="UT">Utah</option>
+				<option value="VT">Vermont</option>
+				<option value="VA">Virginia</option>
+				<option value="WA">Washington</option>
+				<option value="WV">West Virginia</option>
+				<option value="WI">Wisconsin</option>
+				<option value="WY">Wyoming</option>
+				
+				<option value='' style="font-weight: bold;"> </option>
+				<option value='' style="font-weight: bold;">- Armed Forces</option>
+				<option value="AA">Armed Forces Americas</option>
+				<option value="AP">Armed Forces Pacific</option>
+				<option value="AE">Armed Forces Others</option>
+				
+				<option value='' style="font-weight: bold;"> </option>
+				<option value='' style="font-weight: bold;">- Canadian Provinces</option>
+				<option value="AB">Alberta</option>
+				<option value="BC">British Columbia</option>
+				<option value="MB">Manitoba</option>
+				<option value="NB">New Brunswick</option>
+				<option value="NL">Newfoundland and Labrador</option>
+				<option value="NS">Nova Scotia</option>
+				<option value="ON">Ontario</option>
+				<option value="PE">Prince Edward Island</option>
+				<option value="QC">Quebec</option>
+				<option value="SK">Saskatchewan</option>
+				<option value="NT">Northwest Territories</option>
+				<option value="NU">Nunavut</option>
+				<option value="YT">Yukon</option>
+		 	</select>
+			<label for="POSTAL_CODE">Zip<span style="color:#D11255;"> *</span></label>
+			<input type="text" name="POSTAL_CODE" id="POSTAL_CODE"/>
+		
+				<label class="halfSize">Country<span style="color:#D11255;"> *</span></label>
+				<select name="COUNTRY" id="COUNTRY" class="halfSize">
+					<option selected="selected" value="us">United States</option>
+					<option value="af">Afghanistan</option>
+					<option value="al">Albania</option>
+					<option value="dz">Algeria</option>
+					<option value="as">American Samoa (US)</option>
+					<option value="ad">Andorra</option>
+					<option value="ao">Angola</option>
+					<option value="ai">Anguilla (UK)</option>
+					<option value="ag">Antigua and Barbuda</option>
+					<option value="ar">Argentina</option>
+					<option value="am">Armenia</option>
+					<option value="aw">Aruba</option>
+					<option value="au">Australia</option>
+					<option value="at">Austria</option>
+					<option value="az">Azerbaijan</option>
+					<option value="bs">Bahamas</option>
+					<option value="bh">Bahrain</option>
+					<option value="bd">Bangladesh</option>
+					<option value="bb">Barbados</option>
+					<option value="by">Belarus</option>
+					<option value="be">Belgium</option>
+					<option value="bz">Belize</option>
+					<option value="bj">Benin</option>
+					<option value="bm">Bermuda (UK)</option>
+					<option value="bt">Bhutan</option>
+					<option value="bo">Bolivia</option>
+					<option value="ba">Bosnia and Herzegovina</option>
+					<option value="bw">Botswana</option>
+					<option value="br">Brazil</option>
+					<option value="vg">British Virgin Islands (UK)</option>
+					<option value="bn">Brunei Darussalam</option>
+					<option value="bg">Bulgaria</option>
+					<option value="bf">Burkina Faso</option>
+					<option value="bi">Burundi</option>
+					<option value="kh">Cambodia</option>
+					<option value="cm">Cameroon</option>
+					<option value="ca">Canada</option>
+					<option value="cv">Cape Verde</option>
+					<option value="ky">Cayman Islands (UK)</option>
+					<option value="cf">Central African Republic</option>
+					<option value="td">Chad</option>
+					<option value="cl">Chile</option>
+					<option value="cn">China</option>
+					<option value="cx">Christmas Island (AU)</option>
+					<option value="cc">Cocos (Keeling) Islands (AU)</option>
+					<option value="co">Colombia</option>
+					<option value="km">Comoros</option>
+					<option value="cd">Congo, Democratic Republic of the</option>
+					<option value="cg">Congo, Republic of the</option>
+					<option value="ck">Cook Islands (NZ)</option>
+					<option value="cr">Costa Rica</option>
+					<option value="ci">Cote d'Ivoire</option>
+					<option value="hr">Croatia</option>
+					<option value="cu">Cuba</option>
+					<option value="cy">Cyprus</option>
+					<option value="cz">Czech Republic</option>
+					<option value="dk">Denmark</option>
+					<option value="dj">Djibouti</option>
+					<option value="dm">Dominica</option>
+					<option value="do">Dominican Republic</option>
+					<option value="ec">Ecuador</option>
+					<option value="eg">Egypt</option>
+					<option value="sv">El Salvador</option>
+					<option value="gq">Equatorial Guinea</option>
+					<option value="er">Eritrea</option>
+					<option value="ee">Estonia</option>
+					<option value="et">Ethiopia</option>
+					<option value="fk">Falkland Islands (UK)</option>
+					<option value="fo">Faroe Islands (DK)</option>
+					<option value="fj">Fiji</option>
+					<option value="fi">Finland</option>
+					<option value="fr">France</option>
+					<option value="gf">French Guiana (FR)</option>
+					<option value="pf">French Polynesia (FR)</option>
+					<option value="ga">Gabon</option>
+					<option value="gm">Gambia</option>
+					<option value="ge">Georgia</option>
+					<option value="de">Germany</option>
+					<option value="gh">Ghana</option>
+					<option value="gi">Gibraltar (UK)</option>
+					<option value="gr">Greece</option>
+					<option value="gl">Greenland (DK)</option>
+					<option value="gd">Grenada</option>
+					<option value="gp">Guadeloupe (FR)</option>
+					<option value="gu">Guam (US)</option>
+					<option value="gt">Guatemala</option>
+					<option value="gn">Guinea</option>
+					<option value="gw">Guinea-Bissau</option>
+					<option value="gy">Guyana</option>
+					<option value="ht">Haiti</option>
+					<option value="va">Holy See (Vatican City)</option>
+					<option value="hn">Honduras</option>
+					<option value="hk">Hong Kong (CN)</option>
+					<option value="hu">Hungary</option>
+					<option value="is">Iceland</option>
+					<option value="in">India</option>
+					<option value="id">Indonesia</option>
+					<option value="ir">Iran</option>
+					<option value="iq">Iraq</option>
+					<option value="ie">Ireland</option>
+					<option value="il">Israel</option>
+					<option value="it">Italy</option>
+					<option value="jm">Jamaica</option>
+					<option value="jp">Japan</option>
+					<option value="jo">Jordan</option>
+					<option value="kz">Kazakstan</option>
+					<option value="ke">Kenya</option>
+					<option value="ki">Kiribati</option>
+					<option value="kp">Korea, Democratic People's Republic (North)</option>
+					<option value="kr">Korea, Republic of (South)</option>
+					<option value="kw">Kuwait</option>
+					<option value="kg">Kyrgyzstan</option>
+					<option value="la">Laos</option>
+					<option value="lv">Latvia</option>
+					<option value="lb">Lebanon</option>
+					<option value="ls">Lesotho</option>
+					<option value="lr">Liberia</option>
+					<option value="ly">Libya</option>
+					<option value="li">Liechtenstein</option>
+					<option value="lt">Lithuania</option>
+					<option value="lu">Luxembourg</option>
+					<option value="mo">Macau (CN)</option>
+					<option value="mk">Macedonia</option>
+					<option value="mg">Madagascar</option>
+					<option value="mw">Malawi</option>
+					<option value="my">Malaysia</option>
+					<option value="mv">Maldives</option>
+					<option value="ml">Mali</option>
+					<option value="mt">Malta</option>
+					<option value="mh">Marshall islands</option>
+					<option value="mq">Martinique (FR)</option>
+					<option value="mr">Mauritania</option>
+					<option value="mu">Mauritius</option>
+					<option value="yt">Mayotte (FR)</option>
+					<option value="mx">Mexico</option>
+					<option value="fm">Micronesia, Federated States of</option>
+					<option value="md">Moldova</option>
+					<option value="mc">Monaco</option>
+					<option value="mn">Mongolia</option>
+					<option value="me">Montenegro</option>
+					<option value="ms">Montserrat (UK)</option>
+					<option value="ma">Morocco</option>
+					<option value="mz">Mozambique</option>
+					<option value="mm">Myanmar</option>
+					<option value="na">Namibia</option>
+					<option value="nr">Nauru</option>
+					<option value="np">Nepal</option>
+					<option value="nl">Netherlands</option>
+					<option value="an">Netherlands Antilles (NL)</option>
+					<option value="nc">New Caledonia (FR)</option>
+					<option value="nz">New Zealand</option>
+					<option value="ni">Nicaragua</option>
+					<option value="ne">Niger</option>
+					<option value="ng">Nigeria</option>
+					<option value="nu">Niue</option>
+					<option value="nf">Norfolk Island (AU)</option>
+					<option value="mp">Northern Mariana Islands (US)</option>
+					<option value="no">Norway</option>
+					<option value="om">Oman</option>
+					<option value="pk">Pakistan</option>
+					<option value="pw">Palau</option>
+					<option value="pa">Panama</option>
+					<option value="pg">Papua New Guinea</option>
+					<option value="py">Paraguay</option>
+					<option value="pe">Peru</option>
+					<option value="ph">Philippines</option>
+					<option value="pn">Pitcairn Islands (UK)</option>
+					<option value="pl">Poland</option>
+					<option value="pt">Portugal</option>
+					<option value="pr">Puerto Rico (US)</option>
+					<option value="qa">Qatar</option>
+					<option value="re">Reunion (FR)</option>
+					<option value="ro">Romania</option>
+					<option value="ru">Russia</option>
+					<option value="rw">Rwanda</option>
+					<option value="sh">Saint Helena (UK)</option>
+					<option value="kn">Saint Kitts and Nevis</option>
+					<option value="lc">Saint Lucia</option>
+					<option value="pm">Saint Pierre and Miquelon (FR)</option>
+					<option value="vc">Saint Vincent and the Grenadines</option>
+					<option value="ws">Samoa</option>
+					<option value="sm">San Marino</option>
+					<option value="st">Sao Tome and Principe</option>
+					<option value="sa">Saudi Arabia</option>
+					<option value="sn">Senegal</option>
+					<option value="rs">Serbia</option>
+					<option value="cs">Serbia and Montenegro</option>
+					<option value="sc">Seychelles</option>
+					<option value="sl">Sierra Leone</option>
+					<option value="sg">Singapore</option>
+					<option value="sk">Slovakia</option>
+					<option value="si">Slovenia</option>
+					<option value="sb">Solomon Islands</option>
+					<option value="so">Somalia</option>
+					<option value="za">South Africa</option>
+					<option value="gs">South Georgia &amp; South Sandwich Islands (UK)</option>
+					<option value="es">Spain</option>
+					<option value="lk">Sri Lanka</option>
+					<option value="sd">Sudan</option>
+					<option value="sr">Suriname</option>
+					<option value="sz">Swaziland</option>
+					<option value="se">Sweden</option>
+					<option value="ch">Switzerland</option>
+					<option value="sy">Syria</option>
+					<option value="tw">Taiwan</option>
+					<option value="tj">Tajikistan</option>
+					<option value="tz">Tanzania</option>
+					<option value="th">Thailand</option>
+					<option value="tl">Timor-Leste</option>
+					<option value="tg">Togo</option>
+					<option value="tk">Tokelau</option>
+					<option value="to">Tonga</option>
+					<option value="tt">Trinidad and Tobago</option>
+					<option value="tn">Tunisia</option>
+					<option value="tr">Turkey</option>
+					<option value="tm">Turkmenistan</option>
+					<option value="tc">Turks and Caicos Islands (UK)</option>
+					<option value="tv">Tuvalu</option>
+					<option value="ug">Uganda</option>
+					<option value="ua">Ukraine</option>
+					<option value="ae">United Arab Emirates</option>
+					<option value="gb">United Kingdom</option>
+					<option value="uy">Uruguay</option>
+					<option value="uz">Uzbekistan</option>
+					<option value="vu">Vanuatu</option>
+					<option value="ve">Venezuela</option>
+					<option value="vn">Vietnam</option>
+					<option value="vi">Virgin Islands (US)</option>
+					<option value="wf">Wallis and Futuna (FR)</option>
+					<option value="eh">Western Sahara</option>
+					<option value="ye">Yemen</option>
+					<option value="zm">Zambia</option>
+					<option value="zw">Zimbabwe</option>
+				</select>
+		
+				<label for="PHONE">Phone<span style="color:#D11255;"> *</span> </label>
+				<input type="text" name="PHONE" id="PHONE"/>
+		
+				<label for="EMAIL">Email<span style="color:#D11255;"> *</span></label>
+				<input type="text" name="EMAIL" id="EMAIL"/>
+		
+			    <label for="OTHER_ID">NetID <span class="giving-info-click" title="This is the number and letter series that also serves as your nyu email address." onclick="alert(this.title);">?</span></label>
+				<input type="text" id="OTHER_ID" name="OTHER_ID"/>
+				<div><sup><i>Example: ex123@nyu.edu. The ex123 is your Net ID.</i></sup></div>
+			</fieldset>
+		</div> <!--  end donorInfo -->
+	
+	<a class="caret-button form-submit ui-link" onClick="submitForm();" style="" id="submitButton" >Next</a>
+		<a class="caret-button ui-link" onclick="location.reload();" id="givingFormReset">Reset</a>
+<!-- 	<button onClick="submitForm();" style="" id="submitButton" type="submit" class="button" value="Process Gift" />NEXT</button> -->
+        	<!--button class="button" style="" id="submitButtonMed" type="button" onClick="parent.location='http://giving.nyumc.org/'">Submit</button-->
+<!-- 	<label style="margin: 15px 12px;" class="quarterSize"><span><a href="/giving/give-now/?cid=4">Reset Form</a></span></label> -->
+<!-- 	<input type="reset" value="Reset Form" name="reset" onclick="jQuery('#displaySingleGift').click();" id="givingFormReset"> -->
+
+	<script type="text/javascript">
+//             giftSwitch('onetimeGift');
+            
+	</script>
+
+</form>
+
+    </div>
+	<!-- END 2/3 box -->
+
+
+
+	<!-- 1/3 box -->
+
+	<div class="col cc_66-33_c1">
+<h3>By Mail or Phone</h3>
+
+<p><img src="//nyu.edu/giving/images/mail_icon.jpg" style="margin: 0 5px 0 0"/><strong>To make a gift by mail:</strong><br />
+<p>Send your completed <a href="//nyu.edu/giving/pdf/giftform.pdf">printable gift form</a> with your check or credit card information to:</p>
+<p>New York University<br />
+
+Office of Gift Administration<br />
+P.O. Box 6706<br />
+Hagerstown, MD 21741-6706</p>
+<p>Please make checks payable to New York University.</p>
+
+<p><img src="//nyu.edu/giving/images/call_icon.jpg" style="margin: 0 5px 0 0"/><strong>To make a gift by phone:</strong><br />
+Please call 1-800-698-4144 Monday - Friday between 9:00 AM and 5:00 PM EST.</p><hr />
+<h3>Help</h3>
+<p>Are you having trouble with this form? Please visit our <a href="http://www.nyu.edu/giving/help/">Help & FAQs page</a> for the answers to the most common questions.</p><hr />
+
+
+
+    </div><!-- END 1/3 Box -->
+	</div><!-- END CONTENT -->
+	</div><!--  END BODY -->
+		<!-- Begin Footer -->
+		<div class="nyuFooter">
+
+			<!-- FOOTER -->
+			<div id="footerContainer">
+
+				
+		<div class="study-abroad-footer footer">
+			<div class="top-wrapper">
+				<div class="container" style="padding: 30px 15px;">
+					<ul id="givingFooter">
+						<li class="first"><a href="give-now/"><strong>Give Now</strong></a></li>
+						<li><a href="annual-giving/">Annual Giving</a></li>
+						<li><a href="donor-recognition/">Donor Recognition</a></li>
+						<li><a href="ways-to-give/">Ways You Can Give</a></li>
+						<li><a href="special-campaigns/">Special Campaigns</a></li>
+						<li class="last"><a href="momentum/">Momentum</a></li>
+					</ul>
+				</div>
+			</div>
+			<div class="bottom-wrapper">
+				<div class="container">
+					<ul>
+						<li class="highlighted-item">New York University</li>
+						<li>
+							<ul class="detail">
+								<li class="copyright">Unless otherwise noted, all content
+									copyright New York University. All rights reserved.</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</div>
+		<div class="ui-loader ui-corner-all ui-body-a ui-loader-default">
+			<span class="ui-icon-loading"></span>
+			<h1>loading</h1>
+		</div>
+	</div> <!-- END CONTENT1 -->
+			</div>
+
+		<!-- END FOOTER -->
+
+		</div>
+
+	</div> <!-- End content1 -->
+		<script type="text/javascript" src="//www.nyu.edu/giving/assets/js/giving.js"></script>
+	</body>
+</html>

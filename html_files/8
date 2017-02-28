@@ -1,0 +1,318 @@
+<!DOCTYPE html>
+<!--[if lt IE 7]>      <html class="no-js lt-ie9 lt-ie8 lt-ie7" lang=""> <![endif]-->
+<!--[if IE 7]>         <html class="no-js lt-ie9 lt-ie8" lang=""> <![endif]-->
+<!--[if IE 8]>         <html class="no-js lt-ie9" lang=""> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js" lang="">
+    <!--<![endif]-->
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+        <title>MS in Computer Science | NYU Computer Science</title>
+        <meta name="description" content="Explore the Master's in Computer
+				Science Program at the Computer Science Department at New York
+				University's Courant Institute.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="/home/dist/css/bootstrap.min.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+        <link rel="stylesheet" href="/home/css/main.css" type="text/css">
+        <script src="/home/js/vendor/modernizr-2.8.3-respond-1.4.2.min.js" type="text/javascript"></script>
+
+        <!-- favicon -->
+        <link rel="apple-touch-icon" sizes="57x57" href="/home/apple-icon-57x57.png">
+        <link rel="apple-touch-icon" sizes="60x60" href="/home/apple-icon-60x60.png">
+        <link rel="apple-touch-icon" sizes="72x72" href="/home/apple-icon-72x72.png">
+        <link rel="apple-touch-icon" sizes="76x76" href="/home/apple-icon-76x76.png">
+        <link rel="apple-touch-icon" sizes="114x114" href="/home/apple-icon-114x114.png">
+        <link rel="apple-touch-icon" sizes="120x120" href="/home/apple-icon-120x120.png">
+        <link rel="apple-touch-icon" sizes="144x144" href="/home/apple-icon-144x144.png">
+        <link rel="apple-touch-icon" sizes="152x152" href="/home/apple-icon-152x152.png">
+        <link rel="apple-touch-icon" sizes="180x180" href="/home/apple-icon-180x180.png">
+        <link rel="icon" type="image/png" sizes="192x192"  href="/home/android-icon-192x192.png">
+        <link rel="icon" type="image/png" sizes="32x32" href="/home/favicon-32x32.png">
+        <link rel="icon" type="image/png" sizes="96x96" href="/home/favicon-96x96.png">
+        <link rel="icon" type="image/png" sizes="16x16" href="/home/favicon-16x16.png">
+        <link rel="manifest" href="/home/manifest.json">
+        <meta name="msapplication-TileColor" content="#ffffff">
+        <meta name="msapplication-TileImage" content="/home/ms-icon-144x144.png">
+        <meta name="theme-color" content="#ffffff">
+
+        <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js" type="text/javascript"></script>
+        <script src="/home/js/preload.js" type="text/javascript"></script>
+        <script>
+            $(function(){
+                $("#topnav").load("/home/topnav.html", function() { setActiveTopNavByPath(); });
+            });
+            $(function(){
+                $("#sidenav").load("sidenav.html", function() { setActiveSideNavByPath(); });
+            });
+        </script>
+    </head>
+
+<body>
+
+  <div id="topnav"><nav class="navbar navbar-default navbar-nyu">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-nyu-navbar-collapse">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <span class="navbar-brand">
+                <div><span class="bold"><a href="http://www.nyu.edu">NYU</a></span> <span class="sep">|</span> <a href="http://cims.nyu.edu">COURANT</a></div>
+                <div><img src="/home/images/torch.png" /></div>
+		<div><span class="bold large"><a href="/">Computer Science</a></span></div>
+              </span>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-nyu-navbar-collapse">
+              <ul class="nav navbar-nav">
+                <li class="dropdown">
+                  <a href="/home/about/" id="nav-about" role="button" aria-expanded="false">About</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/dynamic/news/">News &amp; Events</a></li>
+                    <li><a href="/home/about/directions.html">Directions</a></li>
+                    <li><a href="/home/about/contacts.html">Contacts</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/home/research/overview.html" id="nav-research" role="button" aria-expanded="false">Research</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/home/research/overview.html">Overview</a></li>
+                    <li><a href="/home/research/centers.html">Centers</a></li>
+                    <li><a href="/dynamic/research/areas/">Areas</a></li>
+                    <li><a href="/dynamic/people/achievements/" >Faculty Achievements</a></li>
+                    <li><a href="/dynamic/reports/" >Theses &amp; Reports</a></li>
+                    <li><a href="/dynamic/news/colloquium/" >Colloquium</a></li>
+                    <li><a href="/home/research/seminars.html" >Seminars</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/home/people/" id="nav-people" role="button" aria-expanded="false">People</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/dynamic/people/faculty/">Faculty</a></li>
+                    <li><a href="/dynamic/people/researchers/">Researchers</a></li>
+                    <li><a href="/dynamic/people/staff/">Administration &amp; Staff</a></li>
+                    <li><a href="/dynamic/people/graduate_students/">Graduate Students</a></li>
+                    <li><a href="/home/people/alumni.html" >Alumni</a></li>
+                    <li><a href="/home/people/in_memoriam.html" >In Memoriam</a></li>
+                    <li>
+                      <a href="https://cims.nyu.edu/webapps/directory/?hide_photos=1" target="_blank">
+                        Courant Directory (login required)&nbsp;&nbsp;<span class="glyphicon glyphicon-new-window" aria-hidden="true"></span>
+                      </a>
+                    </li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/home/undergrad/overview.html" id="nav-undergrad" role="button" aria-expanded="false">Undergraduates</a>
+                  <ul class="dropdown-menu" role="menu">
+                     <li><a href="/home/undergrad/overview.html">Overview</a></li>
+                     <li><a href="/home/undergrad/cs_major.html">CS Major</a></li>
+                     <li><a href="/home/undergrad/minor_programs.html">CS Minor</a></li>
+                     <li class="divider"></li>
+                     <li><a href="/dynamic/calendar/undergraduate/">Calendar</a></li>
+                     <li><a href="/home/undergrad/resources.html">Resources</a></li>
+                     <li><a href="/home/undergrad/achievements.html">Achievements</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/home/master/prospective_overview.html" id="nav-master" role="button" aria-expanded="false">Masters</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/home/master/prospective_overview.html">Prospective Students</a></li>
+                    <li><a href="/home/master/incoming_overview.html">Incoming Students</a></li>
+                    <li><a href="/home/master/current_overview.html">Current Students</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/dynamic/calendar/graduate/">Calendar</a></li>
+                    <li><a href="/home/master/resources.html">Resources</a></li>
+                    <li><a href="/dynamic/achievements/masters/">Achievements</a></li>
+	                 </ul>
+                </li>
+
+                <li class="dropdown">
+                  <a href="/home/phd/" id="nav-phd" role="button" aria-expanded="false">PH.D.</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/home/phd/index.html">Overview</a></li>
+                    <li><a href="/home/phd/admission.html">Admissions</a></li>
+                    <li><a href="/home/phd/degree_requirements.html">Degree Requirements</a></li>
+                    <li class="divider"></li>
+                    <li><a href="/dynamic/calendar/graduate/">Calendar</a></li>
+                    <li><a href="/home/phd/resources.html">Resources</a></li>
+                    <li><a href="/dynamic/achievements/phd/">Achievements</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/home/courses/" id="nav-courses" role="button" aria-expanded="false">Courses</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/dynamic/courses/catalog/">Course Catalog</a></li>
+                    <li><a href="/dynamic/courses/schedule/">Course Schedule</a></li>
+                    <li><a href="/dynamic/courses/exams/">Exam Schedule</a></li>
+                  </ul>
+                </li>
+                <li class="dropdown">
+                  <a href="/home/jobs/" id="nav-jobs" role="button" aria-expanded="false">Jobs</a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="/home/jobs/openings.html">Job Openings</a></li>
+                    <li><a href="/home/jobs/employers.html">Prospective Employers</a></li>
+                  </ul>
+                </li>
+                <li>
+                  <a href="#" class="search"><i class="fa fa-search"></i></a>
+                </li>
+              </ul>
+              <form class="navbar-form" id="searchform" role="search" method=get action="http://google.nyu.edu/search" name="search">
+                <div class="form-group">
+                  <input type="hidden" name="output" value="xml_no_dtd" />
+                  <input type="hidden" name="client" value="NYUWeb_Main" />
+                  <input type="hidden" name="proxyreload" value=" 1" />
+                  <input type="hidden" name="proxystylesheet" value="default_frontend" />
+                  <input type="hidden" name="sitesearch" value="cs.nyu.edu" />
+                  <input type="text" id="q" name="q" class="form-control" placeholder="Search">
+                </div>
+                <button type="submit" name="submit" class="btn btn-default btn-nyu">Submit</button>
+              </form>
+            </div><!-- /.navbar-collapse -->
+          </div><!-- /.container-fluid -->
+        </nav>
+
+
+</div>
+
+  <div id="wrap">
+    <div class="container-fluid undergrad has-sidebar">
+      <div class="row">
+        <!-- Start Sidebar -->
+        <div class="col-sm-2">
+          <div id="sidenav"></div>
+        </div>
+
+        <!-- Start main section -->
+        <div class="col-sm-10">
+          <div class="inner">
+            <h1>Master in Computer Science (MSCS)</h1>
+            <hr class="pink hidden-xs">
+
+              <!-- Start Overview -->
+              <div>
+
+              <h2>MSCS Overview</h2>
+              <p>The Masters in Computer Science (MSCS) program is designed to
+              make you a better thinker, a better programmer and a better system
+              architect. It will also provide you with a good understanding of
+              current technology. Our philosophy is to require you to master
+              foundational topics and then let you specialize in application
+              areas of your interest.  You will gain a broad and deep
+              understanding of many aspects of computer science, choosing among
+              such fields as security and cryptography, graphics, scientific
+              computing, programming languages, databases, networking, and
+              distributed systems, to name a few. This may enable you to become
+              a design lead in a complex multi-faceted project.</p>
+
+              <h2>Requirements in a Nutshell</h2>
+              <p>The MSCS degree is course-based.  Typically, students take
+              approximately 12 graduate-level courses. These courses must include:</p>
+              <ul class="square-bullets">
+                <li><span>Three foundational courses in algorithms, programming
+                  languages and operating systems</span></li>
+                <li><span>Two courses in different designated application areas,
+                  such as graphics and databases.</span></li>
+                <li><span>One course among the capstone courses that provide
+                  substantial programming exercises. </span></li>
+              </ul>
+
+              <p>Apart from taking classes, one must also satisfy minimum GPA
+              requirements. For a detailed description of the various
+              requirements, please refer to the <a
+                href="/home/master/current_mscsreq.html">MSCS requirements</a>
+              page.</p>
+
+              <h2>Sample Courses</h2>
+              <p>Below is a small subset of the classes offered in the MSCS
+              program.  Please refer to <a
+                href="http://cs.nyu.edu/dynamic/courses/catalog/level/GA/">
+                course catalog</a> and <a
+                href="http://cs.nyu.edu/dynamic/courses/schedule/?level=GA">
+                course schedule</a> for the complete list of graduate classes
+              offered.</p>
+
+              <p class="bold heading">Foundational classes</p>
+              <ul class="square-bullets">
+                <li><a href="/dynamic/courses/catalog/#csci-ga1170">CSCI-GA 1170
+                  Fundamental Algorithms</a></li>
+                <li><a href="/dynamic/courses/catalog/#csci-ga2110">CSCI-GA 2110
+                  Programming Languages</a></li>
+                <li><a href="/dynamic/courses/catalog/#csci-ga2250">CSCI-GA 2250
+                  Operating Systems</a></li>
+              </ul>
+
+              <p class="bold heading">Capstone classes</p>
+              <ul class="square-bullets">
+                <li><a href="/dynamic/courses/catalog/#csci-ga2434">CSCI-GA 2434
+                  Advanced Database Systems</a></li>
+                <li><a href="/dynamic/courses/catalog/#csci-ga2130">CSCI-GA 2130
+                  Compiler Construction</a></li>
+                <li><a href="/dynamic/courses/catalog/#csci-ga2440">CSCI-GA 2440
+                  Software Engineering</a></li>
+                <li><span>Other special topics classes</span></li>
+              </ul>
+
+              <p class="bold heading">Other CS classes</p>
+              <ul class="square-bullets">
+                <li><a href="/dynamic/courses/catalog/#csci-ga2620">CSCI-GA 2620
+                  Networks and Distributed Systems</a></li>
+                <li><a href="/dynamic/courses/catalog/#csci-ga3210">CSCI-GA 3210
+                  Introduction to Cryptography</a></li>
+                <li><a href="/dynamic/courses/catalog/#csci-ga3205">CSCI-GA 3205
+                  Applied Cryptography and Network Security</a></li>
+                <li><a href="/dynamic/courses/catalog/#csci-ga2590">CSCI-GA 2590
+                  Natural Language Processing</a></li>
+                <li><a href="/dynamic/courses/catalog/#csci-ga2631">CSCI-GA 2631
+                  Distributed Computing</a></li>
+              </ul>
+
+            </div>
+            <!-- End Overview -->
+
+          </div>
+        </div>
+        <!-- End main section -->
+
+      </div>
+    </div>
+    <!-- /container -->
+
+    <footer>
+      <span class="col-sm-7 col-xs-12">
+        <p>Computer Science Department at New York University<br/>Warren Weaver Hall, Room 305, 251 Mercer Street, New York, NY 10012<br/><a href="/home/about/contacts.html">Contact Us</a></p>
+      </span>
+              <span class="col-sm-5 col-xs-12 text-right">
+                <p class="nyu-links">
+                  <a href="http://cims.nyu.edu/">NYU Courant Institute of Mathematical Sciences</a><br />
+                  <a href="http://gsas.nyu.edu/">NYU Graduate School of Arts &amp; Science</a><br />
+                  <a href="http://cas.nyu.edu/">NYU College of Arts &amp; Science</a>
+                </p>
+              </span>
+    </footer>
+  </div>
+
+        <!-- Scripts -->
+        <script type="text/javascript">window.jQuery || document.write('<script src="/home/js/vendor/jquery-1.11.2.min.js"><\/script>')</script>
+        <script src="/home/js/vendor/bootstrap.min.js" type="text/javascript"></script>
+        <script src="/home/js/main.js" type="text/javascript"></script>
+
+        <!-- Google Analytics -->
+        <script>
+            (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+            (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+            m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+            })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+            ga('create', 'UA-63794280-2', 'auto');
+            ga('send', 'pageview');
+
+        </script>
+    </body>
+</html>

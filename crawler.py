@@ -2,7 +2,9 @@
 #robot code taken from https://docs.python.org/2/library/robotparser.html
 #crawler code taken from http://www.netinstructions.com/how-to-make-a-web-crawler-in-under-50-lines-of-python-code/
 #domain code found on http://stackoverflow.com/questions/14625693/find-http-and-or-www-and-strip-from-domain-leaving-domain-com
+
 from urllib import robotparser
+import urllib.request
 from html.parser import HTMLParser
 from urllib.request import urlopen
 from urllib import parse
@@ -63,10 +65,8 @@ def spider(url, maxPages, domain):
                 print(numberVisited, "Visiting:", url)
                 parser = LinkParser()
                 data, links = parser.getLinks(url)
-                filename = str(len(crawled)) + "html.txt"
-                file_ = open(filename, 'w')
-                file_.write(data)
-                file_.close()
+                print(url)
+                urllib.request.urlretrieve(url, "html_files/" + str(len(crawled)))
                 crawled.append(url)
                 pagesToVisit = pagesToVisit + links
                 print(" **Success!**")
