@@ -36,3 +36,5 @@ def createIndex():
     writer.optimize()
     writer.close()
 
+
+
