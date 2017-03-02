@@ -36,5 +36,9 @@ def createIndex():
     writer.optimize()
     writer.close()
 
+def main():
+    createIndex()
+if __name__ == '__main__':
+    main()
 
 

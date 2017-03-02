@@ -81,8 +81,7 @@ def spider(url, maxPages, domain):
         except:
             print(" **Failed!**")
 def main():
-    spider("https://en.wikipedia.org/wiki/Henry_Kissinger", 10, "wikipedia.org")
+    print("hi")
+    spider("https://en.wikipedia.org/wiki/Jorge_Luis_Borges", 10, "wikipedia.org")
 if __name__ == '__main__':
     main()
-
-
