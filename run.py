@@ -7,9 +7,11 @@ def BuildSearchEngine(url, number, domain):
     # 90 is the timeout in seconds
     try:
         out_1, errs_1 = p1.communicate(timeout=90)
+    
     except subprocess.TimeoutExpired:
         p1.kill()
         out_1, errs_1 = p1.communicate()
+    
     try:
         out_2, errs_2 = p2.communicate(timeout=90)
     except subprocess.TimeoutExpired:

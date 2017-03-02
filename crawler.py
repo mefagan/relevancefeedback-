@@ -5,6 +5,7 @@
 #http://stackoverflow.com/questions/4776924/how-to-safely-get-the-file-extension-from-a-url
 
 import pathlib
+import sys
 from urllib import robotparser
 import urllib.request
 from html.parser import HTMLParser
@@ -81,7 +82,6 @@ def spider(url, maxPages, domain):
         except:
             print(" **Failed!**")
 def main():
-    print("hi")
     spider("https://en.wikipedia.org/wiki/Jorge_Luis_Borges", 10, "wikipedia.org")
 if __name__ == '__main__':
     main()
