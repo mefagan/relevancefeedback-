@@ -2,7 +2,9 @@
 #robot code taken from https://docs.python.org/2/library/robotparser.html
 #crawler code taken from http://www.netinstructions.com/how-to-make-a-web-crawler-in-under-50-lines-of-python-code/
 #domain code found on http://stackoverflow.com/questions/14625693/find-http-and-or-www-and-strip-from-domain-leaving-domain-com
+#http://stackoverflow.com/questions/4776924/how-to-safely-get-the-file-extension-from-a-url
 
+import pathlib
 from urllib import robotparser
 import urllib.request
 from html.parser import HTMLParser
@@ -25,9 +27,8 @@ class LinkParser(HTMLParser):
     def getLinks(self, url):
         self.links = []
         self.baseUrl = url
-        response = urlopen(url) 
-	
-        if response.getheader('Content-Type')=='text/html':
+        response = urlopen(url)
+        if response.getheader('Content-Type')=='text/html' or response.getheader('Content-Type')=='text/htm' or response.getheader('Content-Type')=='text/html; charset=UTF-8' or response.getheader('Content-Type')=='text/htm; charset=UTF-8':
             htmlBytes = response.read()
             htmlString = htmlBytes.decode("utf-8")
             self.feed(htmlString)
@@ -65,6 +66,7 @@ def spider(url, maxPages, domain):
                 print(numberVisited, "Visiting:", url)
                 parser = LinkParser()
                 data, links = parser.getLinks(url)
+                urllib.request.urlcleanup()
                 urllib.request.urlretrieve(url, "html_files/" + str(len(crawled)))
                 crawled.append(url)
                 pagesToVisit = pagesToVisit + links
@@ -79,7 +81,7 @@ def spider(url, maxPages, domain):
         except:
             print(" **Failed!**")
 def main():
-    spider("https://cims.nyu.edu/", 10, "nyu.edu")
+    spider("https://en.wikipedia.org/wiki/Jorge_Luis_Borges_bibliography", 10, "wikipedia.org")
 if __name__ == '__main__':
     main()
 

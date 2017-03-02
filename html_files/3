@@ -1,1061 +1,358 @@
-
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Home | Department of Mathematics | NYU Courant</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
-
-        <!-- Custom styles for this template -->
-				<link href="/static/math/main.css?20170228" rel="stylesheet">
-        <link href="/static/math/sidebar.css" rel="stylesheet">
-
-        <!-- Custom styles for carousel -->
-        <link href="/static/math/carousel.css" rel="stylesheet">
-
-
-        
-
-    </head>
-    <body>
-      
-
-      <div id="main-container" class="container">
-
-        <div id="header" class="hidden-xs" style="position:relative;">
-          <a href="/dynamic/">
-            <img id="header-img" src="/static/math/images/math-django-header.png" alt="NYU Courant Department of Mathematics">
-            
-          </a>
-          
-        </div>
-
-        <nav class="navbar navbar-default navbar-custom">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="hidden-sm hidden-md hidden-lg" href="/">
-                <img class="navbar-brand navbar-brand-custom" src="/static/math/images/math-django-header-xs.png" alt="NYU Courant Department of Mathematics">
-              </a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                
-
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                People
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/faculty/"><span>Faculty</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/postdocs/"><span>Postdocs</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/visitors/"><span>Visitors</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/staff/"><span>Staff</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/phd-students/"><span>Ph.D. Students</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/phd-alumni/"><span>Ph.D. Alumni</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/leadership/"><span>Departmental Leadership</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Research
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/research/research-areas/"><span>Research Areas</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/research/research-centers-labs/"><span>Research Centers &amp; Labs</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/research/postdoctoral-and-visitor-programs/"><span>Postdoctoral and Visitor Programs</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/research/faculty-recognition/"><span>Faculty Recognition</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Courses
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/course-schedules/"><span>Course Schedules</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/graduate-course-descriptions/"><span>Graduate Course Descriptions</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/undergraduate-course-descriptions/"><span>Undergraduate Course Descriptions</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/undergraduate-exam-schedules/"><span>Undergraduate Exam Schedules</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/office-hours/"><span>Office Hours</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                PhD
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/overview/"><span>Overview</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/admissions-financial-support/"><span>Admissions &amp; Financial Support</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/phd-mathematics/"><span>Ph.D. in Mathematics</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/phd-atmosphere-ocean-science/"><span>Ph.D. in Atmosphere Ocean Science</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/awards/"><span>Awards</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Master&#39;s
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/overview/"><span>Overview</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/admission/"><span>Admissions</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/ms-mathematics/"><span>M.S. in Mathematics</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/ms-scientific-computing/"><span>M.S. in Scientific Computing</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/ms-mathematics-finance/"><span>M.S. in Mathematics in Finance</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/non-degree-study/"><span>Non-Degree Study</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Undergrad
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/overview/"><span>Overview</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/majors-minors/"><span>Majors &amp; Minors</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/advisement/"><span>Advisement</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/transfer-students/"><span>Transfer Students</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/activities-research/"><span>Activities &amp; Research</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/calculus-information/"><span>Calculus Information</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/placement-exams/"><span>Placement Exams</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/enrollment-graduate-courses/"><span>Enrollment in Graduate Courses</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/tutoring/"><span>Tutoring</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/study-abroad-opportunities/"><span>Study Abroad</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/undergraduate-awards/"><span>Awards</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/alumni/"><span>Alumni</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Resources
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/resources/courant-resources/"><span>Courant Resources</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/resources/graduate-student-resource-pages/"><span>Graduate Student Resource Pages</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/resources/courant-library/"><span>Courant Library</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/resources/courant-computing-technology/"><span>Courant Computing &amp; Technology</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Calendars
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/calendars/seminars/"><span>Seminars</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/calendars/events/"><span>Events</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/calendars/courant-classroom-calendar-reservations/"><span>Courant Classroom Calendar &amp; Reservations</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/calendars/nyu-academic-calendar/"><span>NYU Academic Calendar</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                About
-            </a>
-						<ul class="dropdown-menu pull-right">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/math-courant/"><span>Math @ Courant</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/contact-us/"><span>Contact Us</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/job-openings/"><span>Employment</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/directions/"><span>Directions</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/outreach/"><span>Outreach</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-        </nav>
-
-        <div class="content">
-          
-            
-
-  <div id="wrap"> 
-    <div class="row">
-      <div class="col-md-6">
-        <!-- Carousel -->
-<div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel">
-  <!-- Indicators -->
-  <!--
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-  </ol>
-  -->
-  <div class="carousel-inner" role="listbox">
-    
-    <div class="item active">
-      <div class="img-container" style="background: url(/media/math/carousel_photos/greengard-leslie-2016.jpg) no-repeat center center; background-size: auto 100%;"></div>
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Leslie Greengard Elected to American Academy of Arts &amp; Sciences</h1>
-        </div>
-      </div>
-    </div>
-    
-    <div class="item ">
-      <div class="img-container" style="background: url(/media/math/carousel_photos/nirenberg_louis_2015.jpg) no-repeat center center; background-size: auto 100%;"></div>
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Louis Nirenberg awarded the 2015 Abel Prize</h1>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>File:Jorge Luis Borges.jpg - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"File","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":6,"wgPageName":"File:Jorge_Luis_Borges.jpg","wgTitle":"Jorge Luis Borges.jpg","wgCurRevisionId":0,"wgRevisionId":0,"wgArticleId":0,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"File:Jorge_Luis_Borges.jpg","wgRelevantArticleId":0,"wgRequestId":"WLWxDQpAME0AAIN5IIwAAAAE","wgIsProbablyEditable":false,"wgRestrictionCreate":[],"wgRestrictionUpload":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","filepage":"ready","mediawiki.action.view.filepage":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.action.view.filepage%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<link rel="stylesheet" href="https://commons.wikimedia.org/w/index.php?title=MediaWiki:Filepage.css&amp;action=raw&amp;maxage=1209600&amp;usemsgcache=yes&amp;ctype=text%2Fcss&amp;smaxage=1209600"/>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.29.0-wmf.13"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="alternate" type="application/atom+xml" title="Wikipedia Atom feed" href="/w/index.php?title=Special:RecentChanges&amp;feed=atom"/>
+<link rel="canonical" href="https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges.jpg"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-6 ns-subject page-File_Jorge_Luis_Borges_jpg rootpage-File_Jorge_Luis_Borges_jpg skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+<div id="mw-indicator-commons-icon" class="mw-indicator"><a href="https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges.jpg" title="This is a file from the Wikimedia Commons"><img alt="This is a file from the Wikimedia Commons" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/15px-Commons-logo.svg.png" width="15" height="20" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/22px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></div>
 </div>
-<!-- End Carousel -->
-
-<h2>News &amp; Announcements</h2>
+			<h1 id="firstHeading" class="firstHeading" lang="en">File:Jorge Luis Borges.jpg</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text"><ul id="filetoc"><li><a href="#file">File</a></li>
+<li><a href="#filehistory">File history</a></li>
+<li><a href="#filelinks">File usage</a></li>
+<li><a href="#globalusage">Global file usage</a></li></ul><div class="fullImageLink" id="file"><a href="//upload.wikimedia.org/wikipedia/commons/c/c6/Jorge_Luis_Borges.jpg"><img alt="File:Jorge Luis Borges.jpg" src="//upload.wikimedia.org/wikipedia/commons/c/c6/Jorge_Luis_Borges.jpg" width="292" height="500" data-file-width="292" data-file-height="500" /></a><div class="mw-filepage-resolutioninfo">No higher resolution available.</div></div>
+<div class="fullMedia"><a href="//upload.wikimedia.org/wikipedia/commons/c/c6/Jorge_Luis_Borges.jpg" class="internal" title="Jorge Luis Borges.jpg">Jorge_Luis_Borges.jpg</a> &#8206;<span class="fileInfo">(292 × 500 pixels, file size: 13 KB, MIME type: <span class="mime-type">image/jpeg</span>)</span>
+</div>
+<div class="sharedUploadNotice">
+<table id="mw-sharedupload" class="plainlinks fmbox fmbox-system" role="presentation"><tr><td class="mbox-image"><a href="/wiki/File:Commons-logo.svg" class="image" title="Wikimedia Commons logo"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></td><td class="mbox-text" style="text-align: center;">This is a file from the <a href="https://commons.wikimedia.org/wiki/Main_Page" class="extiw" title="commons:Main Page">Wikimedia Commons</a>. Information from its <b><a href="https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges.jpg" class="extiw" title="commons:File:Jorge Luis Borges.jpg">description page there</a></b> is shown below.<br/><span style="font-size: smaller;">Commons is a freely licensed media file repository. <a href="https://commons.wikimedia.org/wiki/Commons:Welcome" class="extiw" title="commons:Commons:Welcome">You can help</a>.</span></td></tr></table>
+</div>
+<div id="shared-image-desc"><div class="hproduct commons-file-information-table">
+<table class="fileinfotpl-type-information toccolours vevent mw-content-ltr" style="width: 100%; direction: ltr;" cellpadding="4">
+<tr style="vertical-align: top">
+<td class="fileinfo-paramfield" lang="en">Description<span class="summary fn" style="display:none">Jorge Luis Borges.jpg</span></td>
+<td class="description">
+<div class="boilerplate metadata" id="cleanup" style="text-align: center; background: #ffe; margin: .75em 15%; padding: .5em; border: 1px solid #e3e3b0; direction: ltr;" lang="en">This file has no <b>description</b>, and may be lacking other information.
+<p>Please provide a meaningful description of this file.</p>
+</div>
+</td>
+</tr>
+<tr style="vertical-align: top">
+<td id="fileinfotpl_date" class="fileinfo-paramfield" lang="en">Date</td>
+<td lang="en"><span style="white-space:nowrap"><time class="dtstart" datetime="1967">1967</time></span></td>
+</tr>
+<tr style="vertical-align: top">
+<td class="fileinfo-paramfield" lang="en">Source</td>
+<td>
+<div class="boilerplate metadata" id="cleanup" style="text-align: center; background: #ffe; margin: .75em 15%; padding: .5em; border: 1px solid #e3e3b0; direction: ltr;" lang="en">This file is lacking <b>source</b> information.
+<p>Please edit this file's description and provide a source.</p>
+</div>
+</td>
+</tr>
+<tr style="vertical-align: top">
+<td class="fileinfo-paramfield" lang="en">Author</td>
+<td>
+<div class="boilerplate metadata" id="cleanup" lang="en" style="text-align: center; background: #ffe; margin: .75em 15%; padding: .5em; border: 1px solid #e3e3b0; direction: ltr;">This file is lacking <b>author</b> information.</div>
+</td>
+</tr>
+</table>
+</div>
+<p><a rel="nofollow" class="external free" href="http://www.annemarieheinrich.com/sitio/galeria.php?id=4">http://www.annemarieheinrich.com/sitio/galeria.php?id=4</a></p>
+<p><br /></p>
+<h2><span class="mw-headline" id="Licensing">Licensing</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="//commons.wikimedia.org/w/index.php?title=File:Jorge_Luis_Borges.jpg&amp;action=edit&amp;section=1" title="Edit section: Licensing">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table class="licensetpl" style="display:none">
+<tr>
+<td><span class="licensetpl_short">Public domain</span><span class="licensetpl_long">Public domain</span><span class="licensetpl_link_req">false</span><span class="licensetpl_attr_req">false</span></td>
+</tr>
+</table>
+<table style="width:100%; clear:both; margin:0.5em auto; background-color:#f7f8ff; border:2px solid #8888aa; direction: ltr; border-spacing: 8px; padding: 0px;" class="layouttemplate mw-content-ltr" lang="en">
+<tr>
+<td><img alt="Public domain" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/64px-PD-icon.svg.png" title="Public domain" width="64" height="64" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/96px-PD-icon.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/62/PD-icon.svg/128px-PD-icon.svg.png 2x" data-file-width="196" data-file-height="196" /></td>
+<td>This image is in the <b><a href="https://en.wikipedia.org/wiki/public_domain" class="extiw" title="w:public domain">public domain</a></b> because the copyright of this photograph, registered in <a href="//commons.wikimedia.org/wiki/Argentina" title="Argentina">Argentina</a>, has expired. <small><i>(Both at least 25 years have passed after the photograph was created, and it was first published at least 20 years ago, <a rel="nofollow" class="external text" href="http://infoleg.mecon.gov.ar/infolegInternet/anexos/40000-44999/42755/texact.htm">Law 11.723, Article 34</a> as amended, and <a rel="nofollow" class="external text" href="http://www.wipo.int/treaties/en/ip/berne/trtdocs_wo001.html#P127_22000">Berne Convention Article 7 (4)</a>).</i><br /></small>
+<p><small><b>Use this template exclusively for photos and NOT for drawings or other pieces of art.</b><br /></small> <img alt="Dialog-warning.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/20px-Dialog-warning.svg.png" width="20" height="20" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/30px-Dialog-warning.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/6/6e/Dialog-warning.svg/40px-Dialog-warning.svg.png 2x" data-file-width="48" data-file-height="48" /> <small>Warning: date and source of any publication prior to 20 year old must be indicated so anyone can check it, and clear evidence that the image was taken more than 25 years ago must be given.</small></p>
 <hr />
-
-  <ul class="news">
-    
-    <li>
-      <div class="news-headline">
-				<!-- <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> -->
-        Eyal Lubetzky receives the AMS Centennial Fellowship
-      </div>
-      
-        
-          <p>Eyal Lubetzky is the recipient of the prestigious AMS Centennial Fellowship for the 2016-17 academic year. The fellowship is awarded to outstanding young mathematicians for excellence in research achievement. Click <a href="http://www.ams.org/news?news_id=3082">here</a> for further information from the AMS. Congratulations, Eyal!</p>
-
-        
-      
-    </li>
-    
-    <li>
-      <div class="news-headline">
-				<!-- <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> -->
-        Eyal Lubetzky Elected as a Fellow of the Institute of Mathematical Statistics
-      </div>
-      
-        
-          <p>Eyal Lubetzky has been elected a Fellow of the Institute of Mathematical Statistics. Fellowships are awarded to IMS members in honor of their outstanding research and professional contributions in the fields of statistics and probability. <a href="/dynamic/news/2/">Read More</a></p>
-
-        
-      
-    </li>
-    
-    <li>
-      <div class="news-headline">
-				<!-- <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> -->
-        Leslie Greengard Elected to American Academy of Arts &amp; Sciences
-      </div>
-      
-        
-          <p>Leslie Greengard has been elected a member of the American Academy of Arts &amp; Sciences. Warm congratulations to you, Leslie!</p>
-
-<p>More information can be found in the <a href="https://www.nyu.edu/about/news-publications/news/2016/04/20/american-academy-of-arts-and-sciences-elects-five-nyu-faculty-as-2016-fellows.html" title="American Academy of Arts and Sciences Elects Five NYU Faculty as 2016 Fellows">NYU press release</a> and the <a href="http://www.amacad.org/content/members/newFellows.aspx?s=a" title="2016 Fellows">announcement</a> from the American Academy.</p>
-
-        
-      
-    </li>
-    
-  </ul>
-
-<p>
-  <a href="/dynamic/news/" class="btn btn-math btn-sm">More News</a>
-</p>
-
-      </div>
-      <div class="col-md-6">
-        <h2>Upcoming Events</h2>
+<p><span style="font-size:x-small;line-height:140%" class="plainlinks noprint"><a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/de">Deutsch</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/en">English</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/es">español</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/fr">français</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/it">italiano</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/mk">македонски</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/ml">മലയാളം</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/pt">português</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/pt-br">português do Brasil</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:PD-AR-Photo/ru">русский</a>&#160;| <small class="plainlinks"><a class="external text" href="//commons.wikimedia.org/w/index.php?title=Template:PD-AR-Photo/lang&amp;action=edit">+/−</a></small></span></p>
+</td>
+<td><img alt="Flag of Argentina.svg" src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/70px-Flag_of_Argentina.svg.png" width="70" height="44" class="thumbborder" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/105px-Flag_of_Argentina.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Flag_of_Argentina.svg/140px-Flag_of_Argentina.svg.png 2x" data-file-width="800" data-file-height="500" /></td>
+</tr>
+</table>
+<table cellspacing="8" cellpadding="0" style="width:100%; clear:both; margin:0.5em auto; background-color:#f7f8ff; border:2px solid #8888aa;" lang="en" dir="ltr" class="layouttemplate restrictiontemplate mw-content-ltr">
+<tr>
+<td><img alt="Copyrighted in the U.S." src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Red_copyright.svg/64px-Red_copyright.svg.png" title="Copyrighted in the U.S." width="64" height="64" srcset="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Red_copyright.svg/96px-Red_copyright.svg.png 1.5x, https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Red_copyright.svg/128px-Red_copyright.svg.png 2x" data-file-width="197" data-file-height="197" /></td>
+<td><i>This work is <b>not</b> in the <a href="https://en.wikipedia.org/wiki/public_domain" class="extiw" title="w:public domain">public domain</a> <b>in the United States</b> because its copyright in the U.S. was restored by the <a href="https://en.wikipedia.org/wiki/URAA" class="extiw" title="en:URAA">URAA</a> as it was still copyrighted in its source country on the URAA date (January&#160;1&#160;1996 in most cases but see <a href="https://en.wikipedia.org/wiki/Wikipedia:Non-U.S._copyrights" class="extiw" title="w:Wikipedia:Non-U.S. copyrights">Wikipedia:Non-U.S. copyrights</a> for details). In most cases, it is <b>copyrighted in the U.S.</b> until <b>95 years</b> after the year in which it was initially published (exceptions are works published after 1977; see <a href="//commons.wikimedia.org/wiki/Commons:Hirtle_chart" title="Commons:Hirtle chart">Commons:Hirtle chart</a>).</i>
+<p><b>Images whose copyright was restored in the U.S. by the URAA are no longer accepted at Wikimedia Commons.</b> New files should not be uploaded with this tag, or they will be deleted. A <a href="//commons.wikimedia.org/wiki/Commons:WikiProject_Public_Domain/URAA_review" title="Commons:WikiProject Public Domain/URAA review">review of files is currently underway</a> to verify that this template has been applied correctly to existing files. Files that are copyrighted in the US and that have not been released under a free license will be deleted. If you are the copyright holder of this file, and do not wish to have it hosted on Commons, please contact our <a href="https://wikimediafoundation.org/wiki/Designated_agent" class="extiw" title="wmf:Designated agent">designated agent</a> or <a href="//commons.wikimedia.org/wiki/Commons:Deletion_requests" title="Commons:Deletion requests">nominate the file for deletion</a>, explaining the situation.</p>
 <hr />
+<p><span style="font-size:x-small;line-height:140%" class="plainlinks noprint"><a class="external text" href="//commons.wikimedia.org/wiki/Template:Not-PD-US-URAA/en">English</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:Not-PD-US-URAA/es">español</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:Not-PD-US-URAA/it">italiano</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:Not-PD-US-URAA/ja">日本語</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:Not-PD-US-URAA/ml">മലയാളം</a>&#160;| <a class="external text" href="//commons.wikimedia.org/wiki/Template:Not-PD-US-URAA/sl">slovenščina</a>&#160;| <small class="plainlinks"><a class="external text" href="//commons.wikimedia.org/w/index.php?title=Template:Not-PD-US-URAA/lang&amp;action=edit">+/−</a></small></span></p>
+</td>
+</tr>
+</table>
 
-  
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Tuesday, February 28, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/257/">Langmuir wave filamentation in the kinetic regime and multidimensional Vlasov simulations</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Magneto-Fluid Dynamics Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Denis Silantyev, University of New Mexico</span><br/>
-      <span class="event-location">
-        
-          11AM,
-        
-        
-          Warren Weaver Hall 905
-        
-      </span>
-    </li>
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/177/">Ciliated tissue creates microfluidic habitats with distinct filtering and mixing properties</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Biomathematics/Computational Biology Colloquium
-        </span><br/>
-      
-      
-			<span class="event-speaker">Eva Kanso, University of Southern California</span><br/>
-      <span class="event-location">
-        
-          12:30PM,
-        
-        
-          Warren Weaver Hall 1314
-        
-      </span>
-    </li>
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/212/">Topological Drawings of Complete Bipartite Graphs.</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Geometry Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker"> Jean Cardinal, Université Libre de Bruxelles.</span><br/>
-      <span class="event-location">
-        
-          6PM,
-        
-        
-          Warren Weaver Hall 1314
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Wednesday, March 1, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/197/">Simple Stochastic Dynamical Models Capturing the Statistical Diversity of El Nino Southern Oscillation</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Atmosphere Ocean Science Colloquium
-        </span><br/>
-      
-      
-			<span class="event-speaker">Nan CHEN, Courant</span><br/>
-      <span class="event-location">
-        
-          3:30PM,
-        
-        
-          Warren Weaver Hall 1302
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Thursday, March 2, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/267/">Boundary Layers in Periodic Homogenization of Neumann Problems</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Analysis Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Zhongwei Shen, Univ. Kentucky</span><br/>
-      <span class="event-location">
-        
-          11AM,
-        
-        
-          Warren Weaver Hall 1302
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Friday, March 3, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/206/"> Anisotropic Multiscale Systems on Bounded Domains (with Applications to Efficient Solvers for PDEs)</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Numerical Analysis And Scientific Computing Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Gitta Kutyniok, TU-Berlin</span><br/>
-      <span class="event-location">
-        
-          10AM,
-        
-        
-          Warren Weaver Hall 1302
-        
-      </span>
-    </li>
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/183/">Optimal wall-to-wall transport by incompressible flows</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Applied Mathematics Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Ian Tobasco, University of Michigan</span><br/>
-      <span class="event-location">
-        
-          2:30PM,
-        
-        
-          Warren Weaver Hall 1302
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Tuesday, March 7, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/178/">Effects of mechano-electric feedback of the cardiac bioelectrical activity: a simulation study</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Biomathematics/Computational Biology Colloquium
-        </span><br/>
-      
-      
-			<span class="event-speaker">Simone Scacchi</span><br/>
-      <span class="event-location">
-        
-          12:30PM,
-        
-        
-          Warren Weaver Hall 1314
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
 
-<p>
-  <a href="/dynamic/calendars/events/" class="btn btn-math btn-sm">All Events</a>
+<!-- 
+NewPP limit report
+Parsed by mw1272
+Cached time: 20170227225222
+Cache expiry: 86400
+Dynamic content: true
+CPU time usage: 0.072 seconds
+Real time usage: 0.096 seconds
+Preprocessor visited node count: 724/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 20785/2097152 bytes
+Template argument size: 1152/2097152 bytes
+Highest expansion depth: 10/40
+Expensive parser function count: 1/500
+Lua time usage: 0.020/10.000 seconds
+Lua memory usage: 841 KB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%   81.323      1 -total
+ 68.52%   55.721      1 Template:Information
+ 29.09%   23.655      1 Template:ISOdate
+ 23.30%   18.945      1 Template:PD-AR-Photo
+ 21.83%   17.752      1 Template:Autotranslate
+ 11.24%    9.140      1 Template:Years_since
+  9.52%    7.746      1 Template:PD-AR-Photo/layout
+  7.76%    6.311      1 Template:Not-PD-US-URAA
+  5.83%    4.745      1 Template:IfNum
+  5.80%    4.714      9 Template:Dir
+-->
+
+<!-- Saved in parser cache with key commonswiki:pcache:idhash:23152328-1!*!0!*!en!4!* and timestamp 20170227225222 and revision id 208575605
+ -->
+</div>
+<h2 id="filehistory">File history</h2>
+<div id="mw-imagepage-section-filehistory">
+<p>Click on a date/time to view the file as it appeared at that time.
 </p>
+<table class="wikitable filehistory">
+<tr><th></th><th>Date/Time</th><th>Thumbnail</th><th>Dimensions</th><th>User</th><th>Comment</th></tr>
+<tr><td>current</td><td class='filehistory-selected' style='white-space: nowrap;'><a href="//upload.wikimedia.org/wikipedia/commons/c/c6/Jorge_Luis_Borges.jpg">06:35, 12 December 2012</a></td><td><a href="//upload.wikimedia.org/wikipedia/commons/c/c6/Jorge_Luis_Borges.jpg"><img alt="Thumbnail for version as of 06:35, 12 December 2012" src="//upload.wikimedia.org/wikipedia/commons/thumb/c/c6/Jorge_Luis_Borges.jpg/70px-Jorge_Luis_Borges.jpg" width="70" height="120" data-file-width="292" data-file-height="500" /></a></td><td>292 × 500 <span style="white-space: nowrap;">(13 KB)</span></td><td>Bleff</td><td dir="ltr">Higher resolution</td></tr>
+<tr><td></td><td  style='white-space: nowrap;'><a href="//upload.wikimedia.org/wikipedia/commons/archive/c/c6/20121212063508%21Jorge_Luis_Borges.jpg">06:34, 12 December 2012</a></td><td><a href="//upload.wikimedia.org/wikipedia/commons/archive/c/c6/20121212063508%21Jorge_Luis_Borges.jpg"><img alt="Thumbnail for version as of 06:34, 12 December 2012" src="//upload.wikimedia.org/wikipedia/commons/thumb/archive/c/c6/20121212063508%21Jorge_Luis_Borges.jpg/70px-Jorge_Luis_Borges.jpg" width="70" height="120" data-file-width="160" data-file-height="273" /></a></td><td>160 × 273 <span style="white-space: nowrap;">(7 KB)</span></td><td>Bleff</td><td dir="ltr">{{Information |Description=Fotografía blanco y negro sobre papel fotográfico brillante. Retrato en primer plano de Jorge Luis Borges de medio cuerpo, tres cuartos perfil derecho y con ambas manos sobre el mango del bastón. Viste traje y corbata. |So...</td></tr>
+</table>
 
-      </div>
-    </div>
-  </div>
+</div>
+<h2 id="filelinks">File usage</h2>
+<div id='mw-imagepage-section-linkstoimage'>
+<div class="linkstoimage" id="linkstoimage">The following pages on the English Wikipedia link to this file (pages on other projects are not listed):</div>
+<ul class="mw-imagepage-linkstoimage">
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/Buenos_Aires" title="Buenos Aires">Buenos Aires</a></li>
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/Jorge_Luis_Borges" title="Jorge Luis Borges">Jorge Luis Borges</a></li>
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/Jorge_Luis_Borges_and_mathematics" title="Jorge Luis Borges and mathematics">Jorge Luis Borges and mathematics</a></li>
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/Jorge_Luis_Borges_bibliography" title="Jorge Luis Borges bibliography">Jorge Luis Borges bibliography</a></li>
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/The_Aleph_(short_story)" title="The Aleph (short story)">The Aleph (short story)</a></li>
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/The_Approach_to_Al-Mu%27tasim" title="The Approach to Al-Mu'tasim">The Approach to Al-Mu&#039;tasim</a></li>
+<li class="mw-imagepage-linkstoimage-ns0"><a href="/wiki/The_Library_of_Babel" title="The Library of Babel">The Library of Babel</a></li>
+</ul>
+</div>
+<h2 id="globalusage">Global file usage</h2>
+<div id="mw-imagepage-section-globalusage"><p>The following other wikis use this file:
+</p><ul>
+<li class='mw-gu-onwiki-af_wikipedia_org'>Usage on af.wikipedia.org
+<ul>	<li><a class="external" href="//af.wikipedia.org/wiki/Jorge_Luis_Borges">Jorge Luis Borges</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-be_wikipedia_org'>Usage on be.wikipedia.org
+<ul>	<li><a class="external" href="//be.wikipedia.org/wiki/%D0%90%D1%80%D0%B3%D0%B5%D0%BD%D1%86%D1%96%D0%BD%D1%86%D1%8B">Аргенцінцы</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-cs_wikipedia_org'>Usage on cs.wikipedia.org
+<ul>	<li><a class="external" href="//cs.wikipedia.org/wiki/Jorge_Luis_Borges">Jorge Luis Borges</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-en_wikiquote_org'>Usage on en.wikiquote.org
+<ul>	<li><a class="external" href="//en.wikiquote.org/wiki/Wikiquote:Quote_of_the_day/August_2013">Wikiquote:Quote of the day/August 2013</a></li>
+	<li><a class="external" href="//en.wikiquote.org/wiki/Wikiquote:Quote_of_the_day/August_24,_2013">Wikiquote:Quote of the day/August 24, 2013</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-es_wikipedia_org'>Usage on es.wikipedia.org
+<ul>	<li><a class="external" href="//es.wikipedia.org/wiki/La_biblioteca_de_Babel">La biblioteca de Babel</a></li>
+	<li><a class="external" href="//es.wikipedia.org/wiki/El_Aleph_(cuento)">El Aleph (cuento)</a></li>
+	<li><a class="external" href="//es.wikipedia.org/wiki/El_jard%C3%ADn_de_senderos_que_se_bifurcan">El jardín de senderos que se bifurcan</a></li>
+	<li><a class="external" href="//es.wikipedia.org/wiki/Anexo:Bibliograf%C3%ADa_de_Jorge_Luis_Borges">Anexo:Bibliografía de Jorge Luis Borges</a></li>
+	<li><a class="external" href="//es.wikipedia.org/wiki/La_doctrina_de_los_ciclos">La doctrina de los ciclos</a></li>
+	<li><a class="external" href="//es.wikipedia.org/wiki/Borges_y_la_matem%C3%A1tica">Borges y la matemática</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-fi_wikipedia_org'>Usage on fi.wikipedia.org
+<ul>	<li><a class="external" href="//fi.wikipedia.org/wiki/Buenos_Aires">Buenos Aires</a></li>
+</ul></li>
+<li class='mw-gu-onwiki-it_wikipedia_org'>Usage on it.wikipedia.org
+<ul>	<li><a class="external" href="//it.wikipedia.org/wiki/La_biblioteca_di_Babele">La biblioteca di Babele</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Il_giardino_dei_sentieri_che_si_biforcano">Il giardino dei sentieri che si biforcano</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Finzioni">Finzioni</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Tl%C3%B6n,_Uqbar,_Orbis_Tertius">Tlön, Uqbar, Orbis Tertius</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/L%27Aleph">L'Aleph</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/The_unending_rose">The unending rose</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/L%27artefice">L'artefice</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Tre_versioni_di_Giuda">Tre versioni di Giuda</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Storia_universale_dell%27infamia">Storia universale dell'infamia</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Brume,_dei,_eroi">Brume, dei, eroi</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/L%27altro,_lo_stesso">L'altro, lo stesso</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Manuale_di_zoologia_fantastica">Manuale di zoologia fantastica</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Il_manoscritto_di_Brodie">Il manoscritto di Brodie</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Il_libro_di_sabbia">Il libro di sabbia</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/I_congiurati">I congiurati</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Venticinque_agosto_1983_e_altri_racconti_inediti">Venticinque agosto 1983 e altri racconti inediti</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Fervore_di_Buenos_Aires">Fervore di Buenos Aires</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Luna_di_fronte">Luna di fronte</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Quaderno_San_Mart%C3%ADn">Quaderno San Martín</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Elogio_dell%27Ombra">Elogio dell'Ombra</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/L%27oro_delle_tigri">L'oro delle tigri</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/La_rosa_profonda">La rosa profonda</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/La_moneta_di_ferro">La moneta di ferro</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Inquisizioni">Inquisizioni</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Evaristo_Carriego_(saggio)">Evaristo Carriego (saggio)</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Storia_dell%27eternit%C3%A0">Storia dell'eternità</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Altre_inquisizioni">Altre inquisizioni</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Testi_prigionieri">Testi prigionieri</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Cos%27%C3%A8_il_buddismo">Cos'è il buddismo</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Nove_saggi_danteschi">Nove saggi danteschi</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/L%27invenzione_della_poesia._Le_lezioni_americane">L'invenzione della poesia. Le lezioni americane</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Prologhi._Con_un_prologo_ai_prologhi">Prologhi. Con un prologo ai prologhi</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Nuovi_racconti_di_Bustos_Domecq">Nuovi racconti di Bustos Domecq</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Il_libro_del_cielo_e_dell%27inferno">Il libro del cielo e dell'inferno</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Cronache_di_Bustos_Domecq">Cronache di Bustos Domecq</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Un_modello_per_la_morte">Un modello per la morte</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Due_fantasie_memorabili">Due fantasie memorabili</a></li>
+	<li><a class="external" href="//it.wikipedia.org/wiki/Sei_problemi_per_don_Isidro_Parodi">Sei problemi per don Isidro Parodi</a></li>
+</ul></li>
+</ul>
+<p>View <a href="/wiki/Special:GlobalUsage/Jorge_Luis_Borges.jpg" title="Special:GlobalUsage/Jorge Luis Borges.jpg">more global usage</a> of this file.
+</p></div><noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/wiki/File:Jorge_Luis_Borges.jpg">https://en.wikipedia.org/wiki/File:Jorge_Luis_Borges.jpg</a>"					</div>
+				<div id="catlinks" class="catlinks catlinks-allhidden" data-mw="interface"></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
 
-          
-        </div>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=File%3AJorge+Luis+Borges.jpg" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=File%3AJorge+Luis+Borges.jpg" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-image" class="selected"><span><a href="/wiki/File:Jorge_Luis_Borges.jpg"  title="View the file page [c]" accesskey="c">File</a></span></li>
+															<li  id="ca-talk" class="new"><span><a href="/w/index.php?title=File_talk:Jorge_Luis_Borges.jpg&amp;action=edit&amp;redlink=1"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
 
-        <footer class="footer">
-          <a title="Courant Institute of Mathematical Sciences"
-            href="http://cims.nyu.edu/">
-            <img src="/static/math/images/courant_short_black_301x40.png" style="height: 2em; display: block; margin-left: auto; margin-right: auto;"
-              alt="NYU Courant">
-          </a>
-          <ul class="school-links list-inline">
-            <li><a title="New York University" href="http://www.nyu.edu/">New York University</a></li>
-            <li><a title="NYU Arts &amp; Science"  href="http://as.nyu.edu/">Arts &amp; Science</a></li>
-            <li><a title="NYU College of Arts &amp; Science" href="http://cas.nyu.edu/">College of Arts &amp; Science</a></li>
-            <li><a title="NYU Graduate School of Arts &amp; Science" href="http://gsas.nyu.edu/">Graduate School of Arts &amp; Science</a></li>
-            
-          </ul>
-          <p style="text-align: center; clear: both;">&copy; New York University</p>
-        </footer>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/File:Jorge_Luis_Borges.jpg" >Read</a></span></li>
+															<li id="ca-view-foreign" class="collapsible"><span><a href="https://commons.wikimedia.org/wiki/File:Jorge_Luis_Borges.jpg" >View on Commons</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
 
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
 
-      </div> <!-- end main container -->
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
 
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
 
-        ga('create', 'UA-63794280-4', 'auto');
-        ga('send', 'pageview');
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
 
-      </script>
-    </body>
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/File:Jorge_Luis_Borges.jpg" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-info"><a href="/w/index.php?title=File:Jorge_Luis_Borges.jpg&amp;action=info" title="More information about this page">Page information</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+											</ul>
+							</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=File:Jorge_Luis_Borges.jpg&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":104,"wgHostname":"mw1242"});});</script>
+	</body>
 </html>
