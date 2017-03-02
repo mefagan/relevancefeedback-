@@ -23,17 +23,17 @@ if __name__ == "__main__":
     dir = lucene.SimpleFSDirectory(lucene.File(indexDir))
    
     writer = IndexWriter(dir, analyzer, True, IndexWriter.MaxFieldLength(512))
-    
-    print ("%d docs in index", writer.numDocs())
 
-
-    path = '/Users/maryeileenfagan/wse/test'
+    src_dir = '/Users/maryeileenfagan/wse/test'
     i = 0
-    for l in sys.stdin:
-        #for l in os.listdir(path):
+    for l in os.listdir(src_dir):
+        l = os.path.join(src_dir, l)
+        with open(l, 'r') as myfile:
+            data=myfile.read()
         i += 1
         doc = Document()
-        doc.add(Field("text", l, Field.Store.YES, Field.Index.ANALYZED))
+        doc.add(Field("text", data, Field.Store.YES, Field.Index.ANALYZED))
         writer.addDocument(doc)
     writer.optimize()
     writer.close()
+

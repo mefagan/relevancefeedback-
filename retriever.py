@@ -7,6 +7,7 @@ if __name__ == "__main__":
     lucene.initVM()
     indexDir = "/Tmp/REMOVEME.index-dir"
     dir = SimpleFSDirectory(File(indexDir))
+    print(dir)
     analyzer = StandardAnalyzer(Version.LUCENE_30)
     searcher = IndexSearcher(dir)
     
