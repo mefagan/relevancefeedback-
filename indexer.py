@@ -7,14 +7,13 @@ from lucene import \
     SimpleFSDirectory, System, File, \
     Document, Field, StandardAnalyzer, IndexWriter,  IndexWriterConfig, Version
 
-if __name__ == "__main__":
+def createIndex():
     #initialize lucene and jvm
 
     lucene.initVM()
     
     indexDir = "/Tmp/REMOVEME.index-dir"
 
-    print ("lucene version is:", lucene.VERSION)
     
     #get the analyzer
     analyzer = StandardAnalyzer(Version.LUCENE_30)
@@ -24,7 +23,7 @@ if __name__ == "__main__":
    
     writer = IndexWriter(dir, analyzer, True, IndexWriter.MaxFieldLength(512))
 
-    src_dir = '/Users/maryeileenfagan/wse/test'
+    src_dir = '/Users/maryeileenfagan/wse/html_files'
     i = 0
     for l in os.listdir(src_dir):
         l = os.path.join(src_dir, l)

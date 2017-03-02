@@ -1,1050 +1,230 @@
-
-<!doctype html>
-<html>
-    <head>
-        <meta charset="utf-8">
-        <title>Home | Department of Mathematics | NYU Courant</title>
-        <meta name="viewport" content="width=device-width,initial-scale=1">
-        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/css/bootstrap.min.css">
-
-        <!-- Custom styles for this template -->
-				<link href="/static/math/main.css?20170302" rel="stylesheet">
-        <link href="/static/math/sidebar.css" rel="stylesheet">
-
-        <!-- Custom styles for carousel -->
-        <link href="/static/math/carousel.css" rel="stylesheet">
-
-
-        
-
-    </head>
-    <body>
-      
-
-      <div id="main-container" class="container">
-
-        <div id="header" class="hidden-xs" style="position:relative;">
-          <a href="/dynamic/">
-            <img id="header-img" src="/static/math/images/math-django-header.png" alt="NYU Courant Department of Mathematics">
-            
-          </a>
-          
-        </div>
-
-        <nav class="navbar navbar-default navbar-custom">
-          <div class="container">
-            <div class="navbar-header">
-              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
-                <span class="sr-only">Toggle navigation</span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-                <span class="icon-bar"></span>
-              </button>
-              <a class="hidden-sm hidden-md hidden-lg" href="/">
-                <img class="navbar-brand navbar-brand-custom" src="/static/math/images/math-django-header-xs.png" alt="NYU Courant Department of Mathematics">
-              </a>
-            </div>
-            <div id="navbar" class="collapse navbar-collapse">
-              <ul class="nav navbar-nav">
-                
-
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                People
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/faculty/"><span>Faculty</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/postdocs/"><span>Postdocs</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/visitors/"><span>Visitors</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/staff/"><span>Staff</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/phd-students/"><span>Ph.D. Students</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/phd-alumni/"><span>Ph.D. Alumni</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/people/leadership/"><span>Departmental Leadership</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Research
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/research/research-areas/"><span>Research Areas</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/research/research-centers-labs/"><span>Research Centers &amp; Labs</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/research/postdoctoral-and-visitor-programs/"><span>Postdoctoral and Visitor Programs</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/research/faculty-recognition/"><span>Faculty Recognition</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Courses
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/course-schedules/"><span>Course Schedules</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/graduate-course-descriptions/"><span>Graduate Course Descriptions</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/undergraduate-course-descriptions/"><span>Undergraduate Course Descriptions</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/undergraduate-exam-schedules/"><span>Undergraduate Exam Schedules</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/courses/office-hours/"><span>Office Hours</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                PhD
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/overview/"><span>Overview</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/admissions-financial-support/"><span>Admissions &amp; Financial Support</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/phd-mathematics/"><span>Ph.D. in Mathematics</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/phd-atmosphere-ocean-science/"><span>Ph.D. in Atmosphere Ocean Science</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/phd/awards/"><span>Awards</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Master&#39;s
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/overview/"><span>Overview</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/admission/"><span>Admissions</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/ms-mathematics/"><span>M.S. in Mathematics</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/ms-scientific-computing/"><span>M.S. in Scientific Computing</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/ms-mathematics-finance/"><span>M.S. in Mathematics in Finance</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/masters/non-degree-study/"><span>Non-Degree Study</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Undergrad
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/overview/"><span>Overview</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/majors-minors/"><span>Majors &amp; Minors</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/advisement/"><span>Advisement</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/transfer-students/"><span>Transfer Students</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/activities-research/"><span>Activities &amp; Research</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/calculus-information/"><span>Calculus Information</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/placement-exams/"><span>Placement Exams</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/enrollment-graduate-courses/"><span>Enrollment in Graduate Courses</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/tutoring/"><span>Tutoring</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/study-abroad-opportunities/"><span>Study Abroad</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/undergraduate-awards/"><span>Awards</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/undergrad/alumni/"><span>Alumni</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Resources
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/resources/courant-resources/"><span>Courant Resources</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/resources/graduate-student-resource-pages/"><span>Graduate Student Resource Pages</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/resources/courant-library/"><span>Courant Library</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/resources/courant-computing-technology/"><span>Courant Computing &amp; Technology</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                Calendars
-            </a>
-						<ul class="dropdown-menu">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/calendars/seminars/"><span>Seminars</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/calendars/events/"><span>Events</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/calendars/courant-classroom-calendar-reservations/"><span>Courant Classroom Calendar &amp; Reservations</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/calendars/nyu-academic-calendar/"><span>NYU Academic Calendar</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-    <li class="
-        
-         dropdown">
-        
-            <a class="dropdown-toggle" data-toggle="dropdown" href="#">
-                About
-            </a>
-						<ul class="dropdown-menu pull-right">
-                
-
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/math-courant/"><span>Math @ Courant</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/contact-us/"><span>Contact Us</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/job-openings/"><span>Employment</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/directions/"><span>Directions</span></a>
-        
-    </li>
-    
-
-    <li class="
-        
-        ">
-        
-            <a href="/dynamic/about/outreach/"><span>Outreach</span></a>
-        
-    </li>
-    
-
-
-            </ul>
-        
-    </li>
-    
-
-
-              </ul>
-            </div><!--/.nav-collapse -->
-          </div>
-        </nav>
-
-        <div class="content">
-          
-            
-
-  <div id="wrap"> 
-    <div class="row">
-      <div class="col-md-6">
-        <!-- Carousel -->
-<div id="myCarousel" class="carousel carousel-fade slide" data-ride="carousel">
-  <!-- Indicators -->
-  <!--
-  <ol class="carousel-indicators">
-    <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-  </ol>
-  -->
-  <div class="carousel-inner" role="listbox">
-    
-    <div class="item active">
-      <div class="img-container" style="background: url(/media/math/carousel_photos/greengard-leslie-2016.jpg) no-repeat center center; background-size: auto 100%;"></div>
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Leslie Greengard Elected to American Academy of Arts &amp; Sciences</h1>
-        </div>
-      </div>
-    </div>
-    
-    <div class="item ">
-      <div class="img-container" style="background: url(/media/math/carousel_photos/nirenberg_louis_2015.jpg) no-repeat center center; background-size: auto 100%;"></div>
-      <div class="container">
-        <div class="carousel-caption">
-          <h1>Louis Nirenberg awarded the 2015 Abel Prize</h1>
-        </div>
-      </div>
-    </div>
-    
-  </div>
-  <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
-    <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
-    <span class="sr-only">Previous</span>
-  </a>
-  <a class="right carousel-control" href="#myCarousel" role="button" data-slide="next">
-    <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
-    <span class="sr-only">Next</span>
-  </a>
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Borges (disambiguation) - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Borges_(disambiguation)","wgTitle":"Borges (disambiguation)","wgCurRevisionId":622922335,"wgRevisionId":622922335,"wgArticleId":3194539,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["All article disambiguation pages","All disambiguation pages","Disambiguation pages"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Borges_(disambiguation)","wgRelevantArticleId":3194539,"wgRequestId":"WLXYHgpAEK0AAByqTTEAAAAV","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q255543","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.29.0-wmf.13"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Borges_(disambiguation)"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Borges_(disambiguation)&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Borges_(disambiguation)&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Borges_(disambiguation)"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Borges_disambiguation rootpage-Borges_disambiguation skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --></div>
+						<div class="mw-indicators">
 </div>
-<!-- End Carousel -->
+			<h1 id="firstHeading" class="firstHeading" lang="en">Borges (disambiguation)</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000">
+<tr>
+<td class="mbox-image"><a href="/wiki/File:Wiktionary-logo-v2.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wiktionary-logo-v2.svg/40px-Wiktionary-logo-v2.svg.png" width="40" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wiktionary-logo-v2.svg/60px-Wiktionary-logo-v2.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/06/Wiktionary-logo-v2.svg/80px-Wiktionary-logo-v2.svg.png 2x" data-file-width="391" data-file-height="391" /></a></td>
+<td class="mbox-text plainlist">Look up <i><b><a href="https://en.wiktionary.org/wiki/Borges" class="extiw" title="wiktionary:Borges">Borges</a></b></i> in Wiktionary, the free dictionary.</td>
+</tr>
+</table>
+<p><b><a href="/wiki/Jorge_Luis_Borges" title="Jorge Luis Borges">Jorge Luis Borges</a></b> (1899–1986) was an Argentine writer.</p>
+<p><b>Borges</b> may also refer to:</p>
+<ul>
+<li><a href="/wiki/Borges_(surname)" title="Borges (surname)">Borges (surname)</a></li>
+<li><a href="/wiki/Les_Borges_Blanques" title="Les Borges Blanques">Les Borges Blanques</a>, capital of Les Garrigues, Catalonia, Spain</li>
+<li><a href="/wiki/Les_Borges_del_Camp" title="Les Borges del Camp">Les Borges del Camp</a>, Baix Camp, Catalonia, Spain</li>
+</ul>
+<table id="disambigbox" class="metadata plainlinks dmbox dmbox-disambig" style="" role="presentation">
+<tr>
+<td class="mbox-image" style="padding: 2px 0 2px 0.4em;"><a href="/wiki/File:Disambig_gray.svg" class="image"><img alt="Disambiguation icon" src="//upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/30px-Disambig_gray.svg.png" width="30" height="23" srcset="//upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/45px-Disambig_gray.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/5/5f/Disambig_gray.svg/60px-Disambig_gray.svg.png 2x" data-file-width="220" data-file-height="168" /></a></td>
+<td class="mbox-text" style="padding: 0.25em 0.4em; font-style: italic;">This <a href="/wiki/Help:Disambiguation" title="Help:Disambiguation">disambiguation</a> page lists articles associated with the title <b>Borges</b>.<br />
+<small>If an <a class="external text" href="//en.wikipedia.org/w/index.php?title=Special:WhatLinksHere/Borges_(disambiguation)&amp;namespace=0">internal link</a> led you here, you may wish to change the link to point directly to the intended article.</small></td>
+</tr>
+</table>
 
-<h2>News &amp; Announcements</h2>
-<hr />
 
-  <ul class="news">
-    
-    <li>
-      <div class="news-headline">
-				<!-- <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> -->
-        Eyal Lubetzky receives the AMS Centennial Fellowship
-      </div>
-      
-        
-          <p>Eyal Lubetzky is the recipient of the prestigious AMS Centennial Fellowship for the 2016-17 academic year. The fellowship is awarded to outstanding young mathematicians for excellence in research achievement. Click <a href="http://www.ams.org/news?news_id=3082">here</a> for further information from the AMS. Congratulations, Eyal!</p>
+<!-- 
+NewPP limit report
+Parsed by mw1220
+Cached time: 20170228191117
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.052 seconds
+Real time usage: 0.625 seconds
+Preprocessor visited node count: 1166/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 3938/2097152 bytes
+Template argument size: 646/2097152 bytes
+Highest expansion depth: 15/40
+Expensive parser function count: 1/500
+Lua time usage: 0.016/10.000 seconds
+Lua memory usage: 885 KB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  616.829      1 -total
+ 65.66%  404.983      1 Template:Wiktionary
+ 65.40%  403.435      1 Template:Sister_project
+ 65.06%  401.335      1 Template:Side_box
+ 34.33%  211.774      1 Template:Disambiguation
+ 30.12%  185.797      1 Template:Dmbox
+ 27.94%  172.320      1 Template:Category_handler
+  1.98%   12.208      1 Template:Main_other
+  1.56%    9.646      2 Template:Title_disambig_text
+  1.31%    8.081     10 Template:Disambiguation/cat
+-->
 
-        
-      
-    </li>
-    
-    <li>
-      <div class="news-headline">
-				<!-- <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> -->
-        Eyal Lubetzky Elected as a Fellow of the Institute of Mathematical Statistics
-      </div>
-      
-        
-          <p>Eyal Lubetzky has been elected a Fellow of the Institute of Mathematical Statistics. Fellowships are awarded to IMS members in honor of their outstanding research and professional contributions in the fields of statistics and probability. <a href="/dynamic/news/2/">Read More</a></p>
+<!-- Saved in parser cache with key enwiki:pcache:idhash:3194539-0!*!0!*!*!4!* and timestamp 20170228191117 and revision id 622922335
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Borges_(disambiguation)&amp;oldid=622922335">https://en.wikipedia.org/w/index.php?title=Borges_(disambiguation)&amp;oldid=622922335</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Disambiguation_pages" title="Category:Disambiguation pages">Disambiguation pages</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:All_article_disambiguation_pages" title="Category:All article disambiguation pages">All article disambiguation pages</a></li><li><a href="/wiki/Category:All_disambiguation_pages" title="Category:All disambiguation pages">All disambiguation pages</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
 
-        
-      
-    </li>
-    
-    <li>
-      <div class="news-headline">
-				<!-- <span class="glyphicon glyphicon-triangle-right" aria-hidden="true"></span> -->
-        Leslie Greengard Elected to American Academy of Arts &amp; Sciences
-      </div>
-      
-        
-          <p>Leslie Greengard has been elected a member of the American Academy of Arts &amp; Sciences. Warm congratulations to you, Leslie!</p>
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Borges+%28disambiguation%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Borges+%28disambiguation%29" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Borges_(disambiguation)"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:Borges_(disambiguation)"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
 
-<p>More information can be found in the <a href="https://www.nyu.edu/about/news-publications/news/2016/04/20/american-academy-of-arts-and-sciences-elects-five-nyu-faculty-as-2016-fellows.html" title="American Academy of Arts and Sciences Elects Five NYU Faculty as 2016 Fellows">NYU press release</a> and the <a href="http://www.amacad.org/content/members/newFellows.aspx?s=a" title="2016 Fellows">announcement</a> from the American Academy.</p>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Borges_(disambiguation)" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/w/index.php?title=Borges_(disambiguation)&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Borges_(disambiguation)&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
 
-        
-      
-    </li>
-    
-  </ul>
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
 
-<p>
-  <a href="/dynamic/news/" class="btn btn-math btn-sm">More News</a>
-</p>
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
 
-      </div>
-      <div class="col-md-6">
-        <h2>Upcoming Events</h2>
-<hr />
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
 
-  
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Thursday, March 2, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/267/">Boundary Layers in Periodic Homogenization of Neumann Problems</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Analysis Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Zhongwei Shen, Univ. Kentucky</span><br/>
-      <span class="event-location">
-        
-          11AM,
-        
-        
-          Warren Weaver Hall 1302
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Friday, March 3, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/206/"> Anisotropic Multiscale Systems on Bounded Domains (with Applications to Efficient Solvers for PDEs)</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Numerical Analysis And Scientific Computing Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Gitta Kutyniok, TU-Berlin</span><br/>
-      <span class="event-location">
-        
-          10AM,
-        
-        
-          Warren Weaver Hall 1302
-        
-      </span>
-    </li>
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/272/">	A Sharp Quasi-Invariance Result for Gaussian Measures under NLS with Quartic Dispersion</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Probability Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Philippe Sosoe, Harvard</span><br/>
-      <span class="event-location">
-        
-          11AM,
-        
-        
-          Warren Weaver Hall 512
-        
-      </span>
-    </li>
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/183/">Optimal wall-to-wall transport by incompressible flows</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Applied Mathematics Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Ian Tobasco, University of Michigan</span><br/>
-      <span class="event-location">
-        
-          2:30PM,
-        
-        
-          Warren Weaver Hall 1302
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Tuesday, March 7, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/178/">Effects of mechano-electric feedback of the cardiac bioelectrical activity: a simulation study</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Biomathematics/Computational Biology Colloquium
-        </span><br/>
-      
-      
-			<span class="event-speaker">Simone Scacchi, University of Milan, Italy</span><br/>
-      <span class="event-location">
-        
-          12:30PM,
-        
-        
-          Warren Weaver Hall 1314
-        
-      </span>
-    </li>
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/265/">TBA</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Algebraic Geometry Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker"> Renzo Cavalieri,  Colorado State University</span><br/>
-      <span class="event-location">
-        
-          3:30PM,
-        
-        
-          Warren Weaver Hall 201
-        
-      </span>
-    </li>
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/262/">TSP With Point Locational Uncertainty.</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Geometry Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Tyler Mayer, Stony Brook University.</span><br/>
-      <span class="event-location">
-        
-          6PM,
-        
-        
-          Warren Weaver Hall 1314
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
-  <div class="date">
-    <span class="glyphicon glyphicon-calendar" aria-hidden="true"></span>
-    Thursday, March 9, 2017
-    <!-- <span class="month"></span> -->
-    <!-- <span class="day"></span> -->
-  </div>
-  <ul class="events">
-    
-    <li>
-      
-        <span class="event-name">
-          <a href="/dynamic/calendars/events/268/">Geometry and large N asymptotics in Laughlin states.</a>
-        </span><br/>
-      
-        <span class="event-name">
-          Analysis Seminar
-        </span><br/>
-      
-      
-			<span class="event-speaker">Semyon Klevtsov, Cologne</span><br/>
-      <span class="event-location">
-        
-          11AM,
-        
-        
-          Warren Weaver Hall 1302
-        
-      </span>
-    </li>
-    
-  </ul>
-  <hr />
-  
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
 
-<p>
-  <a href="/dynamic/calendars/events/" class="btn btn-math btn-sm">All Events</a>
-</p>
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Borges_(disambiguation)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Borges_(disambiguation)" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Borges_(disambiguation)&amp;oldid=622922335" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Borges_(disambiguation)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Q255543" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Borges_%28disambiguation%29&amp;id=622922335" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
 
-      </div>
-    </div>
-  </div>
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Borges+%28disambiguation%29">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Borges+%28disambiguation%29&amp;returnto=Borges+%28disambiguation%29&amp;oldid=622922335&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Borges_(disambiguation)&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
 
-          
-        </div>
-
-        <footer class="footer">
-          <a title="Courant Institute of Mathematical Sciences"
-            href="http://cims.nyu.edu/">
-            <img src="/static/math/images/courant_short_black_301x40.png" style="height: 2em; display: block; margin-left: auto; margin-right: auto;"
-              alt="NYU Courant">
-          </a>
-          <ul class="school-links list-inline">
-            <li><a title="New York University" href="http://www.nyu.edu/">New York University</a></li>
-            <li><a title="NYU Arts &amp; Science"  href="http://as.nyu.edu/">Arts &amp; Science</a></li>
-            <li><a title="NYU College of Arts &amp; Science" href="http://cas.nyu.edu/">College of Arts &amp; Science</a></li>
-            <li><a title="NYU Graduate School of Arts &amp; Science" href="http://gsas.nyu.edu/">Graduate School of Arts &amp; Science</a></li>
-            
-          </ul>
-          <p style="text-align: center; clear: both;">&copy; New York University</p>
-        </footer>
-
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-        <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.4/js/bootstrap.min.js"></script>
-        
-
-      </div> <!-- end main container -->
-
-      <script>
-        (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-        (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-        m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-        })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-        ga('create', 'UA-63794280-4', 'auto');
-        ga('send', 'pageview');
-
-      </script>
-    </body>
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-be"><a href="https://be.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B6%D1%8B%D1%81" title="Боржыс – Belarusian" lang="be" hreflang="be" class="interlanguage-link-target">Беларуская</a></li><li class="interlanguage-link interwiki-ca"><a href="https://ca.wikipedia.org/wiki/Borges" title="Borges – Catalan" lang="ca" hreflang="ca" class="interlanguage-link-target">Català</a></li><li class="interlanguage-link interwiki-ceb"><a href="https://ceb.wikipedia.org/wiki/Borges" title="Borges – Cebuano" lang="ceb" hreflang="ceb" class="interlanguage-link-target">Cebuano</a></li><li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Borges" title="Borges – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-es"><a href="https://es.wikipedia.org/wiki/Borges_(desambiguaci%C3%B3n)" title="Borges (desambiguación) – Spanish" lang="es" hreflang="es" class="interlanguage-link-target">Español</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Borges" title="Borges – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-it"><a href="https://it.wikipedia.org/wiki/Borges" title="Borges – Italian" lang="it" hreflang="it" class="interlanguage-link-target">Italiano</a></li><li class="interlanguage-link interwiki-he"><a href="https://he.wikipedia.org/wiki/%D7%91%D7%95%D7%A8%D7%97%D7%A1_(%D7%A4%D7%99%D7%A8%D7%95%D7%A9%D7%95%D7%A0%D7%99%D7%9D)" title="בורחס (פירושונים) – Hebrew" lang="he" hreflang="he" class="interlanguage-link-target">עברית</a></li><li class="interlanguage-link interwiki-nl"><a href="https://nl.wikipedia.org/wiki/Borges" title="Borges – Dutch" lang="nl" hreflang="nl" class="interlanguage-link-target">Nederlands</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/%E3%83%9C%E3%83%AB%E3%82%B8%E3%82%A7%E3%82%B9" title="ボルジェス – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Borges" title="Borges – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B6%D0%B5%D1%81" title="Боржес – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-fi"><a href="https://fi.wikipedia.org/wiki/Borges" title="Borges – Finnish" lang="fi" hreflang="fi" class="interlanguage-link-target">Suomi</a></li><li class="interlanguage-link interwiki-sv"><a href="https://sv.wikipedia.org/wiki/Borges_(olika_betydelser)" title="Borges (olika betydelser) – Swedish" lang="sv" hreflang="sv" class="interlanguage-link-target">Svenska</a></li><li class="interlanguage-link interwiki-uk"><a href="https://uk.wikipedia.org/wiki/%D0%91%D0%BE%D1%80%D0%B6%D0%B5%D1%81" title="Боржес – Ukrainian" lang="uk" hreflang="uk" class="interlanguage-link-target">Українська</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/%E5%8D%9A%E5%B0%94%E8%B5%AB%E6%96%AF_(%E6%B6%88%E6%AD%A7%E4%B9%89)" title="博尔赫斯 (消歧义) – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>					</ul>
+				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Q255543#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 26 August 2014, at 19:05.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Borges_(disambiguation)&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.052","walltime":"0.625","ppvisitednodes":{"value":1166,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":3938,"limit":2097152},"templateargumentsize":{"value":646,"limit":2097152},"expansiondepth":{"value":15,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  616.829      1 -total"," 65.66%  404.983      1 Template:Wiktionary"," 65.40%  403.435      1 Template:Sister_project"," 65.06%  401.335      1 Template:Side_box"," 34.33%  211.774      1 Template:Disambiguation"," 30.12%  185.797      1 Template:Dmbox"," 27.94%  172.320      1 Template:Category_handler","  1.98%   12.208      1 Template:Main_other","  1.56%    9.646      2 Template:Title_disambig_text","  1.31%    8.081     10 Template:Disambiguation/cat"]},"scribunto":{"limitreport-timeusage":{"value":"0.016","limit":"10.000"},"limitreport-memusage":{"value":906383,"limit":52428800}},"cachereport":{"origin":"mw1220","timestamp":"20170228191117","ttl":2592000,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":63,"wgHostname":"mw1218"});});</script>
+	</body>
 </html>
