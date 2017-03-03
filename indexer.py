@@ -2,6 +2,7 @@ import sys
 import lucene
 import os
 from tidylib import tidy_document
+from htmlparser import parsehtml
 
 from lucene import \
     SimpleFSDirectory, System, File, \
@@ -9,7 +10,7 @@ from lucene import \
 
 def createIndex():
     #initialize lucene and jvm
-
+    
     lucene.initVM()
     
     indexDir = "/Tmp/REMOVEME.index-dir"
@@ -30,8 +31,9 @@ def createIndex():
         with open(l, 'r') as myfile:
             data=myfile.read()
         i += 1
+        document, errors = parsehtml(data)
         doc = Document()
-        doc.add(Field("text", data, Field.Store.YES, Field.Index.ANALYZED))
+        doc.add(Field("text", document, Field.Store.YES, Field.Index.ANALYZED))
         writer.addDocument(doc)
     writer.optimize()
     writer.close()

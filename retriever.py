@@ -11,13 +11,13 @@ def query():
     analyzer = StandardAnalyzer(Version.LUCENE_30)
     searcher = IndexSearcher(dir)
     
-    query = QueryParser(Version.LUCENE_30, "text", analyzer).parse("kissinger novel")
+    query = QueryParser(Version.LUCENE_30, "text", analyzer).parse("nyu python pylucene palantir thiel paypal joe lonsdale")
     MAX = 1000
     hits = searcher.search(query, MAX)
     
     print "Found %d document(s) that matched query '%s':" % (hits.totalHits, query)
     for hit in hits.scoreDocs:
-        #print hit.score, hit.doc, hit.toString()
+        print hit.score, hit.doc, hit.toString()
         doc = searcher.doc(hit.doc)
         #print doc.get("text").encode("utf-8")
 
