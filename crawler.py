@@ -81,7 +81,8 @@ def spider(url, maxPages, domain):
                     print("outside domain", url)
         except:
             print(" **Failed!**")
+
 def main():
-    spider("https://en.wikipedia.org/wiki/Jorge_Luis_Borges", 10, "wikipedia.org")
+    spider(sys.argv[1], int(sys.argv[2]), sys.argv[3])
 if __name__ == '__main__':
     main()
