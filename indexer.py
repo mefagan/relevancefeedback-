@@ -1,7 +1,7 @@
 import sys
 import lucene
 import os
-
+from tidylib import tidy_document
 
 from lucene import \
     SimpleFSDirectory, System, File, \

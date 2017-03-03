@@ -14,6 +14,8 @@ from urllib import parse
 from urllib.parse import urlparse
 from urllib.parse import urljoin
 from url_normalize import url_normalize
+from tidylib import tidy_document
+
 
 class LinkParser(HTMLParser):
 
