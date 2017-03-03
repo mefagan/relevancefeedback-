@@ -2,7 +2,7 @@ import subprocess
 from crawler import spider
 
 def BuildSearchEngine(url, number, domain):
-    p1 = subprocess.Popen(["python3", "crawler.py"])
+    p1 = subprocess.Popen(["python3", "crawler.py", url, number, domain])
     p2 = subprocess.Popen(["python2.6", "indexer.py"])
     # 90 is the timeout in seconds
     try:
