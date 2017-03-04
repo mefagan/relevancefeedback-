@@ -14,6 +14,8 @@ from urllib import parse
 from urllib.parse import urlparse
 from urllib.parse import urljoin
 from url_normalize import url_normalize
+import pickle
+doc_urls = {}
 
 
 class LinkParser(HTMLParser):
@@ -71,6 +73,7 @@ def spider(url, maxPages, domain):
                 urllib.request.urlcleanup()
                 urllib.request.urlretrieve(url, "html_files/" + str(len(crawled)))
                 crawled.append(url)
+                doc_urls[str(len(crawled))] = url
                 pagesToVisit = pagesToVisit + links
                 print(" **Success!**")
             else:
@@ -85,5 +88,6 @@ def spider(url, maxPages, domain):
 
 def main():
     spider(sys.argv[1], int(sys.argv[2]), sys.argv[3])
+    pickle.dump(doc_urls, open("doc_urls.p","wb"), protocol=2)
 if __name__ == '__main__':
     main()
