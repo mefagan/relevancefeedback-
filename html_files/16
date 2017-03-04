@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html class="client-nojs" lang="en" dir="ltr">
+<head>
+<meta charset="UTF-8"/>
+<title>Y Combinator (company) - Wikipedia</title>
+<script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Y_Combinator_(company)","wgTitle":"Y Combinator (company)","wgCurRevisionId":757785153,"wgRevisionId":757785153,"wgArticleId":1666533,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["CS1 maint: Multiple names: authors list","Articles lacking reliable references from February 2016","All articles lacking reliable references","Commons category with local link same as on Wikidata","Companies based in Mountain View, California","Companies established in 2005","Venture capital firms of the United States","Business incubators of the United States","Y Combinator companies","Startup accelerators","2005 establishments in California"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Y_Combinator_(company)","wgRelevantArticleId":1666533,"wgRequestId":"WLWaWQpAADoAAKJoZHQAAACR","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q2616400","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.cite.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+<script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
+<meta name="ResourceLoaderDynamicStyles" content=""/>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
+<meta name="generator" content="MediaWiki 1.29.0-wmf.13"/>
+<meta name="referrer" content="origin-when-cross-origin"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Y_Combinator_logo.svg/1200px-Y_Combinator_logo.svg.png"/>
+<link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Y_Combinator_(company)"/>
+<link rel="alternate" type="application/x-wiki" title="Edit this page" href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit"/>
+<link rel="edit" title="Edit this page" href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit"/>
+<link rel="apple-touch-icon" href="/static/apple-touch/wikipedia.png"/>
+<link rel="shortcut icon" href="/static/favicon/wikipedia.ico"/>
+<link rel="search" type="application/opensearchdescription+xml" href="/w/opensearch_desc.php" title="Wikipedia (en)"/>
+<link rel="EditURI" type="application/rsd+xml" href="//en.wikipedia.org/w/api.php?action=rsd"/>
+<link rel="copyright" href="//creativecommons.org/licenses/by-sa/3.0/"/>
+<link rel="canonical" href="https://en.wikipedia.org/wiki/Y_Combinator_(company)"/>
+<link rel="dns-prefetch" href="//login.wikimedia.org"/>
+<link rel="dns-prefetch" href="//meta.wikimedia.org" />
+</head>
+<body class="mediawiki ltr sitedir-ltr mw-hide-empty-elt ns-0 ns-subject page-Y_Combinator_company rootpage-Y_Combinator_company skin-vector action-view">		<div id="mw-page-base" class="noprint"></div>
+		<div id="mw-head-base" class="noprint"></div>
+		<div id="content" class="mw-body" role="main">
+			<a id="top"></a>
+
+							<div id="siteNotice"><!-- CentralNotice --></div>
+						<div class="mw-indicators">
+</div>
+			<h1 id="firstHeading" class="firstHeading" lang="en">Y Combinator (company)</h1>
+									<div id="bodyContent" class="mw-body-content">
+									<div id="siteSub">From Wikipedia, the free encyclopedia</div>
+								<div id="contentSub"></div>
+												<div id="jump-to-nav" class="mw-jump">
+					Jump to:					<a href="#mw-head">navigation</a>, 					<a href="#p-search">search</a>
+				</div>
+				<div id="mw-content-text" lang="en" dir="ltr" class="mw-content-ltr"><div role="note" class="hatnote">This article is about the company named 'Y Combinator'. For the combinator called 'Y' in the theory of computation, see <a href="/wiki/Fixed-point_combinator#Fixed_point_combinators_in_lambda_calculus" title="Fixed-point combinator">Fixed-point combinator §&#160;Fixed point combinators in lambda calculus</a>.</div>
+<table class="plainlinks metadata ambox ambox-content ambox-Primary_sources" role="presentation">
+<tr>
+<td class="mbox-image">
+<div style="width:52px"><a href="/wiki/File:Question_book-new.svg" class="image"><img alt="Question book-new.svg" src="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/50px-Question_book-new.svg.png" width="50" height="39" srcset="//upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/75px-Question_book-new.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/9/99/Question_book-new.svg/100px-Question_book-new.svg.png 2x" data-file-width="512" data-file-height="399" /></a></div>
+</td>
+<td class="mbox-text"><span class="mbox-text-span">This article <b>relies too much on <a href="/wiki/Wikipedia:Verifiability" title="Wikipedia:Verifiability">references</a> to <a href="/wiki/Wikipedia:No_original_research#Primary.2C_secondary_and_tertiary_sources" title="Wikipedia:No original research">primary sources</a></b>. <span class="hide-when-compact">Please improve this by adding <a href="/wiki/Wikipedia:No_original_research#Primary.2C_secondary_and_tertiary_sources" title="Wikipedia:No original research">secondary or tertiary sources</a>.</span> <small><i>(February 2016)</i></small> <small class="hide-when-compact"><i>(<a href="/wiki/Help:Maintenance_template_removal" title="Help:Maintenance template removal">Learn how and when to remove this template message</a>)</i></small></span></td>
+</tr>
+</table>
+<table class="infobox vcard" style="width:22em">
+<caption class="fn org">Y Combinator</caption>
+<tr>
+<td colspan="2" class="logo" style="text-align:center"><a href="/wiki/File:Y_Combinator_logo.svg" class="image"><img alt="Y Combinator logo.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Y_Combinator_logo.svg/220px-Y_Combinator_logo.svg.png" width="220" height="220" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Y_Combinator_logo.svg/330px-Y_Combinator_logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Y_Combinator_logo.svg/440px-Y_Combinator_logo.svg.png 2x" data-file-width="256" data-file-height="256" /></a></td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">
+<div style="padding:0.1em 0;line-height:1.2em;"><a href="/wiki/Types_of_business_entity" title="Types of business entity">Type</a></div>
+</th>
+<td class="category" style="line-height:1.35em;"><a href="/wiki/Limited_liability_company" title="Limited liability company">Limited liability company</a></td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">Industry</th>
+<td class="category" style="line-height:1.35em;"><a href="/wiki/Venture_capital" title="Venture capital">Venture capital</a></td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">Founded</th>
+<td style="line-height:1.35em;">March 2005</td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">Founder</th>
+<td class="agent" style="line-height:1.35em;"><a href="/wiki/Paul_Graham_(computer_programmer)" title="Paul Graham (computer programmer)">Paul Graham</a>, <a href="/wiki/Jessica_Livingston" title="Jessica Livingston">Jessica Livingston</a>, <a href="/wiki/Robert_Tappan_Morris" title="Robert Tappan Morris">Robert Morris</a>, <a href="/wiki/Trevor_Blackwell" title="Trevor Blackwell">Trevor Blackwell</a></td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">Headquarters</th>
+<td class="adr" style="line-height:1.35em;"><span class="locality"><a href="/wiki/Mountain_View,_California" title="Mountain View, California">Mountain View, California</a></span>, <span class="country-name"><a href="/wiki/United_States" title="United States">United States</a></span></td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">
+<div style="padding:0.1em 0;line-height:1.2em;">Number of locations</div>
+</th>
+<td style="line-height:1.35em;">2 offices (2014)</td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">
+<div style="padding:0.1em 0;line-height:1.2em;">Key people</div>
+</th>
+<td class="agent" style="line-height:1.35em;"><a href="/wiki/Paul_Graham_(computer_programmer)" title="Paul Graham (computer programmer)">Paul Graham</a>, <a href="/wiki/Jessica_Livingston" title="Jessica Livingston">Jessica Livingston</a>, <a href="/wiki/Robert_Tappan_Morris" title="Robert Tappan Morris">Robert Morris</a>, <a href="/wiki/Trevor_Blackwell" title="Trevor Blackwell">Trevor Blackwell</a>, <a href="/wiki/Sam_Altman" title="Sam Altman">Sam Altman</a>, <a href="/wiki/Paul_Buchheit" title="Paul Buchheit">Paul Buchheit</a>, <a href="/wiki/Dalton_Caldwell" title="Dalton Caldwell">Dalton Caldwell</a>, Kate Courteau, <a href="/wiki/Jared_Friedman" title="Jared Friedman">Jared Friedman</a>, Kevin Hale, Aaron Harris, <a href="/wiki/Justin_Kan" title="Justin Kan">Justin Kan</a>, Carolynn Levy, Jon Levy, Kat Manalac, Kirsty Nathoo, <a href="/wiki/Geoff_Ralston" title="Geoff Ralston">Geoff Ralston</a>, <a href="/wiki/Michael_Seibel" title="Michael Seibel">Michael Seibel</a>, <a href="/wiki/Qasar_Younis" title="Qasar Younis">Qasar Younis</a>, <a href="/wiki/Brian_Chesky" title="Brian Chesky">Brian Chesky</a>, <a href="/wiki/Adora_Cheung" title="Adora Cheung">Adora Cheung</a>, <a href="/wiki/Patrick_Collison" title="Patrick Collison">Patrick Collison</a>, <a href="/wiki/Drew_Houston" title="Drew Houston">Drew Houston</a>, David Rusenko, <a href="/wiki/Emmett_Shear" title="Emmett Shear">Emmett Shear</a>, <a href="/w/index.php?title=Ilya_Sukhar&amp;action=edit&amp;redlink=1" class="new" title="Ilya Sukhar (page does not exist)">Ilya Sukhar</a>, <a href="/wiki/Joe_Gebbia" title="Joe Gebbia">Joe Gebbia</a>, <a href="/wiki/Elizabeth_Iorns" title="Elizabeth Iorns">Elizabeth Iorns</a>, <a href="/wiki/Andrew_Mason" title="Andrew Mason">Andrew Mason</a>, <a href="/wiki/Peter_Thiel" title="Peter Thiel">Peter Thiel</a>, <a href="/wiki/Ben_Silbermann" title="Ben Silbermann">Ben Silbermann</a>, <a href="/wiki/Anne_Wojcicki" title="Anne Wojcicki">Anne Wojcicki</a>.</td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">Products</th>
+<td style="line-height:1.35em;">Investments</td>
+</tr>
+<tr>
+<th scope="row" style="padding-right:0.5em;">Website</th>
+<td style="line-height:1.35em;"><span class="url"><a rel="nofollow" class="external text" href="http://www.ycombinator.com/">www<wbr />.ycombinator<wbr />.com</a></span></td>
+</tr>
+</table>
+<div class="thumb tright">
+<div class="thumbinner" style="width:222px;"><a href="/wiki/File:Paul_Graham_talking_about_Prototype_Day_at_Y_Combinator_Summer_2009.jpg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Paul_Graham_talking_about_Prototype_Day_at_Y_Combinator_Summer_2009.jpg/220px-Paul_Graham_talking_about_Prototype_Day_at_Y_Combinator_Summer_2009.jpg" width="220" height="147" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Paul_Graham_talking_about_Prototype_Day_at_Y_Combinator_Summer_2009.jpg/330px-Paul_Graham_talking_about_Prototype_Day_at_Y_Combinator_Summer_2009.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d1/Paul_Graham_talking_about_Prototype_Day_at_Y_Combinator_Summer_2009.jpg/440px-Paul_Graham_talking_about_Prototype_Day_at_Y_Combinator_Summer_2009.jpg 2x" data-file-width="3872" data-file-height="2592" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:Paul_Graham_talking_about_Prototype_Day_at_Y_Combinator_Summer_2009.jpg" class="internal" title="Enlarge"></a></div>
+<a href="/wiki/Paul_Graham_(computer_programmer)" title="Paul Graham (computer programmer)">Paul Graham</a> talking about Prototype Day at Y Combinator Summer 2009</div>
+</div>
+</div>
+<p><b>Y Combinator</b> is an American <a href="/wiki/Seed_accelerator" title="Seed accelerator">seed accelerator</a>, started in March 2005. <i><a href="/wiki/Fast_Company_(magazine)" title="Fast Company (magazine)">Fast Company</a></i> has called YC "the world's most powerful start-up incubator".<sup id="cite_ref-1" class="reference"><a href="#cite_note-1">[1]</a></sup> <i><a href="/wiki/Fortune_(magazine)" title="Fortune (magazine)">Fortune</a></i> has called Y Combinator "a spawning ground for emerging tech giants".<sup id="cite_ref-2" class="reference"><a href="#cite_note-2">[2]</a></sup></p>
+<p></p>
+<div id="toc" class="toc">
+<div id="toctitle">
+<h2>Contents</h2>
+</div>
+<ul>
+<li class="toclevel-1 tocsection-1"><a href="#Programs"><span class="tocnumber">1</span> <span class="toctext">Programs</span></a></li>
+<li class="toclevel-1 tocsection-2"><a href="#History"><span class="tocnumber">2</span> <span class="toctext">History</span></a></li>
+<li class="toclevel-1 tocsection-3"><a href="#People"><span class="tocnumber">3</span> <span class="toctext">People</span></a></li>
+<li class="toclevel-1 tocsection-4"><a href="#Nonprofits"><span class="tocnumber">4</span> <span class="toctext">Nonprofits</span></a></li>
+<li class="toclevel-1 tocsection-5"><a href="#YC_Fellowship"><span class="tocnumber">5</span> <span class="toctext">YC Fellowship</span></a></li>
+<li class="toclevel-1 tocsection-6"><a href="#YC_Research"><span class="tocnumber">6</span> <span class="toctext">YC Research</span></a></li>
+<li class="toclevel-1 tocsection-7"><a href="#See_also"><span class="tocnumber">7</span> <span class="toctext">See also</span></a></li>
+<li class="toclevel-1 tocsection-8"><a href="#References"><span class="tocnumber">8</span> <span class="toctext">References</span></a></li>
+<li class="toclevel-1 tocsection-9"><a href="#External_links"><span class="tocnumber">9</span> <span class="toctext">External links</span></a></li>
+</ul>
+</div>
+<p></p>
+<h2><span class="mw-headline" id="Programs">Programs</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=1" title="Edit section: Programs">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In its main program, Y Combinator interviews and selects two batches of companies per year. The companies receive <a href="/wiki/Seed_money" title="Seed money">seed money</a>, advice, and connections in exchange for 7% <a href="/wiki/Equity_(finance)" title="Equity (finance)">equity</a>.<sup id="cite_ref-3" class="reference"><a href="#cite_note-3">[3]</a></sup> The program includes "office hours", where startup founders meet individually and in groups with Y Combinator partners for advice. Founders also participate in weekly dinners where guests from the <a href="/wiki/Silicon_Valley" title="Silicon Valley">Silicon Valley</a> ecosystem (successful entrepreneurs, venture capitalists, etc.) speak to the founders.</p>
+<p>Y Combinator’s motto is "Make Something People Want."<sup id="cite_ref-4" class="reference"><a href="#cite_note-4">[4]</a></sup> The program aims to focus the founders on further developing their product, team and market, refining their business model, achieving <a href="/wiki/Product/market_fit" title="Product/market fit">product/market fit</a>, and scaling the startup into a <a href="/wiki/Scalable" class="mw-redirect" title="Scalable">high growth</a> business, etc. The program culminates at Demo Day where startups present their business to a selected audience of investors.<sup id="cite_ref-5" class="reference"><a href="#cite_note-5">[5]</a></sup></p>
+<p>As of 2016, Y Combinator had invested in ~940 companies including <a href="/wiki/Dropbox_(service)" title="Dropbox (service)">Dropbox</a>, <a href="/wiki/Airbnb" title="Airbnb">Airbnb</a>, <a href="/wiki/Coinbase" title="Coinbase">Coinbase</a>, <a href="/wiki/Stripe_(company)" title="Stripe (company)">Stripe</a>, <a href="/wiki/Reddit" title="Reddit">Reddit</a>, <a href="/wiki/Zenefits" title="Zenefits">Zenefits</a>, <a href="/wiki/BuildZoom" title="BuildZoom">BuildZoom</a>, <a href="/wiki/Instacart" title="Instacart">Instacart</a>, <a href="/wiki/Twitch.tv" title="Twitch.tv">Twitch.tv</a>, <a href="/wiki/Machine_Zone" class="mw-redirect" title="Machine Zone">Machine Zone</a>, <a href="/wiki/Weebly" title="Weebly">Weebly</a>, <a href="/wiki/Paribus" title="Paribus">Paribus</a>, Chinese startup Raven Tech,<sup id="cite_ref-6" class="reference"><a href="#cite_note-6">[6]</a></sup> and the combined market capitalization of YC companies was over $65B.<sup id="cite_ref-auto_7-0" class="reference"><a href="#cite_note-auto-7">[7]</a></sup></p>
+<p>Non-profit organizations can also participate in the main YC program.<sup id="cite_ref-8" class="reference"><a href="#cite_note-8">[8]</a></sup></p>
+<p>In 2015 YC introduced additional programs:</p>
+<ul>
+<li>In July 2015, Y Combinator introduced the YC Fellowship Program, aimed at companies at an earlier stage than the main program.<sup id="cite_ref-:0_9-0" class="reference"><a href="#cite_note-:0-9">[9]</a></sup></li>
+<li>In October 2015, Y Combinator introduced the YC Continuity Fund. The fund allows Y Combinator to make <a href="/wiki/Pro_rata" title="Pro rata">pro rata</a> investments in their alumni companies with valuations under $300 million. Y Combinator will also consider leading or participating in later stage growth financing rounds for YC companies.<sup id="cite_ref-10" class="reference"><a href="#cite_note-10">[10]</a></sup></li>
+<li>In October 2015 YC introduced YC Research, to fund long-term fundamental research. YC President <a href="/wiki/Sam_Altman" title="Sam Altman">Sam Altman</a> donated $10m.<sup id="cite_ref-ycombinator.com_11-0" class="reference"><a href="#cite_note-ycombinator.com-11">[11]</a></sup></li>
+</ul>
+<h2><span class="mw-headline" id="History">History</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=2" title="Edit section: History">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Y Combinator was started in 2005 by <a href="/wiki/Paul_Graham_(computer_programmer)" title="Paul Graham (computer programmer)">Paul Graham</a>, <a href="/wiki/Jessica_Livingston" title="Jessica Livingston">Jessica Livingston</a>, <a href="/wiki/Trevor_Blackwell" title="Trevor Blackwell">Trevor Blackwell</a> and <a href="/wiki/Robert_Tappan_Morris" title="Robert Tappan Morris">Robert Tappan Morris</a>.<sup id="cite_ref-12" class="reference"><a href="#cite_note-12">[12]</a></sup> From 2005 to 2008 one program was held in <a href="/wiki/Cambridge,_Massachusetts" title="Cambridge, Massachusetts">Cambridge, Massachusetts</a>, and one was held in <a href="/wiki/Mountain_View,_Santa_Clara_County,_California" class="mw-redirect" title="Mountain View, Santa Clara County, California">Mountain View, California</a>. In January 2009, Y Combinator announced that the Cambridge program would be closed and all future programs would take place in Silicon Valley.<sup id="cite_ref-13" class="reference"><a href="#cite_note-13">[13]</a></sup></p>
+<p>In 2009, <a href="/wiki/Sequoia_Capital" title="Sequoia Capital">Sequoia Capital</a> led the $2 million investment round into an entity of Y Combinator which would allow the company to invest in approximately 60 companies a year as opposed to their previous 40 companies a year.<sup id="cite_ref-14" class="reference"><a href="#cite_note-14">[14]</a></sup> The following year, Sequoia led a $8.25 million funding round for Y Combinator to further increase the number of startups the company could fund.<sup id="cite_ref-15" class="reference"><a href="#cite_note-15">[15]</a></sup></p>
+<p>Then in 2011, <a href="/wiki/Yuri_Milner" title="Yuri Milner">Yuri Milner</a> and <a href="/wiki/SV_Angel" title="SV Angel">SV Angel</a> offered every Y Combinator company a $150,000 convertible note investment.<sup id="cite_ref-16" class="reference"><a href="#cite_note-16">[16]</a></sup> The amount put in to each company was changed to $80,000 when Start Fund was renewed.<sup id="cite_ref-17" class="reference"><a href="#cite_note-17">[17]</a></sup></p>
+<p>In September 2013, Paul Graham announced Y Combinator would fund nonprofit organizations accepted into its program after having tested the concept with <a href="/wiki/Watsi" title="Watsi">Watsi</a> (while continuing to fund mostly for-profit startups).<sup id="cite_ref-18" class="reference"><a href="#cite_note-18">[18]</a></sup></p>
+<p>In 2014, founder Paul Graham announced he was stepping down and that <a href="/wiki/Sam_Altman" title="Sam Altman">Sam Altman</a> would take over as President of Y Combinator.<sup id="cite_ref-SamForPres_19-0" class="reference"><a href="#cite_note-SamForPres-19">[19]</a></sup> That same year, Altman announced "The New Deal" for YC startups, which offers $120,000 for 7% equity.<sup id="cite_ref-20" class="reference"><a href="#cite_note-20">[20]</a></sup><sup id="cite_ref-21" class="reference"><a href="#cite_note-21">[21]</a></sup></p>
+<p>Late in 2014, Sam Altman announced a partnership with Transcriptic to provide increased support for Y Combinator's growing community of biotech companies.<sup id="cite_ref-22" class="reference"><a href="#cite_note-22">[22]</a></sup> Then in 2015, he announced a partnership with Bolt and increased support for hardware companies.<sup id="cite_ref-23" class="reference"><a href="#cite_note-23">[23]</a></sup></p>
+<p>On 11 August 2016, YC announced that YC partners will be visiting 11 countries this fall to meet with founders and learn more about how we can be helpful to international startup communities. These 11 countries are <a href="/wiki/Nigeria" title="Nigeria">Nigeria</a>, <a href="/wiki/Denmark" title="Denmark">Denmark</a>, <a href="/wiki/Portugal" title="Portugal">Portugal</a>, <a href="/wiki/Sweden" title="Sweden">Sweden</a>, <a href="/wiki/Germany" title="Germany">Germany</a>, <a href="/wiki/Russia" title="Russia">Russia</a>, <a href="/wiki/Argentina" title="Argentina">Argentina</a>, <a href="/wiki/Chile" title="Chile">Chile</a>, <a href="/wiki/Mexico" title="Mexico">Mexico</a>, <a href="/wiki/Israel" title="Israel">Israel</a>, and <a href="/wiki/India" title="India">India</a>.<sup id="cite_ref-ycblogaug2016_24-0" class="reference"><a href="#cite_note-ycblogaug2016-24">[24]</a></sup><sup id="cite_ref-inc42indiaaug2016_25-0" class="reference"><a href="#cite_note-inc42indiaaug2016-25">[25]</a></sup></p>
+<p>In September 2016, Y Combinator announced shuffling the deck at the Mountain View startup accelerator again, with Altman announcing that he will now be president of YC Group, which includes Y Combinator, the YC Continuity fund that was launched last October and the YC Research "moon shot" program. Ali Rowghani, Twitter's former chief financial officer and chief operating officer who was put in charge of the YC Continuity Fund when it started, is now CEO of YC Continuity. Michael Seibel, who co-founded Justin.tv, is the new CEO of YC Core, the program that Paul Buchheit has run since earlier this year.<sup id="cite_ref-26" class="reference"><a href="#cite_note-26">[26]</a></sup></p>
+<h2><span class="mw-headline" id="People">People</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=3" title="Edit section: People">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>Y Combinator was founded in March 2005 by <a href="/wiki/Paul_Graham_(computer_programmer)" title="Paul Graham (computer programmer)">Paul Graham</a> and <a href="/wiki/Jessica_Livingston" title="Jessica Livingston">Jessica Livingston</a> as well as <a href="/wiki/Robert_Tappan_Morris" title="Robert Tappan Morris">Robert Morris</a> and <a href="/wiki/Trevor_Blackwell" title="Trevor Blackwell">Trevor Blackwell</a>, with whom Paul had previously co-founded <a href="/wiki/Viaweb" title="Viaweb">Viaweb</a>.</p>
+<p>In early 2010, <a href="/w/index.php?title=Harj_Taggar&amp;action=edit&amp;redlink=1" class="new" title="Harj Taggar (page does not exist)">Harj Taggar</a>, cofounder of Y Combinator-funded <a href="/wiki/Auctomatic" class="mw-redirect" title="Auctomatic">Auctomatic</a>, joined as an advisor. In September 2010, <a href="/wiki/Alexis_Ohanian" title="Alexis Ohanian">Alexis Ohanian</a>, co-founder of Y Combinator-backed <a href="/wiki/Reddit" title="Reddit">Reddit</a>, joined.<sup id="cite_ref-27" class="reference"><a href="#cite_note-27">[27]</a></sup> In November 2010, <a href="/wiki/Gmail" title="Gmail">Gmail</a> creator <a href="/wiki/Paul_Buchheit" title="Paul Buchheit">Paul Buchheit</a> and <a href="/w/index.php?title=Harj_Taggar&amp;action=edit&amp;redlink=1" class="new" title="Harj Taggar (page does not exist)">Harj Taggar</a> were named partners.<sup id="cite_ref-28" class="reference"><a href="#cite_note-28">[28]</a></sup> In 2015, Taggar left YC to start <a href="/w/index.php?title=Triplebyte&amp;action=edit&amp;redlink=1" class="new" title="Triplebyte (page does not exist)">Triplebyte</a>, a startup aiming to assist companies with their technical hiring needs.<sup id="cite_ref-29" class="reference"><a href="#cite_note-29">[29]</a></sup></p>
+<p>In January 2011, Y Combinator-backed <a href="/wiki/Posterous" title="Posterous">Posterous</a> co-founder <a href="/wiki/Garry_Tan" title="Garry Tan">Garry Tan</a> joined YC, first as designer-in-residence and later as partner.<sup id="cite_ref-30" class="reference"><a href="#cite_note-30">[30]</a></sup></p>
+<p>Later in 2011, <a href="/wiki/Aaron_Iba" title="Aaron Iba">Aaron Iba</a> joined as a partner.<sup id="cite_ref-31" class="reference"><a href="#cite_note-31">[31]</a></sup></p>
+<p>In the summer of 2014, Sam Altman became president of Y Combinator.<sup id="cite_ref-SamForPres_19-1" class="reference"><a href="#cite_note-SamForPres-19">[19]</a></sup> Y Combinator also announced a Board of Overseers: <a href="/wiki/Brian_Chesky" title="Brian Chesky">Brian Chesky</a>, cofounder of <a href="/wiki/AirBnB" class="mw-redirect" title="AirBnB">AirBnB</a>, <a href="/wiki/Adora_Cheung" title="Adora Cheung">Adora Cheung</a>, cofounder of <a href="/wiki/Homejoy" title="Homejoy">Homejoy</a>, <a href="/wiki/Patrick_Collison" title="Patrick Collison">Patrick Collison</a>, cofounder of Stripe, <a href="/wiki/Drew_Houston" title="Drew Houston">Drew Houston</a>, founder of Dropbox, Jessica Livingston, <a href="/w/index.php?title=David_Rusenko&amp;action=edit&amp;redlink=1" class="new" title="David Rusenko (page does not exist)">David Rusenko</a>, <a href="/wiki/Emmett_Shear" title="Emmett Shear">Emmett Shear</a>, and Sam Altman, cofounder of <a href="/wiki/Loopt" title="Loopt">Loopt</a>.</p>
+<p>In January 2015 it was announced that Paul Buchheit would be named managing partner for Y Combinator's core program and Kevin Hale would be the managing partner for the Fellowship.<sup id="cite_ref-32" class="reference"><a href="#cite_note-32">[32]</a></sup></p>
+<p>As of February 2015, additional Y Combinator partners are <a href="/wiki/Dalton_Caldwell" title="Dalton Caldwell">Dalton Caldwell</a>, founder of <a href="/wiki/Imeem" title="Imeem">imeem</a> and <a href="/wiki/App.net" title="App.net">app.net</a>; <a href="/wiki/Jared_Friedman" title="Jared Friedman">Jared Friedman</a>, founder of <a href="/wiki/Scribd" title="Scribd">Scribd</a>; Kevin Hale, cofounder of <a href="/wiki/Wufoo" title="Wufoo">Wufoo</a>; Aaron Harris, cofounder of <a href="/w/index.php?title=Tutorspree&amp;action=edit&amp;redlink=1" class="new" title="Tutorspree (page does not exist)">Tutorspree</a>; <a href="/wiki/Justin_Kan" title="Justin Kan">Justin Kan</a>, cofounder of <a href="/wiki/Exec_(errand_service)" title="Exec (errand service)">Exec</a>, <a href="/wiki/Twitch.tv" title="Twitch.tv">Twitch.tv</a> and <a href="/wiki/Justin.tv" title="Justin.tv">Justin.tv</a>; Attorneys Carolynn Levy and Jon Levy; Kat Manalac; Kirsty Nathoo; <a href="/wiki/Geoff_Ralston" title="Geoff Ralston">Geoff Ralston</a>, creator of <a href="/wiki/Rocketmail" class="mw-redirect" title="Rocketmail">Rocketmail</a>; <a href="/wiki/Michael_Seibel" title="Michael Seibel">Michael Seibel</a>, cofounder of <a href="/wiki/Socialcam" title="Socialcam">Socialcam</a>; and Qasar Younis, cofounder of Talkbin. <a href="/wiki/Ali_Rowghani" title="Ali Rowghani">Ali Rowghani</a> is the managing partner of YC Continuity.<sup id="cite_ref-33" class="reference"><a href="#cite_note-33">[33]</a></sup></p>
+<h2><span class="mw-headline" id="Nonprofits">Nonprofits</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=4" title="Edit section: Nonprofits">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>In 2013, Y Combinator began accepting nonprofit organizations. Notable Y Combinator-backed nonprofits include <a href="/wiki/Watsi" title="Watsi">Watsi</a> (crowdfunding medical treatment in developing countries), <a href="/wiki/Immunity_Project" title="Immunity Project">Immunity Project</a> (using machine learning to develop an HIV/AIDS vaccine), <a href="/w/index.php?title=Noora_Health&amp;action=edit&amp;redlink=1" class="new" title="Noora Health (page does not exist)">Noora Health</a> (empowering patient family caregivers to take better care of their loved ones at home), <a href="/w/index.php?title=CareMessage&amp;action=edit&amp;redlink=1" class="new" title="CareMessage (page does not exist)">CareMessage</a> (using mobile technology to help improve health outcomes for underserved patients) and <a href="/wiki/Zidisha" title="Zidisha">Zidisha</a> (direct person-to-person lending to developing countries).<sup id="cite_ref-34" class="reference"><a href="#cite_note-34">[34]</a></sup></p>
+<h2><span class="mw-headline" id="YC_Fellowship">YC Fellowship</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=5" title="Edit section: YC Fellowship">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<p>The YC Fellowship Program was announced in July 2015, with the goal of funding companies at the idea or prototype stage.<sup id="cite_ref-:0_9-1" class="reference"><a href="#cite_note-:0-9">[9]</a></sup> The first batch of YC Fellowship included 32 companies that received an equity-free grant instead of an investment.<sup id="cite_ref-auto_7-1" class="reference"><a href="#cite_note-auto-7">[7]</a></sup></p>
+<p>In January 2016 Y Combinator announced version 2 of the program, with participating companies receiving $20k investment for an 1.5% equity stake. The equity stake is structured as a <a href="/wiki/Convertible_security" title="Convertible security">convertible security</a> that only converts into shares if a company has an <a href="/wiki/Initial_public_offering" title="Initial public offering">IPO</a>, or a funding event or acquisition that values the company at $100m or more.<sup id="cite_ref-35" class="reference"><a href="#cite_note-35">[35]</a></sup> The YC Fellowship was short lived, however, as in September of 2016 new CEO Sam Altman announced that the fellowship will be discontinued. Altman plans to replace the Fellowship with a MOOC, or Massive Online Open Course, in 2017.<sup id="cite_ref-36" class="reference"><a href="#cite_note-36">[36]</a></sup></p>
+<h2><span class="mw-headline" id="YC_Research">YC Research</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=6" title="Edit section: YC Research">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="thumb tright">
+<div class="thumbinner" style="width:302px;"><a href="/wiki/File:YC_Research_logo.png" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/YC_Research_logo.png/300px-YC_Research_logo.png" width="300" height="82" class="thumbimage" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e3/YC_Research_logo.png/450px-YC_Research_logo.png 1.5x, //upload.wikimedia.org/wikipedia/commons/e/e3/YC_Research_logo.png 2x" data-file-width="528" data-file-height="144" /></a>
+<div class="thumbcaption">
+<div class="magnify"><a href="/wiki/File:YC_Research_logo.png" class="internal" title="Enlarge"></a></div>
+YC Research logo</div>
+</div>
+</div>
+<p>YC Research was announced in October 2015. It is a nonprofit research lab focused on work that requires a very long time horizon, seeks to answer very open-ended questions, or develops technology that shouldn’t be owned by any one company. Researchers are paid as full-time employees and can receive equity in Y Combinator.<sup id="cite_ref-ycombinator.com_11-1" class="reference"><a href="#cite_note-ycombinator.com-11">[11]</a></sup><sup id="cite_ref-37" class="reference"><a href="#cite_note-37">[37]</a></sup><sup id="cite_ref-38" class="reference"><a href="#cite_note-38">[38]</a></sup> <a href="/wiki/OpenAI" title="OpenAI">OpenAI</a> was the first project undertaken by YC Research, and in January 2016 a second study on basic income was also announced.<sup id="cite_ref-39" class="reference"><a href="#cite_note-39">[39]</a></sup></p>
+<h2><span class="mw-headline" id="See_also">See also</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=7" title="Edit section: See also">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<ul>
+<li><a href="/wiki/Hacker_News" title="Hacker News">Hacker News</a></li>
+<li><a href="/wiki/List_of_Y_Combinator_startups" title="List of Y Combinator startups">List of Y Combinator startups</a></li>
+</ul>
+<h2><span class="mw-headline" id="References">References</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=8" title="Edit section: References">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<div class="reflist columns references-column-width" style="-moz-column-width: 30em; -webkit-column-width: 30em; column-width: 30em; list-style-type: decimal;">
+<ol class="references">
+<li id="cite_note-1"><span class="mw-cite-backlink"><b><a href="#cite_ref-1">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://www.fastcompany.com/section/the-y-combinator-chronicles">"The Y Combinator Chronicles"</a>. <i>Fast Company</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=The+Y+Combinator+Chronicles&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.fastcompany.com%2Fsection%2Fthe-y-combinator-chronicles&amp;rft.jtitle=Fast+Company&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-2"><span class="mw-cite-backlink"><b><a href="#cite_ref-2">^</a></b></span> <span class="reference-text"><cite class="citation news">Rao, Leena (2015-08-26). <a rel="nofollow" class="external text" href="http://fortune.com/2015/08/26/meet-y-combinators-new-coo/">"Meet Y Combinator's New COO"</a>. Fortune<span class="reference-accessdate">. Retrieved <span class="nowrap">2016-02-08</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Meet+Y+Combinator%27s+New+COO&amp;rft.aufirst=Leena&amp;rft.aulast=Rao&amp;rft.date=2015-08-26&amp;rft.genre=article&amp;rft_id=http%3A%2F%2Ffortune.com%2F2015%2F08%2F26%2Fmeet-y-combinators-new-coo%2F&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-3"><span class="mw-cite-backlink"><b><a href="#cite_ref-3">^</a></b></span> <span class="reference-text"><cite class="citation web">Altman, Sam. <a rel="nofollow" class="external text" href="http://blog.ycombinator.com/the-new-deal">"The New Deal"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">22 April</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=The+New+Deal&amp;rft.aufirst=Sam&amp;rft.aulast=Altman&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.ycombinator.com%2Fthe-new-deal&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-4"><span class="mw-cite-backlink"><b><a href="#cite_ref-4">^</a></b></span> <span class="reference-text"><cite class="citation web">Graham, Paul (April 2008). <a rel="nofollow" class="external text" href="http://paulgraham.com/good.html">"Be Good"</a>. <i>PaulGraham.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 February</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Be+Good&amp;rft.aufirst=Paul&amp;rft.aulast=Graham&amp;rft.date=2008-04&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fpaulgraham.com%2Fgood.html&amp;rft.jtitle=PaulGraham.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-5"><span class="mw-cite-backlink"><b><a href="#cite_ref-5">^</a></b></span> <span class="reference-text"><cite class="citation web">Graham, Paul (June 2014). <a rel="nofollow" class="external text" href="http://ycombinator.com/atyc.html">"What happens at YC"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">8 May</span> 2013</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=What+happens+at+YC&amp;rft.aufirst=Paul&amp;rft.aulast=Graham&amp;rft.date=2014-06&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fycombinator.com%2Fatyc.html&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-6"><span class="mw-cite-backlink"><b><a href="#cite_ref-6">^</a></b></span> <span class="reference-text"><cite class="citation web">Kumparak, Greg; Wilhelm, Alex; Russell, Kyle (March 23, 2015). <a rel="nofollow" class="external text" href="http://social.techcrunch.com/2015/03/23/here-are-the-companies-that-presented-at-y-combinator-demo-day-day-1/">"Here Are The Companies That Presented At Y Combinator Demo Day 1"</a>. <i>TechCrunch</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-03-18</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Here+Are+The+Companies+That+Presented+At+Y+Combinator+Demo+Day+1&amp;rft.aufirst=Greg&amp;rft.aulast=Kumparak&amp;rft.au=Russell%2C+Kyle&amp;rft.au=Wilhelm%2C+Alex&amp;rft.date=2015-03-23&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fsocial.techcrunch.com%2F2015%2F03%2F23%2Fhere-are-the-companies-that-presented-at-y-combinator-demo-day-day-1%2F&amp;rft.jtitle=TechCrunch&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-auto-7"><span class="mw-cite-backlink">^ <a href="#cite_ref-auto_7-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-auto_7-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Altman, Sam (August 26, 2015). <a rel="nofollow" class="external text" href="https://blog.ycombinator.com/yc-stats">"YC Stats"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">August 26,</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YC+Stats&amp;rft.aufirst=Sam&amp;rft.aulast=Altman&amp;rft.date=2015-08-26&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fblog.ycombinator.com%2Fyc-stats&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-8"><span class="mw-cite-backlink"><b><a href="#cite_ref-8">^</a></b></span> <span class="reference-text"><cite class="citation web">Graham, Paul (September 2013). <a rel="nofollow" class="external text" href="http://www.ycombinator.com/nonprofits/">"YC Will Now Fund Nonprofits Too"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YC+Will+Now+Fund+Nonprofits+Too&amp;rft.aufirst=Paul&amp;rft.aulast=Graham&amp;rft.date=2013-09&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.ycombinator.com%2Fnonprofits%2F&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-:0-9"><span class="mw-cite-backlink">^ <a href="#cite_ref-:0_9-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-:0_9-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Loizos, Connie (July 20, 2015). <a rel="nofollow" class="external text" href="http://techcrunch.com/2015/07/20/y-combinator-just-introduced-a-new-program-to-reach-up-to-1000-companies-per-year/">"Y Combinator Just Introduced a New Program to Reach Up to "1,000" Companies Per Year"</a>. <i>TechCrunch</i><span class="reference-accessdate">. Retrieved <span class="nowrap">July 21,</span> 2015</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Y+Combinator+Just+Introduced+a+New+Program+to+Reach+Up+to+%221%2C000%22+Companies+Per+Year&amp;rft.aufirst=Connie&amp;rft.aulast=Loizos&amp;rft.date=2015-07-20&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftechcrunch.com%2F2015%2F07%2F20%2Fy-combinator-just-introduced-a-new-program-to-reach-up-to-1000-companies-per-year%2F&amp;rft.jtitle=TechCrunch&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-10"><span class="mw-cite-backlink"><b><a href="#cite_ref-10">^</a></b></span> <span class="reference-text"><cite class="citation web">Altman, Sam (October 15, 2015). <a rel="nofollow" class="external text" href="https://blog.ycombinator.com/yc-continuity-fund">"YC Continuity"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">February 8,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YC+Continuity&amp;rft.aufirst=Sam&amp;rft.aulast=Altman&amp;rft.date=2015-10-15&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fblog.ycombinator.com%2Fyc-continuity-fund&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-ycombinator.com-11"><span class="mw-cite-backlink">^ <a href="#cite_ref-ycombinator.com_11-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-ycombinator.com_11-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Altman, Sam (October 7, 2015). <a rel="nofollow" class="external text" href="http://blog.ycombinator.com/yc-research">"YC Research"</a>. <i>Y Combinator Posthaven</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YC+Research&amp;rft.aufirst=Sam&amp;rft.aulast=Altman&amp;rft.date=2015-10-07&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.ycombinator.com%2Fyc-research&amp;rft.jtitle=Y+Combinator+Posthaven&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-12"><span class="mw-cite-backlink"><b><a href="#cite_ref-12">^</a></b></span> <span class="reference-text"><cite class="citation web">Graham, Paul (March 15, 2012). <a rel="nofollow" class="external text" href="http://old.ycombinator.com/start.html">"How Y Combinator Started"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=How+Y+Combinator+Started&amp;rft.aufirst=Paul&amp;rft.aulast=Graham&amp;rft.date=2012-03-15&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fold.ycombinator.com%2Fstart.html&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-13"><span class="mw-cite-backlink"><b><a href="#cite_ref-13">^</a></b></span> <span class="reference-text"><cite class="citation web">Graham, Paul (January 2009). <a rel="nofollow" class="external text" href="http://old.ycombinator.com/ycca.html">"California Year-Round"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=California+Year-Round&amp;rft.aufirst=Paul&amp;rft.aulast=Graham&amp;rft.date=2009-01&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fold.ycombinator.com%2Fycca.html&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-14"><span class="mw-cite-backlink"><b><a href="#cite_ref-14">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://techcrunch.com/2009/03/16/y-combinator-gets-the-sequoia-capital-seal-of-approval/">"Y Combinator Gets The Sequoia Capital Seal Of Approval"</a>. TechCrunch. 2009-05-16<span class="reference-accessdate">. Retrieved <span class="nowrap">2011-02-10</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.btitle=Y+Combinator+Gets+The+Sequoia+Capital+Seal+Of+Approval&amp;rft.date=2009-05-16&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftechcrunch.com%2F2009%2F03%2F16%2Fy-combinator-gets-the-sequoia-capital-seal-of-approval%2F&amp;rft.pub=TechCrunch&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-15"><span class="mw-cite-backlink"><b><a href="#cite_ref-15">^</a></b></span> <span class="reference-text"><cite class="citation web">Rao, Leena (21 May 2010). <a rel="nofollow" class="external text" href="http://techcrunch.com/2010/05/21/y-combinator-closes-new-8-25-million-fund-sequoia-is-lead-investor/">"Y Combinator Closes New $8.25 Million Fund, Sequoia Is Lead Investor"</a>. <i>TechCrunch.com</i><span class="reference-accessdate">. Retrieved <span class="nowrap">22 June</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Y+Combinator+Closes+New+%248.25+Million+Fund%2C+Sequoia+Is+Lead+Investor&amp;rft.aufirst=Leena&amp;rft.aulast=Rao&amp;rft.date=2010-05-21&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftechcrunch.com%2F2010%2F05%2F21%2Fy-combinator-closes-new-8-25-million-fund-sequoia-is-lead-investor%2F&amp;rft.jtitle=TechCrunch.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-16"><span class="mw-cite-backlink"><b><a href="#cite_ref-16">^</a></b></span> <span class="reference-text"><cite class="citation web">Arrington, Michael (January 28, 2011). <a rel="nofollow" class="external text" href="http://techcrunch.com/2011/01/28/yuri-milner-sv-angel-offer-every-new-y-combinator-startup-150k/">"Start Fund: Yuri Milner, SV Angel Offer EVERY New Y Combinator Startup $150k"</a>. <i>TechCrunch</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Start+Fund%3A+Yuri+Milner%2C+SV+Angel+Offer+EVERY+New+Y+Combinator+Startup+%24150k&amp;rft.aufirst=Michael&amp;rft.aulast=Arrington&amp;rft.date=2011-01-28&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftechcrunch.com%2F2011%2F01%2F28%2Fyuri-milner-sv-angel-offer-every-new-y-combinator-startup-150k%2F&amp;rft.jtitle=TechCrunch&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-17"><span class="mw-cite-backlink"><b><a href="#cite_ref-17">^</a></b></span> <span class="reference-text"><cite class="citation web">Rao, Leena (November 26, 2012). <a rel="nofollow" class="external text" href="http://techcrunch.com/2012/11/26/y-combinator-debuts-yc-vc-to-replace-the-start-fund-includes-yuri-milner-andreessen-horowitz/">"Y Combinator's YC VC Will Replace The Start Fund; Includes Yuri Milner, Andreessen Horowitz But Offers Less Money"</a>. <i>TechCrunch</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Y+Combinator%99s+YC+VC+Will+Replace+The+Start+Fund%3B+Includes+Yuri+Milner%2C+Andreessen+Horowitz+But+Offers+Less+Money&amp;rft.aufirst=Leena&amp;rft.aulast=Rao&amp;rft.date=2012-11-26&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftechcrunch.com%2F2012%2F11%2F26%2Fy-combinator-debuts-yc-vc-to-replace-the-start-fund-includes-yuri-milner-andreessen-horowitz%2F&amp;rft.jtitle=TechCrunch&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-18"><span class="mw-cite-backlink"><b><a href="#cite_ref-18">^</a></b></span> <span class="reference-text"><cite class="citation web">Ken Yeung (6 September 2013). <a rel="nofollow" class="external text" href="http://thenextweb.com/insider/2013/09/06/following-watsi-y-combinator-to-now-fund-non-profit-startups-in-the-form-of-a-charitable-donation/">"Y Combinator To Fund Non-Profit Startups With Charitable Donations"</a>. <i>The Next Web</i><span class="reference-accessdate">. Retrieved <span class="nowrap">1 October</span> 2014</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Y+Combinator+To+Fund+Non-Profit+Startups+With+Charitable+Donations&amp;rft.au=Ken+Yeung&amp;rft.date=2013-09-06&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fthenextweb.com%2Finsider%2F2013%2F09%2F06%2Ffollowing-watsi-y-combinator-to-now-fund-non-profit-startups-in-the-form-of-a-charitable-donation%2F&amp;rft.jtitle=The+Next+Web&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-SamForPres-19"><span class="mw-cite-backlink">^ <a href="#cite_ref-SamForPres_19-0"><sup><i><b>a</b></i></sup></a> <a href="#cite_ref-SamForPres_19-1"><sup><i><b>b</b></i></sup></a></span> <span class="reference-text"><cite class="citation web">Graham, Paul (February 21, 2014). <a rel="nofollow" class="external text" href="http://blog.ycombinator.com/sam-altman-for-president">"Sam Altman for President"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Sam+Altman+for+President&amp;rft.aufirst=Paul&amp;rft.aulast=Graham&amp;rft.date=2014-02-21&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.ycombinator.com%2Fsam-altman-for-president&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-20"><span class="mw-cite-backlink"><b><a href="#cite_ref-20">^</a></b></span> <span class="reference-text"><cite class="citation web">Altman, Sam (April 22, 2014). <a rel="nofollow" class="external text" href="http://blog.ycombinator.com/the-new-deal">"The New Deal"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=The+New+Deal&amp;rft.aufirst=Sam&amp;rft.aulast=Altman&amp;rft.date=2014-04-22&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.ycombinator.com%2Fthe-new-deal&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-21"><span class="mw-cite-backlink"><b><a href="#cite_ref-21">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://venturebeat.com/2014/04/22/future-y-combinators-new-deal-more-money-but-still-for-7-in-equity/">"Y Combinator's 'New Deal' for startups: More money, same 7% equity"</a>. <i>VentureBeat</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-11-29</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Y+Combinator%99s+%98New+Deal%99+for+startups%3A+More+money%2C+same+7%25+equity&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fventurebeat.com%2F2014%2F04%2F22%2Ffuture-y-combinators-new-deal-more-money-but-still-for-7-in-equity%2F&amp;rft.jtitle=VentureBeat&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-22"><span class="mw-cite-backlink"><b><a href="#cite_ref-22">^</a></b></span> <span class="reference-text"><cite class="citation web">Altman, Sam (December 8, 2014). <a rel="nofollow" class="external text" href="https://blog.ycombinator.com/transcriptic">"Transcriptic for YC biotech startups"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Transcriptic+for+YC+biotech+startups&amp;rft.aufirst=Sam&amp;rft.aulast=Altman&amp;rft.date=2014-12-08&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fblog.ycombinator.com%2Ftranscriptic&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-23"><span class="mw-cite-backlink"><b><a href="#cite_ref-23">^</a></b></span> <span class="reference-text"><cite class="citation web">Altman, Sam (February 5, 2014). <a rel="nofollow" class="external text" href="http://blog.ycombinator.com/yc-for-hardware">"YC for Hardware"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YC+for+Hardware&amp;rft.aufirst=Sam&amp;rft.aulast=Altman&amp;rft.date=2014-02-05&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.ycombinator.com%2Fyc-for-hardware&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-ycblogaug2016-24"><span class="mw-cite-backlink"><b><a href="#cite_ref-ycblogaug2016_24-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Manalac, Kat. <a rel="nofollow" class="external text" href="https://blog.ycombinator.com/yc-office-hours-in-11-countries-this-fall">"YC Office Hours in 11 Countries This Fall"</a>. <i>Y Combinator Posthaven</i><span class="reference-accessdate">. Retrieved <span class="nowrap">10 September</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YC+Office+Hours+in+11+Countries+This+Fall&amp;rft.aufirst=Kat&amp;rft.aulast=Manalac&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fblog.ycombinator.com%2Fyc-office-hours-in-11-countries-this-fall&amp;rft.jtitle=Y+Combinator+Posthaven&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-inc42indiaaug2016-25"><span class="mw-cite-backlink"><b><a href="#cite_ref-inc42indiaaug2016_25-0">^</a></b></span> <span class="reference-text"><cite class="citation web">Modgil, Shweta. <a rel="nofollow" class="external text" href="https://inc42.com/buzz/ycombinator-coming-to-india/">"YCombinator Is Coming To India This September; Here's Why You Should Be Excited"</a>. <i>Inc 42</i><span class="reference-accessdate">. Retrieved <span class="nowrap">10 September</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YCombinator+Is+Coming+To+India+This+September%3B+Here%99s+Why+You+Should+Be+Excited&amp;rft.aufirst=Shweta&amp;rft.aulast=Modgil&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Finc42.com%2Fbuzz%2Fycombinator-coming-to-india%2F&amp;rft.jtitle=Inc+42&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-26"><span class="mw-cite-backlink"><b><a href="#cite_ref-26">^</a></b></span> <span class="reference-text"><cite class="citation web">Schubarth, Cromwell (13 September 2016). <a rel="nofollow" class="external text" href="http://www.bizjournals.com/sanjose/blog/techflash/2016/09/y-combinator-names-new-leaders-as-it-changes-shape.html">"Y Combinator names new leaders as it changes shape again"</a>. <i>Silicon Valley Business Journal</i><span class="reference-accessdate">. Retrieved <span class="nowrap">18 October</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Y+Combinator+names+new+leaders+as+it+changes+shape+again&amp;rft.aufirst=Cromwell&amp;rft.aulast=Schubarth&amp;rft.date=2016-09-13&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.bizjournals.com%2Fsanjose%2Fblog%2Ftechflash%2F2016%2F09%2Fy-combinator-names-new-leaders-as-it-changes-shape.html&amp;rft.jtitle=Silicon+Valley+Business+Journal&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-27"><span class="mw-cite-backlink"><b><a href="#cite_ref-27">^</a></b></span> <span class="reference-text"><cite class="citation web">Wednesday, September 1st, 2010 (2010-09-01). <a rel="nofollow" class="external text" href="http://techcrunch.com/2010/09/01/reddit-cofounder-alexis-ohanian-to-join-y-combinator/">"Reddit Cofounder Alexis Ohanian To Join Y Combinator"</a>. <i>TechCrunch</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2012-02-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Reddit+Cofounder+Alexis+Ohanian+To+Join+Y+Combinator&amp;rft.au=Wednesday%2C+September+1st%2C+2010&amp;rft.date=2010-09-01&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Ftechcrunch.com%2F2010%2F09%2F01%2Freddit-cofounder-alexis-ohanian-to-join-y-combinator%2F&amp;rft.jtitle=TechCrunch&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span> <span class="citation-comment" style="display:none; color:#33aa33">CS1 maint: Multiple names: authors list (<a href="/wiki/Category:CS1_maint:_Multiple_names:_authors_list" title="Category:CS1 maint: Multiple names: authors list">link</a>)</span></span></li>
+<li id="cite_note-28"><span class="mw-cite-backlink"><b><a href="#cite_ref-28">^</a></b></span> <span class="reference-text"><cite class="citation web">Graham, Paul (2010-11-12). <a rel="nofollow" class="external text" href="http://ycombinator.posterous.com/y-combinator-announces-two-new-partners-paul">"Y Combinator announces two new partners, Paul Buchheit and Harj Taggar"</a>. Y Combinator Posterous<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-02-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.aufirst=Paul&amp;rft.aulast=Graham&amp;rft.btitle=Y+Combinator+announces+two+new+partners%2C+Paul+Buchheit+and+Harj+Taggar&amp;rft.date=2010-11-12&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fycombinator.posterous.com%2Fy-combinator-announces-two-new-partners-paul&amp;rft.pub=Y+Combinator+Posterous&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-29"><span class="mw-cite-backlink"><b><a href="#cite_ref-29">^</a></b></span> <span class="reference-text"><a rel="nofollow" class="external text" href="http://techcrunch.com/2015/05/07/triplebyte/">Former YC Partner Harj Taggar Is Building The New Technical Hiring Pipeline With TripleByte</a> (May 7, 2015), Kim-Mai Cutler, <i><a href="/wiki/TechCrunch" title="TechCrunch">TechCrunch</a></i></span></li>
+<li id="cite_note-30"><span class="mw-cite-backlink"><b><a href="#cite_ref-30">^</a></b></span> <span class="reference-text"><cite class="citation web">Melanson, Mike (2011-01-14). <a rel="nofollow" class="external text" href="https://www.readwriteweb.com/archives/posterous_co-founder_garry_tan_leaves_for_y_combin.php">"Posterous Co-Founder Garry Tan Leaves for Y Combinator"</a>. Readwriteweb.com<span class="reference-accessdate">. Retrieved <span class="nowrap">2012-02-28</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.aufirst=Mike&amp;rft.aulast=Melanson&amp;rft.btitle=Posterous+Co-Founder+Garry+Tan+Leaves+for+Y+Combinator&amp;rft.date=2011-01-14&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.readwriteweb.com%2Farchives%2Fposterous_co-founder_garry_tan_leaves_for_y_combin.php&amp;rft.pub=Readwriteweb.com&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Abook" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-31"><span class="mw-cite-backlink"><b><a href="#cite_ref-31">^</a></b></span> <span class="reference-text"><cite class="citation web">Tan, Garry (January 23, 2012). <a rel="nofollow" class="external text" href="http://blog.ycombinator.com/welcome-garry-and-aaron">"Welcome Garry and Aaron"</a>. <i>Y Combinator Posthaven</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2012</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Welcome+Garry+and+Aaron&amp;rft.aufirst=Garry&amp;rft.aulast=Tan&amp;rft.date=2012-01-23&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.ycombinator.com%2Fwelcome-garry-and-aaron&amp;rft.jtitle=Y+Combinator+Posthaven&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-32"><span class="mw-cite-backlink"><b><a href="#cite_ref-32">^</a></b></span> <span class="reference-text"><cite class="citation web">Altman, Sam (January 8, 2016). <a rel="nofollow" class="external text" href="https://blog.ycombinator.com/yc-updates-and-additions">"YC Updates and Additions"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">February 8,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YC+Updates+and+Additions&amp;rft.aufirst=Sam&amp;rft.aulast=Altman&amp;rft.date=2016-01-08&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fblog.ycombinator.com%2Fyc-updates-and-additions&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-33"><span class="mw-cite-backlink"><b><a href="#cite_ref-33">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://www.ycombinator.com/people">"People"</a>. <i>Y Combinator</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=People&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fwww.ycombinator.com%2Fpeople&amp;rft.jtitle=Y+Combinator&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-34"><span class="mw-cite-backlink"><b><a href="#cite_ref-34">^</a></b></span> <span class="reference-text"><cite class="citation web">Keys, Patrick (January 24, 2014). <a rel="nofollow" class="external text" href="http://ycuniverse.com/zidisha-is-international-microlending-immunity-project-is-an-hiv-vaccine-two-nonprofits-currently-doing-y-combinator">"Zidisha Is International Microlending, Immunity Project Is An HIV Vaccine; Two Nonprofits Currently Doing Y Combinator"</a>. <i>Y Combinator Universe</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Zidisha+Is+International+Microlending%2C+Immunity+Project+Is+An+HIV+Vaccine%3B+Two+Nonprofits+Currently+Doing+Y+Combinator&amp;rft.aufirst=Patrick&amp;rft.aulast=Keys&amp;rft.date=2014-01-24&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fycuniverse.com%2Fzidisha-is-international-microlending-immunity-project-is-an-hiv-vaccine-two-nonprofits-currently-doing-y-combinator&amp;rft.jtitle=Y+Combinator+Universe&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-35"><span class="mw-cite-backlink"><b><a href="#cite_ref-35">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="http://blog.ycombinator.com/fellowship-v2">"Fellowship V2"</a>. <i>Y Combinator Posthaven</i><span class="reference-accessdate">. Retrieved <span class="nowrap">2016-01-27</span></span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Fellowship+V2&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fblog.ycombinator.com%2Ffellowship-v2&amp;rft.jtitle=Y+Combinator+Posthaven&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-36"><span class="mw-cite-backlink"><b><a href="#cite_ref-36">^</a></b></span> <span class="reference-text"><cite class="citation web">Kolodny, Lora (September 13, 2016). <a rel="nofollow" class="external text" href="https://techcrunch.com/2016/09/13/with-a-new-ceo-y-combinator-will-wind-down-fellowships-and-start-a-mooc/">"With a new CEO, Y Combinator will wind down fellowships and start a MOOC"</a>. <i>TechCrunch</i><span class="reference-accessdate">. Retrieved <span class="nowrap">December 23,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=With+a+new+CEO%2C+Y+Combinator+will+wind+down+fellowships+and+start+a+MOOC&amp;rft.aufirst=Lora&amp;rft.aulast=Kolodny&amp;rft.date=2016-09-13&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Ftechcrunch.com%2F2016%2F09%2F13%2Fwith-a-new-ceo-y-combinator-will-wind-down-fellowships-and-start-a-mooc%2F&amp;rft.jtitle=TechCrunch&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-37"><span class="mw-cite-backlink"><b><a href="#cite_ref-37">^</a></b></span> <span class="reference-text"><cite class="citation web">Yeung, Ken. <a rel="nofollow" class="external text" href="http://venturebeat.com/2015/10/07/sam-altman-commits-10m-to-start-y-combinator-research-lab/">"Sam Altman commits $10M to start Y Combinator research lab"</a>. <i>VentureBeat</i>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Sam+Altman+commits+%2410M+to+start+Y+Combinator+research+lab&amp;rft.aufirst=Ken&amp;rft.aulast=Yeung&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fventurebeat.com%2F2015%2F10%2F07%2Fsam-altman-commits-10m-to-start-y-combinator-research-lab%2F&amp;rft.jtitle=VentureBeat&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-38"><span class="mw-cite-backlink"><b><a href="#cite_ref-38">^</a></b></span> <span class="reference-text"><cite class="citation web">Newton, Casey (7 October 2015). <a rel="nofollow" class="external text" href="http://www.theverge.com/2015/10/7/9473703/y-combinator-research">"Y Combinator is launching its own in-house moonshot group"</a>. <i>The Verge</i>. Vox Media.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=Y+Combinator+is+launching+its+own+in-house+moonshot+group&amp;rft.aufirst=Casey&amp;rft.aulast=Newton&amp;rft.date=2015-10-07&amp;rft.genre=unknown&amp;rft_id=http%3A%2F%2Fwww.theverge.com%2F2015%2F10%2F7%2F9473703%2Fy-combinator-research&amp;rft.jtitle=The+Verge&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+<li id="cite_note-39"><span class="mw-cite-backlink"><b><a href="#cite_ref-39">^</a></b></span> <span class="reference-text"><cite class="citation web"><a rel="nofollow" class="external text" href="https://ycr.org">"YCR is a non-profit research lab"</a>. <i>Y Combinator Research</i><span class="reference-accessdate">. Retrieved <span class="nowrap">October 22,</span> 2016</span>.</cite><span title="ctx_ver=Z39.88-2004&amp;rfr_id=info%3Asid%2Fen.wikipedia.org%3AY+Combinator+%28company%29&amp;rft.atitle=YCR+is+a+non-profit+research+lab&amp;rft.genre=unknown&amp;rft_id=https%3A%2F%2Fycr.org&amp;rft.jtitle=Y+Combinator+Research&amp;rft_val_fmt=info%3Aofi%2Ffmt%3Akev%3Amtx%3Ajournal" class="Z3988"><span style="display:none;">&#160;</span></span></span></li>
+</ol>
+</div>
+<h2><span class="mw-headline" id="External_links">External links</span><span class="mw-editsection"><span class="mw-editsection-bracket">[</span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit&amp;section=9" title="Edit section: External links">edit</a><span class="mw-editsection-bracket">]</span></span></h2>
+<table role="presentation" class="mbox-small plainlinks sistersitebox" style="background-color:#f9f9f9;border:1px solid #aaa;color:#000">
+<tr>
+<td class="mbox-image"><a href="/wiki/File:Commons-logo.svg" class="image"><img alt="" src="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/30px-Commons-logo.svg.png" width="30" height="40" class="noviewer" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/45px-Commons-logo.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/4a/Commons-logo.svg/59px-Commons-logo.svg.png 2x" data-file-width="1024" data-file-height="1376" /></a></td>
+<td class="mbox-text plainlist">Wikimedia Commons has media related to <i><b><a href="https://commons.wikimedia.org/wiki/Category:Y_Combinator" class="extiw" title="commons:Category:Y Combinator">Y Combinator</a></b></i>.</td>
+</tr>
+</table>
+<ul>
+<li><span class="official-website"><span class="url"><a rel="nofollow" class="external text" href="http://www.ycombinator.com">Official website</a></span></span></li>
+</ul>
+<div role="navigation" class="navbox" aria-labelledby="Business_incubators_of_the_United_States" style="padding:3px">
+<table class="nowraplinks hlist collapsible autocollapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:US_Business_Incubators" title="Template:US Business Incubators"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:US_Business_Incubators" title="Template talk:US Business Incubators"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:US_Business_Incubators&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Business_incubators_of_the_United_States" style="font-size:114%">Business incubators of the United States</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/500_Startups" title="500 Startups">500 Startups</a></li>
+<li><a href="/wiki/Advanced_Technology_Development_Center" title="Advanced Technology Development Center">Advanced Technology Development Center</a></li>
+<li><a href="/wiki/The_Alchemist_Accelerator" title="The Alchemist Accelerator">The Alchemist Accelerator</a></li>
+<li><a href="/wiki/Amplify.LA" title="Amplify.LA">Amplify.LA</a></li>
+<li><a href="/wiki/Betaworks" title="Betaworks">Betaworks</a></li>
+<li><a href="/wiki/CodeLaunch" title="CodeLaunch">CodeLaunch</a></li>
+<li><a href="/wiki/Darden_Progressive_Incubator" title="Darden Progressive Incubator">Darden Progressive Incubator</a></li>
+<li><a href="/wiki/The_Founder_Institute" title="The Founder Institute">The Founder Institute</a></li>
+<li><a href="/wiki/Founder.org" title="Founder.org">Founder.org</a></li>
+<li><a href="/wiki/Fueled_Collective" title="Fueled Collective">Fueled Collective</a></li>
+<li><a href="/wiki/Golden_Gate_Ventures" title="Golden Gate Ventures">Golden Gate Ventures</a></li>
+<li><a href="/wiki/Green_Launching_Pad" title="Green Launching Pad">Green Launching Pad</a></li>
+<li><a href="/wiki/Hatch_Labs" title="Hatch Labs">Hatch Labs</a></li>
+<li><a href="/wiki/Idealab" title="Idealab">Idealab</a></li>
+<li><a href="/wiki/Imagine_H2O" title="Imagine H2O">Imagine H2O</a></li>
+<li><a href="/wiki/Innovadores_Foundation" title="Innovadores Foundation">Innovadores Foundation</a></li>
+<li><a href="/wiki/Innovation_Pavilion" title="Innovation Pavilion">Innovation Pavilion</a></li>
+<li><a href="/wiki/Interplay_Ventures" title="Interplay Ventures">Interplay Ventures</a></li>
+<li><a href="/wiki/Interval_Research_Corporation" title="Interval Research Corporation">Interval Research Corporation</a></li>
+<li><a href="/wiki/LA_Cleantech_Incubator" title="LA Cleantech Incubator">LA Cleantech Incubator</a></li>
+<li><a href="/wiki/Mach_37" title="Mach 37">Mach 37</a></li>
+<li><a href="/wiki/New_Jersey_Economic_Development_Authority" title="New Jersey Economic Development Authority">New Jersey Economic Development Authority</a></li>
+<li><a href="/wiki/New_Jersey_Institute_of_Technology" title="New Jersey Institute of Technology">New Jersey Institute of Technology</a></li>
+<li><a href="/wiki/Ohio_Third_Frontier" title="Ohio Third Frontier">Ohio Third Frontier</a></li>
+<li><a href="/wiki/Parisoma_(company)" title="Parisoma (company)">Parisoma</a></li>
+<li><a href="/wiki/Pittsburgh_Life_Sciences_Greenhouse" title="Pittsburgh Life Sciences Greenhouse">Pittsburgh Life Sciences Greenhouse</a></li>
+<li><a href="/wiki/Portland_Incubator_Experiment" title="Portland Incubator Experiment">Portland Incubator Experiment</a></li>
+<li><a href="/wiki/San_Jose_BioCenter" title="San Jose BioCenter">San Jose BioCenter</a></li>
+<li><a href="/wiki/Sid_Martin_Biotechnology_Incubator" title="Sid Martin Biotechnology Incubator">Sid Martin Biotechnology Incubator</a></li>
+<li><a href="/wiki/SplatSpace" title="SplatSpace">SplatSpace</a></li>
+<li><a href="/wiki/StartX" title="StartX">StartX</a></li>
+<li><a href="/wiki/Sunshine_Suites" title="Sunshine Suites">Sunshine Suites</a></li>
+<li><a href="/wiki/Technology_Centre_of_New_Jersey" title="Technology Centre of New Jersey">Technology Centre of New Jersey</a></li>
+<li><a href="/wiki/Techstars" title="Techstars">Techstars</a></li>
+<li><a href="/wiki/Teknekron_Corporation" title="Teknekron Corporation">Teknekron Corporation</a></li>
+<li><a href="/wiki/Union_Kitchen" title="Union Kitchen">Union Kitchen</a></li>
+<li><a href="/wiki/University_City_Science_Center" title="University City Science Center">University City Science Center</a></li>
+<li><a href="/wiki/US_Market_Access_Center" title="US Market Access Center">US Market Access Center</a></li>
+<li><a href="/wiki/Village_Capital" title="Village Capital">Village Capital</a></li>
+<li><a href="/w/index.php?title=Washington_Community_Alliance_for_Self-Help&amp;action=edit&amp;redlink=1" class="new" title="Washington Community Alliance for Self-Help (page does not exist)">Washington Community Alliance for Self-Help</a></li>
+<li><a href="/wiki/Women%27s_Technology_Cluster" title="Women's Technology Cluster">Women's Technology Cluster</a></li>
+<li><strong class="selflink">Y Combinator</strong></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <a href="/wiki/Category:Business_incubators_of_the_United_States" title="Category:Business incubators of the United States">Category</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div role="navigation" class="navbox" aria-labelledby="Private_equity_and_venture_capital" style="padding:3px">
+<table class="nowraplinks hlist collapsible collapsed navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="3">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:Private_equity_and_venture_capital" title="Template:Private equity and venture capital"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:Private_equity_and_venture_capital" title="Template talk:Private equity and venture capital"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:Private_equity_and_venture_capital&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Private_equity_and_venture_capital" style="font-size:114%"><a href="/wiki/Private_equity" title="Private equity">Private equity</a> and <a href="/wiki/Venture_capital" title="Venture capital">venture capital</a></div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Basic investment types</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Leveraged_buyout" title="Leveraged buyout">Buyout</a></li>
+<li><a href="/wiki/Venture_capital" title="Venture capital">Venture</a></li>
+<li><a href="/wiki/Mezzanine_capital" title="Mezzanine capital">Mezzanine</a></li>
+<li><a href="/wiki/Growth_capital" title="Growth capital">Growth</a></li>
+<li><a href="/wiki/Private_equity_secondary_market" title="Private equity secondary market">Secondaries</a></li>
+<li><a href="/wiki/Equity_co-investment" title="Equity co-investment">Equity co-investment</a></li>
+</ul>
+</div>
+</td>
+<td class="navbox-image" rowspan="9" style="width:0%;padding:0px 0px 0px 2px">
+<div><a href="/wiki/File:Chicklet-currency.jpg" class="image"><img alt="Chicklet-currency.jpg" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Chicklet-currency.jpg/90px-Chicklet-currency.jpg" width="90" height="81" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Chicklet-currency.jpg/135px-Chicklet-currency.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/9f/Chicklet-currency.jpg/180px-Chicklet-currency.jpg 2x" data-file-width="279" data-file-height="250" /></a></div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group"><a href="/wiki/History_of_private_equity_and_venture_capital" title="History of private equity and venture capital">History</a></th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/History_of_private_equity_and_venture_capital" title="History of private equity and venture capital">History of private equity and venture capital</a></li>
+<li><a href="/wiki/Early_history_of_private_equity" title="Early history of private equity">Early history of private equity</a></li>
+<li><a href="/wiki/Private_equity_in_the_1980s" title="Private equity in the 1980s">Private equity in the 1980s</a></li>
+<li><a href="/wiki/Private_equity_in_the_1990s" title="Private equity in the 1990s">Private equity in the 1990s</a></li>
+<li><a href="/wiki/Private_equity_in_the_2000s" title="Private equity in the 2000s">Private equity in the 2000s</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Terms and concepts</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em"></div>
+<table class="nowraplinks navbox-subgroup" style="border-spacing:0">
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Leveraged_buyout" title="Leveraged buyout">Buyout</a></div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Financial_sponsor" title="Financial sponsor">Financial sponsor</a></li>
+<li><a href="/wiki/Management_buyout" title="Management buyout">Management buyout</a></li>
+<li><a href="/wiki/Divisional_buyout" title="Divisional buyout">Divisional buyout</a></li>
+<li><a href="/wiki/Buy%E2%80%93sell_agreement" title="Buy–sell agreement">Buy–sell agreement</a></li>
+<li><a href="/wiki/Leveraged_recapitalization" title="Leveraged recapitalization">Leveraged recapitalization</a></li>
+<li><a href="/wiki/Dividend_recapitalization" title="Dividend recapitalization">Dividend recapitalization</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;"><a href="/wiki/Venture_capital" title="Venture capital">Venture</a></div>
+</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Angel_investor" title="Angel investor">Angel investor</a></li>
+<li><a href="/wiki/Business_incubator" title="Business incubator">Business incubator</a></li>
+<li><a href="/wiki/Post-money_valuation" title="Post-money valuation">Post-money valuation</a></li>
+<li><a href="/wiki/Pre-money_valuation" title="Pre-money valuation">Pre-money valuation</a></li>
+<li><a href="/wiki/Seed_money" title="Seed money">Seed money</a></li>
+<li><a href="/wiki/Startup_company" title="Startup company">Startup company</a></li>
+<li><a href="/wiki/Venture_capital_financing" title="Venture capital financing">Venture capital financing</a></li>
+<li><a href="/wiki/Venture_debt" title="Venture debt">Venture debt</a></li>
+<li><a href="/wiki/Venture_round" title="Venture round">Venture round</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group" style="padding-left:0;padding-right:0;">
+<div style="padding:0em 0.75em;">Structure</div>
+</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li>Private equity firms and <a href="/wiki/Private_equity_fund" title="Private equity fund">funds</a></li>
+<li><a href="/wiki/Limited_partnership" title="Limited partnership">Limited partnership</a></li>
+<li><a href="/wiki/Limited_liability_company" title="Limited liability company">Limited liability company</a></li>
+<li><a href="/wiki/Carried_interest" title="Carried interest">Carried interest</a></li>
+<li><a href="/wiki/Management_fee" title="Management fee">Management fee</a></li>
+<li><a href="/wiki/Publicly_traded_private_equity" title="Publicly traded private equity">Publicly traded private equity</a>
+<ul>
+<li><a href="/wiki/Business_Development_Company" title="Business Development Company">Business Development Company</a></li>
+<li><a href="/wiki/Venture_capital_trust" title="Venture capital trust">Venture capital trust</a></li>
+</ul>
+</li>
+<li><a href="/wiki/Private_investment_in_public_equity" title="Private investment in public equity">Private investment in public equity (PIPE)</a></li>
+<li><a href="/wiki/Pledge_fund" title="Pledge fund">Pledge fund</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Investors</th>
+<td class="navbox-list navbox-even" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Corporate_venture_capital" title="Corporate venture capital">Corporations</a></li>
+<li><a href="/wiki/Institutional_investor" title="Institutional investor">Institutional investors</a></li>
+<li><a href="/wiki/Pension_fund" title="Pension fund">Pension funds</a></li>
+<li><a href="/wiki/Insurance#Insurance_companies" title="Insurance">Insurance companies</a></li>
+<li><a href="/wiki/Fund_of_funds" title="Fund of funds">Fund of funds</a></li>
+<li><a href="/wiki/Financial_endowment" title="Financial endowment">Endowments</a></li>
+<li><a href="/wiki/Private_foundation" title="Private foundation">Foundations</a></li>
+<li><a href="/wiki/Investment_banking" title="Investment banking">Investment banks</a></li>
+<li><a href="/wiki/Merchant_bank" title="Merchant bank">Merchant banks</a></li>
+<li><a href="/wiki/Commercial_bank" title="Commercial bank">Commercial banks</a></li>
+<li><a href="/wiki/High-net-worth_individual" title="High-net-worth individual">High-net-worth individuals</a></li>
+<li><a href="/wiki/Family_office" title="Family office">Family offices</a></li>
+<li><a href="/wiki/Sovereign_wealth_fund" title="Sovereign wealth fund">Sovereign wealth funds</a></li>
+<li><a href="/wiki/Crowdfunding" title="Crowdfunding">Crowdfunding</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<th scope="row" class="navbox-group">Related financial terms</th>
+<td class="navbox-list navbox-odd" style="text-align:left;border-left-width:2px;border-left-style:solid;width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/Assets_under_management" title="Assets under management">AUM</a></li>
+<li><a href="/wiki/Capitalization_table" title="Capitalization table">Cap table</a></li>
+<li><a href="/wiki/Capital_call" title="Capital call">Capital call</a></li>
+<li><a href="/wiki/Capital_commitment" title="Capital commitment">Capital commitment</a></li>
+<li><a href="/wiki/Capital_structure" title="Capital structure">Capital structure</a></li>
+<li><a href="/wiki/Distribution_waterfall" title="Distribution waterfall">Distribution waterfall</a></li>
+<li><a href="/wiki/Earnings_before_interest,_taxes,_depreciation_and_amortization" class="mw-redirect" title="Earnings before interest, taxes, depreciation and amortization">EBITDA</a></li>
+<li><a href="/wiki/Envy_ratio" title="Envy ratio">Envy ratio</a></li>
+<li><a href="/wiki/High-yield_debt" title="High-yield debt">High-yield debt</a></li>
+<li><a href="/wiki/Initial_public_offering" title="Initial public offering">IPO</a></li>
+<li><a href="/wiki/Internal_rate_of_return" title="Internal rate of return">IRR</a></li>
+<li><a href="/wiki/Leverage_(finance)" title="Leverage (finance)">Leverage</a></li>
+<li><a href="/wiki/Liquidation_preference" title="Liquidation preference">Liquidation preference</a></li>
+<li><a href="/wiki/Mergers_and_acquisitions" title="Mergers and acquisitions">M&amp;A</a></li>
+<li><a href="/wiki/Public_Market_Equivalent" title="Public Market Equivalent">PME</a></li>
+<li><a href="/wiki/Taxation_of_private_equity_and_hedge_funds" title="Taxation of private equity and hedge funds">Taxation of private equity and hedge funds</a></li>
+<li><a href="/wiki/Undercapitalization" title="Undercapitalization">Undercapitalization</a></li>
+<li><a href="/wiki/Vintage_year" title="Vintage year">Vintage year</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="3">
+<div>
+<ul>
+<li><a href="/wiki/Category:Private_equity_and_venture_capital_investors" title="Category:Private equity and venture capital investors">Private equity and venture capital investors</a></li>
+<li><a href="/wiki/Category:Private_equity_firms" title="Category:Private equity firms">Private equity firms</a></li>
+<li><a href="/wiki/Category:Venture_capital_firms" title="Category:Venture capital firms">Venture capital firms</a></li>
+<li><a href="/wiki/Category:Angel_investors" title="Category:Angel investors">Angel investors</a></li>
+<li><a href="/wiki/Category:Private_equity_portfolio_companies" title="Category:Private equity portfolio companies">Portfolio companies</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+<div role="navigation" class="navbox" aria-labelledby="Y_Combinator_companies" style="padding:3px">
+<table class="nowraplinks hlist collapsible collapse navbox-inner" style="border-spacing:0;background:transparent;color:inherit">
+<tr>
+<th scope="col" class="navbox-title" colspan="2">
+<div class="plainlinks hlist navbar mini">
+<ul>
+<li class="nv-view"><a href="/wiki/Template:YC_companies" title="Template:YC companies"><abbr title="View this template" style=";;background:none transparent;border:none;">v</abbr></a></li>
+<li class="nv-talk"><a href="/wiki/Template_talk:YC_companies" title="Template talk:YC companies"><abbr title="Discuss this template" style=";;background:none transparent;border:none;">t</abbr></a></li>
+<li class="nv-edit"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Template:YC_companies&amp;action=edit"><abbr title="Edit this template" style=";;background:none transparent;border:none;">e</abbr></a></li>
+</ul>
+</div>
+<div id="Y_Combinator_companies" style="font-size:114%"><strong class="selflink">Y Combinator</strong> companies</div>
+</th>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td colspan="2" class="navbox-list navbox-odd" style="width:100%;padding:0px">
+<div style="padding:0em 0.25em">
+<ul>
+<li><a href="/wiki/7_Cups" title="7 Cups">7 Cups</a></li>
+<li><a href="/wiki/9GAG" title="9GAG">9GAG</a></li>
+<li><a href="/wiki/Airbnb" title="Airbnb">Airbnb</a></li>
+<li><a href="/wiki/Algolia" title="Algolia">Algolia</a></li>
+<li><a href="/wiki/Bluesmart" title="Bluesmart">Bluesmart</a></li>
+<li><a href="/wiki/Buttercoin" title="Buttercoin">Buttercoin</a></li>
+<li><a href="/wiki/Canopy_Labs" title="Canopy Labs">Canopy Labs</a></li>
+<li><a href="/wiki/Captain401" title="Captain401">Captain401</a></li>
+<li><a href="/wiki/ClearTax" title="ClearTax">ClearTax</a></li>
+<li><a href="/wiki/Codecademy" title="Codecademy">Codecademy</a></li>
+<li><a href="/wiki/Coinbase" title="Coinbase">Coinbase</a></li>
+<li><a href="/wiki/Creative_Market" title="Creative Market">Creative Market</a></li>
+<li><a href="/wiki/Cymmetria" title="Cymmetria">Cymmetria</a></li>
+<li><a href="/wiki/Disqus" title="Disqus">Disqus</a></li>
+<li><a href="/wiki/Dropbox_(service)" title="Dropbox (service)">Dropbox</a></li>
+<li><a href="/wiki/EasyPost" title="EasyPost">EasyPost</a></li>
+<li><a href="/wiki/Flexport" title="Flexport">Flexport</a></li>
+<li><a href="/wiki/Fullstack_Academy" title="Fullstack Academy">Fullstack Academy</a></li>
+<li><a href="/wiki/FutureAdvisor" title="FutureAdvisor">FutureAdvisor</a></li>
+<li><a href="/wiki/Gigster" title="Gigster">Gigster</a></li>
+<li><a href="/wiki/GitLab" title="GitLab">GitLab</a></li>
+<li><a href="/wiki/GoCardless" title="GoCardless">GoCardless</a></li>
+<li><a href="/wiki/Goldbely" title="Goldbely">Goldbely</a></li>
+<li><a href="/wiki/Gusto_(software)" title="Gusto (software)">Gusto</a></li>
+<li><a href="/wiki/Heroku" title="Heroku">Heroku</a></li>
+<li><a href="/wiki/Hipmunk" title="Hipmunk">Hipmunk</a></li>
+<li><a href="/wiki/Homejoy" title="Homejoy">Homejoy</a></li>
+<li><a href="/wiki/Instacart" title="Instacart">Instacart</a></li>
+<li><a href="/wiki/Justin.tv" title="Justin.tv">Justin.tv</a></li>
+<li><a href="/wiki/JustRide" title="JustRide">JustRide</a></li>
+<li><a href="/wiki/Kickback_(gaming)" title="Kickback (gaming)">Kickback</a></li>
+<li><a href="/wiki/LendEDU" title="LendEDU">LendEDU</a></li>
+<li><a href="/wiki/LendUp" title="LendUp">LendUp</a></li>
+<li><a href="/wiki/Lockitron" title="Lockitron">Lockitron</a></li>
+<li><a href="/wiki/Loopt" title="Loopt">Loopt</a></li>
+<li><a href="/wiki/Lumi_(company)" title="Lumi (company)">Lumi</a></li>
+<li><a href="/wiki/Meadow_(company)" title="Meadow (company)">Meadow</a></li>
+<li><a href="/wiki/Meta_(company)" title="Meta (company)">Meta</a></li>
+<li><a href="/wiki/NewsBlur" title="NewsBlur">NewsBlur</a></li>
+<li><a href="/wiki/Octopart" title="Octopart">Octopart</a></li>
+<li><a href="/wiki/OMGPop" title="OMGPop">OMGPop</a></li>
+<li><a href="/wiki/One_Month" title="One Month">One Month</a></li>
+<li><a href="/wiki/Optimizely" title="Optimizely">Optimizely</a></li>
+<li><a href="/wiki/OwnLocal" title="OwnLocal">OwnLocal</a></li>
+<li><a href="/wiki/Paribus" title="Paribus">Paribus</a></li>
+<li><a href="/wiki/Pebble_(watch)" title="Pebble (watch)">Pebble</a></li>
+<li><a href="/wiki/Podium_(company)" title="Podium (company)">Podium</a></li>
+<li><a href="/wiki/Poll_Everywhere" title="Poll Everywhere">Poll Everywhere</a></li>
+<li><a href="/wiki/Product_Hunt" title="Product Hunt">Product Hunt</a></li>
+<li><a href="/wiki/Quartzy" title="Quartzy">Quartzy</a></li>
+<li><a href="/wiki/Quora" title="Quora">Quora</a></li>
+<li><a href="/wiki/Recurse_Center" title="Recurse Center">Recurse Center</a></li>
+<li><a href="/wiki/Reddit" title="Reddit">Reddit</a></li>
+<li><a href="/wiki/RentHop" title="RentHop">RentHop</a></li>
+<li><a href="/wiki/Robo-advisor" title="Robo-advisor">Robo-advisor</a></li>
+<li><a href="/wiki/Scribd" title="Scribd">Scribd</a></li>
+<li><a href="/wiki/Segment_(company)" title="Segment (company)">Segment</a></li>
+<li><a href="/wiki/SmartAsset" title="SmartAsset">SmartAsset</a></li>
+<li><a href="/wiki/Songkick" title="Songkick">Songkick</a></li>
+<li><a href="/wiki/Stilt_(company)" title="Stilt (company)">Stilt</a></li>
+<li><a href="/wiki/Streak_(company)" title="Streak (company)">Streak</a></li>
+<li><a href="/wiki/Strikingly" title="Strikingly">Strikingly</a></li>
+<li><a href="/wiki/Stripe_(company)" title="Stripe (company)">Stripe</a></li>
+<li><a href="/wiki/Survata" title="Survata">Survata</a></li>
+<li><a href="/wiki/Swiftype" title="Swiftype">Swiftype</a></li>
+<li><a href="/wiki/True_Link" title="True Link">True Link</a></li>
+<li><a href="/wiki/Upverter" title="Upverter">Upverter</a></li>
+<li><a href="/wiki/URX_(company)" title="URX (company)">URX</a></li>
+<li><a href="/wiki/Vidyard" title="Vidyard">Vidyard</a></li>
+<li><a href="/wiki/Vote.org" title="Vote.org">Vote.org</a></li>
+<li><a href="/wiki/Watsi" title="Watsi">Watsi</a></li>
+<li><a href="/wiki/Webflow" title="Webflow">Webflow</a></li>
+<li><a href="/wiki/Weebly" title="Weebly">Weebly</a></li>
+<li><a href="/wiki/WePay" title="WePay">WePay</a></li>
+<li><a href="/wiki/Wufoo" title="Wufoo">Wufoo</a></li>
+<li><a href="/wiki/Xobni" title="Xobni">Xobni</a></li>
+<li><a href="/wiki/Zapier" title="Zapier">Zapier</a></li>
+<li><a href="/wiki/Zenefits" title="Zenefits">Zenefits</a></li>
+<li><a href="/wiki/ZeroCater" title="ZeroCater">ZeroCater</a></li>
+</ul>
+</div>
+</td>
+</tr>
+<tr style="height:2px">
+<td colspan="2"></td>
+</tr>
+<tr>
+<td class="navbox-abovebelow" colspan="2">
+<div>
+<ul>
+<li><img alt="Category" src="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/16px-Folder_Hexagonal_Icon.svg.png" title="Category" width="16" height="14" srcset="//upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/24px-Folder_Hexagonal_Icon.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/4/48/Folder_Hexagonal_Icon.svg/32px-Folder_Hexagonal_Icon.svg.png 2x" data-file-width="36" data-file-height="31" /> <a href="/wiki/Category:Y_Combinator_companies" title="Category:Y Combinator companies">Category</a></li>
+<li><img alt="List-Class article" src="//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/16px-Symbol_list_class.svg.png" title="List-Class article" width="16" height="16" srcset="//upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/23px-Symbol_list_class.svg.png 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/d/db/Symbol_list_class.svg/31px-Symbol_list_class.svg.png 2x" data-file-width="180" data-file-height="185" /> <a href="/wiki/List_of_Y-Combinator_Startups" class="mw-redirect" title="List of Y-Combinator Startups">Full list</a></li>
+</ul>
+</div>
+</td>
+</tr>
+</table>
+</div>
+
+
+<!-- 
+NewPP limit report
+Parsed by mw1255
+Cached time: 20170228023556
+Cache expiry: 2592000
+Dynamic content: false
+CPU time usage: 0.340 seconds
+Real time usage: 0.418 seconds
+Preprocessor visited node count: 2871/1000000
+Preprocessor generated node count: 0/1500000
+Post‐expand include size: 113742/2097152 bytes
+Template argument size: 2581/2097152 bytes
+Highest expansion depth: 9/40
+Expensive parser function count: 1/500
+Lua time usage: 0.163/10.000 seconds
+Lua memory usage: 4.83 MB/50 MB
+-->
+<!--
+Transclusion expansion time report (%,ms,calls,template)
+100.00%  341.581      1 -total
+ 51.58%  176.196      1 Template:Reflist
+ 39.49%  134.879     37 Template:Cite_web
+ 11.95%   40.802      1 Template:Infobox_company
+  9.46%   32.312      4 Template:Navbox
+  9.04%   30.881      1 Template:Infobox
+  8.35%   28.517      1 Template:Primary_sources
+  7.01%   23.931      1 Template:Ambox
+  6.05%   20.676      1 Template:Commons_category
+  4.97%   16.982      1 Template:About
+-->
+
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1666533-0!*!0!!en!4!* and timestamp 20170228023556 and revision id 757785153
+ -->
+<noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
+						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Y_Combinator_(company)&amp;oldid=757785153">https://en.wikipedia.org/w/index.php?title=Y_Combinator_(company)&amp;oldid=757785153</a>"					</div>
+				<div id="catlinks" class="catlinks" data-mw="interface"><div id="mw-normal-catlinks" class="mw-normal-catlinks"><a href="/wiki/Help:Category" title="Help:Category">Categories</a>: <ul><li><a href="/wiki/Category:Companies_based_in_Mountain_View,_California" title="Category:Companies based in Mountain View, California">Companies based in Mountain View, California</a></li><li><a href="/wiki/Category:Companies_established_in_2005" title="Category:Companies established in 2005">Companies established in 2005</a></li><li><a href="/wiki/Category:Venture_capital_firms_of_the_United_States" title="Category:Venture capital firms of the United States">Venture capital firms of the United States</a></li><li><a href="/wiki/Category:Business_incubators_of_the_United_States" title="Category:Business incubators of the United States">Business incubators of the United States</a></li><li><a href="/wiki/Category:Y_Combinator_companies" title="Category:Y Combinator companies">Y Combinator companies</a></li><li><a href="/wiki/Category:Startup_accelerators" title="Category:Startup accelerators">Startup accelerators</a></li><li><a href="/wiki/Category:2005_establishments_in_California" title="Category:2005 establishments in California">2005 establishments in California</a></li></ul></div><div id="mw-hidden-catlinks" class="mw-hidden-catlinks mw-hidden-cats-hidden">Hidden categories: <ul><li><a href="/wiki/Category:CS1_maint:_Multiple_names:_authors_list" title="Category:CS1 maint: Multiple names: authors list">CS1 maint: Multiple names: authors list</a></li><li><a href="/wiki/Category:Articles_lacking_reliable_references_from_February_2016" title="Category:Articles lacking reliable references from February 2016">Articles lacking reliable references from February 2016</a></li><li><a href="/wiki/Category:All_articles_lacking_reliable_references" title="Category:All articles lacking reliable references">All articles lacking reliable references</a></li><li><a href="/wiki/Category:Commons_category_with_local_link_same_as_on_Wikidata" title="Category:Commons category with local link same as on Wikidata">Commons category with local link same as on Wikidata</a></li></ul></div></div>				<div class="visualClear"></div>
+							</div>
+		</div>
+		<div id="mw-navigation">
+			<h2>Navigation menu</h2>
+
+			<div id="mw-head">
+									<div id="p-personal" role="navigation" class="" aria-labelledby="p-personal-label">
+						<h3 id="p-personal-label">Personal tools</h3>
+						<ul>
+							<li id="pt-anonuserpage">Not logged in</li><li id="pt-anontalk"><a href="/wiki/Special:MyTalk" title="Discussion about edits from this IP address [n]" accesskey="n">Talk</a></li><li id="pt-anoncontribs"><a href="/wiki/Special:MyContributions" title="A list of edits made from this IP address [y]" accesskey="y">Contributions</a></li><li id="pt-createaccount"><a href="/w/index.php?title=Special:CreateAccount&amp;returnto=Y+Combinator+%28company%29" title="You are encouraged to create an account and log in; however, it is not mandatory">Create account</a></li><li id="pt-login"><a href="/w/index.php?title=Special:UserLogin&amp;returnto=Y+Combinator+%28company%29" title="You're encouraged to log in; however, it's not mandatory. [o]" accesskey="o">Log in</a></li>						</ul>
+					</div>
+									<div id="left-navigation">
+										<div id="p-namespaces" role="navigation" class="vectorTabs" aria-labelledby="p-namespaces-label">
+						<h3 id="p-namespaces-label">Namespaces</h3>
+						<ul>
+															<li  id="ca-nstab-main" class="selected"><span><a href="/wiki/Y_Combinator_(company)"  title="View the content page [c]" accesskey="c">Article</a></span></li>
+															<li  id="ca-talk"><span><a href="/wiki/Talk:Y_Combinator_(company)"  title="Discussion about the content page [t]" accesskey="t" rel="discussion">Talk</a></span></li>
+													</ul>
+					</div>
+										<div id="p-variants" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-variants-label">
+												<h3 id="p-variants-label">
+							<span>Variants</span><a href="#"></a>
+						</h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+									</div>
+				<div id="right-navigation">
+										<div id="p-views" role="navigation" class="vectorTabs" aria-labelledby="p-views-label">
+						<h3 id="p-views-label">Views</h3>
+						<ul>
+															<li id="ca-view" class="selected"><span><a href="/wiki/Y_Combinator_(company)" >Read</a></span></li>
+															<li id="ca-edit"><span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=edit"  title="Edit this page [e]" accesskey="e">Edit</a></span></li>
+															<li id="ca-history" class="collapsible"><span><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=history"  title="Past revisions of this page [h]" accesskey="h">View history</a></span></li>
+													</ul>
+					</div>
+										<div id="p-cactions" role="navigation" class="vectorMenu emptyPortlet" aria-labelledby="p-cactions-label">
+						<h3 id="p-cactions-label"><span>More</span><a href="#"></a></h3>
+
+						<div class="menu">
+							<ul>
+															</ul>
+						</div>
+					</div>
+										<div id="p-search" role="search">
+						<h3>
+							<label for="searchInput">Search</label>
+						</h3>
+
+						<form action="/w/index.php" id="searchform">
+							<div id="simpleSearch">
+							<input type="search" name="search" placeholder="Search Wikipedia" title="Search Wikipedia [f]" accesskey="f" id="searchInput"/><input type="hidden" value="Special:Search" name="title"/><input type="submit" name="fulltext" value="Search" title="Search Wikipedia for this text" id="mw-searchButton" class="searchButton mw-fallbackSearchButton"/><input type="submit" name="go" value="Go" title="Go to a page with this exact name if it exists" id="searchButton" class="searchButton"/>							</div>
+						</form>
+					</div>
+									</div>
+			</div>
+			<div id="mw-panel">
+				<div id="p-logo" role="banner"><a class="mw-wiki-logo" href="/wiki/Main_Page"  title="Visit the main page"></a></div>
+						<div class="portal" role="navigation" id='p-navigation' aria-labelledby='p-navigation-label'>
+			<h3 id='p-navigation-label'>Navigation</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-mainpage-description"><a href="/wiki/Main_Page" title="Visit the main page [z]" accesskey="z">Main page</a></li><li id="n-contents"><a href="/wiki/Portal:Contents" title="Guides to browsing Wikipedia">Contents</a></li><li id="n-featuredcontent"><a href="/wiki/Portal:Featured_content" title="Featured content – the best of Wikipedia">Featured content</a></li><li id="n-currentevents"><a href="/wiki/Portal:Current_events" title="Find background information on current events">Current events</a></li><li id="n-randompage"><a href="/wiki/Special:Random" title="Load a random article [x]" accesskey="x">Random article</a></li><li id="n-sitesupport"><a href="https://donate.wikimedia.org/wiki/Special:FundraiserRedirector?utm_source=donate&amp;utm_medium=sidebar&amp;utm_campaign=C13_en.wikipedia.org&amp;uselang=en" title="Support us">Donate to Wikipedia</a></li><li id="n-shoplink"><a href="//shop.wikimedia.org" title="Visit the Wikipedia store">Wikipedia store</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-interaction' aria-labelledby='p-interaction-label'>
+			<h3 id='p-interaction-label'>Interaction</h3>
+
+			<div class="body">
+									<ul>
+						<li id="n-help"><a href="/wiki/Help:Contents" title="Guidance on how to use and edit Wikipedia">Help</a></li><li id="n-aboutsite"><a href="/wiki/Wikipedia:About" title="Find out about Wikipedia">About Wikipedia</a></li><li id="n-portal"><a href="/wiki/Wikipedia:Community_portal" title="About the project, what you can do, where to find things">Community portal</a></li><li id="n-recentchanges"><a href="/wiki/Special:RecentChanges" title="A list of recent changes in the wiki [r]" accesskey="r">Recent changes</a></li><li id="n-contactpage"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us" title="How to contact Wikipedia">Contact page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-tb' aria-labelledby='p-tb-label'>
+			<h3 id='p-tb-label'>Tools</h3>
+
+			<div class="body">
+									<ul>
+						<li id="t-whatlinkshere"><a href="/wiki/Special:WhatLinksHere/Y_Combinator_(company)" title="List of all English Wikipedia pages containing links to this page [j]" accesskey="j">What links here</a></li><li id="t-recentchangeslinked"><a href="/wiki/Special:RecentChangesLinked/Y_Combinator_(company)" rel="nofollow" title="Recent changes in pages linked from this page [k]" accesskey="k">Related changes</a></li><li id="t-upload"><a href="/wiki/Wikipedia:File_Upload_Wizard" title="Upload files [u]" accesskey="u">Upload file</a></li><li id="t-specialpages"><a href="/wiki/Special:SpecialPages" title="A list of all special pages [q]" accesskey="q">Special pages</a></li><li id="t-permalink"><a href="/w/index.php?title=Y_Combinator_(company)&amp;oldid=757785153" title="Permanent link to this revision of the page">Permanent link</a></li><li id="t-info"><a href="/w/index.php?title=Y_Combinator_(company)&amp;action=info" title="More information about this page">Page information</a></li><li id="t-wikibase"><a href="https://www.wikidata.org/wiki/Q2616400" title="Link to connected data repository item [g]" accesskey="g">Wikidata item</a></li><li id="t-cite"><a href="/w/index.php?title=Special:CiteThisPage&amp;page=Y_Combinator_%28company%29&amp;id=757785153" title="Information on how to cite this page">Cite this page</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-coll-print_export' aria-labelledby='p-coll-print_export-label'>
+			<h3 id='p-coll-print_export-label'>Print/export</h3>
+
+			<div class="body">
+									<ul>
+						<li id="coll-create_a_book"><a href="/w/index.php?title=Special:Book&amp;bookcmd=book_creator&amp;referer=Y+Combinator+%28company%29">Create a book</a></li><li id="coll-download-as-rdf2latex"><a href="/w/index.php?title=Special:Book&amp;bookcmd=render_article&amp;arttitle=Y+Combinator+%28company%29&amp;returnto=Y+Combinator+%28company%29&amp;oldid=757785153&amp;writer=rdf2latex">Download as PDF</a></li><li id="t-print"><a href="/w/index.php?title=Y_Combinator_(company)&amp;printable=yes" title="Printable version of this page [p]" accesskey="p">Printable version</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-wikibase-otherprojects' aria-labelledby='p-wikibase-otherprojects-label'>
+			<h3 id='p-wikibase-otherprojects-label'>In other projects</h3>
+
+			<div class="body">
+									<ul>
+						<li class="wb-otherproject-link wb-otherproject-commons"><a href="https://commons.wikimedia.org/wiki/Category:Y_Combinator" hreflang="en">Wikimedia Commons</a></li>					</ul>
+							</div>
+		</div>
+			<div class="portal" role="navigation" id='p-lang' aria-labelledby='p-lang-label'>
+			<h3 id='p-lang-label'>Languages</h3>
+
+			<div class="body">
+									<ul>
+						<li class="interlanguage-link interwiki-de"><a href="https://de.wikipedia.org/wiki/Y_Combinator" title="Y Combinator – German" lang="de" hreflang="de" class="interlanguage-link-target">Deutsch</a></li><li class="interlanguage-link interwiki-fa"><a href="https://fa.wikipedia.org/wiki/%D9%88%D8%A7%DB%8C_%DA%A9%D8%A7%D9%85%D8%A8%DB%8C%D9%86%DB%8C%D8%AA%D8%B1" title="وای کامبینیتر – Persian" lang="fa" hreflang="fa" class="interlanguage-link-target">فارسی</a></li><li class="interlanguage-link interwiki-fr"><a href="https://fr.wikipedia.org/wiki/Y_Combinator" title="Y Combinator – French" lang="fr" hreflang="fr" class="interlanguage-link-target">Français</a></li><li class="interlanguage-link interwiki-ko"><a href="https://ko.wikipedia.org/wiki/%EC%99%80%EC%9D%B4_%EC%BD%A4%EB%B9%84%EB%84%A4%EC%9D%B4%ED%84%B0" title="와이 콤비네이터 – Korean" lang="ko" hreflang="ko" class="interlanguage-link-target">한국어</a></li><li class="interlanguage-link interwiki-id"><a href="https://id.wikipedia.org/wiki/Y_Combinator" title="Y Combinator – Indonesian" lang="id" hreflang="id" class="interlanguage-link-target">Bahasa Indonesia</a></li><li class="interlanguage-link interwiki-ja"><a href="https://ja.wikipedia.org/wiki/Y%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8D%E3%83%BC%E3%82%BF_(%E4%BC%81%E6%A5%AD)" title="Yコンビネータ (企業) – Japanese" lang="ja" hreflang="ja" class="interlanguage-link-target">日本語</a></li><li class="interlanguage-link interwiki-pt"><a href="https://pt.wikipedia.org/wiki/Y_Combinator" title="Y Combinator – Portuguese" lang="pt" hreflang="pt" class="interlanguage-link-target">Português</a></li><li class="interlanguage-link interwiki-ru"><a href="https://ru.wikipedia.org/wiki/Y_Combinator_(%D0%BA%D0%BE%D0%BC%D0%BF%D0%B0%D0%BD%D0%B8%D1%8F)" title="Y Combinator (компания) – Russian" lang="ru" hreflang="ru" class="interlanguage-link-target">Русский</a></li><li class="interlanguage-link interwiki-tr"><a href="https://tr.wikipedia.org/wiki/Y_Combinator" title="Y Combinator – Turkish" lang="tr" hreflang="tr" class="interlanguage-link-target">Türkçe</a></li><li class="interlanguage-link interwiki-zh"><a href="https://zh.wikipedia.org/wiki/Y_Combinator_(%E5%85%AC%E5%8F%B8)" title="Y Combinator (公司) – Chinese" lang="zh" hreflang="zh" class="interlanguage-link-target">中文</a></li>					</ul>
+				<div class='after-portlet after-portlet-lang'><span class="wb-langlinks-edit wb-langlinks-link"><a href="https://www.wikidata.org/wiki/Q2616400#sitelinks-wikipedia" title="Edit interlanguage links" class="wbc-editpage">Edit links</a></span></div>			</div>
+		</div>
+				</div>
+		</div>
+		<div id="footer" role="contentinfo">
+							<ul id="footer-info">
+											<li id="footer-info-lastmod"> This page was last modified on 1 January 2017, at 18:55.</li>
+											<li id="footer-info-copyright">Text is available under the <a rel="license" href="//en.wikipedia.org/wiki/Wikipedia:Text_of_Creative_Commons_Attribution-ShareAlike_3.0_Unported_License">Creative Commons Attribution-ShareAlike License</a><a rel="license" href="//creativecommons.org/licenses/by-sa/3.0/" style="display:none;"></a>;
+additional terms may apply.  By using this site, you agree to the <a href="//wikimediafoundation.org/wiki/Terms_of_Use">Terms of Use</a> and <a href="//wikimediafoundation.org/wiki/Privacy_policy">Privacy Policy</a>. Wikipedia® is a registered trademark of the <a href="//www.wikimediafoundation.org/">Wikimedia Foundation, Inc.</a>, a non-profit organization.</li>
+									</ul>
+							<ul id="footer-places">
+											<li id="footer-places-privacy"><a href="https://wikimediafoundation.org/wiki/Privacy_policy" class="extiw" title="wmf:Privacy policy">Privacy policy</a></li>
+											<li id="footer-places-about"><a href="/wiki/Wikipedia:About" title="Wikipedia:About">About Wikipedia</a></li>
+											<li id="footer-places-disclaimer"><a href="/wiki/Wikipedia:General_disclaimer" title="Wikipedia:General disclaimer">Disclaimers</a></li>
+											<li id="footer-places-contact"><a href="//en.wikipedia.org/wiki/Wikipedia:Contact_us">Contact Wikipedia</a></li>
+											<li id="footer-places-developers"><a href="https://www.mediawiki.org/wiki/Special:MyLanguage/How_to_contribute">Developers</a></li>
+											<li id="footer-places-cookiestatement"><a href="https://wikimediafoundation.org/wiki/Cookie_statement">Cookie statement</a></li>
+											<li id="footer-places-mobileview"><a href="//en.m.wikipedia.org/w/index.php?title=Y_Combinator_(company)&amp;mobileaction=toggle_view_mobile" class="noprint stopMobileRedirectToggle">Mobile view</a></li>
+									</ul>
+										<ul id="footer-icons" class="noprint">
+											<li id="footer-copyrightico">
+							<a href="https://wikimediafoundation.org/"><img src="/static/images/wikimedia-button.png" srcset="/static/images/wikimedia-button-1.5x.png 1.5x, /static/images/wikimedia-button-2x.png 2x" width="88" height="31" alt="Wikimedia Foundation"/></a>						</li>
+											<li id="footer-poweredbyico">
+							<a href="//www.mediawiki.org/"><img src="/static/images/poweredby_mediawiki_88x31.png" alt="Powered by MediaWiki" srcset="/static/images/poweredby_mediawiki_132x47.png 1.5x, /static/images/poweredby_mediawiki_176x62.png 2x" width="88" height="31"/></a>						</li>
+									</ul>
+						<div style="clear:both"></div>
+		</div>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.340","walltime":"0.418","ppvisitednodes":{"value":2871,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":113742,"limit":2097152},"templateargumentsize":{"value":2581,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":1,"limit":500},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  341.581      1 -total"," 51.58%  176.196      1 Template:Reflist"," 39.49%  134.879     37 Template:Cite_web"," 11.95%   40.802      1 Template:Infobox_company","  9.46%   32.312      4 Template:Navbox","  9.04%   30.881      1 Template:Infobox","  8.35%   28.517      1 Template:Primary_sources","  7.01%   23.931      1 Template:Ambox","  6.05%   20.676      1 Template:Commons_category","  4.97%   16.982      1 Template:About"]},"scribunto":{"limitreport-timeusage":{"value":"0.163","limit":"10.000"},"limitreport-memusage":{"value":5063389,"limit":52428800}},"cachereport":{"origin":"mw1255","timestamp":"20170228023556","ttl":2592000,"transientcontent":false}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":57,"wgHostname":"mw1263"});});</script>
+	</body>
+</html>
