@@ -36,7 +36,7 @@ class MainHandler(tornado.web.RequestHandler):
       searcher = IndexSearcher(dir)
       
       query = QueryParser(Version.LUCENE_30, "text", analyzer).parse(q)
-      MAX = 25
+      MAX = 10
       hits = searcher.search(query, MAX)
       
       print "Found %d document(s) that matched query '%s':" % (hits.totalHits, query)
