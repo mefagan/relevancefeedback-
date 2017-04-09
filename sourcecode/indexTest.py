@@ -5,7 +5,7 @@ from lucene import SimpleFSDirectory, System, File, Document, Field, StandardAna
 if __name__ == "__main__":
     lucene.initVM()
     src_dir = "html_files"
-    indexDir = "/Tmp/REMOVEME.index-dir"
+    indexDir = "index"
     dir = SimpleFSDirectory(File(indexDir))
     analyzer = StandardAnalyzer(Version.LUCENE_30)
     writer = IndexWriter(dir, analyzer, True, IndexWriter.MaxFieldLength(512))

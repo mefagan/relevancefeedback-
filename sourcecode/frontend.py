@@ -23,13 +23,14 @@ class MainHandler(tornado.web.RequestHandler):
            '</form></body></html>')
     def post(self):
       q= self.get_argument("query")
+      k =self.get_argument("kTerms")
 
       # self.write(key)
 
     # def query(query):
       # query = self.get_argument("q")
       lucene.initVM()
-      indexDir = "/Tmp/REMOVEME.index-dir"
+      indexDir = "index"
       dir = SimpleFSDirectory(File(indexDir))
       analyzer = StandardAnalyzer(Version.LUCENE_30)
       searcher = IndexSearcher(dir)
@@ -49,6 +50,7 @@ class MainHandler(tornado.web.RequestHandler):
           if len(items) < 10:
             items.append(doc_urls[str(hit.doc)])
           doc = searcher.doc(hit.doc) 
+        
 
       self.render("index.html", title="Results", items=items, query=q)
 

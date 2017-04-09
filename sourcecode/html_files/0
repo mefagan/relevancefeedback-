@@ -4,7 +4,7 @@
 <meta charset="UTF-8"/>
 <title>Wikipedia, the free encyclopedia</title>
 <script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
-<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WOpPrgpAMFcAABEF0SAAAAAI","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.tmh.thumbnail.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WOpg8wpAAEYAAAfU0ecAAACT","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.tmh.thumbnail.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
 });mw.loader.load(["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
@@ -51,7 +51,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <td style="width:280px; text-align:center; white-space:nowrap; color:#000;">
 <div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000;">Welcome to <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a>,</div>
 <div style="top:+0.2em; font-size:95%;">the <a href="/wiki/Free_content" title="Free content">free</a> <a href="/wiki/Encyclopedia" title="Encyclopedia">encyclopedia</a> that <a href="/wiki/Wikipedia:Introduction" title="Wikipedia:Introduction">anyone can edit</a>.</div>
-<div id="articlecount" style="font-size:85%;"><a href="/wiki/Special:Statistics" title="Special:Statistics">5,379,815</a> articles in <a href="/wiki/English_language" title="English language">English</a></div>
+<div id="articlecount" style="font-size:85%;"><a href="/wiki/Special:Statistics" title="Special:Statistics">5,379,865</a> articles in <a href="/wiki/English_language" title="English language">English</a></div>
 </td>
 </tr>
 </table>
@@ -172,7 +172,6 @@ Frances Ramsay"</div>
 <li>The United States <b><a href="/wiki/2017_Shayrat_missile_strike" title="2017 Shayrat missile strike">attacks a Syrian air base</a></b> in response to <b><a href="/wiki/Khan_Shaykhun_chemical_attack" title="Khan Shaykhun chemical attack">a chemical attack</a></b> in <a href="/wiki/Khan_Shaykhun" title="Khan Shaykhun">Khan Shaykhun</a> that killed more than 70 people.</li>
 <li><b><a href="/wiki/Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a></b> <i>(pictured)</i> wins the <a href="/wiki/Turing_Award" title="Turing Award">Turing Award</a> for inventing the <a href="/wiki/World_Wide_Web" title="World Wide Web">World Wide Web</a>, the first <a href="/wiki/Web_browser" title="Web browser">web browser</a>, and the <a href="/wiki/Communications_protocol" title="Communications protocol">protocols</a> and <a href="/wiki/Algorithm" title="Algorithm">algorithms</a> that allow the Web to <a href="/wiki/Scalability" title="Scalability">scale</a>.</li>
 <li>In <a href="/wiki/College_basketball" title="College basketball">college basketball</a>, the <a href="/wiki/2016%E2%80%9317_South_Carolina_Gamecocks_women%27s_basketball_team" title="2016–17 South Carolina Gamecocks women's basketball team">South Carolina Gamecocks</a> <b><a href="/wiki/2017_NCAA_Division_I_Women%27s_Basketball_Championship_Game" title="2017 NCAA Division I Women's Basketball Championship Game">win</a></b> the <a href="/wiki/2017_NCAA_Division_I_Women%27s_Basketball_Tournament" title="2017 NCAA Division I Women's Basketball Tournament">NCAA women's tournament</a> and the <a href="/wiki/2016%E2%80%9317_North_Carolina_Tar_Heels_men%27s_basketball_team" title="2016–17 North Carolina Tar Heels men's basketball team">North Carolina Tar Heels</a> <b><a href="/wiki/2017_NCAA_Division_I_Men%27s_Basketball_Championship_Game" title="2017 NCAA Division I Men's Basketball Championship Game">win</a></b> the <a href="/wiki/2017_NCAA_Division_I_Men%27s_Basketball_Tournament" title="2017 NCAA Division I Men's Basketball Tournament">men's tournament</a>.</li>
-<li><b><a href="/wiki/2017_Saint_Petersburg_Metro_bombing" title="2017 Saint Petersburg Metro bombing">A bombing</a></b> in the <a href="/wiki/Saint_Petersburg_Metro" title="Saint Petersburg Metro">Saint Petersburg Metro</a> kills at least 14 people and injures more than 45 others.</li>
 </ul>
 <div class="itn-footer" style="margin-top: 0.5em;">
 <div><b><a href="/wiki/Portal:Current_events" title="Portal:Current events">Ongoing</a></b>:
@@ -185,10 +184,10 @@ Frances Ramsay"</div>
 <div><b><a href="/wiki/Deaths_in_2017" title="Deaths in 2017">Recent deaths</a></b>:
 <div class="hlist inline">
 <ul>
+<li><a href="/wiki/Fishman_(wrestler)" title="Fishman (wrestler)">Fishman</a></li>
+<li><a href="/wiki/Brian_Matthew" title="Brian Matthew">Brian Matthew</a></li>
 <li><a href="/wiki/Don_Rickles" title="Don Rickles">Don Rickles</a></li>
 <li><a href="/wiki/Kishori_Amonkar" title="Kishori Amonkar">Kishori Amonkar</a></li>
-<li><a href="/wiki/Yevgeny_Yevtushenko" title="Yevgeny Yevtushenko">Yevgeny Yevtushenko</a></li>
-<li><a href="/wiki/Darcus_Howe" title="Darcus Howe">Darcus Howe</a></li>
 </ul>
 </div>
 </div>
@@ -351,7 +350,7 @@ Dictionary and thesaurus</td>
 <div id="mp-lang">
 <h2><span class="mw-headline" id="Wikipedia_languages">Wikipedia languages</span></h2>
 <div id="lang" class="nowraplinks nourlexpansion plainlinks">
-<p>This Wikipedia is written in <a href="/wiki/English_language" title="English language">English</a>. Started in 2001<span style="display:none">&#160;(<span class="bday dtstart published updated">2001</span>)</span>, it currently contains <a href="/wiki/Special:Statistics" title="Special:Statistics">5,379,815</a> articles.  Many other Wikipedias are available; some of the largest are listed below.</p>
+<p>This Wikipedia is written in <a href="/wiki/English_language" title="English language">English</a>. Started in 2001<span style="display:none">&#160;(<span class="bday dtstart published updated">2001</span>)</span>, it currently contains <a href="/wiki/Special:Statistics" title="Special:Statistics">5,379,865</a> articles.  Many other Wikipedias are available; some of the largest are listed below.</p>
 <ul>
 <li id="lang-3">More than 1,000,000 articles:
 <div class="hlist inline">
@@ -423,36 +422,36 @@ Dictionary and thesaurus</td>
 
 <!-- 
 NewPP limit report
-Parsed by mw1243
-Cached time: 20170409151338
+Parsed by mw1256
+Cached time: 20170409162720
 Cache expiry: 3600
 Dynamic content: true
 CPU time usage: 0.212 seconds
-Real time usage: 0.280 seconds
+Real time usage: 0.277 seconds
 Preprocessor visited node count: 3264/1000000
 Preprocessor generated node count: 0/1500000
-Post‐expand include size: 109434/2097152 bytes
-Template argument size: 5805/2097152 bytes
+Post‐expand include size: 109065/2097152 bytes
+Template argument size: 5859/2097152 bytes
 Highest expansion depth: 16/40
 Expensive parser function count: 6/500
-Lua time usage: 0.067/10.000 seconds
+Lua time usage: 0.070/10.000 seconds
 Lua memory usage: 4.58 MB/50 MB
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  209.585      1 -total
- 40.98%   85.897      1 Wikipedia:Main_Page/Tomorrow
- 38.53%   80.750      9 Template:Main_page_image
- 25.93%   54.348      1 Wikipedia:Today's_featured_article/April_9,_2017
- 14.72%   30.854      1 Template:Did_you_know/Queue/2
- 14.54%   30.479      9 Template:Str_number/trim
- 14.16%   29.668      2 Template:Wikipedia_languages
- 12.12%   25.404     26 Template:If_empty
- 11.21%   23.502      1 Template:Convert
- 11.09%   23.240      1 Template:DYKbotdo
+100.00%  210.615      1 -total
+ 40.75%   85.834      1 Wikipedia:Main_Page/Tomorrow
+ 39.75%   83.710      9 Template:Main_page_image
+ 26.88%   56.618      1 Wikipedia:Today's_featured_article/April_9,_2017
+ 15.91%   33.516      9 Template:Str_number/trim
+ 14.38%   30.292      2 Template:Wikipedia_languages
+ 13.53%   28.497      1 Template:Did_you_know/Queue/2
+ 12.54%   26.409     26 Template:If_empty
+ 11.54%   24.301      1 Template:Convert
+ 10.28%   21.652     88 Template:Wikipedia_languages/core
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:15580374-0!*!0!!*!4!* and timestamp 20170409151338 and revision id 762066868
+<!-- Saved in parser cache with key enwiki:pcache:idhash:15580374-0!*!0!!*!4!* and timestamp 20170409162719 and revision id 762066868
  -->
 <noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
 						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=762066868">https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=762066868</a>"					</div>
@@ -591,6 +590,6 @@ additional terms may apply.  By using this site, you agree to the <a href="//wik
 									</ul>
 						<div style="clear:both"></div>
 		</div>
-		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.212","walltime":"0.280","ppvisitednodes":{"value":3264,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":109434,"limit":2097152},"templateargumentsize":{"value":5805,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  209.585      1 -total"," 40.98%   85.897      1 Wikipedia:Main_Page/Tomorrow"," 38.53%   80.750      9 Template:Main_page_image"," 25.93%   54.348      1 Wikipedia:Today's_featured_article/April_9,_2017"," 14.72%   30.854      1 Template:Did_you_know/Queue/2"," 14.54%   30.479      9 Template:Str_number/trim"," 14.16%   29.668      2 Template:Wikipedia_languages"," 12.12%   25.404     26 Template:If_empty"," 11.21%   23.502      1 Template:Convert"," 11.09%   23.240      1 Template:DYKbotdo"]},"scribunto":{"limitreport-timeusage":{"value":"0.067","limit":"10.000"},"limitreport-memusage":{"value":4802598,"limit":52428800}},"cachereport":{"origin":"mw1243","timestamp":"20170409151338","ttl":3600,"transientcontent":true}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1252"});});</script>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.212","walltime":"0.277","ppvisitednodes":{"value":3264,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":109065,"limit":2097152},"templateargumentsize":{"value":5859,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  210.615      1 -total"," 40.75%   85.834      1 Wikipedia:Main_Page/Tomorrow"," 39.75%   83.710      9 Template:Main_page_image"," 26.88%   56.618      1 Wikipedia:Today's_featured_article/April_9,_2017"," 15.91%   33.516      9 Template:Str_number/trim"," 14.38%   30.292      2 Template:Wikipedia_languages"," 13.53%   28.497      1 Template:Did_you_know/Queue/2"," 12.54%   26.409     26 Template:If_empty"," 11.54%   24.301      1 Template:Convert"," 10.28%   21.652     88 Template:Wikipedia_languages/core"]},"scribunto":{"limitreport-timeusage":{"value":"0.070","limit":"10.000"},"limitreport-memusage":{"value":4802598,"limit":52428800}},"cachereport":{"origin":"mw1256","timestamp":"20170409162720","ttl":3600,"transientcontent":true}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1275"});});</script>
 	</body>
 </html>
