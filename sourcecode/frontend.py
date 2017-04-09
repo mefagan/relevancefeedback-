@@ -36,7 +36,7 @@ class MainHandler(tornado.web.RequestHandler):
       searcher = IndexSearcher(dir)
       
       query = QueryParser(Version.LUCENE_30, "text", analyzer).parse(q)
-      MAX = 1000
+      MAX = 25
       hits = searcher.search(query, MAX)
       
       print "Found %d document(s) that matched query '%s':" % (hits.totalHits, query)
@@ -44,15 +44,12 @@ class MainHandler(tornado.web.RequestHandler):
 
       for hit in hits.scoreDocs:
           #items.append({'score':hit.score, 'doc':hit.doc, 'blah':hit.toString(), 'url':doc_urls[str(hit.doc)]})
-          if str(hit.doc) not in doc_urls:
-            continue
           print hit.score, hit.doc, hit.toString()
-          if len(items) < 10:
-            items.append(doc_urls[str(hit.doc)])
+          items.append(doc_urls[str(hit.doc)])
           doc = searcher.doc(hit.doc) 
-        
+          rQ = hits.scoreDocs
 
-      self.render("index.html", title="Results", items=items, query=q)
+      self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 
 
