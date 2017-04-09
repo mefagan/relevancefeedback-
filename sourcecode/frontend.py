@@ -13,8 +13,10 @@ doc_urls = pickle.load(open("doc_urls.p", "rb"))
 
 class MainHandler(tornado.web.RequestHandler):
     def get(self):
-      
       self.write('<html><body><form action="/" method="post">'
+           '<p>Number of terms for relevance feedback.</p>'
+           '<input type="text" name="kTerms" value="0">'
+           '<html><body><form action="/" method="post">'
            '<p>Search for query here.</p>'
            '<input type="text" name="query" value="type query here">'
            '<input type="submit" value="Submit">'
@@ -47,7 +49,7 @@ class MainHandler(tornado.web.RequestHandler):
           if len(items) < 10:
             items.append(doc_urls[str(hit.doc)])
           doc = searcher.doc(hit.doc) 
-          
+
       self.render("index.html", title="Results", items=items, query=q)
 
 
