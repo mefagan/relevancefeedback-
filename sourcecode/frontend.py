@@ -55,9 +55,9 @@ class MainHandler(tornado.web.RequestHandler):
       
       for url in rQ:
         print(url)
-        f=codecs.open("html_files/10", 'r')
+        f=codecs.open(url, 'r')
         html = f.read()
-        html = str(html)
+        html = html.decode('utf-8')
         print(strip_tags(html))
         
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
