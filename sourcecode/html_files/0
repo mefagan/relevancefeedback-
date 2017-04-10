@@ -4,17 +4,17 @@
 <meta charset="UTF-8"/>
 <title>Wikipedia, the free encyclopedia</title>
 <script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
-<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WOpg8wpAAEYAAAfU0ecAAACT","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.tmh.thumbnail.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WOvSRgpAAEAAAZnPcFQAAABJ","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
-<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.tmh.thumbnail.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
+});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles&amp;only=styles&amp;skin=vector"/>
 <script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
 <meta name="ResourceLoaderDynamicStyles" content=""/>
 <link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
 <meta name="generator" content="MediaWiki 1.29.0-wmf.19"/>
 <meta name="referrer" content="origin-when-cross-origin"/>
-<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/en/thumb/7/79/Vimy_Memorial_%28September_2010%29_cropped.jpg/1200px-Vimy_Memorial_%28September_2010%29_cropped.jpg"/>
+<meta property="og:image" content="https://upload.wikimedia.org/wikipedia/commons/thumb/0/07/Darwin_Road_%26_Farrant_Avenue_%28cropped%29.JPG/1200px-Darwin_Road_%26_Farrant_Avenue_%28cropped%29.JPG"/>
 <link rel="alternate" href="android-app://org.wikipedia/http/en.m.wikipedia.org/wiki/Main_Page"/>
 <link rel="alternate" type="application/atom+xml" title="Wikipedia picture of the day feed" href="/w/api.php?action=featuredfeed&amp;feed=potd&amp;feedformat=atom"/>
 <link rel="alternate" type="application/atom+xml" title="Wikipedia featured articles feed" href="/w/api.php?action=featuredfeed&amp;feed=featured&amp;feedformat=atom"/>
@@ -51,7 +51,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <td style="width:280px; text-align:center; white-space:nowrap; color:#000;">
 <div style="font-size:162%; border:none; margin:0; padding:.1em; color:#000;">Welcome to <a href="/wiki/Wikipedia" title="Wikipedia">Wikipedia</a>,</div>
 <div style="top:+0.2em; font-size:95%;">the <a href="/wiki/Free_content" title="Free content">free</a> <a href="/wiki/Encyclopedia" title="Encyclopedia">encyclopedia</a> that <a href="/wiki/Wikipedia:Introduction" title="Wikipedia:Introduction">anyone can edit</a>.</div>
-<div id="articlecount" style="font-size:85%;"><a href="/wiki/Special:Statistics" title="Special:Statistics">5,379,865</a> articles in <a href="/wiki/English_language" title="English language">English</a></div>
+<div id="articlecount" style="font-size:85%;"><a href="/wiki/Special:Statistics" title="Special:Statistics">5,380,813</a> articles in <a href="/wiki/English_language" title="English language">English</a></div>
 </td>
 </tr>
 </table>
@@ -92,15 +92,15 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <td style="color:#000;">
 <div id="mp-tfa" style="padding:2px 5px">
 <div id="mp-tfa-img" style="float: left; margin: 0.5em 0.9em 0.4em 0em;">
-<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: 133px;"><a href="/wiki/File:Vimy_Memorial_(September_2010)_cropped.jpg" class="image" title="Canadian National Vimy Memorial"><img alt="Canadian National Vimy Memorial" src="//upload.wikimedia.org/wikipedia/en/thumb/7/79/Vimy_Memorial_%28September_2010%29_cropped.jpg/133px-Vimy_Memorial_%28September_2010%29_cropped.jpg" width="133" height="100" srcset="//upload.wikimedia.org/wikipedia/en/thumb/7/79/Vimy_Memorial_%28September_2010%29_cropped.jpg/200px-Vimy_Memorial_%28September_2010%29_cropped.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/7/79/Vimy_Memorial_%28September_2010%29_cropped.jpg/266px-Vimy_Memorial_%28September_2010%29_cropped.jpg 2x" data-file-width="1472" data-file-height="1104" /></a></div>
+<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: 152px;"><a href="/wiki/File:Darwin_Road_%26_Farrant_Avenue_(cropped).JPG" class="image" title="Victorian housing on Darwin Road, Noel Park, London"><img alt="Victorian housing on Darwin Road, Noel Park, London" src="//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Darwin_Road_%26_Farrant_Avenue_%28cropped%29.JPG/150px-Darwin_Road_%26_Farrant_Avenue_%28cropped%29.JPG" width="150" height="100" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/0/07/Darwin_Road_%26_Farrant_Avenue_%28cropped%29.JPG/225px-Darwin_Road_%26_Farrant_Avenue_%28cropped%29.JPG 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/0/07/Darwin_Road_%26_Farrant_Avenue_%28cropped%29.JPG/300px-Darwin_Road_%26_Farrant_Avenue_%28cropped%29.JPG 2x" data-file-width="2976" data-file-height="1984" /></a></div>
 </div>
-<p>The <b><a href="/wiki/Canadian_National_Vimy_Memorial" title="Canadian National Vimy Memorial">Canadian National Vimy Memorial</a></b> in <a href="/wiki/France" title="France">France</a> is dedicated to the memory of <a href="/wiki/Canadian_Expeditionary_Force" title="Canadian Expeditionary Force">Canadian Expeditionary Force</a> members and other Canadians killed during the <a href="/wiki/First_World_War" class="mw-redirect" title="First World War">First World War</a>. Designed by <a href="/wiki/Walter_Seymour_Allward" title="Walter Seymour Allward">Walter Seymour Allward</a>, the monument is the centrepiece of a 100-hectare (250-acre) battlefield park, overlapping the site of the <a href="/wiki/Battle_of_Vimy_Ridge" title="Battle of Vimy Ridge">Battle of Vimy Ridge</a> offensive (9 April 1917) that began the <a href="/wiki/Battle_of_Arras_(1917)" title="Battle of Arras (1917)">Battle of Arras</a>. In that offensive, all four divisions of the Canadian Expeditionary Force participated as a cohesive battle formation for the first time, and it became a Canadian national symbol of achievement and sacrifice. France ceded the land to Canada for its memorial. Wartime tunnels, <a href="/wiki/Trench_warfare" title="Trench warfare">trenches</a>, craters, and unexploded munitions still honeycomb the grounds, which are largely closed off for public safety. Preserved trench lines and several other memorials and cemeteries are contained within the park. King <a href="/wiki/Edward_VIII" title="Edward VIII">Edward VIII</a> unveiled it in July 1936, and Queen <a href="/wiki/Elizabeth_II" title="Elizabeth II">Elizabeth II</a> re-dedicated the restored monument on the 90th anniversary of the offensive. The site, one of only two <a href="/wiki/National_Historic_Sites_of_Canada" title="National Historic Sites of Canada">National Historic Sites of Canada</a> outside the country, is maintained by <a href="/wiki/Veterans_Affairs_Canada" title="Veterans Affairs Canada">Veterans Affairs Canada</a>. (<a href="/wiki/Canadian_National_Vimy_Memorial" title="Canadian National Vimy Memorial"><b>Full&#160;article...</b></a>)</p>
+<p><b><a href="/wiki/Noel_Park" title="Noel Park">Noel Park</a></b> in north London is a <a href="/wiki/Planned_community" title="Planned community">planned community</a> designed by <a href="/wiki/Rowland_Plumbe" title="Rowland Plumbe">Rowland Plumbe</a> in the late 19th century, consisting of 2,200 <a href="/wiki/Model_dwellings_company" title="Model dwellings company">model dwellings</a>. It was developed in open countryside to the north of London between the historic villages of <a href="/wiki/Highgate" title="Highgate">Highgate</a> and <a href="/wiki/Tottenham" title="Tottenham">Tottenham</a> by the <a href="/wiki/Artizans,_Labourers_%26_General_Dwellings_Company" title="Artizans, Labourers &amp; General Dwellings Company">Artizans, Labourers &amp; General Dwellings Company</a>. One of the earliest <a href="/wiki/Garden_city_movement" title="Garden city movement">garden suburbs</a> in the world, it provided affordable housing for working-class families wishing to leave the inner city. Every property had a front and rear garden, and it was close enough to the rail network to allow its residents to commute to work. In line with the principles of the company's founder, William Austin, it had no <a href="/wiki/Pub" title="Pub">pubs</a>, and there are still none today. As a result of London's rapid expansion during the early 20th century, and particularly after the <a href="/wiki/London_Underground" title="London Underground">London Underground</a> was extended to the area in 1932, Noel Park was surrounded by later developments. In 1965, it was incorporated into the newly created <a href="/wiki/London_Borough_of_Haringey" title="London Borough of Haringey">London Borough of Haringey</a>. Despite damage during <a href="/wiki/World_War_II" title="World War II">World War II</a> and demolition work during the construction of <a href="/wiki/The_Mall_(Wood_Green)" class="mw-redirect" title="The Mall (Wood Green)">Wood Green Shopping City</a> in the 1970s, it remains largely architecturally intact. (<a href="/wiki/Noel_Park" title="Noel Park"><b>Full&#160;article...</b></a>)</p>
 <div class="tfa-recent" style="text-align: right;">Recently featured:
 <div class="hlist inline">
 <ul>
+<li><a href="/wiki/Canadian_National_Vimy_Memorial" title="Canadian National Vimy Memorial">Canadian National Vimy Memorial</a></li>
 <li>"<a href="/wiki/Yesterday%27s_Enterprise" title="Yesterday's Enterprise">Yesterday's Enterprise</a>"</li>
 <li><a href="/wiki/Gabriel_Pleydell" title="Gabriel Pleydell">Gabriel Pleydell</a></li>
-<li><a href="/wiki/7th_Army_(Kingdom_of_Yugoslavia)" title="7th Army (Kingdom of Yugoslavia)">7th Army (Kingdom of Yugoslavia)</a></li>
 </ul>
 </div>
 </div>
@@ -123,20 +123,19 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <td style="color:#000; padding:2px 5px 5px;">
 <div id="mp-dyk">
 <div class="dyk-img" style="float: right; margin-left: 0.5em;">
-<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: px;"><a href="/wiki/File:Honour_to_Agnata_Frances_Ramsay.jpg" class="image" title="&quot;Honour to AgnataFrances Ramsay&quot;"><img alt="&quot;Honour to AgnataFrances Ramsay&quot;" src="//upload.wikimedia.org/wikipedia/en/thumb/2/2d/Honour_to_Agnata_Frances_Ramsay.jpg/100px-Honour_to_Agnata_Frances_Ramsay.jpg" width="100" height="143" srcset="//upload.wikimedia.org/wikipedia/en/thumb/2/2d/Honour_to_Agnata_Frances_Ramsay.jpg/150px-Honour_to_Agnata_Frances_Ramsay.jpg 1.5x, //upload.wikimedia.org/wikipedia/en/thumb/2/2d/Honour_to_Agnata_Frances_Ramsay.jpg/200px-Honour_to_Agnata_Frances_Ramsay.jpg 2x" data-file-width="220" data-file-height="315" /></a>
-<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">"Honour to Agnata<br />
-Frances Ramsay"</div>
+<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: 102px;"><a href="/wiki/File:Monument_of_States-1.jpg" class="image" title="Monument of States"><img alt="Monument of States" src="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Monument_of_States-1.jpg/100px-Monument_of_States-1.jpg" width="100" height="150" class="thumbborder" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Monument_of_States-1.jpg/150px-Monument_of_States-1.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/e/e5/Monument_of_States-1.jpg/200px-Monument_of_States-1.jpg 2x" data-file-width="3648" data-file-height="5472" /></a>
+<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Monument of States</div>
 </div>
 </div>
 <ul>
-<li>... that <i><a href="/wiki/Punch_(magazine)" title="Punch (magazine)">Punch</a></i> honoured <b><a href="/wiki/Agnata_Butler" title="Agnata Butler">Agnata Ramsay</a></b><span class="nowrap" style="padding-left:0.1em;">'</span>s exam success with a cartoon <i>(pictured)</i>?</li>
-<li>... that the Catholic hymnal <i><b><a href="/wiki/Kirchenlied" title="Kirchenlied">Kirchenlied</a></b></i>, first published in 1938, was not immediately banned by the Nazis because it also contained Protestant songs?</li>
-<li>... that Australian actress <b><a href="/wiki/Anna_Bamford" title="Anna Bamford">Anna Bamford</a></b> made her <a href="/wiki/Broadway_theatre" title="Broadway theatre">Broadway</a> debut in <a href="/wiki/Andrew_Upton" title="Andrew Upton">Andrew Upton</a>'s production of <i><a href="/wiki/Platonov_(play)" title="Platonov (play)">The Present</a></i>?</li>
-<li>... that the <b><a href="/wiki/Northern_Marmara_and_De%C4%9Firmenk%C3%B6y_(Silivri)_Depleted_Gas_Reservoir" title="Northern Marmara and Değirmenköy (Silivri) Depleted Gas Reservoir">Northern Marmara and Değirmenköy (Silivri) Depleted Gas Reservoir</a></b> is currently the only operational underground <a href="/wiki/Natural_gas_storage" title="Natural gas storage">natural gas storage</a> facility in Turkey?</li>
-<li>... that <b><a href="/wiki/Vijay_Kumar_(molecular_biologist)" title="Vijay Kumar (molecular biologist)">Vijay Kumar</a></b>, along with <a href="/wiki/Debi_Prasad_Sarkar" title="Debi Prasad Sarkar">Debi Prasad Sarkar</a>, demonstrated for the first time that <a href="/wiki/HBx" title="HBx">HBx</a> protein stimulated <a href="/wiki/Mitogen-activated_protein_kinase#Signaling_cascades" title="Mitogen-activated protein kinase">mitogen-activated signaling cascades</a> in living animals?</li>
-<li>... that 43<span class="nowrap">&#160;</span>million unique viewers watched <a href="/wiki/SK_Telecom_T1" title="SK Telecom T1">SK Telecom T1</a> defeat <a href="/wiki/Samsung_Galaxy_(eSports)" title="Samsung Galaxy (eSports)">Samsung Galaxy</a> in the the finals of the <b><a href="/wiki/2016_League_of_Legends_World_Championship" title="2016 League of Legends World Championship">2016 <i>League of Legends</i> World Championship</a></b>?</li>
-<li>... that some factions of the <a href="/wiki/Hanthawaddy_Kingdom" title="Hanthawaddy Kingdom">Hanthawaddy court</a> undermined the authority of <a href="/wiki/Prince_regent" title="Prince regent">Princess Regent</a> <b><a href="/wiki/Maha_Dewi_of_Hanthawaddy" title="Maha Dewi of Hanthawaddy">Maha Dewi</a></b> by publicizing her alleged affair with her much younger nephew-in-law?</li>
-<li>... that in Canada, <a href="/wiki/Canadian_ten-dollar_note" title="Canadian ten-dollar note">ten dollars</a> will get you an <b><a href="/wiki/EMD_F40PH" title="EMD F40PH">EMD F40PH</a></b> diesel locomotive?</li>
+<li>... that the <b><a href="/wiki/Monument_of_States" title="Monument of States">Monument of States</a></b> <i>(pictured)</i> in <a href="/wiki/Kissimmee,_Florida" title="Kissimmee, Florida">Kissimmee, Florida</a>, was erected in response to the <a href="/wiki/Attack_on_Pearl_Harbor" title="Attack on Pearl Harbor">attack on Pearl Harbor</a> and built with stones donated from around the world?</li>
+<li>... that <b><a href="/wiki/Caius_Largennius" title="Caius Largennius">Caius Largennius</a></b> is considered the first <a href="/wiki/Lucca" title="Lucca">Lucchese</a> in the world?</li>
+<li>... that the play <i><b><a href="/wiki/Sweat_(play)" title="Sweat (play)">Sweat</a></b></i> by <a href="/wiki/Lynn_Nottage" title="Lynn Nottage">Lynn Nottage</a> has been described as "the first theatrical landmark of the <a href="/wiki/Donald_Trump" title="Donald Trump">Trump</a> era"?</li>
+<li>... that when he ceded <a href="/wiki/Easter_Island" title="Easter Island">Easter Island</a> to Chile, King <b><a href="/wiki/Atamu_Tekena" title="Atamu Tekena">Atamu Tekena</a></b> gave up a handful of grass and retained a handful of dirt?</li>
+<li>... that <b><a href="/wiki/Mexican_Federal_Highway_15D" title="Mexican Federal Highway 15D">Mexican Federal Highway 15D</a></b> includes two of the country's five most expensive toll roads?</li>
+<li>... that prior to her major debut, singer <b><a href="/wiki/Maon_Kurosaki" title="Maon Kurosaki">Maon Kurosaki</a></b> posed as a <a href="/wiki/Model_(person)#Gravure_idols" title="Model (person)">gravure model</a> for the cover of a novel?</li>
+<li>... that the seeds of the <b><a href="/wiki/Tacca_integrifolia" title="Tacca integrifolia">white batflower</a></b> may be distributed by small mammals that feed on the fleshy fruits?</li>
+<li>... that in March 1998, the Ontario Court of Justice <b><a href="/wiki/R._v._Gowan" title="R. v. Gowan">ruled that being topless while one engages in a commercial purpose such as prostitution is illegal</a></b>?</li>
 </ul>
 <div class="dyk-footer hlist noprint" style="margin-top: 0.5em; text-align: right;">
 <ul>
@@ -162,16 +161,17 @@ Frances Ramsay"</div>
 <td style="color:#000; padding:2px 5px;">
 <div id="mp-itn">
 <div class="itn-img" style="float: right; margin-left: 0.5em;">
-<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: 100px;"><a href="/wiki/File:Tim_Berners-Lee-Knight-crop.jpg" class="image" title="Tim Berners-Lee in 2008"><img alt="Tim Berners-Lee in 2008" src="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tim_Berners-Lee-Knight-crop.jpg/100px-Tim_Berners-Lee-Knight-crop.jpg" width="100" height="133" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tim_Berners-Lee-Knight-crop.jpg/150px-Tim_Berners-Lee-Knight-crop.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/8/83/Tim_Berners-Lee-Knight-crop.jpg/200px-Tim_Berners-Lee-Knight-crop.jpg 2x" data-file-width="336" data-file-height="448" /></a>
-<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Tim Berners-Lee</div>
+<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: 100px;"><a href="/wiki/File:SergioGarciaTPCChampion2008_1.jpg" class="image" title="Sergio García in 2008"><img alt="Sergio García in 2008" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SergioGarciaTPCChampion2008_1.jpg/100px-SergioGarciaTPCChampion2008_1.jpg" width="100" height="129" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SergioGarciaTPCChampion2008_1.jpg/150px-SergioGarciaTPCChampion2008_1.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5f/SergioGarciaTPCChampion2008_1.jpg/200px-SergioGarciaTPCChampion2008_1.jpg 2x" data-file-width="1639" data-file-height="2120" /></a>
+<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Sergio García</div>
 </div>
 </div>
 <ul>
-<li>At least 41 people are killed and 136 injured when two <a href="/wiki/Coptic_Orthodox" class="mw-redirect" title="Coptic Orthodox">Coptic Orthodox</a> churches <b><a href="/wiki/2017_Palm_Sunday_church_bombings" title="2017 Palm Sunday church bombings">are attacked</a></b> on <a href="/wiki/Palm_Sunday" title="Palm Sunday">Palm Sunday</a> by suicide bombers in Egypt.</li>
-<li>A stolen truck is <b><a href="/wiki/2017_Stockholm_attack" title="2017 Stockholm attack">driven through crowds and into a department store</a></b> in downtown <a href="/wiki/Stockholm" title="Stockholm">Stockholm</a>, killing four people and injuring fifteen others.</li>
+<li>In <a href="/wiki/Golf" title="Golf">golf</a>, <a href="/wiki/Sergio_Garc%C3%ADa" title="Sergio García">Sergio García</a> <i>(pictured)</i> defeats <a href="/wiki/Justin_Rose" title="Justin Rose">Justin Rose</a> in a <a href="/wiki/Playoff_(golf)" title="Playoff (golf)">playoff</a> to win the <b><a href="/wiki/2017_Masters_Tournament" title="2017 Masters Tournament">Masters Tournament</a></b>.</li>
+<li>At least 45 people are killed and 136 others injured when two Egyptian <a href="/wiki/Coptic_Orthodox_Church_of_Alexandria" title="Coptic Orthodox Church of Alexandria">Coptic Orthodox</a> churches <b><a href="/wiki/2017_Palm_Sunday_church_bombings" title="2017 Palm Sunday church bombings">are attacked</a></b> on <a href="/wiki/Palm_Sunday" title="Palm Sunday">Palm Sunday</a> by suicide bombers.</li>
+<li>The <a href="/wiki/Basque_separatist" class="mw-redirect" title="Basque separatist">Basque separatist</a> militant group <a href="/wiki/ETA_(separatist_group)" title="ETA (separatist group)">ETA</a> <b><a href="/wiki/ETA_(separatist_group)#2011_permanent_ceasefire_and_cessation_of_armed_activity" title="ETA (separatist group)">disarms itself</a></b>.</li>
+<li>A stolen truck is <b><a href="/wiki/2017_Stockholm_attack" title="2017 Stockholm attack">driven through crowds and into a department store</a></b> in downtown <a href="/wiki/Stockholm" title="Stockholm">Stockholm</a>, killing 4 people and injuring 15 others.</li>
 <li>The United States <b><a href="/wiki/2017_Shayrat_missile_strike" title="2017 Shayrat missile strike">attacks a Syrian air base</a></b> in response to <b><a href="/wiki/Khan_Shaykhun_chemical_attack" title="Khan Shaykhun chemical attack">a chemical attack</a></b> in <a href="/wiki/Khan_Shaykhun" title="Khan Shaykhun">Khan Shaykhun</a> that killed more than 70 people.</li>
-<li><b><a href="/wiki/Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a></b> <i>(pictured)</i> wins the <a href="/wiki/Turing_Award" title="Turing Award">Turing Award</a> for inventing the <a href="/wiki/World_Wide_Web" title="World Wide Web">World Wide Web</a>, the first <a href="/wiki/Web_browser" title="Web browser">web browser</a>, and the <a href="/wiki/Communications_protocol" title="Communications protocol">protocols</a> and <a href="/wiki/Algorithm" title="Algorithm">algorithms</a> that allow the Web to <a href="/wiki/Scalability" title="Scalability">scale</a>.</li>
-<li>In <a href="/wiki/College_basketball" title="College basketball">college basketball</a>, the <a href="/wiki/2016%E2%80%9317_South_Carolina_Gamecocks_women%27s_basketball_team" title="2016–17 South Carolina Gamecocks women's basketball team">South Carolina Gamecocks</a> <b><a href="/wiki/2017_NCAA_Division_I_Women%27s_Basketball_Championship_Game" title="2017 NCAA Division I Women's Basketball Championship Game">win</a></b> the <a href="/wiki/2017_NCAA_Division_I_Women%27s_Basketball_Tournament" title="2017 NCAA Division I Women's Basketball Tournament">NCAA women's tournament</a> and the <a href="/wiki/2016%E2%80%9317_North_Carolina_Tar_Heels_men%27s_basketball_team" title="2016–17 North Carolina Tar Heels men's basketball team">North Carolina Tar Heels</a> <b><a href="/wiki/2017_NCAA_Division_I_Men%27s_Basketball_Championship_Game" title="2017 NCAA Division I Men's Basketball Championship Game">win</a></b> the <a href="/wiki/2017_NCAA_Division_I_Men%27s_Basketball_Tournament" title="2017 NCAA Division I Men's Basketball Tournament">men's tournament</a>.</li>
+<li><b><a href="/wiki/Tim_Berners-Lee" title="Tim Berners-Lee">Tim Berners-Lee</a></b> wins the <a href="/wiki/Turing_Award" title="Turing Award">Turing Award</a> for inventing the <a href="/wiki/World_Wide_Web" title="World Wide Web">World Wide Web</a>, the first <a href="/wiki/Web_browser" title="Web browser">web browser</a>, and the <a href="/wiki/Communications_protocol" title="Communications protocol">protocols</a> and <a href="/wiki/Algorithm" title="Algorithm">algorithms</a> that allow the Web to <a href="/wiki/Scalability" title="Scalability">scale</a>.</li>
 </ul>
 <div class="itn-footer" style="margin-top: 0.5em;">
 <div><b><a href="/wiki/Portal:Current_events" title="Portal:Current events">Ongoing</a></b>:
@@ -186,8 +186,8 @@ Frances Ramsay"</div>
 <ul>
 <li><a href="/wiki/Fishman_(wrestler)" title="Fishman (wrestler)">Fishman</a></li>
 <li><a href="/wiki/Brian_Matthew" title="Brian Matthew">Brian Matthew</a></li>
-<li><a href="/wiki/Don_Rickles" title="Don Rickles">Don Rickles</a></li>
-<li><a href="/wiki/Kishori_Amonkar" title="Kishori Amonkar">Kishori Amonkar</a></li>
+<li><a href="/wiki/Peter_Isaacson" title="Peter Isaacson">Peter Isaacson</a></li>
+<li><a href="/wiki/Glenn_O%27Brien" title="Glenn O'Brien">Glenn O'Brien</a></li>
 </ul>
 </div>
 </div>
@@ -203,28 +203,26 @@ Frances Ramsay"</div>
 <tr>
 <td style="color:#000; padding:2px 5px 5px;">
 <div id="mp-otd">
-<p><b><a href="/wiki/April_9" title="April 9">April 9</a></b>: <b><a href="/wiki/Public_holidays_in_Georgia" title="Public holidays in Georgia">Day of National Unity</a></b> in Georgia (<a href="/wiki/1989" title="1989">1989</a>)</p>
+<p><b><a href="/wiki/April_10" title="April 10">April 10</a></b></p>
 <div style="float:right;margin-left:0.5em;" id="mp-otd-img">
-<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: 120px;">
-<div class="mediaContainer" style="width:120px"><audio id="mwe_player_0" controls="" preload="none" style="width:120px" class="kskin" data-durationhint="11.116167800454" data-startoffset="0" data-mwtitle="Au_Clair_de_la_Lune_(1860).ogg" data-mwprovider="wikimediacommons">
-<source src="//upload.wikimedia.org/wikipedia/commons/a/a9/Au_Clair_de_la_Lune_%281860%29.ogg" type="audio/ogg; codecs=&quot;vorbis&quot;" data-title="Original Ogg file (74 kbps)" data-shorttitle="Ogg source" data-width="0" data-height="0" data-bandwidth="73507" /></audio></div>
-<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">"Au clair de la lune" by Édouard-Léon Scott de Martinville</div>
+<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: 100px;"><a href="/wiki/File:F._Scott_Fitzgerald,_1921.png" class="image" title="F. Scott Fitzgerald"><img alt="F. Scott Fitzgerald" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/F._Scott_Fitzgerald%2C_1921.png/100px-F._Scott_Fitzgerald%2C_1921.png" width="100" height="117" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/24/F._Scott_Fitzgerald%2C_1921.png/150px-F._Scott_Fitzgerald%2C_1921.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/24/F._Scott_Fitzgerald%2C_1921.png/200px-F._Scott_Fitzgerald%2C_1921.png 2x" data-file-width="311" data-file-height="365" /></a>
+<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">F. Scott Fitzgerald</div>
 </div>
 </div>
 <ul>
-<li><a href="/wiki/1860" title="1860">1860</a> – On his <a href="/wiki/Phonautograph" title="Phonautograph">phonautograph</a> machine, <b><a href="/wiki/%C3%89douard-L%C3%A9on_Scott_de_Martinville" title="Édouard-Léon Scott de Martinville">Édouard-Léon Scott de Martinville</a></b> made the <a href="/wiki/History_of_sound_recording" title="History of sound recording">oldest known recording</a> of an audible human voice, when he recorded himself singing "<a href="/wiki/Au_clair_de_la_lune" title="Au clair de la lune">Au clair de la lune</a>" <i>(audio featured)</i>.</li>
-<li><a href="/wiki/1917" title="1917">1917</a> – <a href="/wiki/World_War_I" title="World War I">First World War</a>: The <a href="/wiki/Canadian_Corps" title="Canadian Corps">Canadian Corps</a> began the first wave of attacks at the <b><a href="/wiki/Battle_of_Vimy_Ridge" title="Battle of Vimy Ridge">Battle of Vimy Ridge</a></b> in <a href="/wiki/Vimy" title="Vimy">Vimy</a>, France.</li>
-<li><a href="/wiki/1947" title="1947">1947</a> – Sixteen white and black men began <b><a href="/wiki/Journey_of_Reconciliation" title="Journey of Reconciliation">a two-week journey</a></b> in the <a href="/wiki/Southern_United_States" title="Southern United States">American South</a>, acting in defiance of local laws that enforced <a href="/wiki/Racial_segregation_in_the_United_States" title="Racial segregation in the United States">segregated seating</a> on public buses.</li>
-<li><a href="/wiki/1967" title="1967">1967</a> – The first <b><span class="nowrap"><a href="/wiki/Boeing_737" title="Boeing 737">Boeing 737</a></span></b> took its maiden flight, eventually becoming the most ordered and produced commercial passenger <a href="/wiki/Jet_airliner" title="Jet airliner">jet airliner</a> in the world.</li>
-<li><a href="/wiki/2005" title="2005">2005</a> – <a href="/wiki/Charles,_Prince_of_Wales" title="Charles, Prince of Wales">Charles, Prince of Wales</a>, <b><a href="/wiki/Wedding_of_Charles,_Prince_of_Wales,_and_Camilla_Parker_Bowles" title="Wedding of Charles, Prince of Wales, and Camilla Parker Bowles">married</a></b> his long-time mistress <a href="/wiki/Camilla,_Duchess_of_Cornwall" title="Camilla, Duchess of Cornwall">Camilla Parker Bowles</a>.</li>
+<li><a href="/wiki/1809" title="1809">1809</a> – <a href="/wiki/Napoleonic_Wars" title="Napoleonic Wars">Napoleonic Wars</a>: The <b><a href="/wiki/War_of_the_Fifth_Coalition" title="War of the Fifth Coalition">War of the Fifth Coalition</a></b> began when Austria invaded Bavaria.</li>
+<li><a href="/wiki/1858" title="1858">1858</a> – <b><a href="/wiki/Big_Ben" title="Big Ben">Big Ben</a></b>, the bell in the <a href="/wiki/Palace_of_Westminster" title="Palace of Westminster">Palace of Westminster</a>'s clock tower in London, was <a href="/wiki/Casting" title="Casting">cast</a> after the original bell had cracked during testing.</li>
+<li><a href="/wiki/1925" title="1925">1925</a> – The novel <i><b><a href="/wiki/The_Great_Gatsby" title="The Great Gatsby">The Great Gatsby</a></b></i> by <a href="/wiki/F._Scott_Fitzgerald" title="F. Scott Fitzgerald">F. Scott Fitzgerald</a> <i>(pictured)</i> was first published.</li>
+<li><a href="/wiki/1944" title="1944">1944</a> – <a href="/wiki/The_Holocaust" title="The Holocaust">The Holocaust</a>: <b><a href="/wiki/Rudolf_Vrba" title="Rudolf Vrba">Rudolf Vrba</a></b> and <a href="/wiki/Alfr%C3%A9d_Wetzler" title="Alfréd Wetzler">Alfréd Wetzler</a> escaped from <a href="/wiki/Auschwitz_concentration_camp" title="Auschwitz concentration camp">Auschwitz</a>; <a href="/wiki/Vrba%E2%80%93Wetzler_report" title="Vrba–Wetzler report">their report</a> was one of the earliest and most detailed descriptions of the mass killings in the camp.</li>
+<li><a href="/wiki/1992" title="1992">1992</a> – <a href="/wiki/Nagorno-Karabakh_War" title="Nagorno-Karabakh War">Nagorno-Karabakh War</a>: At least 40 Armenian civilians were <b><a href="/wiki/Maraga_massacre" title="Maraga massacre">massacred</a></b> in <a href="/wiki/Maraga,_Azerbaijan" title="Maraga, Azerbaijan">Maraga, Azerbaijan</a>.</li>
 </ul>
-<p><b><a href="/wiki/Francis_Bacon" title="Francis Bacon">Francis Bacon</a></b> (d.&#160;1626)&#160;<b>·</b>  <b><a href="/wiki/J%C3%B8rn_Utzon" title="Jørn Utzon">Jørn Utzon</a></b> (b.&#160;1918)&#160;<b>·</b>  <b><a href="/wiki/Mary_Jackson_(engineer)" title="Mary Jackson (engineer)">Mary Jackson</a></b> (b.&#160;1921)</p>
+<p><b><a href="/wiki/Gabrielle_d%27Estr%C3%A9es" title="Gabrielle d'Estrées">Gabrielle d'Estrées</a></b> (d.&#160;1589)&#160;<b>·</b>  <b><a href="/wiki/Stuart_Sutcliffe" title="Stuart Sutcliffe">Stuart Sutcliffe</a></b> (d.&#160;1962)&#160;<b>·</b>  <b><a href="/wiki/Evelyn_Waugh" title="Evelyn Waugh">Evelyn Waugh</a></b> (d.&#160;1966)</p>
 <div style="margin-top: 0.5em;">More anniversaries:
 <div class="hlist inline nowraplinks">
 <ul>
-<li><a href="/wiki/April_8" title="April 8">April 8</a></li>
-<li><b><a href="/wiki/April_9" title="April 9">April 9</a></b></li>
-<li><a href="/wiki/April_10" title="April 10">April 10</a></li>
+<li><a href="/wiki/April_9" title="April 9">April 9</a></li>
+<li><b><a href="/wiki/April_10" title="April 10">April 10</a></b></li>
+<li><a href="/wiki/April_11" title="April 11">April 11</a></li>
 </ul>
 </div>
 </div>
@@ -233,6 +231,46 @@ Frances Ramsay"</div>
 <li><b><a href="/wiki/Wikipedia:Selected_anniversaries/April" title="Wikipedia:Selected anniversaries/April">Archive</a></b></li>
 <li><b><a href="https://lists.wikimedia.org/mailman/listinfo/daily-article-l" class="extiw" title="mail:daily-article-l">By email</a></b></li>
 <li><b><a href="/wiki/List_of_historical_anniversaries" title="List of historical anniversaries">List of historical anniversaries</a></b></li>
+</ul>
+</div>
+</div>
+</td>
+</tr>
+</table>
+</td>
+</tr>
+</table>
+<table id="mp-middle" style="width:100%; margin:4px 0 0 0; background:none; border-spacing: 0px;">
+<tr>
+<td class="MainPageBG" style="width:100%; border:1px solid #f2cedd; background:#fff5fa; vertical-align:top; color:#000;">
+<table id="mp-center" style="width:100%; vertical-align:top; background:#fff5fa; color:#000;">
+<tr>
+<td style="padding:2px;">
+<h2 id="mp-tfl-h2" style="margin:3px; background:#f2cedd; font-family:inherit; font-size:120%; font-weight:bold; border:1px solid #bfa3af; text-align:left; color:#000; padding:0.2em 0.4em"><span class="mw-headline" id="From_today.27s_featured_list">From today's featured list</span></h2>
+</td>
+</tr>
+<tr>
+<td style="color:#000;">
+<div id="mp-tfl" style="padding:2px 5px;">
+<div id="mp-tfl-img" style="float:right;margin:0.5em 0 0.4em 0.9em;">
+<div class="thumbinner mp-thumb" style="background: transparent; border: none; padding: 0; max-width: 125px;"><a href="/wiki/File:Shannen_Doherty.jpg" class="image" title="Shannen Doherty"><img alt="Shannen Doherty" src="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Shannen_Doherty.jpg/97px-Shannen_Doherty.jpg" width="97" height="125" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/9/99/Shannen_Doherty.jpg/146px-Shannen_Doherty.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/9/99/Shannen_Doherty.jpg/194px-Shannen_Doherty.jpg 2x" data-file-width="1146" data-file-height="1479" /></a>
+<div class="thumbcaption" style="padding: 0.25em 0; word-wrap: break-word;">Shannen Doherty</div>
+</div>
+</div>
+<p>American actress <b><a href="/wiki/Shannen_Doherty_filmography" title="Shannen Doherty filmography">Shannen Doherty has appeared in numerous television programs and motion pictures</a></b>. Landing her first major role in the dramatic western television series <a href="/wiki/Little_House_on_the_Prairie_(TV_series)" title="Little House on the Prairie (TV series)"><i>Little House on the Prairie</i></a>, Doherty had her breakthrough role as <a href="/wiki/List_of_Beverly_Hills,_90210_characters#Brenda_Walsh" title="List of Beverly Hills, 90210 characters">Brenda Walsh</a> in the teen drama <i><a href="/wiki/Beverly_Hills,_90210" title="Beverly Hills, 90210">Beverly Hills, 90210</a></i>. She was later removed from the series due to backstage issues. She starred in television films in the early and mid-1990s in an attempt to rebuild her career. Doherty enjoyed a resurgence in popularity while playing the witch <a href="/wiki/Prue_Halliwell" title="Prue Halliwell">Prue Halliwell</a> on the supernatural drama <i><a href="/wiki/Charmed" title="Charmed">Charmed</a></i>. Following disagreements with Spelling and co-star <a href="/wiki/Alyssa_Milano" title="Alyssa Milano">Alyssa Milano</a>, Doherty left the series in its third season. While acting in a string of television films, Doherty has also participated in five reality television shows. (<b><a href="/wiki/Shannen_Doherty_filmography" title="Shannen Doherty filmography">Full&#160;list...</a></b>)</p>
+<div class="tfl-recent" style="text-align: right;">Recently featured:
+<div class="hlist inline">
+<ul>
+<li><a href="/wiki/List_of_Padma_Bhushan_award_recipients_(1960%E2%80%9369)" title="List of Padma Bhushan award recipients (1960–69)">Padma Bhushan award recipients (1960–69)</a></li>
+<li><a href="/wiki/Huskies_of_Honor" title="Huskies of Honor">Huskies of Honor</a></li>
+<li><a href="/wiki/Grammy_Award_for_Best_Female_Rock_Vocal_Performance" title="Grammy Award for Best Female Rock Vocal Performance">Grammy Award for Best Female Rock Vocal Performance</a></li>
+</ul>
+</div>
+</div>
+<div class="tfl-footer hlist noprint" style="text-align: right;">
+<ul>
+<li><b><a href="/wiki/Wikipedia:Today%27s_featured_list/April_2017" title="Wikipedia:Today's featured list/April 2017">Archive</a></b></li>
+<li><b><a href="/wiki/Wikipedia:Featured_lists" title="Wikipedia:Featured lists">More featured lists...</a></b></li>
 </ul>
 </div>
 </div>
@@ -256,17 +294,16 @@ Frances Ramsay"</div>
 <div id="mp-tfp">
 <table style="margin:0 3px 3px; width:100%; text-align:left; background-color:transparent; border-collapse: collapse;">
 <tr>
-<td style="padding:0 0.9em 0 0;"><a href="/wiki/File:Albrecht_Altdorfer,_Christ_Taking_Leave_of_His_Mother_(probably_1520).jpg" class="image" title="Christ taking leave of his Mother"><img alt="Christ taking leave of his Mother" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Albrecht_Altdorfer%2C_Christ_Taking_Leave_of_His_Mother_%28probably_1520%29.jpg/300px-Albrecht_Altdorfer%2C_Christ_Taking_Leave_of_His_Mother_%28probably_1520%29.jpg" width="300" height="385" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Albrecht_Altdorfer%2C_Christ_Taking_Leave_of_His_Mother_%28probably_1520%29.jpg/450px-Albrecht_Altdorfer%2C_Christ_Taking_Leave_of_His_Mother_%28probably_1520%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/d/d6/Albrecht_Altdorfer%2C_Christ_Taking_Leave_of_His_Mother_%28probably_1520%29.jpg/600px-Albrecht_Altdorfer%2C_Christ_Taking_Leave_of_His_Mother_%28probably_1520%29.jpg 2x" data-file-width="3292" data-file-height="4226" /></a></td>
+<td style="padding:0 0.9em 0 0;"><a href="/wiki/File:Schloss_Sch%C3%B6nbrunn_Wien_2014_(Zuschnitt_2).jpg" class="image" title="Schönbrunn Palace"><img alt="Schönbrunn Palace" src="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg/380px-Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg" width="380" height="238" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg/570px-Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/41/Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg/760px-Schloss_Sch%C3%B6nbrunn_Wien_2014_%28Zuschnitt_2%29.jpg 2x" data-file-width="5892" data-file-height="3693" /></a></td>
 <td style="padding:0 6px 0 0">
-<p><b><a href="/wiki/Christ_taking_leave_of_his_Mother" title="Christ taking leave of his Mother">Christ taking leave of his Mother</a></b> is a subject in <a href="/wiki/Christian_art" title="Christian art">Christian art</a> most common in the 15th and 16th centuries. It depicts <a href="/wiki/Jesus" title="Jesus">Jesus</a> saying farewell to his mother, <a href="/wiki/Mary_(mother_of_Jesus)" class="mw-redirect" title="Mary (mother of Jesus)">Mary</a>, before leaving for his <a href="/wiki/Palm_Sunday" title="Palm Sunday">final journey</a> to <a href="/wiki/Jerusalem" title="Jerusalem">Jerusalem</a>, which he knows will lead to his <a href="/wiki/Passion_(Christianity)" class="mw-redirect" title="Passion (Christianity)">Passion</a> and <a href="/wiki/Crucifixion_of_Jesus" title="Crucifixion of Jesus">death</a>. In depictions of this subject, Jesus may be shown blessing his mother. Sometimes Jesus' followers, such as <a href="/wiki/Saint_Peter" title="Saint Peter">Peter</a>, <a href="/wiki/John_the_Evangelist" title="John the Evangelist">John the Evangelist</a>, and <a href="/wiki/Mary_Magdalene" title="Mary Magdalene">Mary Magdalene</a>, are included in the scene.</p>
-<p>Shown here is a treatment of the subject by <a href="/wiki/Albrecht_Altdorfer" title="Albrecht Altdorfer">Albrecht Altdorfer</a>. Completed <abbr title="circa">c.</abbr> 1520, the painting is held at the <a href="/wiki/National_Gallery" title="National Gallery">National Gallery, London</a>.</p>
-<p><small>Painting: <a href="/wiki/Albrecht_Altdorfer" title="Albrecht Altdorfer">Albrecht Altdorfer</a></small></p>
+<p><b><a href="/wiki/Sch%C3%B6nbrunn_Palace" title="Schönbrunn Palace">Schönbrunn Palace</a></b> is a former <a href="/wiki/Austrian_Empire" title="Austrian Empire">imperial</a> summer residence located in <a href="/wiki/Vienna" title="Vienna">Vienna</a>, Austria. The 1,441-room <a href="/wiki/Baroque" title="Baroque">Baroque</a> palace, with a history that spans more than 300 years, is a <a href="/wiki/World_Heritage_Site" title="World Heritage Site">World Heritage Site</a> and a major tourist attraction.</p>
+<p><small>Photograph: <a href="/wiki/User:Der_Wolf_im_Wald" title="User:Der Wolf im Wald">Thomas Wolf</a></small></p>
 <div class="potd-recent" style="text-align:right;">Recently featured:
 <div class="hlist inline">
 <ul>
+<li><a href="/wiki/Template:POTD/2017-04-09" title="Template:POTD/2017-04-09">Christ taking leave of his Mother</a></li>
 <li><a href="/wiki/Template:POTD/2017-04-08" title="Template:POTD/2017-04-08"><i>Aurelia aurita</i></a></li>
 <li><a href="/wiki/Template:POTD/2017-04-07" title="Template:POTD/2017-04-07">Vault (architecture)</a></li>
-<li><a href="/wiki/Template:POTD/2017-04-06" title="Template:POTD/2017-04-06">Meerkats in the Kalahari</a></li>
 </ul>
 </div>
 </div>
@@ -350,67 +387,67 @@ Dictionary and thesaurus</td>
 <div id="mp-lang">
 <h2><span class="mw-headline" id="Wikipedia_languages">Wikipedia languages</span></h2>
 <div id="lang" class="nowraplinks nourlexpansion plainlinks">
-<p>This Wikipedia is written in <a href="/wiki/English_language" title="English language">English</a>. Started in 2001<span style="display:none">&#160;(<span class="bday dtstart published updated">2001</span>)</span>, it currently contains <a href="/wiki/Special:Statistics" title="Special:Statistics">5,379,865</a> articles.  Many other Wikipedias are available; some of the largest are listed below.</p>
+<p>This Wikipedia is written in <a href="/wiki/English_language" title="English language">English</a>. Started in 2001<span style="display:none">&#160;(<span class="bday dtstart published updated">2001</span>)</span>, it currently contains <a href="/wiki/Special:Statistics" title="Special:Statistics">5,380,813</a> articles.  Many other Wikipedias are available; some of the largest are listed below.</p>
 <ul>
 <li id="lang-3">More than 1,000,000 articles:
 <div class="hlist inline">
 <ul>
-<li><a class="external text" href="https://de.wikipedia.org/wiki/"><span class="autonym" title="German (de:)" lang="de">Deutsch</span></a></li>
-<li><a class="external text" href="https://es.wikipedia.org/wiki/"><span class="autonym" title="Spanish (es:)" lang="es">Español</span></a></li>
-<li><a class="external text" href="https://fr.wikipedia.org/wiki/"><span class="autonym" title="French (fr:)" lang="fr">Français</span></a></li>
-<li><a class="external text" href="https://it.wikipedia.org/wiki/"><span class="autonym" title="Italian (it:)" lang="it">Italiano</span></a></li>
-<li><a class="external text" href="https://nl.wikipedia.org/wiki/"><span class="autonym" title="Dutch (nl:)" lang="nl">Nederlands</span></a></li>
-<li><a class="external text" href="https://ja.wikipedia.org/wiki/"><span class="autonym" title="Japanese (ja:)" lang="ja">日本語</span></a></li>
-<li><a class="external text" href="https://pl.wikipedia.org/wiki/"><span class="autonym" title="Polish (pl:)" lang="pl">Polski</span></a></li>
-<li><a class="external text" href="https://ru.wikipedia.org/wiki/"><span class="autonym" title="Russian (ru:)" lang="ru">Русский</span></a></li>
-<li><a class="external text" href="https://sv.wikipedia.org/wiki/"><span class="autonym" title="Swedish (sv:)" lang="sv">Svenska</span></a></li>
-<li><a class="external text" href="https://vi.wikipedia.org/wiki/"><span class="autonym" title="Vietnamese (vi:)" lang="vi">Tiếng Việt</span></a></li>
+<li><a class="external text" href="https://de.wikipedia.org/wiki/"><span class="autonym" title="German (de:)" lang="de" xml:lang="de">Deutsch</span></a></li>
+<li><a class="external text" href="https://es.wikipedia.org/wiki/"><span class="autonym" title="Spanish (es:)" lang="es" xml:lang="es">Español</span></a></li>
+<li><a class="external text" href="https://fr.wikipedia.org/wiki/"><span class="autonym" title="French (fr:)" lang="fr" xml:lang="fr">Français</span></a></li>
+<li><a class="external text" href="https://it.wikipedia.org/wiki/"><span class="autonym" title="Italian (it:)" lang="it" xml:lang="it">Italiano</span></a></li>
+<li><a class="external text" href="https://nl.wikipedia.org/wiki/"><span class="autonym" title="Dutch (nl:)" lang="nl" xml:lang="nl">Nederlands</span></a></li>
+<li><a class="external text" href="https://ja.wikipedia.org/wiki/"><span class="autonym" title="Japanese (ja:)" lang="ja" xml:lang="ja">日本語</span></a></li>
+<li><a class="external text" href="https://pl.wikipedia.org/wiki/"><span class="autonym" title="Polish (pl:)" lang="pl" xml:lang="pl">Polski</span></a></li>
+<li><a class="external text" href="https://ru.wikipedia.org/wiki/"><span class="autonym" title="Russian (ru:)" lang="ru" xml:lang="ru">Русский</span></a></li>
+<li><a class="external text" href="https://sv.wikipedia.org/wiki/"><span class="autonym" title="Swedish (sv:)" lang="sv" xml:lang="sv">Svenska</span></a></li>
+<li><a class="external text" href="https://vi.wikipedia.org/wiki/"><span class="autonym" title="Vietnamese (vi:)" lang="vi" xml:lang="vi">Tiếng Việt</span></a></li>
 </ul>
 </div>
 </li>
 <li id="lang-2">More than 250,000 articles:
 <div class="hlist inline">
 <ul>
-<li><a class="external text" href="https://ar.wikipedia.org/wiki/"><span class="autonym" title="Arabic (ar:)" lang="ar">العربية</span></a></li>
-<li><a class="external text" href="https://id.wikipedia.org/wiki/"><span class="autonym" title="Indonesian (id:)" lang="id">Bahasa Indonesia</span></a></li>
-<li><a class="external text" href="https://ms.wikipedia.org/wiki/"><span class="autonym" title="Malay (ms:)" lang="ms">Bahasa Melayu</span></a></li>
-<li><a class="external text" href="https://ca.wikipedia.org/wiki/"><span class="autonym" title="Catalan (ca:)" lang="ca">Català</span></a></li>
-<li><a class="external text" href="https://cs.wikipedia.org/wiki/"><span class="autonym" title="Czech (cs:)" lang="cs">Čeština</span></a></li>
-<li><a class="external text" href="https://eu.wikipedia.org/wiki/"><span class="autonym" title="Basque (eu:)" lang="eu">Euskara</span></a></li>
-<li><a class="external text" href="https://fa.wikipedia.org/wiki/"><span class="autonym" title="Persian (fa:)" lang="fa">فارسی</span></a></li>
-<li><a class="external text" href="https://ko.wikipedia.org/wiki/"><span class="autonym" title="Korean (ko:)" lang="ko">한국어</span></a></li>
-<li><a class="external text" href="https://hu.wikipedia.org/wiki/"><span class="autonym" title="Hungarian (hu:)" lang="hu">Magyar</span></a></li>
-<li><a class="external text" href="https://no.wikipedia.org/wiki/"><span class="autonym" title="Norwegian (no:)" lang="no">Norsk bokmål</span></a></li>
-<li><a class="external text" href="https://pt.wikipedia.org/wiki/"><span class="autonym" title="Portuguese (pt:)" lang="pt">Português</span></a></li>
-<li><a class="external text" href="https://ro.wikipedia.org/wiki/"><span class="autonym" title="Romanian (ro:)" lang="ro">Română</span></a></li>
-<li><a class="external text" href="https://sr.wikipedia.org/wiki/"><span class="autonym" title="Serbian (sr:)" lang="sr">Srpski</span></a></li>
-<li><a class="external text" href="https://sh.wikipedia.org/wiki/"><span class="autonym" title="Serbo-Croatian (sh:)" lang="sh">Srpskohrvatski</span></a></li>
-<li><a class="external text" href="https://fi.wikipedia.org/wiki/"><span class="autonym" title="Finnish (fi:)" lang="fi">Suomi</span></a></li>
-<li><a class="external text" href="https://tr.wikipedia.org/wiki/"><span class="autonym" title="Turkish (tr:)" lang="tr">Türkçe</span></a></li>
-<li><a class="external text" href="https://uk.wikipedia.org/wiki/"><span class="autonym" title="Ukrainian (uk:)" lang="uk">Українська</span></a></li>
-<li><a class="external text" href="https://zh.wikipedia.org/wiki/"><span class="autonym" title="Chinese (zh:)" lang="zh">中文</span></a></li>
+<li><a class="external text" href="https://ar.wikipedia.org/wiki/"><span class="autonym" title="Arabic (ar:)" lang="ar" xml:lang="ar">العربية</span></a></li>
+<li><a class="external text" href="https://id.wikipedia.org/wiki/"><span class="autonym" title="Indonesian (id:)" lang="id" xml:lang="id">Bahasa Indonesia</span></a></li>
+<li><a class="external text" href="https://ms.wikipedia.org/wiki/"><span class="autonym" title="Malay (ms:)" lang="ms" xml:lang="ms">Bahasa Melayu</span></a></li>
+<li><a class="external text" href="https://ca.wikipedia.org/wiki/"><span class="autonym" title="Catalan (ca:)" lang="ca" xml:lang="ca">Català</span></a></li>
+<li><a class="external text" href="https://cs.wikipedia.org/wiki/"><span class="autonym" title="Czech (cs:)" lang="cs" xml:lang="cs">Čeština</span></a></li>
+<li><a class="external text" href="https://eu.wikipedia.org/wiki/"><span class="autonym" title="Basque (eu:)" lang="eu" xml:lang="eu">Euskara</span></a></li>
+<li><a class="external text" href="https://fa.wikipedia.org/wiki/"><span class="autonym" title="Persian (fa:)" lang="fa" xml:lang="fa">فارسی</span></a></li>
+<li><a class="external text" href="https://ko.wikipedia.org/wiki/"><span class="autonym" title="Korean (ko:)" lang="ko" xml:lang="ko">한국어</span></a></li>
+<li><a class="external text" href="https://hu.wikipedia.org/wiki/"><span class="autonym" title="Hungarian (hu:)" lang="hu" xml:lang="hu">Magyar</span></a></li>
+<li><a class="external text" href="https://no.wikipedia.org/wiki/"><span class="autonym" title="Norwegian (no:)" lang="no" xml:lang="no">Norsk bokmål</span></a></li>
+<li><a class="external text" href="https://pt.wikipedia.org/wiki/"><span class="autonym" title="Portuguese (pt:)" lang="pt" xml:lang="pt">Português</span></a></li>
+<li><a class="external text" href="https://ro.wikipedia.org/wiki/"><span class="autonym" title="Romanian (ro:)" lang="ro" xml:lang="ro">Română</span></a></li>
+<li><a class="external text" href="https://sr.wikipedia.org/wiki/"><span class="autonym" title="Serbian (sr:)" lang="sr" xml:lang="sr">Srpski</span></a></li>
+<li><a class="external text" href="https://sh.wikipedia.org/wiki/"><span class="autonym" title="Serbo-Croatian (sh:)" lang="sh" xml:lang="sh">Srpskohrvatski</span></a></li>
+<li><a class="external text" href="https://fi.wikipedia.org/wiki/"><span class="autonym" title="Finnish (fi:)" lang="fi" xml:lang="fi">Suomi</span></a></li>
+<li><a class="external text" href="https://tr.wikipedia.org/wiki/"><span class="autonym" title="Turkish (tr:)" lang="tr" xml:lang="tr">Türkçe</span></a></li>
+<li><a class="external text" href="https://uk.wikipedia.org/wiki/"><span class="autonym" title="Ukrainian (uk:)" lang="uk" xml:lang="uk">Українська</span></a></li>
+<li><a class="external text" href="https://zh.wikipedia.org/wiki/"><span class="autonym" title="Chinese (zh:)" lang="zh" xml:lang="zh">中文</span></a></li>
 </ul>
 </div>
 </li>
 <li id="lang-1">More than 50,000 articles:
 <div class="hlist inline">
 <ul>
-<li><a class="external text" href="https://bs.wikipedia.org/wiki/"><span class="autonym" title="Bosnian (bs:)" lang="bs">Bosanski</span></a></li>
-<li><a class="external text" href="https://bg.wikipedia.org/wiki/"><span class="autonym" title="Bulgarian (bg:)" lang="bg">Български</span></a></li>
-<li><a class="external text" href="https://da.wikipedia.org/wiki/"><span class="autonym" title="Danish (da:)" lang="da">Dansk</span></a></li>
-<li><a class="external text" href="https://et.wikipedia.org/wiki/"><span class="autonym" title="Estonian (et:)" lang="et">Eesti</span></a></li>
-<li><a class="external text" href="https://el.wikipedia.org/wiki/"><span class="autonym" title="Greek (el:)" lang="el">Ελληνικά</span></a></li>
-<li><a class="external text" href="https://simple.wikipedia.org/wiki/"><span class="autonym" title="Simple English (simple:)" lang="simple">English (simple form)</span></a></li>
-<li><a class="external text" href="https://eo.wikipedia.org/wiki/"><span class="autonym" title="Esperanto (eo:)" lang="eo">Esperanto</span></a></li>
-<li><a class="external text" href="https://gl.wikipedia.org/wiki/"><span class="autonym" title="Galician (gl:)" lang="gl">Galego</span></a></li>
-<li><a class="external text" href="https://he.wikipedia.org/wiki/"><span class="autonym" title="Hebrew (he:)" lang="he">עברית</span></a></li>
-<li><a class="external text" href="https://hr.wikipedia.org/wiki/"><span class="autonym" title="Croatian (hr:)" lang="hr">Hrvatski</span></a></li>
-<li><a class="external text" href="https://lv.wikipedia.org/wiki/"><span class="autonym" title="Latvian (lv:)" lang="lv">Latviešu</span></a></li>
-<li><a class="external text" href="https://lt.wikipedia.org/wiki/"><span class="autonym" title="Lithuanian (lt:)" lang="lt">Lietuvių</span></a></li>
-<li><a class="external text" href="https://nn.wikipedia.org/wiki/"><span class="autonym" title="Norwegian Nynorsk (nn:)" lang="nn">Norsk nynorsk</span></a></li>
-<li><a class="external text" href="https://sk.wikipedia.org/wiki/"><span class="autonym" title="Slovak (sk:)" lang="sk">Slovenčina</span></a></li>
-<li><a class="external text" href="https://sl.wikipedia.org/wiki/"><span class="autonym" title="Slovenian (sl:)" lang="sl">Slovenščina</span></a></li>
-<li><a class="external text" href="https://th.wikipedia.org/wiki/"><span class="autonym" title="Thai (th:)" lang="th">ไทย</span></a></li>
+<li><a class="external text" href="https://bs.wikipedia.org/wiki/"><span class="autonym" title="Bosnian (bs:)" lang="bs" xml:lang="bs">Bosanski</span></a></li>
+<li><a class="external text" href="https://bg.wikipedia.org/wiki/"><span class="autonym" title="Bulgarian (bg:)" lang="bg" xml:lang="bg">Български</span></a></li>
+<li><a class="external text" href="https://da.wikipedia.org/wiki/"><span class="autonym" title="Danish (da:)" lang="da" xml:lang="da">Dansk</span></a></li>
+<li><a class="external text" href="https://et.wikipedia.org/wiki/"><span class="autonym" title="Estonian (et:)" lang="et" xml:lang="et">Eesti</span></a></li>
+<li><a class="external text" href="https://el.wikipedia.org/wiki/"><span class="autonym" title="Greek (el:)" lang="el" xml:lang="el">Ελληνικά</span></a></li>
+<li><a class="external text" href="https://simple.wikipedia.org/wiki/"><span class="autonym" title="Simple English (simple:)" lang="simple" xml:lang="simple">English (simple form)</span></a></li>
+<li><a class="external text" href="https://eo.wikipedia.org/wiki/"><span class="autonym" title="Esperanto (eo:)" lang="eo" xml:lang="eo">Esperanto</span></a></li>
+<li><a class="external text" href="https://gl.wikipedia.org/wiki/"><span class="autonym" title="Galician (gl:)" lang="gl" xml:lang="gl">Galego</span></a></li>
+<li><a class="external text" href="https://he.wikipedia.org/wiki/"><span class="autonym" title="Hebrew (he:)" lang="he" xml:lang="he">עברית</span></a></li>
+<li><a class="external text" href="https://hr.wikipedia.org/wiki/"><span class="autonym" title="Croatian (hr:)" lang="hr" xml:lang="hr">Hrvatski</span></a></li>
+<li><a class="external text" href="https://lv.wikipedia.org/wiki/"><span class="autonym" title="Latvian (lv:)" lang="lv" xml:lang="lv">Latviešu</span></a></li>
+<li><a class="external text" href="https://lt.wikipedia.org/wiki/"><span class="autonym" title="Lithuanian (lt:)" lang="lt" xml:lang="lt">Lietuvių</span></a></li>
+<li><a class="external text" href="https://nn.wikipedia.org/wiki/"><span class="autonym" title="Norwegian Nynorsk (nn:)" lang="nn" xml:lang="nn">Norsk nynorsk</span></a></li>
+<li><a class="external text" href="https://sk.wikipedia.org/wiki/"><span class="autonym" title="Slovak (sk:)" lang="sk" xml:lang="sk">Slovenčina</span></a></li>
+<li><a class="external text" href="https://sl.wikipedia.org/wiki/"><span class="autonym" title="Slovenian (sl:)" lang="sl" xml:lang="sl">Slovenščina</span></a></li>
+<li><a class="external text" href="https://th.wikipedia.org/wiki/"><span class="autonym" title="Thai (th:)" lang="th" xml:lang="th">ไทย</span></a></li>
 </ul>
 </div>
 </li>
@@ -422,36 +459,36 @@ Dictionary and thesaurus</td>
 
 <!-- 
 NewPP limit report
-Parsed by mw1256
-Cached time: 20170409162720
+Parsed by mw1191
+Cached time: 20170410184304
 Cache expiry: 3600
 Dynamic content: true
-CPU time usage: 0.212 seconds
-Real time usage: 0.277 seconds
-Preprocessor visited node count: 3264/1000000
+CPU time usage: 0.304 seconds
+Real time usage: 0.386 seconds
+Preprocessor visited node count: 3148/1000000
 Preprocessor generated node count: 0/1500000
-Post‐expand include size: 109065/2097152 bytes
-Template argument size: 5859/2097152 bytes
-Highest expansion depth: 16/40
+Post‐expand include size: 104260/2097152 bytes
+Template argument size: 5581/2097152 bytes
+Highest expansion depth: 14/40
 Expensive parser function count: 6/500
-Lua time usage: 0.070/10.000 seconds
-Lua memory usage: 4.58 MB/50 MB
+Lua time usage: 0.098/10.000 seconds
+Lua memory usage: 2.12 MB/50 MB
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  210.615      1 -total
- 40.75%   85.834      1 Wikipedia:Main_Page/Tomorrow
- 39.75%   83.710      9 Template:Main_page_image
- 26.88%   56.618      1 Wikipedia:Today's_featured_article/April_9,_2017
- 15.91%   33.516      9 Template:Str_number/trim
- 14.38%   30.292      2 Template:Wikipedia_languages
- 13.53%   28.497      1 Template:Did_you_know/Queue/2
- 12.54%   26.409     26 Template:If_empty
- 11.54%   24.301      1 Template:Convert
- 10.28%   21.652     88 Template:Wikipedia_languages/core
+100.00%  283.780      1 -total
+ 44.00%  124.864      1 Wikipedia:Main_Page/Tomorrow
+ 41.59%  118.029      8 Template:Main_page_image
+ 19.18%   54.430      1 Wikipedia:Today's_featured_article/April_10,_2017
+ 17.30%   49.102      8 Template:Str_number/trim
+ 14.66%   41.614      1 Template:Did_you_know/Queue/3
+ 13.83%   39.235      2 Template:Wikipedia_languages
+ 12.84%   36.435     23 Template:If_empty
+ 12.17%   34.550      1 Template:POTD_protected/2017-04-11
+ 11.71%   33.237      1 Template:Convert
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:15580374-0!*!0!!*!4!* and timestamp 20170409162719 and revision id 762066868
+<!-- Saved in parser cache with key enwiki:pcache:idhash:15580374-0!*!0!!*!4!* and timestamp 20170410184304 and revision id 762066868
  -->
 <noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
 						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=762066868">https://en.wikipedia.org/w/index.php?title=Main_Page&amp;oldid=762066868</a>"					</div>
@@ -590,6 +627,6 @@ additional terms may apply.  By using this site, you agree to the <a href="//wik
 									</ul>
 						<div style="clear:both"></div>
 		</div>
-		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.212","walltime":"0.277","ppvisitednodes":{"value":3264,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":109065,"limit":2097152},"templateargumentsize":{"value":5859,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  210.615      1 -total"," 40.75%   85.834      1 Wikipedia:Main_Page/Tomorrow"," 39.75%   83.710      9 Template:Main_page_image"," 26.88%   56.618      1 Wikipedia:Today's_featured_article/April_9,_2017"," 15.91%   33.516      9 Template:Str_number/trim"," 14.38%   30.292      2 Template:Wikipedia_languages"," 13.53%   28.497      1 Template:Did_you_know/Queue/2"," 12.54%   26.409     26 Template:If_empty"," 11.54%   24.301      1 Template:Convert"," 10.28%   21.652     88 Template:Wikipedia_languages/core"]},"scribunto":{"limitreport-timeusage":{"value":"0.070","limit":"10.000"},"limitreport-memusage":{"value":4802598,"limit":52428800}},"cachereport":{"origin":"mw1256","timestamp":"20170409162720","ttl":3600,"transientcontent":true}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1275"});});</script>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.304","walltime":"0.386","ppvisitednodes":{"value":3148,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":104260,"limit":2097152},"templateargumentsize":{"value":5581,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  283.780      1 -total"," 44.00%  124.864      1 Wikipedia:Main_Page/Tomorrow"," 41.59%  118.029      8 Template:Main_page_image"," 19.18%   54.430      1 Wikipedia:Today's_featured_article/April_10,_2017"," 17.30%   49.102      8 Template:Str_number/trim"," 14.66%   41.614      1 Template:Did_you_know/Queue/3"," 13.83%   39.235      2 Template:Wikipedia_languages"," 12.84%   36.435     23 Template:If_empty"," 12.17%   34.550      1 Template:POTD_protected/2017-04-11"," 11.71%   33.237      1 Template:Convert"]},"scribunto":{"limitreport-timeusage":{"value":"0.098","limit":"10.000"},"limitreport-memusage":{"value":2224057,"limit":52428800}},"cachereport":{"origin":"mw1191","timestamp":"20170410184304","ttl":3600,"transientcontent":true}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":74,"wgHostname":"mw1269"});});</script>
 	</body>
 </html>
