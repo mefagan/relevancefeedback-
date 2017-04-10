@@ -1,5 +1,6 @@
 #http://stackoverflow.com/questions/9745056/how-to-save-user-input-data-to-redis-using-tornado-python
-
+from stripHTML import strip_tags
+import codecs
 import tornado.ioloop
 import tornado.web
 import pickle
@@ -47,10 +48,16 @@ class MainHandler(tornado.web.RequestHandler):
           #items.append({'score':hit.score, 'doc':hit.doc, 'blah':hit.toString(), 'url':doc_urls[str(hit.doc)]})
           print hit.score, hit.doc, hit.toString()
           items.append(doc_urls[str(hit.doc)])
+          print(doc_urls[str(hit.doc)])
           doc = searcher.doc(hit.doc) 
-          rQ.append(doc)
+          print(hit.doc)
+          rQ.append("html_files/" + str(hit.doc))
 
-      print(len(rQ))
+      
+      #for url in rQ: 
+       # f=codecs.open(url, 'r')
+        #html = doc.read()
+        #print(strip_tags(html))
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 

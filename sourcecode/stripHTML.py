@@ -15,9 +15,9 @@ def strip_tags(html):
     s.feed(html)
     return s.get_data()
 
-def main():
-    f=codecs.open("html_files/0", 'r')
-    html = f.read()
-    print(strip_tags(html))
-if __name__ == '__main__':
-    main()
+#def main():
+ #   f=codecs.open("html_files/0", 'r')
+  #  html = f.read()
+   # print(strip_tags(html))
+#if __name__ == '__main__':
+ #   main()
