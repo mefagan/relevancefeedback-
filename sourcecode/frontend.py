@@ -52,12 +52,14 @@ class MainHandler(tornado.web.RequestHandler):
           doc = searcher.doc(hit.doc) 
           print(hit.doc)
           rQ.append("html_files/" + str(hit.doc))
-
       
-      #for url in rQ: 
-       # f=codecs.open(url, 'r')
-        #html = doc.read()
-        #print(strip_tags(html))
+      for url in rQ:
+        print(url)
+        f=codecs.open("html_files/10", 'r')
+        html = f.read()
+        html = str(html)
+        print(strip_tags(html))
+        
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 

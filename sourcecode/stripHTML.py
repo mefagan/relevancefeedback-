@@ -1,5 +1,6 @@
 from HTMLParser import HTMLParser
 import codecs
+import sys
 
 class MLStripper(HTMLParser):
     def __init__(self):
@@ -11,12 +12,13 @@ class MLStripper(HTMLParser):
         return ''.join(self.fed)
 
 def strip_tags(html):
+    parser = HTMLParser()
     s = MLStripper()
     s.feed(html)
     return s.get_data()
 
 #def main():
- #   f=codecs.open("html_files/0", 'r')
+ #   f=codecs.open(file, 'r')
   #  html = f.read()
    # print(strip_tags(html))
 #if __name__ == '__main__':
