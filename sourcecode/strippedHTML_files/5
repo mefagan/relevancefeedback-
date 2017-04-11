@@ -1,0 +1,864 @@
+
+
+
+
+Portal:Mathematics - Wikipedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Mathematics","wgTitle":"Mathematics","wgCurRevisionId":686628022,"wgRevisionId":686628022,"wgArticleId":1488464,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Wikipedia move-protected portals","Featured portals","Mathematics portal"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Mathematics","wgRelevantArticleId":1488464,"wgRequestId":"WOrjcwpAEKkAAHxQNFoAAABA","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q7778173","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.categoryTree.css":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+
+							
+						
+
+
+
+			Portal:Mathematics
+									
+									From Wikipedia, the free encyclopedia
+								
+												
+					Jump to:					navigation, 					search
+				
+				
+
+Topics
+Culture
+Geography
+Health
+History
+Mathematics
+Nature
+People
+Philosophy
+Religion
+Society
+Technology
+
+
+
+
+edit
+The Mathematics Portal
+
+
+
+
+Euclid
+
+
+Mathematics is the study of numbers, quantity, space, structure, and change. Mathematics is used throughout the world as an essential tool in many fields, including natural science, engineering, medicine, and the social sciences. Applied mathematics, the branch of mathematics concerned with application of mathematical knowledge to other fields, inspires and makes use of new mathematical discoveries and sometimes leads to the development of entirely new mathematical disciplines, such as statistics and game theory. Mathematicians also engage in pure mathematics, or mathematics for its own sake, without having any application in mind. There is no clear line separating pure and applied mathematics, and practical applications for what began as pure mathematics are often discovered.
+More about Mathematics...
+
+
+
+
+
+
+Selected article | Selected picture | Did you know... | Topics in mathematics
+Categories | WikiProjects | Things you can do | Index | Related portals
+
+There are approximately 31,444 mathematics articles in Wikipedia.
+
+
+
+
+View new selections below (purge)
+
+
+edit
+Selected article
+
+
+
+
+
+
+
+
+
+
+
+
+A labeled graph on 6 vertices and 7 edges
+Image credit: User:Booyabazooka
+
+
+Informally speaking, a graph is a set of objects called points, nodes, or vertices connected by links called lines or edges. In a proper graph, which is by default undirected, a line from point A to point B is considered to be the same thing as a line from point B to point A. In a digraph, short for directed graph, the two directions are counted as being distinct arcs or directed edges. Typically, a graph is depicted in diagrammatic form as a set of dots (for the points, vertices, or nodes), joined by curves (for the lines or edges). Graphs have applications in both mathematics and computer science, and form the basic object of study in graph theory.
+Applications of graph theory are generally concerned with labeled graphs and various specializations of these. Many problems of practical interest can be represented by graphs. The link structure of a website could be represented by a directed graph: the vertices are the web pages available at the website and a directed edge from page A to page B exists if and only if A contains a link to B. A graph structure can be extended by assigning a weight to each edge of the graph. Graphs with weights, or weighted graphs, are used to represent structures in which pairwise connections have some numerical values. For example if a graph represents a road network, the weights could represent the length of each road. A digraph with weighted edges in the context of graph theory is called a network. Networks have many uses in the practical side of graph theory, network analysis (for example, to model and analyze traffic networks).
+
+
+View all selected articles
+Read More...
+
+
+
+
+
+edit
+Selected picture
+
+
+
+
+
+
+
+
+Credit: Ilmari Karonen
+The knight's tour is a mathematical chess problem in which the piece called the knight is to visit each square on an otherwise empty chess board exactly once, using only legal moves. It is a special case of the more general Hamiltonian path problem in graph theory. (A closely related non-Hamiltonian problem is that of the longest uncrossed knight's path.) The tour is called closed if the knight ends on a square from which it may legally move to its starting square (thereby forming an endless cycle), and open if not. The tour shown in this animation is open (see also a static image of the completed tour). On a standard 8 × 8 board there are 26,534,728,821,064 possible closed tours and 39,183,656,341,959,808 open tours (counting separately any tours that are equivalent by rotation, reflection, or reversing the direction of travel). Although the earliest known solutions to the knight's tour problem date back to the 9th century CE, the first general procedure for completing the knight's tour was Warnsdorff's rule, first described in 1823. The knight's tour was one of many chess puzzles solved by The Turk, a fake chess-playing machine exhibited as an automaton from 1770 to 1854, and exposed in the early 1820s as an elaborate hoax. True chess-playing automatons (i.e., computer programs) appeared in the 1950s, and by 1988 had become sufficiently advanced to win a match against a grandmaster; in 1997, Deep Blue famously became the first computer system to defeat a reigning world champion (Garry Kasparov) in a match under standard tournament time controls. Despite these advances, there is still debate as to whether chess will ever be "solved" as a computer problem (meaning an algorithm will be developed that can never lose a chess match). According to Zermelo's theorem, such an algorithm does exist.
+
+More selected pictures...Read more...
+
+
+
+
+
+edit
+Did you know...
+
+
+
+
+...there are 19 consecutive prime numbers ending in the digit 1, starting from 253931039382791?
+...that the Electronic Frontier Foundation funds awards for the discovery of prime numbers beyond certain sizes?
+...an infinite, nonrepeating decimal can be represented using only the number 1 using continued fractions?
+...that outstanding mathematician Grigori Perelman was offered a Fields Medal in 2006, in part for his proof of the Poincaré conjecture, which he declined?
+...that a regular heptagon is the regular polygon with the fewest number of sides which is not constructible with a compass and straightedge?
+...that the Gudermannian function relates the regular trigonometric functions and the hyperbolic trigonometric functions without the use of complex numbers?
+...that the Catalan numbers solve a number of problems in combinatorics such as the number of ways to completely parenthesize an algebraic expression with n+1 factors?
+
+            
+Showing 7 items out of 72
+Moredidyouknow
+
+
+
+
+
+
+
+
+edit
+WikiProjects
+
+
+The Mathematics WikiProject is the center for mathematics-related editing on Wikipedia. Join the discussion on the project's talk page.
+
+
+
+Project pages
+
+Participants
+Current activity
+Manual of style
+Conventions
+
+Essays
+
+Advice on using Wikipedia for mathematics self-study
+Proofs
+
+Subprojects
+
+PlanetMath Exchange (Talk)
+Graphics (Talk)
+Article assessment (Talk)
+
+Related projects
+Computer science | Cryptography | Game theory | Numbers | Physics | Science | Statistics
+
+
+
+edit
+Things you can do
+
+
+
+
+Create a new article: See requested articles list
+Add a new image: Requested images list
+Improve articles: Pages needing attention (Category)
+Expand articles: Mathematics stubs
+
+
+
+
+
+edit
+Categories
+
+
+
+
+Algebra | Arithmetic | Analysis | Complexanalysis | Appliedmathematics | Calculus | Categorytheory | Chaostheory | Combinatorics | Dynamicsystems | Fractals | Gametheory | Geometry | Algebraicgeometry | Graphtheory | Grouptheory | Linearalgebra | Mathematicallogic | Modeltheory | Multi-dimensionalgeometry | Numbertheory | Numericalanalysis | Optimization | Ordertheory | Probabilityandstatistics | Settheory | Statistics | Topology | Algebraictopology | Trigonometry | Linearprogramming
+
+
+
+Mathematics (books) | History of mathematics | Mathematicians | Awards | Education | Literature | Notation | Organizations | Theorems | Proofs | Unsolved problems
+
+
+
+
+▼ Mathematics
+
+
+► Fields of mathematics
+
+
+
+► Mathematics-related lists
+
+
+
+► Mathematicians
+
+
+
+► Mathematical concepts
+
+
+
+► Mathematics and culture
+
+
+
+► Mathematical examples
+
+
+
+► History of mathematics
+
+
+
+► Mathematics and art
+
+
+
+► Mathematical modeling
+
+
+
+► Mathematical notation
+
+
+
+► Mathematical science occupations
+
+
+
+► Philosophy of mathematics
+
+
+
+► Mathematical projects
+
+
+
+► Mathematical proofs
+
+
+
+► Pseudomathematics
+
+
+
+► Set indices on mathematics
+
+
+
+► Mathematical terminology
+
+
+
+► Mathematics textbooks
+
+
+
+► Mathematical theorems
+
+
+
+► Mathematical tools
+
+
+
+► Women in mathematics
+
+
+
+► Wikipedia books on mathematics
+
+
+
+► Mathematics stubs
+
+
+
+
+
+
+More mathematics categories
+
+
+
+edit
+Topics in mathematics
+
+
+
+
+
+General
+Foundations
+Number theory
+Discrete mathematics
+
+
+
+
+
+Mathematicians
+History of mathematics
+Philosophy of mathematics
+Mathematical notation
+Mathematical beauty
+Mathematics education
+Areas of mathematics
+List of basic mathematics topics
+List of mathematical symbols
+Wikipedia Books: Mathematics
+
+
+
+
+
+Foundations of mathematics
+Mathematical logic
+
+Proof theory
+
+Gödel's incompleteness theorems
+
+
+Model theory
+Recursion theory
+
+
+
+
+Set theory (portal)
+
+Naive set theory
+Axiomatic set theory
+
+
+Category theory (portal)
+
+Topos theory
+
+
+
+
+
+
+
+Number theory (portal)
+Algebraic number theory
+Analytic number theory
+Arithmetic
+
+Fundamental theorem of arithmetic
+
+
+Numbers
+
+Natural numbers
+Prime numbers
+Rational numbers
+Algebraic numbers
+
+
+
+
+
+
+
+Discrete mathematics (portal)
+Combinatorics
+
+Combinatorial geometry
+Coding theory
+Combinatorial design
+Enumerative combinatorics
+Combinatorial optimization
+
+
+Graph theory
+Order theory
+
+Lattice theory
+
+
+
+
+
+
+
+Algebra
+Analysis
+Geometry and topology
+Applied mathematics
+
+
+
+
+
+Algebra (portal)
+Elementary algebra
+Abstract algebra
+
+Group theory
+Ring theory
+Field theory
+Commutative algebra
+
+
+Geometric algebra
+Linear algebra
+
+Matrix theory
+Multilinear algebra
+
+
+Universal algebra
+Fundamental theorem of algebra
+
+
+
+
+
+Analysis (portal)
+Calculus
+
+Fundamental theorem of calculus
+Vector calculus
+Geometric calculus
+
+
+Measure theory
+Real analysis
+Complex analysis
+Differential equations
+
+Ordinary differential equations
+Partial differential equations
+
+
+Integral equations
+Approximation theory
+Special functions
+Potential theory
+Harmonic analysis
+
+Fourier analysis
+
+
+Functional analysis
+Operator theory
+
+
+
+
+
+Geometry (portal)
+Euclidean geometry
+
+Trigonometry
+
+
+Analytic geometry
+Non-Euclidean geometry
+Affine geometry
+Projective geometry
+Convex geometry
+Discrete geometry
+Algebraic geometry
+Differential geometry
+
+Riemannian geometry
+Lie groups
+
+
+Topology (portal)
+
+General topology
+Algebraic topology
+Geometric topology
+Differential topology
+
+
+
+
+
+
+
+Applied mathematics
+Mathematical modeling
+Mathematical physics
+Dynamical systems
+
+Control theory
+
+Calculus of variations
+
+
+
+
+Optimization
+Mathematical economics
+
+Game theory
+Mathematical finance
+
+
+Statistics (portal)
+Probability theory
+
+Stochastic processes
+
+
+Numerical analysis
+Theoretical computer science
+
+Computability theory
+Complexity theory
+
+
+Cryptography (portal)
+Information theory
+
+
+
+
+
+
+
+
+edit
+Index of mathematics articles
+
+
+
+
+ARTICLE INDEX:
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (0–9)
+
+
+MATHEMATICIANS:
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+
+
+
+
+edit
+Related portals
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algebra
+Analysis
+Category
+theory
+Computer
+science
+Cryptography
+Discrete
+mathematics
+Geometry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Logic
+Mathematics
+Number
+theory
+Physics
+Science
+Set theory
+Statistics
+Topology
+
+
+
+
+Science
+ History of science  Philosophy of science  Systems science  Mathematics  Biology  Chemistry  Physics  Earth sciences  Technology 
+
+
+
+
+What are portals?
+List of portals
+Featured portals
+
+
+
+
+
+edit
+In other Wikimedia projects
+
+
+
+
+The following Wikimedia sister projects provide more on this subject:
+
+Wikibooks
+Books
+
+
+
+
+
+Commons
+Media
+
+
+
+
+
+Wikinews
+News
+
+
+
+
+
+Wikiquote
+Quotations
+
+
+
+
+
+Wikisource
+Texts
+
+
+
+
+
+Wikiversity
+Learning resources
+
+
+
+
+
+Wiktionary
+Definitions
+
+
+
+
+
+Wikidata
+Database
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Mathematicsoldid=686628022"					
+				Categories: Mathematics portalHidden categories: Wikipedia semi-protected portalsWikipedia move-protected portalsFeatured portals				
+							
+		
+		
+			Navigation menu
+
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+															Portal
+															Talk
+													
+					
+										
+												
+							Variants
+						
+
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+															Read
+															View source
+															View history
+													
+					
+										
+						More
+
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+
+						
+							
+														
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+
+			
+									
+						Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store					
+							
+		
+			
+			Interaction
+
+			
+									
+						HelpAbout WikipediaCommunity portalRecent changesContact page					
+							
+		
+			
+			Tools
+
+			
+									
+						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item					
+							
+		
+			
+			Print/export
+
+			
+									
+						Create a bookDownload as PDFPrintable version					
+							
+		
+			
+			In other projects
+
+			
+									
+						WikibooksWikinewsWikisourceWikiversity					
+							
+		
+			
+			Languages
+
+			
+									
+						አማርኛالعربيةАварবাংলাБеларуская (тарашкевіца)‎БългарскиCatalàCebuanoČeštinaDeutschEestiΕλληνικάEspañolEsperantoفارسیFrançaisGĩkũyũ한국어Հայերենहिन्दीBahasa IndonesiaÍslenskaItalianoעבריתქართულიҚазақшаKiswahiliKreyòl ayisyenKurdîLatinaLietuviųLumbaartMagyarМакедонскиMaltiBahasa Melayuမြန်မာဘာသာNederlands日本語Oʻzbekcha/ўзбекчаਪੰਜਾਬੀپښتوPolskiPortuguêsRomânăRuna SimiРусскийShqipසිංහලسنڌيSlovenčinaSoomaaligaکوردیی ناوەندیСрпски / srpskiSuomiSvenskaதமிழ்TaqbaylitТатарча/tatarçaไทยТоҷикӣTürkçeУкраїнськаاردوTiếng Việt文言ייִדישYorùbá粵語中文					
+				Edit links			
+		
+				
+		
+		
+							
+											 This page was last modified on 20 October 2015, at 08:24.
+											Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+									
+							
+											Privacy policy
+											About Wikipedia
+											Disclaimers
+											Contact Wikipedia
+											Developers
+											Cookie statement
+											Mobile view
+									
+										
+											
+													
+											
+													
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.208","walltime":"0.362","ppvisitednodes":{"value":2203,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":85237,"limit":2097152},"templateargumentsize":{"value":9764,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  208.883      1 -total"," 25.84%   53.984      1 Template:Pp-semi-indef"," 14.64%   30.586      1 Portal:Mathematics/Random_portal_component"," 10.89%   22.747      1 Portal:Mathematics/Selected_article/29","  9.70%   20.261      1 Template:Featured_portal","  8.50%   17.745      1 Template:Top_icon","  8.25%   17.229      1 Portal:Mathematics/Did_you_know","  7.72%   16.128      1 Portal:Mathematics/Intro","  7.42%   15.500     10 Portal:Mathematics/box-header","  6.77%   14.151      1 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.038","limit":"10.000"},"limitreport-memusage":{"value":1366936,"limit":52428800}},"cachereport":{"origin":"mw1182","timestamp":"20170410014230","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":74,"wgHostname":"mw1214"});});
+	
+

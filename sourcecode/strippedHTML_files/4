@@ -1,0 +1,603 @@
+
+
+
+
+Wikipedia, the free encyclopedia
+document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WOwHdwpAMFIAAHK0Bq8AAAAE","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
+
+});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
+		
+		
+			
+
+							
+						
+
+			Main Page
+									
+									From Wikipedia, the free encyclopedia
+								
+												
+					Jump to:					navigation, 					search
+				
+				
+
+
+
+
+
+Welcome to Wikipedia,
+the free encyclopedia that anyone can edit.
+5,381,044 articles in English
+
+
+
+
+
+
+Arts
+Biography
+Geography
+
+
+
+
+History
+Mathematics
+Science
+
+
+
+
+Society
+Technology
+All portals
+
+
+
+
+
+
+
+
+
+
+From today's featured article
+
+
+
+
+
+
+
+
+Noel Park in north London is a planned community designed by Rowland Plumbe in the late 19th century, consisting of 2,200 model dwellings. It was developed in open countryside to the north of London between the historic villages of Highgate and Tottenham by the Artizans, Labourers  General Dwellings Company. One of the earliest garden suburbs in the world, it provided affordable housing for working-class families wishing to leave the inner city. Every property had a front and rear garden, and it was close enough to the rail network to allow its residents to commute to work. In line with the principles of the company's founder, William Austin, it had no pubs, and there are still none today. As a result of London's rapid expansion during the early 20th century, and particularly after the London Underground was extended to the area in 1932, Noel Park was surrounded by later developments. In 1965, it was incorporated into the newly created London Borough of Haringey. Despite damage during World War II and demolition work during the construction of Wood Green Shopping City in the 1970s, it remains largely architecturally intact. (Fullarticle...)
+Recently featured:
+
+
+Canadian National Vimy Memorial
+"Yesterday's Enterprise"
+Gabriel Pleydell
+
+
+
+
+
+Archive
+By email
+More featured articles...
+
+
+
+
+
+
+
+Did you know...
+
+
+
+
+
+
+
+Monument of States
+
+
+
+... that the Monument of States (pictured) in Kissimmee, Florida, was erected in response to the attack on Pearl Harbor and built with stones donated from around the world?
+... that Caius Largennius is considered the first Lucchese in the world?
+... that the play Sweat by Lynn Nottage has been described as "the first theatrical landmark of the Trump era"?
+... that when he ceded Easter Island to Chile, King Atamu Tekena gave up a handful of grass and retained a handful of dirt?
+... that Mexican Federal Highway 15D includes two of the country's five most expensive toll roads?
+... that prior to her major debut, singer Maon Kurosaki posed as a gravure model for the cover of a novel?
+... that the seeds of the white batflower may be distributed by small mammals that feed on the fleshy fruits?
+... that in March 1998, the Ontario Court of Justice ruled that being topless while one engages in a commercial purpose such as prostitution is illegal?
+
+
+
+Recent additions
+Start a new article
+Nominate an article
+
+
+
+
+
+
+
+
+
+
+
+
+In the news
+
+
+
+
+
+
+
+Sergio García
+
+
+
+In golf, Sergio García (pictured) defeats Justin Rose in a playoff to win the Masters Tournament.
+At least 45 people are killed and 136 others injured when two Egyptian Coptic Orthodox churches are attacked on Palm Sunday by suicide bombers.
+The Basque separatist militant group ETA disarms itself.
+A stolen truck is driven through crowds and into a department store in downtown Stockholm, killing 4 people and injuring 15 others.
+The United States attacks a Syrian air base in response to a chemical attack in Khan Shaykhun that killed more than 70 people.
+Tim Berners-Lee wins the Turing Award for inventing the World Wide Web, the first web browser, and the protocols and algorithms that allow the Web to scale.
+
+
+Ongoing:
+
+
+Battle of Mosul
+
+
+
+Recent deaths:
+
+
+Fishman
+Brian Matthew
+Peter Isaacson
+Glenn O'Brien
+
+
+
+
+
+
+
+
+
+On this day...
+
+
+
+
+
+April 10
+
+
+F. Scott Fitzgerald
+
+
+
+1809 – Napoleonic Wars: The War of the Fifth Coalition began when Austria invaded Bavaria.
+1858 – Big Ben, the bell in the Palace of Westminster's clock tower in London, was cast after the original bell had cracked during testing.
+1925 – The novel The Great Gatsby by F. Scott Fitzgerald (pictured) was first published.
+1944 – The Holocaust: Rudolf Vrba and Alfréd Wetzler escaped from Auschwitz; their report was one of the earliest and most detailed descriptions of the mass killings in the camp.
+1992 – Nagorno-Karabakh War: At least 40 Armenian civilians were massacred in Maraga, Azerbaijan.
+
+Gabrielle d'Estrées (d.1589)·  Stuart Sutcliffe (d.1962)·  Evelyn Waugh (d.1966)
+More anniversaries:
+
+
+April 9
+April 10
+April 11
+
+
+
+
+
+Archive
+By email
+List of historical anniversaries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From today's featured list
+
+
+
+
+
+
+
+Shannen Doherty
+
+
+American actress Shannen Doherty has appeared in numerous television programs and motion pictures. Landing her first major role in the dramatic western television series Little House on the Prairie, Doherty had her breakthrough role as Brenda Walsh in the teen drama Beverly Hills, 90210. She was later removed from the series due to backstage issues. She starred in television films in the early and mid-1990s in an attempt to rebuild her career. Doherty enjoyed a resurgence in popularity while playing the witch Prue Halliwell on the supernatural drama Charmed. Following disagreements with Spelling and co-star Alyssa Milano, Doherty left the series in its third season. While acting in a string of television films, Doherty has also participated in five reality television shows. (Fulllist...)
+Recently featured:
+
+
+Padma Bhushan award recipients (1960–69)
+Huskies of Honor
+Grammy Award for Best Female Rock Vocal Performance
+
+
+
+
+
+Archive
+More featured lists...
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Today's featured picture
+
+
+
+
+
+
+
+
+
+Schönbrunn Palace is a former imperial summer residence located in Vienna, Austria. The 1,441-room Baroque palace, with a history that spans more than 300 years, is a World Heritage Site and a major tourist attraction.
+Photograph: Thomas Wolf
+Recently featured:
+
+
+Christ taking leave of his Mother
+Aurelia aurita
+Vault (architecture)
+
+
+
+
+
+Archive
+More featured pictures...
+
+
+
+
+
+
+
+
+
+
+
+
+
+Other areas of Wikipedia
+
+Community portal – Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.
+Help desk – Ask questions about using Wikipedia.
+Local embassy – For Wikipedia-related communication in languages other than English.
+Reference desk – Serving as virtual librarians, Wikipedia volunteers tackle your questions on a wide range of subjects.
+Site news – Announcements, updates, articles and press releases on Wikipedia and the Wikimedia Foundation.
+Village pump – For discussions about Wikipedia itself, including areas for technical issues and policies.
+
+
+
+Wikipedia's sister projects
+Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects:
+
+
+
+Commons
+Free media repository
+
+MediaWiki
+Wiki software development
+
+Meta-Wiki
+Wikimedia project coordination
+
+
+
+Wikibooks
+Free textbooks and manuals
+
+Wikidata
+Free knowledge base
+
+Wikinews
+Free-content news
+
+
+
+Wikiquote
+Collection of quotations
+
+Wikisource
+Free-content library
+
+Wikispecies
+Directory of species
+
+
+
+Wikiversity
+Free learning materials and activities
+
+Wikivoyage
+Free travel guide
+
+Wiktionary
+Dictionary and thesaurus
+
+
+
+
+Wikipedia languages
+
+This Wikipedia is written in English. Started in 2001(2001), it currently contains 5,381,044 articles.  Many other Wikipedias are available; some of the largest are listed below.
+
+More than 1,000,000 articles:
+
+
+Deutsch
+Español
+Français
+Italiano
+Nederlands
+日本語
+Polski
+Русский
+Svenska
+Tiếng Việt
+
+
+
+More than 250,000 articles:
+
+
+العربية
+Bahasa Indonesia
+Bahasa Melayu
+Català
+Čeština
+Euskara
+فارسی
+한국어
+Magyar
+Norsk bokmål
+Português
+Română
+Srpski
+Srpskohrvatski
+Suomi
+Türkçe
+Українська
+中文
+
+
+
+More than 50,000 articles:
+
+
+Bosanski
+Български
+Dansk
+Eesti
+Ελληνικά
+English (simple form)
+Esperanto
+Galego
+עברית
+Hrvatski
+Latviešu
+Lietuvių
+Norsk nynorsk
+Slovenčina
+Slovenščina
+ไทย
+
+
+
+
+
+Complete list of Wikipedias
+
+
+
+
+
+
+
+					
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Main_Pageoldid=762066868"					
+								
+							
+		
+		
+			Navigation menu
+
+			
+									
+						Personal tools
+						
+							Not logged inTalkContributionsCreate accountLog in						
+					
+									
+										
+						Namespaces
+						
+															Main Page
+															Talk
+													
+					
+										
+												
+							Variants
+						
+
+						
+							
+															
+						
+					
+									
+				
+										
+						Views
+						
+															Read
+															View source
+															View history
+													
+					
+										
+						More
+
+						
+							
+															
+						
+					
+										
+						
+							Search
+						
+
+						
+							
+														
+						
+					
+									
+			
+			
+				
+						
+			Navigation
+
+			
+									
+						Main pageContentsFeatured contentCurrent eventsRandom articleDonate to WikipediaWikipedia store					
+							
+		
+			
+			Interaction
+
+			
+									
+						HelpAbout WikipediaCommunity portalRecent changesContact page					
+							
+		
+			
+			Tools
+
+			
+									
+						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page					
+							
+		
+			
+			Print/export
+
+			
+									
+						Create a bookDownload as PDFPrintable version					
+							
+		
+			
+			In other projects
+
+			
+									
+						Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage					
+							
+		
+			
+			Languages
+
+			
+									
+						العربيةБългарскиBosanskiCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGalego한국어HrvatskiBahasa IndonesiaItalianoעבריתქართულიLatviešuLietuviųMagyarBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăРусскийSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaไทยTürkçeУкраїнськаTiếng Việt中文					
+							
+		
+				
+		
+		
+							
+											 This page was last modified on 26 January 2017, at 12:39.
+											Text is available under the Creative Commons Attribution-ShareAlike License;
+additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
+									
+							
+											Privacy policy
+											About Wikipedia
+											Disclaimers
+											Contact Wikipedia
+											Developers
+											Cookie statement
+											Mobile view
+									
+										
+											
+													
+											
+													
+									
+						
+		
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.204","walltime":"0.279","ppvisitednodes":{"value":3276,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":105792,"limit":2097152},"templateargumentsize":{"value":6255,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  206.153      1 -total"," 47.42%   97.753      1 Wikipedia:Main_Page/Tomorrow"," 39.20%   80.804      8 Template:Main_page_image"," 15.39%   31.728      1 Template:Did_you_know/Queue/3"," 14.48%   29.854      1 Wikipedia:Today's_featured_article/April_10,_2017"," 14.45%   29.787      2 Template:Wikipedia_languages"," 14.11%   29.079      2 Template:In_the_news"," 13.99%   28.845      8 Template:Str_number/trim"," 12.24%   25.225      1 Template:POTD_protected/2017-04-11"," 11.69%   24.099      1 Template:Convert"]},"scribunto":{"limitreport-timeusage":{"value":"0.068","limit":"10.000"},"limitreport-memusage":{"value":2255536,"limit":52428800}},"cachereport":{"origin":"mw1247","timestamp":"20170410222959","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1247"});});
+	
+
