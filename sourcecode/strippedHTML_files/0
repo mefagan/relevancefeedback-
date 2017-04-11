@@ -2,15 +2,12 @@
 
 
 
-Noel Park - Wikipedia
+Portal:Technology - Wikipedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Noel_Park","wgTitle":"Noel Park","wgCurRevisionId":774814587,"wgRevisionId":774814587,"wgArticleId":13978625,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Use dmy dates from September 2015","Use British English from September 2015","Articles with OS grid coordinates","Coordinates on Wikidata","Featured articles","Housing estates in London","Buildings and structures in the London Borough of Haringey","Districts of the London Borough of Haringey","Conservation areas in London","Planned communities","Garden suburbs","English architecture"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Noel_Park","wgRelevantArticleId":13978625,"wgRequestId":"WOvvjApAADwAAB4fwW4AAACY","wgIsProbablyEditable":true,"wgRestrictionEdit":[],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgCoordinates":{"lat":51.5965,"lon":-0.1022},"wgWikibaseItemId":"Q3877693","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.cite.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Technology","wgTitle":"Technology","wgCurRevisionId":737901506,"wgRevisionId":737901506,"wgArticleId":2072925,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Featured portals","Technology portal","Technology portals","Technology","Science portals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Technology","wgRelevantArticleId":2072925,"wgRequestId":"WOuooApAME4AAFGUaoAAAAAN","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":[],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q4843868","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.ui.button":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["ext.cite.a11y","mediawiki.toc","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
-
-
-
+});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
 
 
 
@@ -36,812 +33,598 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 						
 
 
-			Noel Park
+
+			Portal:Technology
 									
 									From Wikipedia, the free encyclopedia
 								
 												
 					Jump to:					navigation, 					search
 				
-				This article is about the area in North London. For the Australian politician, see Noel Park (politician). For the railway station, see Noel Park and Wood Green railway station.
-
-
-Noel Park
-
-
-
-Fourth-class houses in Darwin Road, built during the initial development of Noel Park in the 1880s
-
-
-
-
-
-
-
-
-
-Noel Park
-
-
-
-
-
-
-
-
-Noel Park shown within Greater London
-
-
-Population
-5,670[1]
-
-
-OSgridreference
-TQ315902
-
-
-•Charing Cross
-6.4mi (10.3km)SSW
-
-
-Londonborough
-
-
-
-Haringey
-
-
-
-
-
-Ceremonialcounty
-Greater London
-
-
-Region
-
-
-
-London
-
-
-
-
-
-Country
-England
-
-
-Sovereignstate
-United Kingdom
-
-
-Post town
-LONDON
-
-
-Postcodedistrict
-N22
-
-
-Diallingcode
-020
-
-
-
-
-
-Police
-Metropolitan
-
-
-Fire
-London
-
-
-Ambulance
-London
-
-
-EUParliament
-London
-
-
-UKParliament
-
-
-
-Hornsey and Wood Green
-
-
-
-
-
-LondonAssembly
-
-
-
-Enfield and Haringey
-
-
-
-
-
-
-
-List of places
-UK
-England
-London
-
-Coordinates: 51°35′47″N 0°06′08″W﻿ / ﻿51.5965°N 0.1022°W﻿ / 51.5965; -0.1022
-
-
-Noel Park in north London is a planned community developed in the late 19th and early 20th centuries consisting of 2,200 model dwellings, designed by Rowland Plumbe. It was developed in open countryside to the north of London in the valley of the River Moselle, about halfway between the historic villages of Highgate and Tottenham. It is one of four developments on the outskirts of London built by the Artizans, Labourers  General Dwellings Company (Artizans Company). From 2003 to sometime in 2009, the name was also given to a small park near the southern edge of Noel Park, formerly known– and now known again– as Russell Park.
-One of the earliest garden suburbs in the world, Noel Park was designed to provide affordable housing for working-class families wishing to leave the inner city; every property had both a front and back garden. It was planned from the outset as a self-contained community close enough to the rail network to allow its residents to commute to work. In line with the principles of the Artizans Company's founder, William Austin, no public houses were built within the estate, and there are still none today.
-As a result of London's rapid expansion during the early 20th century, and particularly after the area was connected to the London Underground in 1932, Noel Park became completely surrounded by later developments. In 1965 it was incorporated into the newly created London Borough of Haringey, and in 1966 it was bought by the local authority and taken into public ownership.
-Despite damage sustained during the Second World War and demolition work during the construction of Wood Green Shopping City in the 1970s, Noel Park today remains largely architecturally intact. In 1982, the majority of the area was granted Conservation Area and Article Four Direction status by the Secretary of State for the Environment, in recognition of its significance in the development of suburban and philanthropic housing and in the history of the modern housing estate.
-
-
-
-Contents
-
-
-1 Location
-2 History and development
-
-2.1 Early history
-2.2 Artizans, Labourers  General Dwellings Company
-2.3 Selection of the site
-2.4 Design
-2.5 Construction
-2.6 Opening
-2.7 Financial difficulties
-2.8 Amenities
-
-
-3 20th century
-
-3.1 Early 20th-century expansion
-3.2 Piccadilly line
-3.3 Postwar reconstruction
-3.4 Transfer to local authority control
-
-
-4 Modern Noel Park
-5 Derivation of street names
-6 References
-
-6.1 Notes
-6.2 Bibliography
-
-
-7 External links
-
-
-
-Location[edit]
-
-
-
-
-Noel Park shown within the modern boundaries of Haringey
-
-
-Noel Park is 6.4 miles (10.3km) north of Charing Cross, near the centre of the modern London Borough of Haringey, of which it is a ward. The area forms a rough triangle, bordered by the A109 road (Lordship Lane) to the north, A1080 road (Westbury Avenue) to the south-east, and A105 road (Wood Green High Road, formerly part of Green Lanes) to the west.
-When construction began, the River Moselle, running parallel to Lordship Lane a short distance south of it, formed the de facto northern boundary of the area. During the development of the area in the 1880s the river was culverted and the land between the river and Lordship Lane built on.[2]
-The historic western boundary was the now-defunct Palace Gates Line of the Great Eastern Railway (GER), a short distance to the east of Wood Green High Road. Since the railway's closure in 1964, much of the area between the former railway line and Wood Green High Road has been occupied by the eastern section of the large The Mall Wood Green shopping, cinema and residential complex (commonly known as Shopping City).[2]
-History and development[edit]
-Early history[edit]
-
-
-
-
-Duckett's Manor (the future Noel Park) and the nearby village of Wood Green in 1619[3]
-
-
-Historically, the site of Noel Park was virtually uninhabited. The 1619 Earl of Dorset's Survey of Tottenham shows the area as forming the historic Duckett's (Dovecote) Manor; as with the rest of the Moselle valley, the land consisted almost entirely of woodland and pasture, with the only building shown in the area which was to become Noel Park being Dovecote House itself, dating from 1254 and the earliest recorded property in Wood Green.[4] The small village of Wood Green itself is shown a short distance to the north-east. The manor itself was situated on the ancient arterial road of Green Lanes.[5] The last recorded occupancy of the manor was in 1881, shortly before the site was cleared for the construction of Noel Park.[6]
-By 1880 the estate had been broken up into fifteen smaller farms. The rough northern meadows adjacent to the Moselle were used for beef farming, whilst the southern fields, known as Grainger's Farm, were used as grazing land.[4] The western edge of the estate was by this time occupied by the Great Eastern Railway's Palace Gates Line and Green Lanes railway station, opened in 1878.[7]
-Artizans, Labourers  General Dwellings Company[edit]
-The Artizans, Labourers  General Dwellings Company (Artizans Company) was established in 1867 by William Austin. Austin was an illiterate who had begun his working life on a farm as a scarecrow paid 1 penny per day,[8] and had worked his way up to become a drainage contractor.[9] The company was established as a for-profit joint stock company, with the objective of building new houses for the working classes "in consequence of the destruction of houses by railroads and other improvements".[9][10] The company aimed to fuse the designs of rural planned suburbs such as Bedford Park with the ethos of high-quality homes for the lower classes pioneered at Saltaire.[11] Whilst earlier philanthropic housing companies such as the Peabody Trust and the Improved Industrial Dwellings Company focused on multi-storey blocks of flats in the inner cities, the Artizans Company aimed to build low-rise housing in open countryside alongside existing railway lines to allow workers to live in the countryside and commute into the city.[12] The company attracted the attention of Lord Shaftesbury, who served as president until 1875.[9]
-
-
-
-
-Insignia of the Artizans Company on company-built shops, Noel Park
-
-
-The company built and immediately sold a group of houses in Battersea, then still a rural village. The proceeds of the sale were used to purchase a plot of land in Salford for development, and by 1874 the company had developments in Liverpool, Birmingham, Gosport and Leeds.[9]
-The first of the four large-scale estates built by the Artizans Company was Shaftesbury Park, a development of 1,200 two-storey houses covering 42.5 acres (0.17km2; 0.07sqmi) built in 1872 on the site of a former pig farm in Battersea.[9][12] The success of Shaftesbury Park led to the construction of Queen's Park, built in 1874 on a far more ambitious scale on 76 acres (0.31km2; 0.12sqmi) of land to the west of London, adjacent to the newly opened Westbourne Park station, purchased from All Souls College, Oxford. A third London estate was planned at Cann Hall, and a site of 61 acres (0.25km2; 0.10sqmi) was purchased.[9]
-However, the Queen's Park project suffered serious mismanagement and fraud; the company secretary William Swindlehurst and two others were found guilty in 1877 of defrauding £9,312 (approximately £791thousand today) from the project.[13][14] The company was forced to raise rents, and tenants were no longer permitted to buy their houses; by 1880 the company's finances had recovered sufficiently to allow further expansion.[15]
-Selection of the site[edit]
-On 14 February 1881, Rowland Plumbe was appointed Consulting Architect to the Artizans Company, with a brief to prepare a third estate. A leading architect of the period, Plumbe had primarily been a designer of hospitals, such as the London Hospital,[15] and Poplar Hospital;[16] he had been President of the Architectural Association in 1871–72 and a Council Member of the Royal Institute of British Architects since 1876.[15]
-
-
-
-
-Rowland Plumbe in 1890, shortly after the construction of Noel Park
-
-
-In April 1881, the Artizans Company inspected sites at Fulham and "in the vicinity of Alexandra Park" in the Tottenham Local Board. The Fulham site was rejected as too prone to flooding, and the Wood Green site rejected as being too far from any centre of population.[4]
-However, the next month, the decision was taken to bid for the site near Wood Green.[4] Despite its distance from London at the time, the area was well served by railways. The Palace Gates Line, opened in 1878 to serve nearby Alexandra Palace, had an intermediate station at Green Lanes, immediately adjacent to the site in question.[17] This provided direct service to the City of London from the outset; following the construction of a link with the Tottenham and Hampstead Junction Railway on 1 June 1880, direct services also ran to Blackwall and North Woolwich, providing direct links with the Port of London.[18] In addition, the Great Northern Railway's station at Wood Green (now Alexandra Palace station) was within walking distance. The company decided that the quality of transport links compensated for the distance from any significant centre of population, and in June 1881 a site of 100 acres (0.40km2; 0.16sqmi) was purchased by the company for £56,345 (approximately £5.13million today).[14][19]
-Design[edit]
-
-
-
-
-Plumbe's original designs for first- and second-class housing
-
-
-Plumbe designed the estate with five classes of houses. Although the houses were built to the same five basic designs, each street was given a distinct style of design and ornamentation. Varying mixes of red and yellow bricks, and variations in window design and ornamental motifs, were used to give each street a distinct identity.[20] All were designed with front and back gardens.[21] Corner houses were given distinctive designs and turrets.[22]
-
-
-
-
-Fifth-class houses, Moselle Avenue: the front doors are angled to avoid opening adjacently to their neighbours.
-
-
-The distribution of houses followed the traditional Victorian model of town planning. The larger first- and second-class houses were built in the centre, close to the church and school, while the more numerous third-, fourth- and fifth-class houses were built in the estate's outskirts.[23] Welch (2006) speculates that this segregation of housing was not Plumbe's intention;[23] Plumbe himself was quoted in 1896 as saying that "I regret that it is necessary to separate the richer and more cultured classes from the poorer, owing to the prejudices which exist; and these prejudices exist on the part of the poor as well as on the part of the other class".[24]
-Except for the corner houses, the houses were built in pairs, each sharing a porch with its neighbour.[21] For many of the smaller fourth- and fifth-class houses, the doors were aligned at right angles to the façade of the house, so as not to open directly adjacently to their neighbours. All houses were designed with at least one parlour and with the kitchen, scullery, and toilet in separate rooms at the rear of the house; the first-class houses also had toilets upstairs.[25] In line with the design principles of the time, the downstairs toilets were accessible only from the back gardens, and the houses were not fitted with separate bathrooms; baths were taken in a moveable bath located in the kitchen.[25]
-
-
-
-
-Floor plans of the five classes of house built at Noel Park
-
-
-All houses were built with marble-mantelpieced fireplaces and flues. All houses were supplied with running water supplied from the New River, which flowed through nearby Wood Green.[25] However, not all houses were supplied with gas or mains electricity from the outset, the remainder being lit by candles or oil or paraffin lamps.[25]
-Houses at Noel Park were deliberately designed to be relatively small, both for cheapness and to discourage tenants from taking on lodgers.[26] Many of the larger houses at Shaftesbury Park had been sublet and split, and the practice went against the principles of the Artizans Company's founders.[21] To discourage the practice at Queen's Park and Noel Park, cottage flats were built; these maintained the terraced façade, but split the house into upper and lower flats, each flat having a separate front door onto the street.[21] Many properties, particularly on the central Gladstone Avenue, were built in this style; this maintained the unbroken façade of the first-class houses, but allowed large numbers of smaller and low-income families to be housed.
-Construction[edit]
-
-
-
-
-Plumbe-designed cottage flats with their distinctive multiple doors, Gladstone Avenue
-
-
-On 4 May 1883, the Artizans Company sold a parcel of land adjacent to the railway line to the Great Eastern Railway for construction of a goods yard, and a siding was built into the development site.[27][28] Although initially the company had considered making bricks on the site, the rail yard allowed raw materials to be purchased wholesale and transported cheaply to the site, with large warehouses and workshops constructed for the manufacture of doors, flooring and other necessary materials; in 1884 the Pall Mall Gazette reported that "in a shed 330ft long by 50ft broad are stored a million superficial feet of flooring boards".[28]
-
-
-
-
-Ernest Noel MP
-
-
-In early 1883 serious discrepancies were discovered between the amounts of building material apparently purchased and the actual amounts acquired. Rowland Plumbe and Sir Richard Farrant, Deputy Chairman of the Artizans Company, visited the site to investigate the matter. Mr Hunt, the foreman, advised that "in answer to questions as to the mode of measurement in use for Ballast heaps, that one third was added to the measurement for shrinkage".[29]
-When summoned to appear before the "Hornsey Committee" of the Artizans Company the next day, Hunt instead sent his assistant, without the relevant ledgers and instead with a paper described in the Committee minutes as "a paper of measurements which were soon ascertained not to be the actual measurements but measurements falsified so as to work out cubically to about the measurements certified by Mr Hunt".[30] The total overpaid by the company was calculated by Plumbe as £1,071.14s.3d (approximately £97.3thousand today); Hunt was immediately dismissed and a gatekeeper to record all goods entering the site was put in place to avoid a repetition of the incident.[14][29]
-
-
-
-
-First-class houses, Gladstone Avenue
-
-
-In 1883, it was decided to name the estate "Noel Park", in honour of Ernest Noel (1831–1931), Liberal Member of Parliament for Dumfries Burghs and chairman of the Artizans Company since 1880.[31] The streets were laid out on a grid plan of broad avenues running on a south-west to north-east axis and narrower roads running north-west to south-east. Streets were named after prominent members of the Artizans Company and leading political figures of the time, with the exception of Darwin Avenue, named for Charles Darwin, prominent naturalist and an early investor in the Artizans Company, and Moselle Avenue, which was to follow the course of the culverted River Moselle; see Derivation of street names, below.[32]
-Opening[edit]
-On 4 August 1883, with approximately 200 houses completed, Noel Park was formally opened. Noel gave a speech at the opening ceremony in which he described the development as:
-
-... what, out of the metropolis, would be called a town, which would eventually... be larger than the Royal Borough of Windsor and nearly as large as the old cathedral city of Canterbury. But this town would not contain various classes of population, but would be built for the express purpose of meeting the wants of the artisan classes, so that they whose resources are limited should be enabled to reside amid pleasant surroundings.[31]
-
-Lord Shaftesbury then laid the memorial stone, praising Noel Park as "the furtherance of a plan which has proved to be most beneficial, and would, if carried out to its full extent, completely alter for the better the domiciliary habits of the people of the metropolis".[33] Edward White Benson, Archbishop of Canterbury, sent a note which was read to the crowd in which he stated that "no one who cares for our labouring population can doubt that this is one of the first, perhaps the most, necessary of all steps for their good".[34][35]
-Financial difficulties[edit]
-Noel Park was heavily marketed as a "Suburban Workman's Colony", with promotional material playing heavily on the area's transport links. The Great Eastern Railway was persuaded in 1884 to rename Green Lanes railway station to "Green Lanes (Noel Park)" (shown on some signs and maps as "Green Lanes  Noel Park");[17] the area was also less than half a mile from Wood Green railway station (now Alexandra Palace station) on the Great Northern Railway. By 1886 Noel Park had over 7,000 residents.[36]
-
-
-
-
-A corner house
-
-
-However, the poor workers at whom the Noel Park development was aimed found themselves unable to afford railway tickets. The issuing of cheap early morning workman's fares on the Great Eastern Railway's lines further east in Tottenham, Stamford Hill and Walthamstow had led to overcrowding on trains and large numbers of poor workers moving to the areas (many of them displaced by the construction of the GER's Liverpool Street station in the City of London and rehoused by the company).[37] William Birt, General Manager of the GER, was strongly against extending the policy of workmen's fares, stating that "to issue them from Green Lanes would do us a very large amount of injury, and would cause the same public annoyance and inconvenience as exists already upon the Stamford Hill and Walthamstow lines" and that "no one living in Noel Park could desire to possess the same class of neighbours as the residents of Stamford Hill have in the neighbourhood of St Ann's Road".[38]
-In 1884, a deputation led by Lord Shaftesbury was made to the Great Eastern Railway and Great Northern Railway, proposing that for trains due to arrive in central London prior to 8am, third class tickets should be sold at a fare of 3d providing the return journey was not made before 4pm. By May 1885 both railways had adopted this policy. However, the delays and uncertainty caused by the fares dispute had discouraged prospective tenants, leaving large numbers of properties vacant and causing further building work to slow considerably.[39] In 1887, construction work was temporarily suspended altogether, in response to the large backlog of un-let properties.[36]
-By the time of the 1894 Ordnance Survey, roughly 50% of the estate was complete.[39] The entire southern half of the estate between Gladstone Avenue and Westbury Avenue at this point remained open fields.[36]
-Amenities[edit]
-
-
-
-
-Shops at the junction of Vincent Road and Moselle Avenue, built by the Artizans Company in 1884[40]
-
-
-Terraces of shops were built around the fringes of the estate, both to cater for the residents of Noel Park and for residents of the expanding suburb of Wood Green and the users of the adjacent railway station. The designs of the terraces varied, from short terraces of small shops on the edges of the less-visited eastern portions of the estate, to parades of large shops on Wood Green High Road near the railway station.[40]
-
-
-
-
-Noel Park School
-
-
-One of the few buildings constructed in the early stages of Noel Park's development not designed by Rowland Plumbe, Noel Park School was built in 1889 by the Wood Green School Board, to the design of architect Charles Wall.[41]
-The school was designed to accommodate 1,524 pupils of both sexes; however, by 1898 the growth of the Noel Park estate led to severe overcrowding problems, with an average attendance of 1,803, making it the most overcrowded school in the School Board's area. In 1924 a school for the partially blind opened within the school.[42]
-In 1946, the school became a Secondary Modern. Between 1957 and 1963 the secondary facilities were closed, leaving the school as a primary school.[43] In 1965, the school came under the control of the newly created London Borough of Haringey.[42] Following reorganisation of Haringey's education services, it is now a primary school serving approximately 500 pupils between the ages of three and 11.[44]
-
-
-
-
-Russell Park (formerly Noel Park)
-
-
-Although Plumbe's original plans for the estate had envisaged a recreational area in the centre of the estate, this never came into being and the land reserved for it was built over during the estate's early development. Despite Noel Park's proximity to the leisure facilities of nearby Alexandra Park, in 1929 a long, thin strip of land near the south of the estate was designated as parkland and given the name "Russell Park". In 2003, following consultation with residents, the park was renamed "Noel Park" by Haringey Council.[41] Its name has since been changed back to Russell Park.[45]
-
-
-
-
-St Mark's Church
-
-
-A site for a church had been set aside on the estate from the outset, and in 1884 Plumbe submitted designs for a church and mission hall. The mission hall opened in March 1885 with room for 350, and soon began to suffer from overcrowding. The people of Noel Park started a fund to pay for the church, which was consecrated on 1 November 1889 as St Mark's.[46]
-The church is relatively large, seating 850.[47] It is built in the Venetian Gothic style, and divided into a five-bay nave, transepts, chancel, morning chapel and organ chamber.[47] Although Plumbe's original design envisaged a tower, none was ever built. By 1900, St Mark's was reported as having a congregation twice that of any other church in Wood Green.[46]
-
-
-
-
-Shropshire Hall
-
-
-In 1913, a second much larger mission hall was opened nearby, named the Walsham-How Mission Hall after William Walsham How, leader of the Shropshire Mission to East London.[46] The Shropshire Hall, built by the Shropshire Mission in Gladstone Avenue, is now the Noel Park Children's Centre.[48] Noel Park's relative geographic isolation led to the formation of large numbers of clubs and societies using the two mission halls for a wide range of activities, including large numbers of sporting societies.[41]
-Due to the temperance views of the Artizans Company's directors, no public houses were built in Noel Park, a situation which remains the case today.[49]
-20th century[edit]
-Early 20th-century expansion[edit]
-In 1905, G. J. Earle, the Artizans Company's Surveyor, drew up plans for the remainder of the site based on the experiences learned from the completed northern half of the estate. Buildings were designed to a modified version of Plumbe's third-class house plan in the Arts and Crafts style, with white-rendered brickwork, regular low gables, and curved ground floor windows. The toilets were now designed with connecting doors to the sculleries, and in some cases the staircases repositioned to the front of the house. They were no longer described or marketed as "third-class" houses.[50]
-By October 1906, 1,999 properties were let, including 88 shops and 4 stables. Although the estate was nearing completion by this point, construction work was not entirely completed until 1929.[50]
-By this point, the Noel Park development and the growing nearby community of Wood Green were coming to dominate the area. In recognition of this, in 1902 Green Lanes railway station was renamed Noel Park  Wood Green.[17] In 1911 a group of mid-Victorian houses on Wood Green High Road, immediately south of the railway station, were demolished by the Artizans Company to make way for the Cheapside shopping parade, built to serve residents of Noel Park and the growing community of Wood Green.[51]
-
-
-
-
-Shops on Wood Green High Road built by the Artizans Company in the 1880s.[40] The Mall Wood Green is in the background.
-
-
-The centrepiece of the Cheapside development was the Wood Green Empire, a 3,000-capacity theatre designed by Frank Matcham. The Empire soon became one of London's leading entertainment venues, hosting acts such as Marie Lloyd, Frankie Vaughan and Shirley Bassey. The Empire is best known as the theatre in which magician Chung Ling Soo (William Ellsworth Robinson) was fatally shot in the chest on 23 March 1918, when a theatrical pistol used in a bullet catch demonstration malfunctioned.[52]
-With the postwar decline of variety and music hall and increased competition from cinema and television, the theatre went into decline and was closed on 31 January 1955. Following its closure it was used by Associated TeleVision as a studio until 1963. The interior was demolished in 1970, but the building remains intact and is now used as a shop and offices.[2]
-Piccadilly line[edit]
-In 1904 the Great Northern  City Railway underground railway had opened, running from the City of London to a terminus at Finsbury Park station, followed in 1906 by the Great Northern, Piccadilly  Brompton Railway (GNPBR) from the western suburbs through central London to Finsbury Park, approximately 2 miles (3.2km) south of Noel Park; both were prevented from expanding further north by a legal agreement with the Great Northern Railway giving the GNR a veto on any expansion of underground railways into areas within which they would compete with the GNR.[53] This led to serious congestion at Finsbury Park as passengers from the expanding suburbs changed from buses and trams to the GNCR and GNPBR, and in June 1923 a petition of 30,000 signatures calling for the extension of one of the underground lines northwards was delivered to the Ministry of Transport.[53]
-The London and North Eastern Railway (LNER), successor to the GNR, was compelled by the Ministry of Transport to waive the veto or proceed with its own electrification. In November 1925, the LNER abandoned its electrification scheme. In 1929 the incoming Second Labour Government initiated a policy of direct subsidy for major infrastructure projects, and in 1930 the Underground Electric Railways Company of London began work on extending the GNPBR, now the Piccadilly line.[54] The Piccadilly line extension to Cockfosters opened in stages, with stations at Wood Green and Turnpike Lane – both on the western edge of Noel Park, at the junctions of Wood Green High Road and Lordship Lane, and Wood Green High Road and Westbury Avenue, respectively – opening on 19 September 1932.[55] With the area now connected to west and central London by clean, rapid and frequent electric trains, the population of the surrounding areas began to rise rapidly.[56]
-Postwar reconstruction[edit]
-Although of little strategic value and undamaged during the early stages of World War II, in the final stages of the war a number of V-1 flying bombs and V-2 ballistic missiles struck the area. The worst attack occurred in February 1945, when a V-2 struck Westbeech Road, killing 17 and injuring 68. The bombsites were redeveloped with housing in then-current styles, rather than to Plumbe and Earle's designs.[2]
-
-
-
-
-Postwar replacements for bombed houses, Farrant Avenue
-
-
-In 1958, as part of the commemorations of the 70th anniversary of the creation of the Wood Green Local Board, the railway goods depot was used for a three-day exhibition of locomotives and other railway rolling stock. The exhibition was a great success, and was visited by around 14,000spectators.[27] Among locomotives on exhibit were the land speed record holder Mallard and a Class 9F steam locomotive.[57]
-
-
-
-
-Trackbed of the former Palace Gates Line (left) and The Sandlings, built on the site of the former railway goods depot
-
-
-However, by this point the Palace Gates Line was in severe decline. Passenger numbers had fallen greatly since the opening of the Piccadilly line, while freight usage dropped throughout the 1950s as a result of improved road haulage and declining demand for coal. The line was closed to passengers on 7 January 1963.[7] With freight usage dwindling to a trickle following the ending of passenger services, the goods yard was closed on 7 December 1964.[27] The site of the goods yard was used for the construction of a large apartment block known as The Sandlings,[2] and Noel Park  Wood Green railway station was converted into commercial premises, before being demolished in the early 1970s to become the site of the eastern section of Wood Green Shopping City.[17]
-Transfer to local authority control[edit]
-In 1952, the Artizans, Labourers  General Dwellings Company was renamed the Artizans and General Properties Company Ltd.[9] The combination of a taxation system biased against private property developments and legal restrictions on raising rents made the company's traditional model unprofitable, and it began to divest itself of its original low-rent developments and instead to sell vacant houses on the estates and to reinvest in non low-rent housing and commercial property, especially in the United States and Canada where depreciation before tax was permitted.[9] In 1966, ownership of the four original London estates (Shaftesbury Park, Queen's Park, Noel Park and Leigham Court) was transferred to the respective local authorities as council housing – in the case of Noel Park, the newly created London Borough of Haringey, which purchased the 2,175 properties comprising the Noel Park estate for a total of £2,917,000 (approximately £49million today)[14][58] – leaving 377 homes at Pinnerwood Park in Pinner as the last residential estate in Greater London owned by the company.[9]
-In 1976, the Artizans Company, by then renamed Artagen Properties Ltd, became a wholly owned subsidiary of Sun Life, and on 3 February 1981 the company was renamed Sun Life Properties Ltd.[9]
-Modern Noel Park[edit]
-
-
-
-
-Post-war prefabricated housing on the trackbed of the former Palace Gates Line through Noel Park. The large building in the background is "The Sandlings", built on the site of the former goods yard.
-
-
-Following the transfer to local authority control, much of the property on the estate was found to be in poor condition. In 1971 a report by the London Borough of Haringey found that half the properties on the estate were still lacking basic facilities such as baths, internal toilets and hot water. Houses were systematically extended to the rear to accommodate modern bathrooms.[58]
-
-
-
-
-The western half of Noel Park is now dominated by the eastern section of The Mall Wood Green, on the site of the former railway station.
-
-
-In the early 1970s, the nine-storey Wood Green Shopping City shopping, cinema and residential complex was built on both sides of Wood Green High Road, and now dominates the area. Although some houses were demolished during construction works, it was intended at the time to divert Wood Green High Road around Shopping City, which would have necessitated the demolition of much of the western section of Noel Park. However, the diversion scheme was abandoned, leading to the current unusual situation in which the road runs directly through the shopping centre; Cherry  Pevsner note that Noel Park was "spared worse damage by the abandonment of the proposed road".[59]
-In 1980, the Housing Act 1980 gave council tenants the right to buy their homes. In light of this, a group of 1500 properties in the area was given Conservation Area status,[58] and Plumbe's northern section of the estate was granted Article Four Direction by Michael Heseltine, Secretary of State for the Environment, preventing any alterations to the external appearances of the properties without planning permission, in recognition of its architectural and historic interest.[60] St Mark's Church was meanwhile Grade II listed.[58] However, these measures have not been consistently enforced, and Noel Park has been cited in a report by English Heritage as a prominent example of the failure of conservation areas.[61][62]
-Throughout the 1980s and early 1990s, the estate was the home of a large squatter community, mostly made up of young punks from Ireland, Wales, Scotland and outside London, which greatly enlivened the area but also led to many legal and other conflicts with Haringey Council, who ironically had left so many of the properties empty in the first place. Many of these were later to move to the Woodberry Down Estate in Manor House.
-In line with the original principles of the Artizans Company, there are still no public houses in Noel Park. In 2008 parts of Noel Park and the surrounding area were declared a Controlled Drinking Zone, allowing police to confiscate alcohol from those engaged in anti-social behaviour.[63]
-As with much of Haringey, Noel Park is now one of the most ethnically diverse areas in the world. In 2002, 86% of pupils attending Noel Park School were from ethnic minorities.[1]
-
-
-
-
-
-
-Panoramic view of Noel Park in 2009 from the western edge, looking northeast
-
-
-
-Derivation of street names[edit]
-
-Ashley Crescent: Evelyn Ashley, MP for Isle of Wight, son of Lord Shaftesbury and Chairman of the Artizans Company
-Buller Road: Redvers Buller, winner of the Victoria Cross at the Battle of Hlobane, 1879
-Darwin Road: Charles Darwin, naturalist and early investor in the Artizans Company
-Dovecote Avenue: On the site of the original Duckett's (Dovecote) Manor, by this time demolished
-Farrant Avenue: Sir Richard Farrant, Deputy Chairman of the Artizans Company 1881–1906
-Gladstone Avenue: William Ewart Gladstone, Prime Minister at the time of the opening of Noel Park
-Hewitt Avenue: Thomas Hewitt QC, Director of the Artizans Company 1895–1917
-Lymington Avenue: Viscount Lymington, Director of the Artizans Company 1883-1891
-Mark Road: Mark H Judge, Director of the Artizans Company 1878–1922
-Maurice Avenue: Maurice Powell, Director of the Artizans Company 1880–1914
-Morley Avenue: Samuel Morley, MP for Bristol and Director of the Artizans Company 1877–1880
-Moselle Avenue: Runs above the culverted River Moselle
-Pelham Road: T W Pelham, Director of the Artizans Company 1880–1894
-Redvers Road: Redvers Buller (see Buller Road, above)
-Russell Avenue: John Russell, former Liberal Prime Minister
-Salisbury Road: Robert Cecil, 3rd Marquess of Salisbury, leader of the Conservative Party
-Vincent Road: Unknown; Welch speculates from Rev. Henry Vincent Le Bas, the only member of the Noel Park Committee at the time of opening not known to have had a street named for him[32]
-
-References[edit]
-Notes[edit]
-
-
-^ a b Garner, Kate (2008-12-08). "Noel Park Facts and Figures". London Borough of Haringey. Archived from the original on 2009-05-03. Retrieved 2009-02-15.
-^ a b c d e Welch, p. 48
-^ From the Earl of Dorset's Survey of Tottenham, 1619. As with most English maps of this period, south is shown at the top of the map. The river in the centre of the map is the Moselle, whilst the "river" passing through Wood Green to the north-west is the New River, opened six years prior to the survey.
-^ a b c d Welch, p. 11
-^ The section of Green Lanes between Turnpike Lane and Wood Green stations, which forms the western boundary of modern Noel Park, has since been renamed "Wood Green High Road".
-^ Baker, T. F. T.; Pugh, R. B., eds. (1976). "Tottenham: Manors". A History of the County of Middlesex. London. 5: 324–330. Retrieved 2009-02-15.
-^ a b Connor, p. VIII
-^ Long, p. 3
-^ a b c d e f g h i j "Sun Life Properties Ltd". IV/122. The National Archives. Retrieved 2009-02-14.
-^ Welch, p. 8
-^ Welch, p. 7
-^ a b Welch, p. 9
-^ "Proceedings of the Central Criminal Court". The Old Bailey Online Project. 22 October 1877. p.8. Retrieved 2009-02-13.
-^ a b c d UK Consumer Price Index inflation figures are based on data from Gregory Clark (2016), "The Annual RPI and Average Earnings for Britain, 1209 to Present (New Series)", MeasuringWorth.com.
-^ a b c Welch, p. 10
-^ Hobhouse, Hermione (ed) (1994). "East India Dock Road, North side". Survey of London. 43–44: 147–153. Retrieved 2009-02-14.
-^ a b c d Connor, § 109
-^ Lake, p. 23
-^ Welch, p. 12
-^ Welch, p. 25
-^ a b c d Welch, p. 30
-^ Welch, p. 27
-^ a b Welch, p. 32
-^ London newspaper, 1896-05-28, quoted in Welch, p. 35
-^ a b c d Welch, p. 28
-^ Tarn, p. 58
-^ a b c Connor, § 108
-^ a b Welch, p. 15
-^ a b Welch, p. 17
-^ Minutes of the Hornsey Committee of the Artizans Company, 8 January 1883, quoted Pegram, p17
-^ a b Welch, p. 18
-^ a b Welch, p. 23
-^ Welch, p. 19
-^ "I assure you of my sympathy with the work which the Artizans Dwelling Company is attempting in the important direction of improving the houses of the working men. No one who cares for our labouring population can doubt that this is one of the first, perhaps the most, necessary of all steps for their good."
-^ Welch, p. 20
-^ a b c Baker, T. F. T.; Pugh, R. B., eds. (1976). "Tottenham: Growth after 1850". A History of the County of Middlesex. London. 5: 317–324. Retrieved 2009-02-15.
-^ Connor, p. V
-^ Olsen, p. 290
-^ a b Welch, p. 21
-^ a b c Welch, p. 45
-^ a b c Welch, p. 41
-^ a b Welch, p. 44
-^ Baker, T. F. T.; Pugh, R. B., eds. (1976). "Tottenham: Education". A History of the County of Middlesex. London. 5: 364–376. Retrieved 2009-02-15.
-^ "Noel Park Primary School". London Borough of Haringey. 2008-10-27. Retrieved 2009-02-15.
-^ "Russell Park". Haringey Council.
-^ a b c Welch, p. 39
-^ a b Baker, T. F. T.; Pugh, R. B., eds. (1976). "Tottenham: Churches". A History of the County of Middlesex. London. 5: 348–355. Retrieved 2009-02-15.
-^ Welch (p. 39) states that the current Shropshire Hall on Gladstone Avenue is the original 1913 Walsham-How Mission Hall building. However, pictorial evidence of the 1913 building at the time of construction and the 1920 Ordnance Survey map suggests that the original building is that sited off Willington Road opposite the junction with Lakefield Road, a short distance south of the current Shropshire Hall, with the latter being a later construction.
-^ Brian Harrison, Pubs, Dyos and Wolff, p. 183
-^ a b Welch, p. 35
-^ Welch, p. 36
-^ Welch, p. 46
-^ a b Croome, p. 26
-^ Croome, p. 28
-^ Croome, p. 30
-^ Croome, p. 44
-^ Martin, Ted (June 2004). "Transport in Wood Green in the 1950s". Greater London Industrial Archaeology Society. London: GLIAS. Retrieved 2009-02-15.
-^ a b c d Welch, p. 50
-^ Cherry  Pevsner, p. 594
-^ "Design Guidelines: Noel Park Conservation Area" (PDF). London Borough of Haringey. July 1983. Retrieved 2009-02-20.
-^ Jack, Ian (2009-06-27). Beware the double-glazing salesman. The Guardian. Retrieved 2009-06-28.
-^ "Historic estate 'on the road to ruin'". Tottenham, Wood Green and Edmonton Journal. London. 2009-06-25. Retrieved 2009-06-28.
-^ Fontaine, Valley (2008-04-21). "Further alcohol controls for Haringey Streets". BBC News. Retrieved 2009-02-15.
-
-
-Bibliography[edit]
-
-
-Cherry, Bridget; Pevsner, Nikolaus (1998). The Buildings of England. London 4: North. London: Penguin. ISBN0-14-071049-3. OCLC40453938.
-Connor, Jim (2004). Vic Mitchell, ed. Branch Lines to Enfield Town and Palace Gates. Midhurst: Middleton Press. ISBN1-904474-32-2.
-Croome, Desmond F. (1998). The Piccadilly Line. Harrow Weald: Capital Transport. ISBN1-85414-192-9.
-Jim Dyos  Michael Wolff, ed. (1999). The Victorian City. 1. Routledge. ISBN0-415-19323-0.
-Lake, G.H. (1945). The Railways of Tottenham. London: Greenlake Publications Ltd. ISBN1-899890-26-2.
-Long, Helen (2002). Victorian Houses and Their Details: The Role of Publications in Their Building and Decoration. Architectural Press. ISBN0-7506-4848-1.
-Olsen, Donald J. (1976). The Growth of Victorian London. London: Batsford. ISBN0-7134-3229-2. OCLC185749148.
-Tarn, John Nelson (1973). Five Per Cent Philanthropy: An account of housing in urban areas between 1840 and 1914. Cambridge: Cambridge University Press. ISBN0-521-08506-3. OCLC875501.
-Welch, Caroline (2006). Noel Park: A Social and Architectural History. London: Haringey Council Libraries, Archives  Museum Services. OCLC123373636.
-
-
-External links[edit]
-
-
-
-Wikimedia Commons has media related to Noel Park.
-
-
-
-Noel Park Official site of Haringey Council's Noel Park Neighbourhood Management Service
-A history of Noel Park
-Noel Park Conservation Area Advisory Committee
-Noel Park North Area Residents Association
-St Mark's Church
-The Salvation Army, Wood Green
-
-
-
-
-
-
-
-v
-t
-e
-
-
-London Borough of Haringey
-
-
-
-
-
-
-Districts
-
-
-
-Bounds Green
-Bowes Park
-Crouch End
-Duckett's Green
-Finsbury Park
-Fortis Green
-Harringay
-Highgate
-Hornsey
-Muswell Hill
-Noel Park
-Northumberland Park
-St Ann's
-Seven Sisters
-South Tottenham
-Stroud Green
-Tottenham (incl. Broadwater Farm and Little Russia)
-Tottenham Hale
-West Green
-Wood Green
-
-
-
-
-
-
-
-
-
-
-
-Attractions
-
-
-
-Alexandra Palace
-Bruce Castle
-Jacksons Lane
-Markfield Beam Engine
-White Hart Lane (football stadium)
-
-
-
-
-
-
-
-
-Parks and open spaces
-
-
-
-Alexandra Park
-Bruce Castle Park
-Chestnuts Park
-Coldfall Wood
-Downhills Park
-Down Lane Park
-Finsbury Park
-Highgate Wood
-Hollickwood Park
-Markfield Park
-Parkland Walk
-Priory Park
-Queen's Wood
-Railway Fields
-
-
-
-
-
-
-
-
-Constituencies
-
-
-
-Hornsey and Wood Green
-Tottenham
-
-
-
-
-
-
-
-
-Tube and railway stations
-
-
-
- Alexandra Palace
- Bounds Green
- Bowes Park
- Bruce Grove
- Harringay
- Harringay Green Lanes
- Highgate
- Hornsey
- Manor House
- Northumberland Park
- Seven Sisters
- South Tottenham
- Tottenham Hale
- Turnpike Lane
- White Hart Lane
- Wood Green
-
-
-
-
-
-
-
-
-Other topics
-
-
-
-Coat of arms
-Council
-Grade I and II* listed buildings
+				
+
+Topics
+Culture
+Geography
+Health
+History
+Mathematics
+Nature
 People
-Public art
-Schools
+Philosophy
+Religion
+Society
+Technology
 
 
+Science
+ History of science  Philosophy of science  Systems science  Mathematics  Biology  Chemistry  Physics  Earth sciences  Technology 
 
 
 
 
+edit
+The Technology Portal
 
 
 
+Printing press
 
 
 
-v
-t
-e
+Technology is the practical use of science, including the making, modification or improvement, applied activity or behavior, use and knowledge of tools, machines, techniques, crafts, systems, methods of organization, or environmental modifications or arrangement in order to solve a problem, improve a preexisting solution to a problem, achieve a goal or perform a specific function. It can also refer to the collection of such tools, machinery, modifications, environmental arrangement and procedures. Technologies significantly affect human as well as other animal species' ability to control and adapt to their natural environments. The word technology comes from Greek τεχνολογία (technología); from τέχνη (téchnē), meaning 'art, skill, craft', and -λογία (-logía), meaning 'study of-'. The term can be applied either generally or to many specific areas, examples of which include construction technology, medical technology and information technology.
+The human species' use of technology began with the conversion of natural resources into simple tools. The prehistorical discovery of the ability to control fire increased the available sources of food and the invention of the wheel helped humans in travelling in and controlling their environment. Recent technological developments, including the printing press, the telephone, and the Internet, have lessened physical barriers to communication and allowed humans to interact freely on a global scale. However, not all technology has been used for peaceful purposes; the development of weapons of ever-increasing destructive power has progressed throughout history, from clubs to nuclear weapons.
+Technology has affected society and its surroundings in a number of ways. In many societies, technology has helped develop more advanced economies (including today's global economy) and has allowed the rise of a leisure class. Many technological processes produce unwanted by-products, known as pollution, and deplete natural resources, to the detriment of the Earth and its environment. Various implementations of technology influence the values of a society and new technology often raises new ethical questions. Examples include the rise of the notion of efficiency in terms of human productivity, a term originally applied only to machines, and the challenge of traditional norms.
+Philosophical debates have arisen over the present and future use of technology in society, with disagreements over whether technology improves the human condition or worsens it. Neo-Luddism, anarcho-primitivism, and similar movements criticise the pervasiveness of technology in the modern world, opining that it harms the environment and alienates people; proponents of ideologies such as transhumanism and techno-progressivism view continued technological progress as beneficial to society and the human condition. Indeed, until recently, it was believed that the development of technology was restricted only to human beings, but recent scientific studies indicate that other primates and certain dolphin communities have developed simple tools and learned to pass their knowledge to other generations.
 
 
-Model Dwellings
+More about Technology...
 
 
 
 
 
 
-Private
-model dwellings companies
 
+Refresh selections
 
 
-Artizans, Labourers  General Dwellings Company
-Chester Cottage Improvement Company
-East End Dwellings Company
-Edinburgh Co-Operative Building Company
-Four Per Cent Industrial Dwellings Company
-The Improved Industrial Dwellings Company
-Metropolitan Association for Improving the Dwellings of the Industrious Classes
-Newcastle upon Tyne Improved Industrial Dwellings Company
-Pilrig Model Dwellings Company
-Labourer's Friend Society/Society for Improving the Condition of the Labouring Classes
+edit
+Selected article
 
 
 
+The Discovery Expedition of 1901–1904 was the first official British exploration of the Antarctic regions since James Clark Ross's voyage sixty years earlier. Organised on a large scale under a joint committee of the Royal Society and the Royal Geographical Society, the new expedition aimed to carry out scientific research and geographical exploration in what was then largely an untouched continent. It launched the Antarctic careers of many who would become leading figures in the Heroic Age of Antarctic exploration including Robert Falcon Scott who led the expedition, Ernest Shackleton, Edward Wilson, Frank Wild, Tom Crean and William Lashly. Its scientific results covered extensive ground in biology, zoology, geology, meteorology and magnetism. There were important geological and zoological discoveries, including those of the snow-free McMurdo Dry Valleys and the Cape Crozier Emperor Penguin colony. In the field of geographical exploration, achievements included the discoveries of King Edward VII Land, and the Polar Plateau via the western mountains route. The expedition did not, however, make a serious attempt on the South Pole, its principal southern journey reaching a Furthest South at 82°17'S. As a trailbreaker for later ventures, the Discovery Expedition was a landmark in British Antarctic exploration history.
 
 
 
+...Archive/Nominations
 
 
-Charitable model dwellings trusts
 
+More...
 
 
-Peabody Trust
-Guinness Trust
-William Sutton Trust
 
 
 
 
 
 
+edit
+In this month
 
 
-Model villages in the UK
 
 
 
-Akroydon
-Bessbrook
-Blaise Hamlet
-Bournville
-Copley
-Creswell
-Laurelvale
-Meltham
-Milford
-Nenthead
-New Bolsover
-New Earswick
-New Lanark
-Portlaw
-Port Sunlight
-Railway Village
-Saltaire
-Selworthy
-Silver End
-Sion Mills
-Snelston
-Stewartby
-Tremadog
-Trowse
-Woodlands, South Yorkshire
 
+2 April 1975 – Construction of the CN Tower in Toronto, Ontario, Canada, tops out, beginning the 553.33 metres (1,815.4ft) tower's 34 year reign as the world's tallest free-standing structure
+3 April 2010 – The first iPad (pictured) is released by Apple, Inc.
+10 April 1861 – Governor of Massachusetts John Albion Andrew signs a charter incorporating the Massachusetts Institute of Technology
+15 April 1912 – The RMS Titanic, at the time the world's largest ship, sinks after hitting an iceberg the night before in one of the deadliest peacetime maritime disasters in history
 
+More anniversaries...
 
 
 
 
 
 
-Model dwellings for the poor
+edit
+Did you know...
 
 
 
-Gibson Gardens
-Katharine Buildings
-Leopold Buildings
-Noel Park
-Queen's Park
-Shaftesbury Park Estate
-Stockbridge Colonies
 
+... that inventor Thomas Highs was never credited for his invention of both the spinning jenny (pictured) and the water frame, mostly due to his lack of funding to patent the devices?
+... that the six Charles Tayleur locomotives ordered by Isambard Kingdom Brunel for the Great Western Railway were unsuccessful?
+... that the Goose Creek Oil Field in Galveston Bay had the first offshore oil wells in Texas, U.S., and the removal of oil led to subsidence of the overlying terrain?
 
 
 
 
+...Archive/Nominations
 
 
 
-See also
+More...
 
 
 
-Model dwellings companies
-List of existing model dwellings
-Model villages
-Colony houses
+
+
+
+
+
+
+
+edit
+Featured biography
+
+
+
+Barbara McClintock was a pioneering American scientist and one of the world's most distinguished cytogeneticists. McClintock received her PhD in botany from Cornell University in 1927, where she was a leader in the development of maize cytogenetics; the field remained the focus of her research for the rest of her career. Her work was groundbreaking: she developed the technique to visualize maize chromosomes and used microscopic analysis to demonstrate many fundamental genetic concepts, including genetic recombination by crossing-over during meiosis—a mechanism by which chromosomes exchange information. She produced the first genetic map for maize, linking regions of the chromosome with physical traits, and she demonstrated the role of the telomere and centromere, regions of the chromosome that are important in the conservation of genetic information. During the 1940s and 1950s, McClintock discovered transposition and using this system showed how genes are responsible for turning on or off physical characteristics. Awards and recognition of her contributions to the field followed, including the Nobel Prize in Physiology or Medicine awarded to her in 1983 for the discovery of genetic transposition; she was the first and only woman to receive an unshared Nobel Prize in that category.
+
+
+
+...Archive/Nominations
+
+
+
+More...
+
+
+
+
+
+
+
+
+edit
+Wikiprojects
+
+
+
+Parent project
+
+
+
+Technology
+
+
+Related projects
+
+
+
+
+
+
+Architecture
+Computing
+
+
+
+
+Computer Science
+
+
+
+
+Electronics
+Energy development
+Energy
+
+
+
+
+History of Science
+Metalworking
+Telecommunications
+Woodworking
+
+
+
+
+
+What are WikiProjects?
+
+
+
+
+
+
+edit
+Selected quote
+
+
+
+
+
+
+
+
+
+“
+The world has changed far more in the past 100 years than in any other century in history. The reason is not political or economic but technological — technologies that flowed directly from advances in basic science.
+”
+
+
+— Stephen Hawking, "A Brief History of Relativity" (1999)
+
+
+
+
+
+
+
+...Archive/Nominations
+
+
+More...
+
+
+
+
+
+
+
+
+edit
+Selected picture
+
+
+
+
+
+
+
+
+Credit: Gretar Ívarsson and fir0002
+
+
+
+Nesjavellir Geothermal Power Station is an Icelandic power plant that generates electricity from geothermal energy.
+
+
+
+...Archive/Nominations
+
+
+
+More...
+
+
+
+
+
+
+
+
+edit
+Categories
+
+
+
+
+
+
+
+Computing · Classes of computers · Companies · Computer architecture · Computer model · Computer science · Computer security · Computing and society · Data · Embedded systems · Information systems · Information technology · Internet · Languages · Multimedia · Networks · Operating systems · Platforms · Product lifecycle management · Real-time computing · Software · Security ·More...
+
+
+Electronics · Avionics · RF  MMIC Design · Circuits · Companies · Connectors · Consumer electronics · Digital electronics · Digital media · Electrical components · Electronic design · Electronics manufacturing · Embedded systems · Integrated circuits · Microwave technology · Molecular electronics · Water technology · Optoelectronics · Quantum electronics · Radio-frequency identification · Radio electronics · Semiconductors · Signal cables · Surveillance · Telecommunications · Terminology · More...
+
+
+Engineering: Aerospace engineering · Biological engineering · Chemical engineering · Civil engineering · Computer engineering · Electrical engineering · Electronic engineering · Environmental engineering · Geotechnical engineering · Industrial engineering · Marine engineering · Materials science · Mechanical engineering · Nuclear technology · Signal processing · Software engineering · Structural engineering
+
+
+Transport · Aviation · Rail transport · Spaceflight · Road transport · Water transport
+
+
+Timelines: Technology timelines
+
+
+Other sub-categories: Agriculture · Animation · Architecture · Carpentry · Communications · Education · Electrical wiring · Machining · Manufacturing · Medicine · Metalworking · Optics · Plumbing · Tools · Welding · Woodworking
+
+
+
+
+
+
+
+
+
+
+edit
+Main topics
+
+
+Technology
+Technological concepts and issues– Appropriate technology• Clean technology• Diffusion of innovations in science• Doomsday device• Ecotechnology• Environmental technology• High technology• History of science and technology• History of technology• Industry• Innovation• Knowledge economy• Persuasion technology• Pollution• Posthumanism• Precautionary principle• Research and development• Science, technology, and society• Strategy of technology• Superpowers• Sustainable technology• Technicism• Technocapitalism• Technocriticism• Techno-progressivism• Technological convergence• Technological evolution• Technological determinism• Technological diffusion• Technological singularity• Technology acceptance model• Technology assessment• Technology lifecycle• Technology transfer• Technology Tree• Technorealism• Timeline of invention• Transhumanism
+Technologies and applied sciences– Aerospace• Agriculture, Agricultural science  Agronomy• Architecture• Artificial intelligence• Automation• Automobile• Big Science• Biotechnology• Cartography• Chemical engineering• Communication• Computing (Computer science, List of open problems in computer science, Programming, Software engineering, Information technology, Computer engineering)• Construction• Design• Electronics• Energy development• Energy storage• Engineering• Ergonomics• Firefighting• Forensics• Forestry• Free software• Health sciences• Health Informatics• Industry• Information science• Internet• Library and information science• Machines• Management• Manufacturing• Mass communication• Mass production• Medicine (Unsolved problems in neuroscience)• Military science• Military technology and equipment• Mining• Nanotechnology• Nuclear technology• Packaging and labeling• Processes• Robotics• Space exploration• Technology forecasting• Telecommunications• Tools• Transport• Vehicles• Weapons
+
+
+
+
+
+
+edit
+News
+
+
+From the Wikinews Science and technology portal
+
+
+April 8: GNOME to be Ubuntu's default desktop environment, Canonical to stop investing in Ubuntu Phone
+March 27: President Trump tells NASA to aim for Mars
+March 22: Jeff Jones resigns as president of Uber
+March 9: Scientists say excess cerebrospinal fluid may serve as early sign of autism
+February 9: Scientists say new medical diagnostic chip can sort cells anywhere with an inkjet
+January 15: Geneticists produce laser-activated killer mice
+January 4: Slow-cooking dinosaur eggs may have contributed to extinction, say scientists
+December 29: Around 7,100 cheetahs remain, say experts
+December 26: Study confirms efficacy of NewLink Genetics ebola vaccine
+December 11: Scientists find dinosaur feathers preserved in amber
+
+
+
+
+
+
+
+edit
+Things you can do
+
+
+
+
+
+
+
+
+Check the recent changes page for improvements, other changes, and vandalism to these articles
+Article requests: Computer science, computing, and Internet topics · Engineering topics · Technology and tools topics
+Deletion discussions: Listed at Wikipedia:WikiProject Deletion sorting/Technology
+Expand: check Electronics · Engineer · Optics · Robotics · Telecommunications · Wireless
+Notability: Articles with notability concerns, listed at WikiProject Notability
+Requested pictures: Technology topics, requested pictures
+
+
+
+
+
+
+
+
+
+
+
+edit
+Related portals
+
+
+
+
+
+Agriculture and Agronomy
+
+
+
+Astronomy
+
+
+
+Aviation
+
+
+
+Biotechnology
+
+
+
+Bridges
+
+
+
+Computer science
+
+
+
+Electronics
+
+
+
+Energy
+
+
+
+Engineering
+
+
+
+Film
+
+
+
+Geography
+
+
+
+Health
+
+
+
+Infrastructure
+
+
+
+Information technology
+
+
+
+Mathematics
+
+
+
+Medicine
+
+
+
+Nanotechnology
+
+
+
+Nuclear technology
+
+
+
+Philosophy of science
+
+
+
+Radio
+
+
+
+Renewable energy
+
+
+
+Robotics
+
+
+
+Science
+
+
+
+Software
+
+
+
+Spaceflight
+
+
+
+Sustainable development
+
+
+
+Telecom
+
+
+
+Television
+
+
+
+Trains
+
+
+
+Transport
+
+
+
+War
+
+
+
+
+
+
+
+
+
+
+edit
+Associated Wikimedia
+
+
+
+
+Technology onWikibooks
+Technology on Wikimedia Commons
+Technology onWikinews
+Technology onWikiquote
+Technology onWikisource
+Technology onWikiversity
+Technology onWiktionary
+
+
+Manuals and books
+Images and media
+News
+Quotations
+Texts
+Learning resources
+Definitions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+edit
+Wikipedia's portals
+
+
+
+All Portals Overview Glossaries Indices Lists Outlines Categories
+
+
+Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology
+
+
+
+Featured portals
+About portals
+
+
+
+
+
+
 
 
 
@@ -855,8 +638,8 @@ Colony houses
 
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Noel_Parkoldid=774814587"					
-				Categories: Housing estates in LondonBuildings and structures in the London Borough of HaringeyDistricts of the London Borough of HaringeyConservation areas in LondonPlanned communitiesGarden suburbsEnglish architectureHidden categories: Use dmy dates from September 2015Use British English from September 2015Articles with OS grid coordinatesCoordinates on WikidataFeatured articles				
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Technologyoldid=737901506"					
+				Categories: Technology portalTechnology portalsTechnologyScience portalsHidden categories: Wikipedia semi-protected portalsFeatured portals				
 							
 		
 		
@@ -872,7 +655,7 @@ Colony houses
 										
 						Namespaces
 						
-															Article
+															Portal
 															Talk
 													
 					
@@ -892,7 +675,7 @@ Colony houses
 						Views
 						
 															Read
-															Edit
+															View source
 															View history
 													
 					
@@ -939,7 +722,7 @@ Colony houses
 
 			
 									
-						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page					
+						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item					
 							
 		
 			
@@ -955,7 +738,7 @@ Colony houses
 
 			
 									
-						Wikimedia Commons					
+						Wikiversity					
 							
 		
 			
@@ -963,14 +746,14 @@ Colony houses
 
 			
 									
-						GaeilgeItaliano					
+						አማርኛالعربيةБашҡортсаБеларуская (тарашкевіца)‎БългарскиBoarischBosanskiCatalàCebuanoDeutschEestiΕλληνικάEspañolEsperantoفارسیFrançaisFryskGĩkũyũ한국어Bahasa IndonesiaעבריתქართულიKurdîLatinaLëtzebuergeschLietuviųMagyarМакедонскиBahasa MelayuМонголမြန်မာဘာသာNederlands日本語НохчийнOccitanଓଡ଼ିଆپښتوPolskiPortuguêsRomânăРусскийSeelterskShqipසිංහලکوردیی ناوەندیSuomiSvenskaதமிழ்TaqbaylitTürkçeᨅᨔ ᨕᨘᨁᨗУкраїнськаاردوWolof粵語Zazaki中文					
 				Edit links			
 		
 				
 		
 		
 							
-											 This page was last modified on 10 April 2017, at 20:47.
+											 This page was last modified on 5 September 2016, at 18:25.
 											Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 									
@@ -991,6 +774,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.788","walltime":"0.944","ppvisitednodes":{"value":14777,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":109250,"limit":2097152},"templateargumentsize":{"value":7984,"limit":2097152},"expansiondepth":{"value":24,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":1,"limit":400},"timingprofile":["100.00%  792.963      1 -total"," 29.60%  234.750      1 Template:LB_Haringey"," 29.54%  234.266      2 Template:Navbox"," 27.49%  218.013     18 Template:Rint"," 22.63%  179.416      1 Template:Infobox_UK_place"," 19.76%  156.658      2 Template:Infobox"," 14.07%  111.539      1 Template:Reflist","  7.72%   61.179      4 Template:Formatprice","  6.86%   54.387      4 Template:Inflation","  5.46%   43.289      6 Template:Cite_web"]},"scribunto":{"limitreport-timeusage":{"value":"0.187","limit":"10.000"},"limitreport-memusage":{"value":7788888,"limit":52428800}},"cachereport":{"origin":"mw1271","timestamp":"20170410204755","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":77,"wgHostname":"mw1265"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.348","walltime":"0.529","ppvisitednodes":{"value":4262,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":161246,"limit":2097152},"templateargumentsize":{"value":29134,"limit":2097152},"expansiondepth":{"value":17,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  358.550      1 -total"," 21.50%   77.105      1 Portal:Technology/Related_portals"," 21.13%   75.766      1 Template:Related_portals2"," 18.39%   65.948     31 Template:Related_portal_item"," 17.83%   63.942      5 Template:Random_portal_component"," 17.42%   62.454     31 Template:Portal_image"," 13.27%   47.577      1 Template:Pp-semi-indef"," 12.52%   44.907      1 Portal:Technology/Intro"," 12.38%   44.374      1 Portal:Technology/Wikipedia's_portals"," 11.74%   42.105      1 Template:Portal_navbar_no_header2"]},"scribunto":{"limitreport-timeusage":{"value":"0.124","limit":"10.000"},"limitreport-memusage":{"value":5914494,"limit":52428800}},"cachereport":{"origin":"mw1243","timestamp":"20170410154537","ttl":86400,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":603,"wgHostname":"mw1243"});});
 	
 

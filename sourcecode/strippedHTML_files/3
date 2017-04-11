@@ -2,16 +2,12 @@
 
 
 
-Wikipedia, the free encyclopedia
+Portal:Contents/Portals - Wikipedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WOwHdwpAMFIAAHK0Bq8AAAAE","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Contents/Portals","wgTitle":"Contents/Portals","wgCurRevisionId":746645444,"wgRevisionId":746645444,"wgArticleId":2533281,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Wikipedia navigation","Content portals","Portals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Contents/Portals","wgRelevantArticleId":2533281,"wgRequestId":"WOcIfQpAAEMAAFqB0TAAAABU","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5008867","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.inputBox.styles":"ready","mediawiki.ui.input":"ready","mediawiki.ui.checkbox":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.ui.button":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
-
-
-
-
+});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
 
 
 
@@ -36,56 +32,599 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 							
 						
 
-			Main Page
+
+			Portal:Contents/Portals
 									
 									From Wikipedia, the free encyclopedia
-								
+								 Portal:Contents
 												
 					Jump to:					navigation, 					search
 				
 				
 
+Contents Overview Outlines Lists Portals Glossaries Categories Indices
+
+
+Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology
 
 
 
 
-Welcome to Wikipedia,
-the free encyclopedia that anyone can edit.
-5,381,044 articles in English
+
+
+
+
+
+edit watch 
+Wikipedia's contents: Portals
+
+
+
+
+
+ General reference
+ Culture and the arts
+ Geography and places
+ Health and fitness
+
+
+ History and events
+ Mathematics and logic
+ Natural and physical sciences
+ People and self
+
+
+ Philosophy and thinking
+ Religion and belief systems
+ Society and social sciences
+ Technology and applied sciences
 
 
 
 
 
 
-Arts
-Biography
-Geography
 
 
+
+
+
+
+About portals · Featured portals · Portal directory · Portals category
+
+Shortcuts:
+
+P:
+P:CP
+WP:8
+WP:PORT
+
+
+Portals complement main topics in Wikipedia, and expound upon topics by introducing the reader to key articles, images, and categories that further describe the subject and its related topics. Portals also assist in helping editors to find related projects and things they can do to improve Wikipedia, and provide a unique way to navigate Wikipedia topics.
+At present, the following 1490 portals exist. Of these, 173 are Featured portals .
+
+
+
+
+WikiProject
+Directory
+
+
+
+
+
+
+
+Regional
+Notice Boards
+
+
+
+You can also use the Special:Search box below to locate Portals and sub-pages.
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+edit watch 
+ General reference (see in all page types)
+
+
+Library and information science
+
+
+
+
+
+
+
+edit watch 
+ Culture and the arts (see in all page types)
+
+
+
+
+
+
+Culture
+
+Language: Constructed languages (Esperanto), English
+
+Arts (Aesthetics)
+
+Literature: Books•  Comics•  Children's literature•  French literature•  Poetry•  Writing
+
+Authors: Jane Austen•  Charles Dickens•  William Shakespeare•  Oscar Wilde•  Kazi Nazrul Islam
+Novels: Dragonlance, Harry Potter, Hitchhiker's Guide to the Galaxy
+Fictional worlds: Discworld, James Bond, Middle-earth, Narnia, Oz, Fictional characters
+
+
+
+
+Performing arts
+
+Dance: Ballet
+Film: A Nightmare on Elm Street, Academy Award, Alien, Animation, Bollywood, Disney, Indiana Jones, Silent film, Star Wars
+Music: Music of Australia•  Music of Canada •  Record production
+
+Styles: Alternative rock, Blues, Christian music, Classical guitar, Classical music, Country music, Electronic music, Eurovision, Guitar, Heavy metal (Christian metal), Hip hop, Indian classical music, Industrial music, Jazz, K-pop, Latin music, Marching band, Percussion, Piano, Pipe organ, Pop music, Progressive rock, Punk rock, Rock and Roll, Rock music, RB and Soul Music
+Artists: AC/DC, AKB48, A. R. Rahman, Bryan Adams, Aerosmith, Christina Aguilera, Backstreet Boys, The Beach Boys, The Beatles, Justin Bieber, Björk, Brandy Norwood, Mariah Carey, Cher, Kelly Clarkson, The Clash, Miley Cyrus, Celine Dion, Dream Theater, Bob Dylan, Grateful Dead, Eminem, Fergie, Marvin Gaye, Girls Aloud, Green Day, Iron Maiden, The Jackson Family, Janet Jackson, Michael Jackson, The Kinks, Beyoncé, Lady Gaga, Avril Lavigne, Led Zeppelin, Linkin Park, Madonna, Miles Davis, Motörhead, Katy Perry, Pink Floyd, Powderfinger, Elvis Presley, Queen, Rihanna, The Rolling Stones, Sakis Rouvas, Rush, Santana, Britney Spears, The Supremes, Slipknot, Shania Twain, Shreya Ghoshal, U2, Usher, Rufus Wainwright, Neil Young, Frank Zappa, Shakira
+
+
+Opera: Gilbert  Sullivan
+Television: Australian television, BBC, The Big Bang Theory, Buffy the Vampire Slayer, Cartoon Network, Doctor Who, EastEnders, Ed, Edd n Eddy, Family Guy, Friends, Futurama, House, M.D., M*A*S*H, Millennium, Monty Python, Muppets, Nickelodeon, SpongeBob SquarePants, Star Trek, 24, The Simpsons, Sherlock Holmes
+Theatre: Musical theatre
+
+
+
+
+
+
+
+
+Visual arts:
+
+Portal:Anime and manga (Dragon Ball)•  Architecture (Portal)•  Cartoon•  Computer graphics•  Design•  Graffiti•  Origami•  Photography•  Studio Ghibli•  Textile arts (Fashion, Knitting)• Typography
+
+
+
+
+Genre: Comedy•  Furry•  Horror fiction•  King Arthur•  Mythology•  Pornography•  Speculative fiction• Steampunk•  Superhero fiction
+
+Recreation and Entertainment
+
+Food: Bacon
+Drink: Beer, Coffee, Liquor, Wine
+
+
+Sports: Asian Games· Association football (A-League, Football in Argentina, Association football variants, Football in Africa, Football in Germany, Football in India, English football, Soccer in the United States, Women's association football)•  Athletics•  Australian rules football•  Badminton•  Baseball•  Basketball (College basketball, National Basketball Association)•  Sport of Canada•  Commonwealth Games•  Cricket (Australian cricket team in England in 1948, Indian Premier League)•  Cycling•  Fencing•  Figure skating• Fishing•  Gridiron football (American football, Canadian football, College football, National Football League)•  Golf•  Gymnastics•  Horse racing•  Ice hockey•  Martial arts (Karate)• Olympics•  Paralympics•  Professional wrestling•  Racing (Motorsport: Formula One, NASCAR, Motorcycle racing)•  Rock climbing•  Rugby (Rugby league, Rugby union)•  Sailing•  Snooker•  Tennis•  Water sports (Swimming, Underwater diving) •  Women's sport
+Games: Amusement parks•  Strategy games (Chess, Warhammer)•  Role-playing games (Dungeons  Dragons)
+
+Video games: Final Fantasy•  Halo•  Mario•  Massively multiplayer online games•  Nintendo•  PlayStation•  Pokémon•  Sega•  SNK •  The Sims•  Sonic the Hedgehog•  Xbox•  Zelda
+
+
+
+
+Hobbies, Crafts and Other: Gardening•  Gemology and Jewelry•  Home improvement• Numismatics•  Philately•  Radio•  Scouting•  Toys (Lego)
+
+
+
+
+
+
+
+
+
+
+
+edit watch 
+ Geography and places (see in all page types)
+
+
+
+
+Geography(Atlas • Islands • Mountains)
+Africa
+
+Algeria• Angola • Benin • Botswana • Burkina Faso • Burundi • Cameroon • Cape Verde • Central African Republic• Chad • Côte d'Ivoire• Republic of the Congo• Democratic Republic of the Congo• Djibouti• Egypt• Eritrea• Ethiopia • Gabon • The Gambia • Ghana• Guinea• Guinea-Bissau• Kenya (Mombasa, Nairobi) • Liberia • Libya• Madagascar • Malawi • Mali• Mauritania• Mauritius • Morocco• Mozambique• Namibia • Niger • Nigeria (Port Harcourt, Lagos) • Rwanda• São Tomé and Príncipe• Senegal• Sierra Leone• Somalia• South Africa• South Sudan• Sudan• Tanzania• Togo• Tunisia• Uganda• Western Sahara• Zambia• Zimbabwe
+
+Antarctica• Arctic
+Asia
+
+Bhutan• Bangladesh• (Bengal, Chittagong, Dhaka)• Cambodia• China (Beijing, Hong Kong, Macau, Shanghai, Shenzhen, Tibet)• Taiwan• Himalaya region• India (Andhra Pradesh, Assam, Bihar, Goa, Gujarat, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha, Tamil Nadu, Telangana, Uttar Pradesh, West Bengal (Ahmedabad, Bangalore, Chandigarh, Chennai, Delhi, Hisar, Hyderabad, Kolkata, Kollam, Mumbai, Patna, Trichy, Udaipur, Jodhpur)• Indonesia• Japan (Osaka, Tokyo)• Kazakhstan• Korea (North Korea, South Korea, Seoul)• Kyrgyzstan• Malaysia• Mongolia• Nepal• Pakistan (Chitral, Karachi, Lahore, Jhelum, Islamabad, Sialkot)• Philippines (Bohol)• Punjab• SAARC• Singapore• Sri Lanka• Tajikistan• Thailand• Turkey• Vietnam
+
+Europe
+
+European Union
+
+Austria(Vienna,Tyrol)• Basque• Belgium(Brussels)• Bulgaria• Channel Islands• Corsica• Croatia• Czech Republic(Prague)• Denmark• Estonia• Finland• France(Paris,Lyon)• Germany(Baden-Württemberg• Bavaria• East Frisia• Hamburg• Lower Saxony• North Rhine-Westphalia• Saxony-Anhalt• Schleswig-Holstein)• Gibraltar• Greece(Macedonia)• Hungary (Budapest, Miskolc)• Ireland (Kilkenny)• Italy (Rome, Milan, Venice)• Latvia• Lithuania• Luxembourg• Malta• Netherlands• Poland• Portugal• Romania (Bucharest)• Silesia• Slovakia• Slovenia• Spain (Galicia)• Sweden• United Kingdom (England (Bristol, Cornwall, Devon, Hertfordshire, Lincolnshire, London, Luton, Stamford, North West England (Cheshire, Cumbria, Greater Manchester, Merseyside, Yorkshire), Somerset, Wiltshire, South East England (East Sussex, Kent, Hampshire, Oxfordshire))• Northern Ireland, Scotland, Wales)
+
+
+
+
+Albania(Tirana)• Andorra• Armenia• Azerbaijan• Belarus• Bosnia and Herzegovina• Catalan-speaking countries• Faroe Islands• Georgia• Iceland• Isle of Man• Kosovo• Republic of Macedonia• Moldova• Montenegro• Norway• Russia (Chechnya, Moscow)• Serbia• Switzerland(Geneva)• Turkey• Ukraine (Crimea)• Vatican City
+
+Latin America and Caribbean
+
+Argentina (Buenos Aires• Rosario) • Belize• Bermuda• Brazil• Bolivia• Chile (Pichilemu)• Colombia• Costa Rica• Cuba• Dominican Republic• Ecuador• El Salvador• Guatemala• Guyana• Haiti• Jamaica• Mexico• Nicaragua• Panama• Paraguay• Peru• Puerto Rico• Suriname• Trinidad and Tobago• Uruguay• Venezuela
+
+
+
+Places near you
+
+
+Middle East
+
+Afghanistan• Cyprus• Egypt• Iran (Tabaristan)• Iraq• Israel (Jerusalem)• Jordan• Kazakhstan• Kurdistan• Lebanon• Libya• Morocco• Oman• Palestine• Saudi Arabia• Syria• Tajikistan• Turkey• United Arab Emirates (Abu Dhabi)• Uzbekistan
+
+
+
+
+North America
+
+Canada: • Geography of Canada
+
+Alberta (Calgary, Edmonton)• BritishColumbia (Vancouver)• Manitoba• NewBrunswick• NewfoundlandandLabrador (St. John's)• NorthwestTerritories• NovaScotia• Nunavut• Ontario (EasternOntario• Ottawa•Toronto• Hamilton)• PrinceEdwardIsland • Quebec (Montreal, Quebec City, Estrie, Laurentides, Saguenay–Lac-Saint-Jean)• Saskatchewan• Yukon
+
+
+
+
+
+
+
+
+Mexico
+
+San Diego–Tijuana
+
+
+
+
+
+
+
+
+United States
+
+Alabama• Alaska• Arizona(Grand Canyon)• Arkansas• California(Greater Los Angeles• San Diego• San Diego–Tijuana, San Francisco Bay Area)• Colorado• Connecticut• Delaware• District of Columbia• Florida (Jacksonville• Miami)• Georgia• Hawaii• Idaho• Illinois(Chicago)• Indiana(Indianapolis)• Iowa• Kansas• Kentucky(Louisville)• Louisiana(New Orleans)• Maine• Maryland• Massachusetts (Boston)• Michigan(Detroit)• Minnesota• Mississippi• Missouri• Montana• Nebraska• Nevada(LasVegas)• New England• New Hampshire• New Jersey• New Mexico• New York(New York City• Capital District• Finger Lakes • Hudson Valley • Syracuse)• North Carolina• NorthDakota• Ohio(Cleveland)• Oklahoma• Oregon• Pennsylvania(Erie• Lancaster• Philadelphia• Pittsburgh)• Puerto Rico• Rhode Island• South Carolina• South Dakota• Tennessee• Texas(Austin• Dallas• Houston)• Utah• Vermont• Virginia• Washington(Seattle)• West Virginia• Wisconsin• Wyoming
+
+
+
+
+
+
+Oceania
+
+Australia
+
+Australian Capital Territory• New South Wales(City of Bankstown• Sydney)• Northern Territory• Queensland(Brisbane)• South Australia• Tasmania• Victoria(Melbourne)• Western Australia(Perth)
+
+
+Kiribati• Micronesia• New Zealand• Papua New Guinea• Tuvalu
+
+
+
+
+
+
+
+
+
+
+
+
+
+edit watch 
+ Health and fitness (see in all page types)
+
+
+Health and fitness
+
+Medicine• Biology• Nursing• Dentistry• Food• Pharmacy and Pharmacology• Psychiatry• Pervasive developmental disorders• Complementary and Alternative Medicine• Sexuality• Viruses• Trauma  Orthopaedics• Sports
+
+
+
+
+
+
+
+
+
+edit watch 
+ History and events (see in all page types)
 
 
 History
+
+Ancient Egypt• Ancient Germanic Culture• Ancient Greece• Ancient Japan• Ancient Near East• Ancient Rome (Military of ancient Rome)• Anglo-Saxon England• Crown of Aragon• Archaeology• Ashura• Austria-Hungary• British Empire• Bulgarian Empire• Byzantine Empire• Classical Civilization• Colonialism• Disasters • German Empire• Heraldry• History of Canada• History of the Latter Day Saint movement• History of Science• Indian independence movement• Khitan• Mesoamerica• Middle Ages• Nazi Germany• New France• Russian Empire• Sasanian Empire• Soviet Union
+War:American Revolutionary War• American Civil War• Cold War• Italian Wars• Liberation War• Military history of France• Military history of Africa• Military history of the Ottoman Empire• Napoleonic Wars• September 11 attacks• Syrian civil war• World War I• World War II
+1920s• 1930s• 1940s• 1950s• 1960s• 1970s• 1980s• 1990s• 2000s• 2010s
+
+Current events
+
+Sports
+
+Time
+
+Winter • Autumn
+
+Chronology
+
+
+
+
+
+
+
+edit watch 
+ Mathematics and logic (see in all page types)
+
+
 Mathematics
+
+Algebra• Analysis• Category theory• Cryptography• Discrete mathematics• Geometry • Number theory• Topology
+
+Logic
+
+Set theory
+
+Statistics
+
+
+
+
+
+
+
+
+edit watch 
+ Natural and physical sciences (see in all page types)
+
+
 Science
 
+History of Science• Philosophy of science• Systems science
+
+Biological science
+
+Agropedia• Amphibians and Reptiles• Animals• Arthropods• Astrobiology• Birds• Cats• Cetaceans• Crustaceans• Dinosaurs• Dogs• Ecology• Evolutionary biology• Extinct and Endangered Species• Fish• Forestry• Fungi• Gastropods• Horses• Insects • Mammals• Marine life• Molecular Anthropology• Molecular and Cellular Biology (Metabolism, Gene wiki)• Neuroscience• Paleontology• Plants• Primates• Prehistoric mammals• Rabbits and hares• Sharks• Trees• Turtles• Viruses• Wildlife of Scotland• Wetlands
+
+Physical science
+Astronomy (Space, Solar System, Mars, Moon, Uranus, Jupiter, Star, X-ray astronomy)
+Chemistry (Analytical chemistry, Organic chemistry, Physical chemistry, Crystallography)
+Earth sciences (Atmospheric sciences, Earthquakes, Environment, Fire, Global warming, Tropical cyclones, Volcanoes and Volcanology, Weather, Water)
+Physics(Cosmology, Gravitation, Electromagnetism)
 
 
+
+
+
+
+
+
+edit watch 
+ People and self (see in all page types)
+
+
+
+Biography•  Death•  Human rights•  Community•  Gangs•  Mind and brain•  Thinking•  Sexuality•  LGBT•  Serer•  Transgender•  Yoruba•  Igbo
+
+
+
+
+
+
+
+edit watch 
+ Philosophy and thinking (see in all page types)
+
+
+Philosophy
+Areas of philosophical inquiry
+
+Aesthetics• Epistemology• Ethics• Logic• Metaphysics• Mind and Brain (Thinking)• Philosophy of science• Social and political philosophy
+
+Philosophies and ideologies
+
+Anarchism• Animal rights• Capitalism• Communism• Confucianism• Conservatism• Existentialism• Fascism• Liberalism• Libertarianism• Left-wing populism• Right-wing populism• Socialism• Taoism• Transhumanism
+
+
+
+
+
+
+
+
+
+edit watch 
+ Religion and belief systems (see in all page types)
+
+
+
+
+
+Religion(Spirituality, Occult)
+Abrahamic religions
+
+Christianity
+
+Adventism• Anabaptism• Anglicanism• Arminianism• Baptist• Bible• Calvinism• Catholicism• Christadelphians• Christianity in China• Christianity in India• Eastern Christianity• Lutheranism• Methodism• Oriental Orthodoxy• Pope• Private revelation• Saints• Seventh-day Adventist Church
+
+
+
+
+
+
+Latter Day Saints
+
+Book of Mormon• LDS Church• Community of Christ
+
+
+
+
+
+
+Islam
+
+Shia Islam• Day Of Ashura• Ahmadiyyat• Qur'an• Islam in China• Sufism
+
+
+Judaism
+
+Kabbalah
+
+
+Creationism
+
+Non-Abrahamic religions
+Indian religions
+
+Ayyavazhi
+Buddhism
+
+Mahayana Buddhism• Tibetan Buddhism• Vajrayana Buddhism• Theravada Buddhism
+Gnosticism
+
+
+Hinduism
+
+Hindu Mythology
+
+
+Jainism
+
+Digambara
+Śvētāmbara
+
+
+Sikhism
+
+
+
+
+Religions and traditions with East Asian origin
+
+Chinese Folk Religion
+Confucianism•
+Shinto•
+Taoism•
+Falun Gong
+
+Religions with West Asian origin
+
+Zoroastrianism
+Bábism
+Bahá'í Faith
+
+New religions
+
+Scientology• Falun Gong
+Theosophy
+
+Religions with European origin
+
+Heathenism
+Hellenismos
+
+Greek Mythology
+
+
+Wicca
+
+Traditional African religions
+
+African
+
+Serer
+
+
+
+Other
+
+Astrology• Mythology
+
+Non Religion or Belief
+
+Atheism• Nontheism
+
+
+
+
+
+
+
+
+
+
+
+edit watch 
+ Society and social sciences (see in all page types)
+
+
+Social sciences
+
+Anthropology (Archaeology)• Economics• Education• Geography• History• Law• Linguistics• Psychology• Sociology
 
 Society
+
+Cooperatives• Disability• Discrimination• Economics and business • Education (Schools, University, University of Cambridge, University of Oxford, University of Pittsburgh)• Environment• Ethnic groups: African American, Berbers, Celts, Hispanic and Latino Americans, Indigenous peoples of the Americas, Indigenous peoples of North America, Aboriginal Canadians • Feminism•  Folklore• Freedom of speech• Freemasonry• Gender studies• Genealogy• Globalization• Holidays• Hunger relief• Journalism• LGBT (lesbian, gay, bisexual, transgender) • (Transgender) • Men's rights• Social movements• Sustainable development• Terrorism• Transhumanism• Transnational child protection•Migrant Domestic Workers in Lebanon
+Law
+
+Criminal justice• Human rights • Law of England and Wales• Laws in India• Supreme Court of the United States
+
+
+
+
+Politics and Political science
+
+Anarchism• Animal rights• British politics• Capitalism• Communism• Canadian politics• Christian democracy• Conservatism• Fascism• Geert Wilders• India Government• Right-wing populism• International organizations: (United Nations • NATO• SAARC)• Organized Labour• Pakistan Government• Philippine Presidency• Republican Party• U.S. Government (Barack Obama)• Donald Trump • Social welfare and social work
+
+
+
+
+Military science
+
+Canadian Forces • Military of Greece • Military of Australia• Military of the United Kingdom (British Army• Royal Navy• Royal Air Force)• Military of the United States (United States Air Force• United States Army • United States Coast Guard • United States Marine Corps• United States Navy)• Tank• Half-track• War• Weapons of mass destruction
+
+
+
+
+
+
+
+
+
+
+
+edit watch 
+ Technology and applied sciences (see in all page types)
+
+
 Technology
-All portals
 
 
+Engineering• Agriculture and Agronomy • Astronomy• Biotechnology• Bridges• Electronics (Telecommunication)• Mass surveillance• Energy (Renewable energy)• Forestry• Hazardous Materials• Infrastructure• Laser• Mining• Nanotechnology• Nuclear technology• Robotics 
 
+Computing and Information technology
 
+Computer networking (Internet, IRC)• Computer programming (Python programming, Java)• Computer science (Artificial intelligence, Computer graphics)• Computer security (Cryptography)• Software (Free software, Linux)• Amiga • Smartphone• Apple • Google(Android)• Microsoft• Alphabet
 
+Transport
 
+Aviation• Bicycles/Cycling• Buses• Cars (Australian, Japanese)• Trucks• London Transport• Nautical (Lighthouses, UK Waterways)• Roads (Australian Roads, Canada Roads, U.S. Roads, California Roads, Maryland Roads, Michigan Highways, New York Roads, Washington Roads)• Spaceflight• Trains (North American railways, Railways in India, Sri Lanka Railways, UK Railways, Trams, UK Trams)
 
 
 
 
-From today's featured article
 
 
 
@@ -94,366 +633,119 @@ From today's featured article
 
 
 
-Noel Park in north London is a planned community designed by Rowland Plumbe in the late 19th century, consisting of 2,200 model dwellings. It was developed in open countryside to the north of London between the historic villages of Highgate and Tottenham by the Artizans, Labourers  General Dwellings Company. One of the earliest garden suburbs in the world, it provided affordable housing for working-class families wishing to leave the inner city. Every property had a front and rear garden, and it was close enough to the rail network to allow its residents to commute to work. In line with the principles of the company's founder, William Austin, it had no pubs, and there are still none today. As a result of London's rapid expansion during the early 20th century, and particularly after the London Underground was extended to the area in 1932, Noel Park was surrounded by later developments. In 1965, it was incorporated into the newly created London Borough of Haringey. Despite damage during World War II and demolition work during the construction of Wood Green Shopping City in the 1970s, it remains largely architecturally intact. (Fullarticle...)
-Recently featured:
 
 
-Canadian National Vimy Memorial
-"Yesterday's Enterprise"
-Gabriel Pleydell
 
+Portals
+Featured(Criteria · Candidates)
+List
+Directory
+WikiProject
+Guidelines
+Instructions
+Categorizing(Portals category)
+Peer review
 
 
+Contents Overview Outlines Lists Portals Glossaries Categories Indices
 
 
-Archive
-By email
-More featured articles...
+Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology
 
 
 
 
 
 
+Content listings
+Types
 
-Did you know...
 
+Overviews
+Featured content
+Outlines
+Lists
+Portals
+Glossaries
+Categories
+Indices
 
 
 
+Topics
 
+Current events
+Reference
+Culture
+Geography
+Health
+History
+Mathematics
+Nature
+People
+Philosophy
+Religion
+Society
+Technology
 
 
-Monument of States
 
+Places, people and times
 
+Academic disciplines
+Anniversaries
 
-... that the Monument of States (pictured) in Kissimmee, Florida, was erected in response to the attack on Pearl Harbor and built with stones donated from around the world?
-... that Caius Largennius is considered the first Lucchese in the world?
-... that the play Sweat by Lynn Nottage has been described as "the first theatrical landmark of the Trump era"?
-... that when he ceded Easter Island to Chile, King Atamu Tekena gave up a handful of grass and retained a handful of dirt?
-... that Mexican Federal Highway 15D includes two of the country's five most expensive toll roads?
-... that prior to her major debut, singer Maon Kurosaki posed as a gravure model for the cover of a novel?
-... that the seeds of the white batflower may be distributed by small mammals that feed on the fleshy fruits?
-... that in March 1998, the Ontario Court of Justice ruled that being topless while one engages in a commercial purpose such as prostitution is illegal?
+today
 
 
+Countries and territories
+People
 
-Recent additions
-Start a new article
-Nominate an article
+deaths this year
 
 
+Timelines
 
+centuries
+decades
 
 
 
 
+Indices
 
 
+A–Z index
+Categories
+Dewey Decimal classes
+Library of Congress Classification
+Roget's Thesaurus
+Spoken articles
+Wikipedia books
 
 
 
-In the news
 
 
 
+What are portals?
+List of portals
+Featured portals
 
 
 
+Shortcuts to this page: Portal:Categories • P:CAT
 
-Sergio García
+Purge cache to show recent changes
 
 
 
-In golf, Sergio García (pictured) defeats Justin Rose in a playoff to win the Masters Tournament.
-At least 45 people are killed and 136 others injured when two Egyptian Coptic Orthodox churches are attacked on Palm Sunday by suicide bombers.
-The Basque separatist militant group ETA disarms itself.
-A stolen truck is driven through crowds and into a department store in downtown Stockholm, killing 4 people and injuring 15 others.
-The United States attacks a Syrian air base in response to a chemical attack in Khan Shaykhun that killed more than 70 people.
-Tim Berners-Lee wins the Turing Award for inventing the World Wide Web, the first web browser, and the protocols and algorithms that allow the Web to scale.
 
+Shortcuts to this page: WP:PORT • P:
 
-Ongoing:
 
 
-Battle of Mosul
 
-
-
-Recent deaths:
-
-
-Fishman
-Brian Matthew
-Peter Isaacson
-Glenn O'Brien
-
-
-
-
-
-
-
-
-
-On this day...
-
-
-
-
-
-April 10
-
-
-F. Scott Fitzgerald
-
-
-
-1809 – Napoleonic Wars: The War of the Fifth Coalition began when Austria invaded Bavaria.
-1858 – Big Ben, the bell in the Palace of Westminster's clock tower in London, was cast after the original bell had cracked during testing.
-1925 – The novel The Great Gatsby by F. Scott Fitzgerald (pictured) was first published.
-1944 – The Holocaust: Rudolf Vrba and Alfréd Wetzler escaped from Auschwitz; their report was one of the earliest and most detailed descriptions of the mass killings in the camp.
-1992 – Nagorno-Karabakh War: At least 40 Armenian civilians were massacred in Maraga, Azerbaijan.
-
-Gabrielle d'Estrées (d.1589)·  Stuart Sutcliffe (d.1962)·  Evelyn Waugh (d.1966)
-More anniversaries:
-
-
-April 9
-April 10
-April 11
-
-
-
-
-
-Archive
-By email
-List of historical anniversaries
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-From today's featured list
-
-
-
-
-
-
-
-Shannen Doherty
-
-
-American actress Shannen Doherty has appeared in numerous television programs and motion pictures. Landing her first major role in the dramatic western television series Little House on the Prairie, Doherty had her breakthrough role as Brenda Walsh in the teen drama Beverly Hills, 90210. She was later removed from the series due to backstage issues. She starred in television films in the early and mid-1990s in an attempt to rebuild her career. Doherty enjoyed a resurgence in popularity while playing the witch Prue Halliwell on the supernatural drama Charmed. Following disagreements with Spelling and co-star Alyssa Milano, Doherty left the series in its third season. While acting in a string of television films, Doherty has also participated in five reality television shows. (Fulllist...)
-Recently featured:
-
-
-Padma Bhushan award recipients (1960–69)
-Huskies of Honor
-Grammy Award for Best Female Rock Vocal Performance
-
-
-
-
-
-Archive
-More featured lists...
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Today's featured picture
-
-
-
-
-
-
-
-
-
-Schönbrunn Palace is a former imperial summer residence located in Vienna, Austria. The 1,441-room Baroque palace, with a history that spans more than 300 years, is a World Heritage Site and a major tourist attraction.
-Photograph: Thomas Wolf
-Recently featured:
-
-
-Christ taking leave of his Mother
-Aurelia aurita
-Vault (architecture)
-
-
-
-
-
-Archive
-More featured pictures...
-
-
-
-
-
-
-
-
-
-
-
-
-
-Other areas of Wikipedia
-
-Community portal – Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.
-Help desk – Ask questions about using Wikipedia.
-Local embassy – For Wikipedia-related communication in languages other than English.
-Reference desk – Serving as virtual librarians, Wikipedia volunteers tackle your questions on a wide range of subjects.
-Site news – Announcements, updates, articles and press releases on Wikipedia and the Wikimedia Foundation.
-Village pump – For discussions about Wikipedia itself, including areas for technical issues and policies.
-
-
-
-Wikipedia's sister projects
-Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects:
-
-
-
-Commons
-Free media repository
-
-MediaWiki
-Wiki software development
-
-Meta-Wiki
-Wikimedia project coordination
-
-
-
-Wikibooks
-Free textbooks and manuals
-
-Wikidata
-Free knowledge base
-
-Wikinews
-Free-content news
-
-
-
-Wikiquote
-Collection of quotations
-
-Wikisource
-Free-content library
-
-Wikispecies
-Directory of species
-
-
-
-Wikiversity
-Free learning materials and activities
-
-Wikivoyage
-Free travel guide
-
-Wiktionary
-Dictionary and thesaurus
-
-
-
-
-Wikipedia languages
-
-This Wikipedia is written in English. Started in 2001(2001), it currently contains 5,381,044 articles.  Many other Wikipedias are available; some of the largest are listed below.
-
-More than 1,000,000 articles:
-
-
-Deutsch
-Español
-Français
-Italiano
-Nederlands
-日本語
-Polski
-Русский
-Svenska
-Tiếng Việt
-
-
-
-More than 250,000 articles:
-
-
-العربية
-Bahasa Indonesia
-Bahasa Melayu
-Català
-Čeština
-Euskara
-فارسی
-한국어
-Magyar
-Norsk bokmål
-Português
-Română
-Srpski
-Srpskohrvatski
-Suomi
-Türkçe
-Українська
-中文
-
-
-
-More than 50,000 articles:
-
-
-Bosanski
-Български
-Dansk
-Eesti
-Ελληνικά
-English (simple form)
-Esperanto
-Galego
-עברית
-Hrvatski
-Latviešu
-Lietuvių
-Norsk nynorsk
-Slovenčina
-Slovenščina
-ไทย
-
-
-
-
-
-Complete list of Wikipedias
 
 
 
@@ -462,8 +754,8 @@ Complete list of Wikipedias
 
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Main_Pageoldid=762066868"					
-								
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Contents/Portalsoldid=746645444"					
+				Categories: Wikipedia navigationContent portalsPortalsHidden categories: Wikipedia semi-protected portals				
 							
 		
 		
@@ -479,7 +771,7 @@ Complete list of Wikipedias
 										
 						Namespaces
 						
-															Main Page
+															Portal
 															Talk
 													
 					
@@ -546,7 +838,7 @@ Complete list of Wikipedias
 
 			
 									
-						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page					
+						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item					
 							
 		
 			
@@ -562,7 +854,7 @@ Complete list of Wikipedias
 
 			
 									
-						Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage					
+						WikisourceWikiversity					
 							
 		
 			
@@ -570,14 +862,14 @@ Complete list of Wikipedias
 
 			
 									
-						العربيةБългарскиBosanskiCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGalego한국어HrvatskiBahasa IndonesiaItalianoעבריתქართულიLatviešuLietuviųMagyarBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăРусскийSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaไทยTürkçeУкраїнськаTiếng Việt中文					
-							
+						AfrikaansAlemannischالعربيةAragonésArpetanঅসমীয়াАварবাংলাBân-lâm-gúБашҡортсаБеларускаяБеларуская (тарашкевіца)‎БългарскиBoarischBrezhonegCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisFrysk한국어Հայերենहिन्दीHrvatskiBahasa IndonesiaItalianoעבריתქართულიҚазақшаKurdîКыргызчаLëtzebuergeschLumbaartMagyarمصرىBahasa MelayuМонголမြန်မာဘာသာNederlands日本語Norsk bokmålOccitanOʻzbekcha/ўзбекчаپنجابیپښتوភាសាខ្មែរPlattdüütschPolskiPortuguêsRipoarischRomânăРусскийShqipSicilianuසිංහලسنڌيSrpskohrvatski / српскохрватскиBasa SundaSuomiSvenskaதமிழ்Татарча/tatarçaTürkçeУкраїнськаاردوVènetoTiếng Việt文言Yorùbá粵語中文					
+				Edit links			
 		
 				
 		
 		
 							
-											 This page was last modified on 26 January 2017, at 12:39.
+											 This page was last modified on 28 October 2016, at 17:20.
 											Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 									
@@ -598,6 +890,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.204","walltime":"0.279","ppvisitednodes":{"value":3276,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":105792,"limit":2097152},"templateargumentsize":{"value":6255,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  206.153      1 -total"," 47.42%   97.753      1 Wikipedia:Main_Page/Tomorrow"," 39.20%   80.804      8 Template:Main_page_image"," 15.39%   31.728      1 Template:Did_you_know/Queue/3"," 14.48%   29.854      1 Wikipedia:Today's_featured_article/April_10,_2017"," 14.45%   29.787      2 Template:Wikipedia_languages"," 14.11%   29.079      2 Template:In_the_news"," 13.99%   28.845      8 Template:Str_number/trim"," 12.24%   25.225      1 Template:POTD_protected/2017-04-11"," 11.69%   24.099      1 Template:Convert"]},"scribunto":{"limitreport-timeusage":{"value":"0.068","limit":"10.000"},"limitreport-memusage":{"value":2255536,"limit":52428800}},"cachereport":{"origin":"mw1247","timestamp":"20170410222959","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":53,"wgHostname":"mw1247"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.372","walltime":"0.505","ppvisitednodes":{"value":2715,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":276361,"limit":2097152},"templateargumentsize":{"value":32968,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":10,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  242.274      1 -total"," 72.74%  176.230      1 Portal:Contents/Types_layout"," 27.23%   65.962      1 Template:Pp-semi-protected"," 21.96%   53.196      2 Portal:Contents/TOC_navbar"," 21.48%   52.036      1 Portal:Contents/Portals/Intro"," 20.67%   50.081      5 Template:Center"," 18.54%   44.914     40 Template:Clickable_button_2"," 12.64%   30.616      1 Template:Portal_nav_footer"," 11.30%   27.365      2 Template:Small","  9.82%   23.800      1 Template:Portals2"]},"scribunto":{"limitreport-timeusage":{"value":"0.073","limit":"10.000"},"limitreport-memusage":{"value":2733066,"limit":52428800}},"cachereport":{"origin":"mw1256","timestamp":"20170407030523","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":59,"wgHostname":"mw1272"});});
 	
 

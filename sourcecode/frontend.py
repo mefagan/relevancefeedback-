@@ -68,7 +68,6 @@ class MainHandler(tornado.web.RequestHandler):
         filename = str(i)
         with open(os.path.join(path, filename), 'wb') as temp_file:
           temp_file.write(tag_free.encode('utf-8'))
-        print(tag_free)
         i=i+1
 
         
