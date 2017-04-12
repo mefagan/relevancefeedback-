@@ -2,20 +2,26 @@
 import sys
 import os
 from nltk.corpus import stopwords
-cachedStopWords = stopwords.words("english")
+from nltk.tokenize import word_tokenize
 
 def stripStopWords(text, i):
 	#print(text)
-	filtered_text = ' '.join([word for word in text.split() if word in cachedStopWords])
-	print(filtered_text)
-	path = 'noStopWords_files'
-	if not os.path.exists(path):
-		os.makedirs(path)
-	f = str(i)
+	stop_words = stopwords.words("english")
+	#text = text.decode('unicode_escape').encode('ascii','ignore')
+	#tokenized_text = word_tokenize(text)
+	#print(tokenized_text)
+	clean_text = ' '.join([word for word in text.split() if word not in stop_words])
+	print(clean_text)
+
+	#print(clean_text)
+	#path = 'noStopWords_files'
+	#if not os.path.exists(path):
+	#	os.makedirs(path)
+	#f = str(i)
 	#print(text)
 
-	with open(os.path.join(path, f), 'wb') as temp_file:
-		temp_file.write(filtered_text)
+	#with open(os.path.join(path, f), 'wb') as temp_file:
+	#	temp_file.write(filtered_words#)
 
 def main():
 	path = 'strippedHTML_files'
