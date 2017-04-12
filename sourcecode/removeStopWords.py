@@ -1,12 +1,13 @@
 #code adapted from http://stackoverflow.com/questions/19560498/faster-way-to-remove-stop-words-in-python
 import sys
 import os
-from nltk.corpus import stopwords
 
 def stripStopWords(text, i):
 	#print(text)
-	file = open('stop_words.txt','w') 
-	
+	with open('stop_words.txt', 'r') as myfile:
+		data=myfile.read()
+
+	stop_words = data.split()
 
 	#text = text.decode('unicode_escape').encode('ascii','ignore')
 	#tokenized_text = word_tokenize(text)

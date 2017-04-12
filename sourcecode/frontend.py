@@ -1,5 +1,6 @@
 #http://stackoverflow.com/questions/9745056/how-to-save-user-input-data-to-redis-using-tornado-python
 from stripHTML import strip_tags
+from removeStopWords import stripStopWords
 import os
 import codecs
 import tornado.ioloop
@@ -69,7 +70,16 @@ class MainHandler(tornado.web.RequestHandler):
           temp_file.write(tag_free.encode('utf-8'))
         i=i+1
 
-        
+
+      path = 'strippedHTML_files'
+      i = 0
+      for filename in os.listdir(path):
+        with open(os.path.join(path, filename), 'r') as myfile:
+          data=myfile.read()
+          stripStopWords(data, i)
+          i = i+1
+
+      
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 
