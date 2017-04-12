@@ -61,7 +61,6 @@ class MainHandler(tornado.web.RequestHandler):
         html = f.read()
         html = html.decode('utf-8')
         tag_free = strip_tags(html)
-        test = "hello good bye"
         path = 'strippedHTML_files'
         if not os.path.exists(path):
           os.makedirs(path)

@@ -1,11 +1,11 @@
 import subprocess
 
 def BuildSearchEngine(url, number, domain):
-    p1 = subprocess.Popen(["python3", "crawler.py", url, str(number), domain])
+    p1 = subprocess.call(["python3", "crawler.py", url, str(number), domain])
     p1.wait()
-    p2 = subprocess.Popen(["python2.6", "indexTest.py"])
+    p2 = subprocess.call(["python2.6", "indexTest.py"])
     p2.wait()
-    p3 = subprocess.Popen(["python2.7", "removeStopWords.py"])
+    p3 = subprocess.call(["python2.7", "removeStopWords.py"])
     p3.wait()
     # 90 is the timeout in seconds
     try:

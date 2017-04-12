@@ -2,11 +2,12 @@
 import sys
 import os
 from nltk.corpus import stopwords
-from nltk.tokenize import word_tokenize
 
 def stripStopWords(text, i):
 	#print(text)
-	stop_words = stopwords.words("english")
+	file = open('stop_words.txt','w') 
+	
+
 	#text = text.decode('unicode_escape').encode('ascii','ignore')
 	#tokenized_text = word_tokenize(text)
 	#print(tokenized_text)

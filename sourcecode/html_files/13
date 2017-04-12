@@ -4,11 +4,11 @@
 <meta charset="UTF-8"/>
 <title>Portal:Mathematics - Wikipedia</title>
 <script>document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );</script>
-<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Mathematics","wgTitle":"Mathematics","wgCurRevisionId":686628022,"wgRevisionId":686628022,"wgArticleId":1488464,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Wikipedia move-protected portals","Featured portals","Mathematics portal"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Mathematics","wgRelevantArticleId":1488464,"wgRequestId":"WOrjcwpAEKkAAHxQNFoAAABA","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q7778173","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.categoryTree.css":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Mathematics","wgTitle":"Mathematics","wgCurRevisionId":686628022,"wgRevisionId":686628022,"wgArticleId":1488464,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Wikipedia move-protected portals","Featured portals","Mathematics portal"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Mathematics","wgRelevantArticleId":1488464,"wgRequestId":"WO4WrApAEK0AAFVqhcAAAABQ","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q7778173","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.categoryTree.css":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
-<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
+});mw.loader.load(["ext.math.scripts","ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});</script>
+<link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=ext.categoryTree.css%7Cext.math.styles%7Cext.uls.interlanguage%7Cext.visualEditor.desktopArticleTarget.noscript%7Cext.wikimediaBadges%7Cmediawiki.legacy.commonPrint%2Cshared%7Cmediawiki.sectionAnchor%7Cmediawiki.skinning.interface%7Cskins.vector.styles%7Cwikibase.client.init&amp;only=styles&amp;skin=vector"/>
 <script async="" src="/w/load.php?debug=false&amp;lang=en&amp;modules=startup&amp;only=scripts&amp;skin=vector"></script>
 <meta name="ResourceLoaderDynamicStyles" content=""/>
 <link rel="stylesheet" href="/w/load.php?debug=false&amp;lang=en&amp;modules=site.styles&amp;only=styles&amp;skin=vector"/>
@@ -65,8 +65,8 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <div style="border: 1px solid tan; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
 <div style="float:right; width:100%">
 <div style="float:right;margin-left:1em">
-<center><a href="/wiki/Euclid" title="Euclid">Euclid</a></center>
-<p><a href="/wiki/File:Euclid.jpg" class="image" title="Euclid"><img alt="Euclid" src="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Euclid.jpg/200px-Euclid.jpg" width="200" height="167" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/2/21/Euclid.jpg/300px-Euclid.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/2/21/Euclid.jpg/400px-Euclid.jpg 2x" data-file-width="806" data-file-height="675" /></a><br /></p>
+<center><a href="/wiki/Pythagoras" title="Pythagoras">Pythagoras</a></center>
+<p><a href="/wiki/File:Kapitolinischer_Pythagoras_adjusted.jpg" class="image" title="Pythagoras"><img alt="Pythagoras" src="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kapitolinischer_Pythagoras_adjusted.jpg/200px-Kapitolinischer_Pythagoras_adjusted.jpg" width="200" height="267" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kapitolinischer_Pythagoras_adjusted.jpg/300px-Kapitolinischer_Pythagoras_adjusted.jpg 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Kapitolinischer_Pythagoras_adjusted.jpg/400px-Kapitolinischer_Pythagoras_adjusted.jpg 2x" data-file-width="449" data-file-height="599" /></a><br /></p>
 </div>
 <p><b><a href="/wiki/Mathematics" title="Mathematics">Mathematics</a></b> is the study of <a href="/wiki/Number" title="Number">numbers</a>, <a href="/wiki/Quantity" title="Quantity">quantity</a>, <a href="/wiki/Space" title="Space">space</a>, <a href="/wiki/Mathematical_structure" title="Mathematical structure">structure</a>, and <a href="/wiki/Calculus" title="Calculus">change</a>. Mathematics is used throughout the world as an essential tool in many fields, including <a href="/wiki/Natural_science" title="Natural science">natural science</a>, <a href="/wiki/Engineering" title="Engineering">engineering</a>, <a href="/wiki/Medicine" title="Medicine">medicine</a>, and the <a href="/wiki/Social_sciences" class="mw-redirect" title="Social sciences">social sciences</a>. <a href="/wiki/Applied_mathematics" title="Applied mathematics">Applied mathematics</a>, the branch of mathematics concerned with application of mathematical knowledge to other fields, inspires and makes use of new mathematical discoveries and sometimes leads to the development of entirely new mathematical disciplines, such as <a href="/wiki/Statistics" title="Statistics">statistics</a> and <a href="/wiki/Game_theory" title="Game theory">game theory</a>. Mathematicians also engage in <a href="/wiki/Pure_mathematics" title="Pure mathematics">pure mathematics</a>, or mathematics for its own sake, without having any application in mind. There is no clear line separating pure and applied mathematics, and practical applications for what began as pure mathematics are often discovered.</p>
 <div class="no print" align="right"><b><a href="/wiki/Mathematics" title="Mathematics">More about Mathematics...</a></b></div>
@@ -87,7 +87,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <div style="text-align:center; margin:0.25em auto 0.75em"><span class="noprint plainlinks purgelink"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Portal:Mathematics&amp;action=purge"><span title="Purge this page"><b>View new selections below</b> (purge)</span></a></span></div>
 <div class="portal-column-left-wide">
 <div style="clear: both; border: solid tan; border-width: 1px 1px 0; background: antiquewhite; color: #503b1e; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
-<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #503b1e"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Portal:Mathematics/Selected_article/29&amp;action=edit"><span style="color: #503b1e">edit</span></a>&#160;&#160;</div>
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #503b1e"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Portal:Mathematics/Selected_article/28&amp;action=edit"><span style="color: #503b1e">edit</span></a>&#160;&#160;</div>
 <h2 style="font-family:sans-serif; font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#503b1e;"><span class="mw-headline" id="Selected_article">Selected article</span></h2>
 </div>
 <div style="border: 1px solid tan; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
@@ -96,40 +96,205 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <tr>
 <td>
 <div class="center">
-<div class="floatnone"><a href="/wiki/File:6n-graf.svg" class="image"><img alt="6n-graf.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/200px-6n-graf.svg.png" width="200" height="132" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/300px-6n-graf.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/5b/6n-graf.svg/400px-6n-graf.svg.png 2x" data-file-width="333" data-file-height="220" /></a></div>
+<div class="floatnone"><a href="/wiki/File:Exp_derivative_at_0.svg" class="image"><img alt="Exp derivative at 0.svg" src="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Exp_derivative_at_0.svg/200px-Exp_derivative_at_0.svg.png" width="200" height="200" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/5/50/Exp_derivative_at_0.svg/300px-Exp_derivative_at_0.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/5/50/Exp_derivative_at_0.svg/400px-Exp_derivative_at_0.svg.png 2x" data-file-width="255" data-file-height="255" /></a></div>
 </div>
 </td>
 </tr>
 <tr>
-<td width="200" style="font-size: 85%; text-align: center;">A labeled graph on 6 vertices and 7 edges<br />
-<span style="font-size:smaller">Image credit: <a href="/wiki/User:Booyabazooka" class="mw-redirect" title="User:Booyabazooka">User:Booyabazooka</a></span></td>
+<td width="200" style="font-size: 85%; text-align: center;"><i>e</i> is the unique number such that the slope of <i>y</i>=<i>e<sup>x</sup></i> (blue curve) is exactly 1 when <i>x</i>=0 (illustrated by the red <a href="/wiki/Point_of_tangency" class="mw-redirect" title="Point of tangency">tangent line</a>). For comparison, the curves <i>y</i>=2<sup>x</sup> (dotted curve) and <i>y</i>=4<sup>x</sup> (dashed curve) are shown.<br />
+<span style="font-size:smaller">Image credit: <a href="/wiki/User:Dicklyon" title="User:Dicklyon">Dick Lyon</a></span></td>
 </tr>
 </table>
-<p>Informally speaking, a <b>graph</b> is a set of objects called <i>points</i>, <i>nodes</i>, or <i>vertices</i> connected by links called <i>lines</i> or <i>edges</i>. In a proper graph, which is by default <i>undirected</i>, a line from point <i>A</i> to point <i>B</i> is considered to be the same thing as a line from point <i>B</i> to point <i>A</i>. In a <i>digraph</i>, short for <i>directed graph</i>, the two directions are counted as being distinct <i>arcs</i> or <i>directed edges</i>. Typically, a graph is depicted in diagrammatic form as a set of dots (for the points, vertices, or nodes), joined by curves (for the lines or edges). Graphs have applications in both <a href="/wiki/Mathematics" title="Mathematics">mathematics</a> and <a href="/wiki/Computer_science" title="Computer science">computer science</a>, and form the basic object of study in <a href="/wiki/Graph_theory" title="Graph theory">graph theory</a>.</p>
-<p>Applications of graph theory are generally concerned with labeled graphs and various specializations of these. Many problems of practical interest can be represented by graphs. The link structure of a <a href="/wiki/Website" title="Website">website</a> could be represented by a directed graph: the vertices are the web pages available at the website and a directed edge from page <i>A</i> to page <i>B</i> exists if and only if <i>A</i> contains a link to <i>B</i>. A graph structure can be extended by assigning a weight to each edge of the graph. Graphs with weights, or <a href="/wiki/Weighted_graph" class="mw-redirect" title="Weighted graph">weighted graphs</a>, are used to represent structures in which pairwise connections have some numerical values. For example if a graph represents a road network, the weights could represent the length of each road. A digraph with weighted edges in the context of graph theory is called a <a href="/wiki/Network_(mathematics)" class="mw-redirect" title="Network (mathematics)">network</a>. Networks have many uses in the practical side of graph theory, <a href="/wiki/Network_theory" title="Network theory">network analysis</a> (for example, to model and analyze traffic networks).</p>
+<p><a href="/wiki/E_(mathematical_constant)" title="E (mathematical constant)">The mathematical constant <i><b>e</b></i></a> is occasionally called <b>Euler's number</b> after the <a href="/wiki/Switzerland" title="Switzerland">Swiss</a> <a href="/wiki/Mathematician" title="Mathematician">mathematician</a> <a href="/wiki/Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a>, or <b>Napier's constant</b> in honor of the <a href="/wiki/Scotland" title="Scotland">Scottish</a> mathematician <a href="/wiki/John_Napier" title="John Napier">John Napier</a> who introduced <a href="/wiki/Logarithm" title="Logarithm">logarithms</a>. It is one of the most important numbers in mathematics, alongside the additive and multiplicative identities <a href="/wiki/0_(number)" class="mw-redirect" title="0 (number)">0</a> and <a href="/wiki/1_(number)" class="mw-redirect" title="1 (number)">1</a>, the <a href="/wiki/Imaginary_unit" title="Imaginary unit">imaginary unit</a> <i>i</i>, and <a href="/wiki/Pi" title="Pi">π</a>, the circumference to diameter ratio for any circle. It has a number of equivalent definitions. One is given in the caption of the image to the right, and three more are:</p>
+<ol>
+<li>The sum of the <a href="/wiki/Infinite_series" class="mw-redirect" title="Infinite series">infinite series</a>
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mrow class="MJX-TeXAtom-ORD">
+          <mtable columnalign="right left right left right left right left right left right left" rowspacing="3pt" columnspacing="0em 2em 0em 2em 0em 2em 0em 2em 0em 2em 0em" displaystyle="true">
+            <mtr>
+              <mtd>
+                <mi>e</mi>
+              </mtd>
+              <mtd>
+                <mi></mi>
+                <mo>=</mo>
+                <munderover>
+                  <mo>&#x2211;<!-- ∑ --></mo>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi>n</mi>
+                    <mo>=</mo>
+                    <mn>0</mn>
+                  </mrow>
+                  <mrow class="MJX-TeXAtom-ORD">
+                    <mi mathvariant="normal">&#x221E;<!-- ∞ --></mi>
+                  </mrow>
+                </munderover>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mrow>
+                      <mi>n</mi>
+                      <mo>!</mo>
+                    </mrow>
+                  </mfrac>
+                </mrow>
+              </mtd>
+            </mtr>
+            <mtr>
+              <mtd />
+              <mtd>
+                <mi></mi>
+                <mo>=</mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mrow>
+                      <mn>0</mn>
+                      <mo>!</mo>
+                    </mrow>
+                  </mfrac>
+                </mrow>
+                <mo>+</mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mrow>
+                      <mn>1</mn>
+                      <mo>!</mo>
+                    </mrow>
+                  </mfrac>
+                </mrow>
+                <mo>+</mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mrow>
+                      <mn>2</mn>
+                      <mo>!</mo>
+                    </mrow>
+                  </mfrac>
+                </mrow>
+                <mo>+</mo>
+                <mrow class="MJX-TeXAtom-ORD">
+                  <mfrac>
+                    <mn>1</mn>
+                    <mrow>
+                      <mn>3</mn>
+                      <mo>!</mo>
+                    </mrow>
+                  </mfrac>
+                </mrow>
+                <mo>+</mo>
+                <mo>&#x22EF;<!-- ⋯ --></mo>
+              </mtd>
+            </mtr>
+          </mtable>
+        </mrow>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle {\begin{aligned}e&amp;=\sum _{n=0}^{\infty }{\frac {1}{n!}}\\&amp;={\frac {1}{0!}}+{\frac {1}{1!}}+{\frac {1}{2!}}+{\frac {1}{3!}}+\cdots \\\end{aligned}}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/78071b5aa77774b0f3ae147f1c7c2bcbdb17428e" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -5.838ex; width:29.757ex; height:12.676ex;" alt="{\begin{aligned}e&amp;=\sum _{{n=0}}^{\infty }{\frac  {1}{n!}}\\&amp;={\frac  {1}{0!}}+{\frac  {1}{1!}}+{\frac  {1}{2!}}+{\frac  {1}{3!}}+\cdots \\\end{aligned}}" /></span></dd>
+<dd>where <i>n</i>! is the <a href="/wiki/Factorial" title="Factorial">factorial</a> of <i>n</i>.</dd>
+</dl>
+</li>
+<li>The <a href="/wiki/Global_maximum" class="mw-redirect" title="Global maximum">global maximizer</a> of the function
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>f</mi>
+        <mo stretchy="false">(</mo>
+        <mi>x</mi>
+        <mo stretchy="false">)</mo>
+        <mo>=</mo>
+        <msup>
+          <mi>x</mi>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mfrac>
+              <mn>1</mn>
+              <mi>x</mi>
+            </mfrac>
+          </mrow>
+        </msup>
+        <mo>.</mo>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle f(x)=x^{1 \over x}.}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/0219982afc42346a7ace75a1199bc550d270eacc" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -0.838ex; width:11.403ex; height:3.843ex;" alt="f(x)=x^{{1 \over x}}." /></span></dd>
+</dl>
+</li>
+<li>The <a href="/wiki/Limit_(mathematics)" title="Limit (mathematics)">limit</a>:
+<dl>
+<dd><span class="mwe-math-element"><span class="mwe-math-mathml-inline mwe-math-mathml-a11y" style="display: none;"><math xmlns="http://www.w3.org/1998/Math/MathML" >
+  <semantics>
+    <mrow class="MJX-TeXAtom-ORD">
+      <mstyle displaystyle="true" scriptlevel="0">
+        <mi>e</mi>
+        <mo>=</mo>
+        <munder>
+          <mo movablelimits="true" form="prefix">lim</mo>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+            <mo stretchy="false">&#x2192;<!-- → --></mo>
+            <mi mathvariant="normal">&#x221E;<!-- ∞ --></mi>
+          </mrow>
+        </munder>
+        <msup>
+          <mrow>
+            <mo>(</mo>
+            <mn>1</mn>
+            <mo>+</mo>
+            <mrow class="MJX-TeXAtom-ORD">
+              <mfrac>
+                <mn>1</mn>
+                <mi>n</mi>
+              </mfrac>
+            </mrow>
+            <mo>)</mo>
+          </mrow>
+          <mrow class="MJX-TeXAtom-ORD">
+            <mi>n</mi>
+          </mrow>
+        </msup>
+      </mstyle>
+    </mrow>
+    <annotation encoding="application/x-tex">{\displaystyle e=\lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}}</annotation>
+  </semantics>
+</math></span><img src="https://wikimedia.org/api/rest_v1/media/math/render/svg/e76702c87ce1c681ed1da8213125963524ca0ee6" class="mwe-math-fallback-image-inline" aria-hidden="true" style="vertical-align: -2.505ex; width:19.818ex; height:6.176ex;" alt="e=\lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}" /></span></dd>
+</dl>
+</li>
+</ol>
+<p>The number <i>e</i> is also the base of the <a href="/wiki/Natural_logarithm" title="Natural logarithm">natural logarithm</a>. Since <i>e</i> is <a href="/wiki/Transcendental_number" title="Transcendental number">transcendental</a>, and therefore <a href="/wiki/Irrational_number" title="Irrational number">irrational</a>, its value can not be given exactly. The numerical value of <i>e</i> truncated to 20 <a href="/wiki/Decimal" title="Decimal">decimal places</a> is 2.71828 18284 59045 23536.</p>
 <table width="100%" border="0" style="clear:both; padding:0; margin:0; background:transparent;">
 <tr>
 <td align="left"><b><a href="/wiki/Portal:Mathematics/Selected_article_archive" title="Portal:Mathematics/Selected article archive">View all selected articles</a></b></td>
-<td align="right"><b><a href="/wiki/Graph_(mathematics)" class="mw-redirect mw-disambig" title="Graph (mathematics)">Read More...</a></b></td>
+<td align="right"><b><a href="/wiki/E_(mathematical_constant)" title="E (mathematical constant)">Read More...</a></b></td>
 </tr>
 </table>
 <div style="clear:both;"></div>
 </div>
 <div style="clear: both; border: solid tan; border-width: 1px 1px 0; background: antiquewhite; color: #503b1e; padding: .1em;padding-top: .1em;padding-left: .1em;padding-right: .1em;padding-bottom: .1em;text-align: center;font-family: sans-serif;font-size:100%;margin-bottom: 0px;">
-<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #503b1e"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Portal:Mathematics/Selected_picture/5&amp;action=edit"><span style="color: #503b1e">edit</span></a>&#160;&#160;</div>
+<div class="plainlinks" style="float:right;margin-bottom:.1em;font-size:80%; color: #503b1e"><a class="external text" href="//en.wikipedia.org/w/index.php?title=Portal:Mathematics/Selected_picture/13&amp;action=edit"><span style="color: #503b1e">edit</span></a>&#160;&#160;</div>
 <h2 style="font-family:sans-serif; font-size:100%; font-weight:bold; border: none; margin: 0; padding:0; padding-bottom:.1em; color:#503b1e;"><span class="mw-headline" id="Selected_picture">Selected picture</span></h2>
 </div>
 <div style="border: 1px solid tan; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
 <div style="text-align: center;">
 <div style="display:table; margin: 0 auto 5px auto; padding:7px; border:4px ridge transparent">
 <div class="center">
-<div class="floatnone"><a href="/wiki/File:Knight%27s_tour_anim_2.gif" class="image" title="animation of one possible knight's tour on a chess board"><img alt="animation of one possible knight's tour on a chess board" src="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Knight%27s_tour_anim_2.gif/250px-Knight%27s_tour_anim_2.gif" width="250" height="250" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/d/da/Knight%27s_tour_anim_2.gif/375px-Knight%27s_tour_anim_2.gif 1.5x, //upload.wikimedia.org/wikipedia/commons/d/da/Knight%27s_tour_anim_2.gif 2x" data-file-width="408" data-file-height="408" /></a></div>
+<div class="floatnone"><a href="/wiki/File:Zeta_polar.svg" class="image" title="graph in the complex plane showing a looping curve passing several times through the origin"><img alt="graph in the complex plane showing a looping curve passing several times through the origin" src="//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Zeta_polar.svg/320px-Zeta_polar.svg.png" width="320" height="274" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Zeta_polar.svg/480px-Zeta_polar.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/7/7f/Zeta_polar.svg/640px-Zeta_polar.svg.png 2x" data-file-width="560" data-file-height="480" /></a></div>
 </div>
 </div>
-<div class="noprint" style="display:table; margin: 0 auto; width:33%;"><small>Credit: <a href="/wiki/User:Ilmari_Karonen" title="User:Ilmari Karonen">Ilmari Karonen</a></small></div>
-<p>The <b><a href="/wiki/Knight%27s_tour" title="Knight's tour">knight's tour</a></b> is a <a href="/wiki/Mathematical_chess_problem" title="Mathematical chess problem">mathematical chess problem</a> in which the piece called the <a href="/wiki/Knight_(chess)" title="Knight (chess)">knight</a> is to visit each square on an otherwise empty <a href="/wiki/Chess" title="Chess">chess</a> board exactly once, using only legal moves. It is a special case of the more general <a href="/wiki/Hamiltonian_path_problem" title="Hamiltonian path problem">Hamiltonian path problem</a> in <a href="/wiki/Graph_theory" title="Graph theory">graph theory</a>. (A closely related non-Hamiltonian problem is that of the <a href="/wiki/Longest_uncrossed_knight%27s_path" title="Longest uncrossed knight's path">longest uncrossed knight's path</a>.) The tour is called <i>closed</i> if the knight ends on a square from which it may legally move to its starting square (thereby <a href="/wiki/File:Turk-knights-tour.svg" title="File:Turk-knights-tour.svg">forming an endless cycle</a>), and <i>open</i> if not. The tour shown in this animation is open (see also a <a href="/wiki/File:Knight%27s_tour.svg" title="File:Knight's tour.svg">static image of the completed tour</a>). On a standard <span class="texhtml">8 × 8</span> board there are 26,534,728,821,064 possible closed tours and 39,183,656,341,959,808 open tours (counting separately any tours that are <a href="/wiki/Euclidean_plane_isometry" title="Euclidean plane isometry">equivalent by</a> rotation, reflection, or reversing the direction of travel). Although the earliest known solutions to the knight's tour problem date back to the 9th century <abbr title="Common Era">CE</abbr>, the first general procedure for completing the knight's tour was <a href="/wiki/Knight%27s_tour#Warnsdorff.27s_rule" title="Knight's tour">Warnsdorff's rule</a>, first described in 1823. The knight's tour was one of many <a href="/wiki/Chess_puzzle" title="Chess puzzle">chess puzzles</a> solved by <a href="/wiki/The_Turk" title="The Turk">The Turk</a>, a fake chess-playing machine exhibited as an <a href="/wiki/Automaton" title="Automaton">automaton</a> from 1770 to 1854, and exposed in the early 1820s as an elaborate hoax. True <a href="/wiki/Computer_chess" title="Computer chess">chess-playing automatons</a> (i.e., computer programs) appeared in the 1950s, and by 1988 had become sufficiently advanced to win a match against a <a href="/wiki/Grandmaster_(chess)" title="Grandmaster (chess)">grandmaster</a>; in 1997, <a href="/wiki/Deep_Blue_(chess_computer)" title="Deep Blue (chess computer)">Deep Blue</a> famously became the first computer system to defeat a reigning world champion (<a href="/wiki/Garry_Kasparov" title="Garry Kasparov">Garry Kasparov</a>) in a match under standard tournament time controls. Despite these advances, there is still debate as to whether <a href="/wiki/Solving_chess" title="Solving chess">chess will ever be "solved"</a> as a computer problem (meaning an algorithm will be developed that can never lose a chess match). According to <a href="/wiki/Zermelo%27s_theorem_(game_theory)" title="Zermelo's theorem (game theory)">Zermelo's theorem</a>, such an algorithm does exist.</p>
+<div class="noprint" style="display:table; margin: 0 auto; width:33%;"><small>Credit: <a href="/wiki/User:Linas" title="User:Linas">Linas Vepstas</a></small></div>
+<p>This is a graph of a portion of the complex-valued <b><a href="/wiki/Riemann_zeta_function" title="Riemann zeta function">Riemann zeta function</a></b> along the <i>critical line</i> (the set of <a href="/wiki/Complex_number" title="Complex number">complex numbers</a> having real part equal to <span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center;"><span style="display:block; line-height:1em; margin:0 0.1em;">1</span><span class="visualhide">/</span><span style="display:block; line-height:1em; margin:0 0.1em; border-top:1px solid;">2</span></span>). More specifically, it is a graph of <span class="texhtml">Im ζ(<span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center;"><span style="display:block; line-height:1em; margin:0 0.1em;">1</span><span class="visualhide">/</span><span style="display:block; line-height:1em; margin:0 0.1em; border-top:1px solid;">2</span></span> + <i>it</i>)</span> versus <span class="texhtml">Re ζ(<span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center;"><span style="display:block; line-height:1em; margin:0 0.1em;">1</span><span class="visualhide">/</span><span style="display:block; line-height:1em; margin:0 0.1em; border-top:1px solid;">2</span></span> + <i>it</i>)</span> (the imaginary part vs.&#160;the real part) for values of the real variable <span class="texhtml mvar" style="font-style:italic;">t</span> running from 0 to 34 (the curve starts at its leftmost point, with real part approximately −1.46 and imaginary part 0). The first five <a href="/wiki/Zero_of_a_function" title="Zero of a function">zeros</a> along the critical line are visible in this graph as the five times the curve passes through the origin (which occur at <span class="texhtml mvar" style="font-style:italic;">t</span>&#160;<abbr title="approximately equal to">≈</abbr>&#160;14.13, 21.02, 25.01, 30.42, and 32.93 — for a different perspective, see <a href="/wiki/File:Zeta0.5_100.svg" title="File:Zeta0.5 100.svg">a graph of the real and imaginary parts</a> of this function plotted separately over a wider range of values). In 1914, <a href="/wiki/G._H._Hardy" title="G. H. Hardy">G. H. Hardy</a> proved that <span class="texhtml">ζ(<span class="sfrac nowrap" style="display:inline-block; vertical-align:-0.5em; font-size:85%; text-align:center;"><span style="display:block; line-height:1em; margin:0 0.1em;">1</span><span class="visualhide">/</span><span style="display:block; line-height:1em; margin:0 0.1em; border-top:1px solid;">2</span></span> + <i>it</i>)</span> has infinitely many zeros. According to the <a href="/wiki/Riemann_hypothesis" title="Riemann hypothesis">Riemann hypothesis</a>, zeros of this form constitute the only <a href="/wiki/Riemann_zeta_function#The_functional_equation" title="Riemann zeta function">non-trivial zeros</a> of the full zeta function, <span class="texhtml">ζ(<i>s</i>)</span>, where <span class="texhtml mvar" style="font-style:italic;">s</span> varies over all complex numbers. Riemann's zeta function grew out of <a href="/wiki/Leonhard_Euler" title="Leonhard Euler">Leonhard Euler</a>'s study of real-valued <a href="/wiki/Infinite_series" class="mw-redirect" title="Infinite series">infinite series</a> in the early 18th century. In a famous 1859 paper called "<a href="/wiki/On_the_Number_of_Primes_Less_Than_a_Given_Magnitude" title="On the Number of Primes Less Than a Given Magnitude">On the Number of Primes Less Than a Given Magnitude</a>", <a href="/wiki/Bernhard_Riemann" title="Bernhard Riemann">Bernhard Riemann</a> extended Euler's results to the complex plane and established a relation between the zeros of his zeta function and <a href="/wiki/Prime_number_theorem" title="Prime number theorem">the distribution of prime numbers</a>. The paper also contained the previously mentioned Riemann hypothesis, which is considered by many mathematicians to be the most important <a href="/wiki/List_of_unsolved_problems_in_mathematics" title="List of unsolved problems in mathematics">unsolved problem</a> in <a href="/wiki/Pure_mathematics" title="Pure mathematics">pure mathematics</a>. The Riemann zeta function plays a pivotal role in <a href="/wiki/Analytic_number_theory" title="Analytic number theory">analytic number theory</a> and has applications in <a href="/wiki/Physics" title="Physics">physics</a>, <a href="/wiki/Probability_theory" title="Probability theory">probability theory</a>, and applied <a href="/wiki/Statistics" title="Statistics">statistics</a>.</p>
 </div>
-<div class="noprint" style="border:0; padding:0; margin:0;"><span style="display:inline-block; text-align:left; width:32%;"><b><a href="/wiki/Portal:Mathematics/Selected_picture" title="Portal:Mathematics/Selected picture">More selected pictures...</a></b></span><span style="display:inline-block; text-align:center; width:34%;">&#160;</span><span style="display:inline-block; text-align:right; width:32%;"><b><a href="/wiki/Knight%27s_tour" title="Knight's tour">Read more...</a></b></span></div>
+<div class="noprint" style="border:0; padding:0; margin:0;"><span style="display:inline-block; text-align:left; width:32%;"><b><a href="/wiki/Portal:Mathematics/Selected_picture" title="Portal:Mathematics/Selected picture">More selected pictures...</a></b></span><span style="display:inline-block; text-align:center; width:34%;">&#160;</span><span style="display:inline-block; text-align:right; width:32%;"><b><a href="/wiki/Riemann_zeta_function" title="Riemann zeta function">Read more...</a></b></span></div>
 <div style="clear:both;"></div>
 </div>
 </div>
@@ -141,13 +306,13 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 <div style="border: 1px solid tan; border-top-width: 1px; vertical-align: top;background: white;opacity: 1; color: black; text-align: left; margin: 0 0 10px; padding: 1em;padding-top: .3em;">
 <div class="floatright"><a href="/wiki/File:Nuvola_apps_filetypes.svg" class="image" title="Did you know..."><img alt="Did you know..." src="//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Nuvola_apps_filetypes.svg/50px-Nuvola_apps_filetypes.svg.png" width="50" height="50" srcset="//upload.wikimedia.org/wikipedia/commons/thumb/4/44/Nuvola_apps_filetypes.svg/75px-Nuvola_apps_filetypes.svg.png 1.5x, //upload.wikimedia.org/wikipedia/commons/thumb/4/44/Nuvola_apps_filetypes.svg/100px-Nuvola_apps_filetypes.svg.png 2x" data-file-width="128" data-file-height="128" /></a></div>
 <ul>
-<li>...there are 19 consecutive prime numbers ending in the digit 1, starting from 253931039382791?</li>
-<li>...that the <a href="/wiki/Electronic_Frontier_Foundation" title="Electronic Frontier Foundation">Electronic Frontier Foundation</a> funds awards for the discovery of <a href="/wiki/Prime_number" title="Prime number">prime numbers</a> beyond certain sizes?</li>
-<li>...an <a href="/wiki/Golden_ratio#Alternative_forms" title="Golden ratio">infinite, nonrepeating decimal</a> can be represented using only the number 1 using <a href="/wiki/Continued_fraction" title="Continued fraction">continued fractions</a>?</li>
-<li>...that outstanding mathematician <a href="/wiki/Grigori_Perelman" title="Grigori Perelman">Grigori Perelman</a> was offered a <a href="/wiki/Fields_Medal" title="Fields Medal">Fields Medal</a> in 2006, in part for his proof of the <a href="/wiki/Poincar%C3%A9_conjecture" title="Poincaré conjecture">Poincaré conjecture</a>, which he declined?</li>
-<li>...that a regular <a href="/wiki/Heptagon" title="Heptagon">heptagon</a> is the <a href="/wiki/Regular_polygon" title="Regular polygon">regular polygon</a> with the fewest number of sides which is not <a href="/wiki/Constructible_polygon" title="Constructible polygon">constructible</a> with a <a href="/wiki/Compass_and_straightedge" class="mw-redirect" title="Compass and straightedge">compass and straightedge</a>?</li>
-<li>...that the <a href="/wiki/Gudermannian_function" title="Gudermannian function">Gudermannian function</a> relates the regular <a href="/wiki/Trigonometric_function" class="mw-redirect" title="Trigonometric function">trigonometric functions</a> and the <a href="/wiki/Hyperbolic_trigonometric_function" class="mw-redirect" title="Hyperbolic trigonometric function">hyperbolic trigonometric functions</a> without the use of <a href="/wiki/Complex_number" title="Complex number">complex numbers</a>?</li>
-<li>...that the <a href="/wiki/Catalan_number" title="Catalan number">Catalan numbers</a> solve a number of problems in <a href="/wiki/Combinatorics" title="Combinatorics">combinatorics</a> such as the number of ways to completely parenthesize an algebraic expression with <i>n</i>+1 factors?</li>
+<li>...that every <a href="/wiki/Natural_number" title="Natural number">natural number</a> can be written as the sum of <a href="/wiki/Lagrange%27s_four-square_theorem" title="Lagrange's four-square theorem">four squares</a>?</li>
+<li>...that the <a href="/wiki/Largest_known_prime_number" title="Largest known prime number">largest known prime number</a> is over 22 <a href="/wiki/Million" class="mw-redirect" title="Million">million</a> digits long?</li>
+<li>...that the set of <a href="/wiki/Rational_number" title="Rational number">rational numbers</a> is equal in size to the subset of <a href="/wiki/Integer" title="Integer">integers</a>; that is, they can be put in <a href="/wiki/One-to-one_correspondence" class="mw-redirect" title="One-to-one correspondence">one-to-one correspondence</a>?</li>
+<li>...that there are precisely six <a href="/wiki/Convex_regular_4-polytope" class="mw-redirect" title="Convex regular 4-polytope">convex regular polytopes</a> in four <a href="/wiki/Dimension" title="Dimension">dimensions</a>? These are analogs of the five <a href="/wiki/Platonic_solid" title="Platonic solid">Platonic solids</a> known to the <a href="/wiki/Greek_mathematics" title="Greek mathematics">ancient Greeks</a>.</li>
+<li>...that it is unknown whether <a href="/wiki/Pi" title="Pi">π</a> and <a href="/wiki/E_(mathematical_constant)" title="E (mathematical constant)"><i>e</i></a> are <a href="/wiki/Algebraic_independence" title="Algebraic independence">algebraically independent</a>?</li>
+<li>...that a nonconvex <a href="/wiki/Polygon" title="Polygon">polygon</a> with three <a href="/wiki/Convex_set" title="Convex set">convex</a> vertices is called a <a href="/wiki/Pseudotriangle" title="Pseudotriangle">pseudotriangle</a>?</li>
+<li>...that it is possible for a three dimensional figure to have a finite <a href="/wiki/Volume" title="Volume">volume</a> but infinite <a href="/wiki/Surface_area" title="Surface area">surface area</a>? An example of this is <a href="/wiki/Gabriel%27s_Horn" title="Gabriel's Horn">Gabriel's Horn</a>.</li>
 </ul>
 <p>&#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160; &#160;</p>
 <div style="float: left;"><i><small>Showing 7 items out of 72</small></i></div>
@@ -720,36 +885,36 @@ Database<br /></p>
 
 <!-- 
 NewPP limit report
-Parsed by mw1182
-Cached time: 20170410014230
+Parsed by mw1257
+Cached time: 20170412115850
 Cache expiry: 3600
 Dynamic content: true
-CPU time usage: 0.208 seconds
-Real time usage: 0.362 seconds
-Preprocessor visited node count: 2203/1000000
+CPU time usage: 0.216 seconds
+Real time usage: 0.445 seconds
+Preprocessor visited node count: 2377/1000000
 Preprocessor generated node count: 0/1500000
-Post‐expand include size: 85237/2097152 bytes
-Template argument size: 9764/2097152 bytes
+Post‐expand include size: 92470/2097152 bytes
+Template argument size: 12116/2097152 bytes
 Highest expansion depth: 21/40
 Expensive parser function count: 3/500
-Lua time usage: 0.038/10.000 seconds
-Lua memory usage: 1.3 MB/50 MB
+Lua time usage: 0.044/10.000 seconds
+Lua memory usage: 1.51 MB/50 MB
 -->
 <!--
 Transclusion expansion time report (%,ms,calls,template)
-100.00%  208.883      1 -total
- 25.84%   53.984      1 Template:Pp-semi-indef
- 14.64%   30.586      1 Portal:Mathematics/Random_portal_component
- 10.89%   22.747      1 Portal:Mathematics/Selected_article/29
-  9.70%   20.261      1 Template:Featured_portal
-  8.50%   17.745      1 Template:Top_icon
-  8.25%   17.229      1 Portal:Mathematics/Did_you_know
-  7.72%   16.128      1 Portal:Mathematics/Intro
-  7.42%   15.500     10 Portal:Mathematics/box-header
-  6.77%   14.151      1 Template:Category_handler
+100.00%  239.117      1 -total
+ 23.94%   57.235      1 Template:Pp-semi-indef
+ 14.90%   35.629      1 Portal:Mathematics/Did_you_know
+ 12.70%   30.362      1 Portal:Mathematics/Random_portal_component
+  9.89%   23.645      1 Template:Random_portal_component
+  8.95%   21.390      1 Portal:Mathematics/Selected_article/28
+  8.71%   20.838      1 Template:Featured_portal
+  7.65%   18.302      1 Portal:Mathematics/Intro
+  7.64%   18.266      1 Template:Top_icon
+  6.07%   14.503     10 Portal:Mathematics/box-header
 -->
 
-<!-- Saved in parser cache with key enwiki:pcache:idhash:1488464-0!*!0!!*!4!* and timestamp 20170410014229 and revision id 686628022
+<!-- Saved in parser cache with key enwiki:pcache:idhash:1488464-0!*!0!!*!4!*!math=5 and timestamp 20170412115850 and revision id 686628022
  -->
 <noscript><img src="//en.wikipedia.org/wiki/Special:CentralAutoLogin/start?type=1x1" alt="" title="" width="1" height="1" style="border: none; position: absolute;" /></noscript></div>					<div class="printfooter">
 						Retrieved from "<a dir="ltr" href="https://en.wikipedia.org/w/index.php?title=Portal:Mathematics&amp;oldid=686628022">https://en.wikipedia.org/w/index.php?title=Portal:Mathematics&amp;oldid=686628022</a>"					</div>
@@ -888,6 +1053,6 @@ additional terms may apply.  By using this site, you agree to the <a href="//wik
 									</ul>
 						<div style="clear:both"></div>
 		</div>
-		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.208","walltime":"0.362","ppvisitednodes":{"value":2203,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":85237,"limit":2097152},"templateargumentsize":{"value":9764,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  208.883      1 -total"," 25.84%   53.984      1 Template:Pp-semi-indef"," 14.64%   30.586      1 Portal:Mathematics/Random_portal_component"," 10.89%   22.747      1 Portal:Mathematics/Selected_article/29","  9.70%   20.261      1 Template:Featured_portal","  8.50%   17.745      1 Template:Top_icon","  8.25%   17.229      1 Portal:Mathematics/Did_you_know","  7.72%   16.128      1 Portal:Mathematics/Intro","  7.42%   15.500     10 Portal:Mathematics/box-header","  6.77%   14.151      1 Template:Category_handler"]},"scribunto":{"limitreport-timeusage":{"value":"0.038","limit":"10.000"},"limitreport-memusage":{"value":1366936,"limit":52428800}},"cachereport":{"origin":"mw1182","timestamp":"20170410014230","ttl":3600,"transientcontent":true}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":74,"wgHostname":"mw1214"});});</script>
+		<script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.216","walltime":"0.445","ppvisitednodes":{"value":2377,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":92470,"limit":2097152},"templateargumentsize":{"value":12116,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  239.117      1 -total"," 23.94%   57.235      1 Template:Pp-semi-indef"," 14.90%   35.629      1 Portal:Mathematics/Did_you_know"," 12.70%   30.362      1 Portal:Mathematics/Random_portal_component","  9.89%   23.645      1 Template:Random_portal_component","  8.95%   21.390      1 Portal:Mathematics/Selected_article/28","  8.71%   20.838      1 Template:Featured_portal","  7.65%   18.302      1 Portal:Mathematics/Intro","  7.64%   18.266      1 Template:Top_icon","  6.07%   14.503     10 Portal:Mathematics/box-header"]},"scribunto":{"limitreport-timeusage":{"value":"0.044","limit":"10.000"},"limitreport-memusage":{"value":1587877,"limit":52428800}},"cachereport":{"origin":"mw1257","timestamp":"20170412115850","ttl":3600,"transientcontent":true}}});});</script><script>(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":58,"wgHostname":"mw1218"});});</script>
 	</body>
 </html>

@@ -2,12 +2,12 @@
 
 
 
-Portal:Contents/Portals - Wikipedia
+Portal:History - Wikipedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Contents/Portals","wgTitle":"Contents/Portals","wgCurRevisionId":746645444,"wgRevisionId":746645444,"wgArticleId":2533281,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Wikipedia navigation","Content portals","Portals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Contents/Portals","wgRelevantArticleId":2533281,"wgRequestId":"WOcIfQpAAEMAAFqB0TAAAABU","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5008867","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.inputBox.styles":"ready","mediawiki.ui.input":"ready","mediawiki.ui.checkbox":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.ui.button":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:History","wgTitle":"History","wgCurRevisionId":749756545,"wgRevisionId":749756545,"wgArticleId":1685624,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Featured portals","History portal","History portals","History"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:History","wgRelevantArticleId":1685624,"wgRequestId":"WO5qSApAIC0AAD9f0Y8AAACM","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q175361","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.categoryTree.css":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+});mw.loader.load(["ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
 
 
 
@@ -33,649 +33,17 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 						
 
 
-			Portal:Contents/Portals
+
+			Portal:History
 									
 									From Wikipedia, the free encyclopedia
-								 Portal:Contents
+								
 												
 					Jump to:					navigation, 					search
 				
 				
 
-Contents Overview Outlines Lists Portals Glossaries Categories Indices
-
-
-Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology
-
-
-
-
-
-
-
-
-
-edit watch 
-Wikipedia's contents: Portals
-
-
-
-
-
- General reference
- Culture and the arts
- Geography and places
- Health and fitness
-
-
- History and events
- Mathematics and logic
- Natural and physical sciences
- People and self
-
-
- Philosophy and thinking
- Religion and belief systems
- Society and social sciences
- Technology and applied sciences
-
-
-
-
-
-
-
-
-
-
-
-
-About portals · Featured portals · Portal directory · Portals category
-
-Shortcuts:
-
-P:
-P:CP
-WP:8
-WP:PORT
-
-
-Portals complement main topics in Wikipedia, and expound upon topics by introducing the reader to key articles, images, and categories that further describe the subject and its related topics. Portals also assist in helping editors to find related projects and things they can do to improve Wikipedia, and provide a unique way to navigate Wikipedia topics.
-At present, the following 1490 portals exist. Of these, 173 are Featured portals .
-
-
-
-
-WikiProject
-Directory
-
-
-
-
-
-
-
-Regional
-Notice Boards
-
-
-
-You can also use the Special:Search box below to locate Portals and sub-pages.
-
-
-
-  
-
-
-
-
-
-
-
-
-
-
-edit watch 
- General reference (see in all page types)
-
-
-Library and information science
-
-
-
-
-
-
-
-edit watch 
- Culture and the arts (see in all page types)
-
-
-
-
-
-
-Culture
-
-Language: Constructed languages (Esperanto), English
-
-Arts (Aesthetics)
-
-Literature: Books•  Comics•  Children's literature•  French literature•  Poetry•  Writing
-
-Authors: Jane Austen•  Charles Dickens•  William Shakespeare•  Oscar Wilde•  Kazi Nazrul Islam
-Novels: Dragonlance, Harry Potter, Hitchhiker's Guide to the Galaxy
-Fictional worlds: Discworld, James Bond, Middle-earth, Narnia, Oz, Fictional characters
-
-
-
-
-Performing arts
-
-Dance: Ballet
-Film: A Nightmare on Elm Street, Academy Award, Alien, Animation, Bollywood, Disney, Indiana Jones, Silent film, Star Wars
-Music: Music of Australia•  Music of Canada •  Record production
-
-Styles: Alternative rock, Blues, Christian music, Classical guitar, Classical music, Country music, Electronic music, Eurovision, Guitar, Heavy metal (Christian metal), Hip hop, Indian classical music, Industrial music, Jazz, K-pop, Latin music, Marching band, Percussion, Piano, Pipe organ, Pop music, Progressive rock, Punk rock, Rock and Roll, Rock music, RB and Soul Music
-Artists: AC/DC, AKB48, A. R. Rahman, Bryan Adams, Aerosmith, Christina Aguilera, Backstreet Boys, The Beach Boys, The Beatles, Justin Bieber, Björk, Brandy Norwood, Mariah Carey, Cher, Kelly Clarkson, The Clash, Miley Cyrus, Celine Dion, Dream Theater, Bob Dylan, Grateful Dead, Eminem, Fergie, Marvin Gaye, Girls Aloud, Green Day, Iron Maiden, The Jackson Family, Janet Jackson, Michael Jackson, The Kinks, Beyoncé, Lady Gaga, Avril Lavigne, Led Zeppelin, Linkin Park, Madonna, Miles Davis, Motörhead, Katy Perry, Pink Floyd, Powderfinger, Elvis Presley, Queen, Rihanna, The Rolling Stones, Sakis Rouvas, Rush, Santana, Britney Spears, The Supremes, Slipknot, Shania Twain, Shreya Ghoshal, U2, Usher, Rufus Wainwright, Neil Young, Frank Zappa, Shakira
-
-
-Opera: Gilbert  Sullivan
-Television: Australian television, BBC, The Big Bang Theory, Buffy the Vampire Slayer, Cartoon Network, Doctor Who, EastEnders, Ed, Edd n Eddy, Family Guy, Friends, Futurama, House, M.D., M*A*S*H, Millennium, Monty Python, Muppets, Nickelodeon, SpongeBob SquarePants, Star Trek, 24, The Simpsons, Sherlock Holmes
-Theatre: Musical theatre
-
-
-
-
-
-
-
-
-Visual arts:
-
-Portal:Anime and manga (Dragon Ball)•  Architecture (Portal)•  Cartoon•  Computer graphics•  Design•  Graffiti•  Origami•  Photography•  Studio Ghibli•  Textile arts (Fashion, Knitting)• Typography
-
-
-
-
-Genre: Comedy•  Furry•  Horror fiction•  King Arthur•  Mythology•  Pornography•  Speculative fiction• Steampunk•  Superhero fiction
-
-Recreation and Entertainment
-
-Food: Bacon
-Drink: Beer, Coffee, Liquor, Wine
-
-
-Sports: Asian Games· Association football (A-League, Football in Argentina, Association football variants, Football in Africa, Football in Germany, Football in India, English football, Soccer in the United States, Women's association football)•  Athletics•  Australian rules football•  Badminton•  Baseball•  Basketball (College basketball, National Basketball Association)•  Sport of Canada•  Commonwealth Games•  Cricket (Australian cricket team in England in 1948, Indian Premier League)•  Cycling•  Fencing•  Figure skating• Fishing•  Gridiron football (American football, Canadian football, College football, National Football League)•  Golf•  Gymnastics•  Horse racing•  Ice hockey•  Martial arts (Karate)• Olympics•  Paralympics•  Professional wrestling•  Racing (Motorsport: Formula One, NASCAR, Motorcycle racing)•  Rock climbing•  Rugby (Rugby league, Rugby union)•  Sailing•  Snooker•  Tennis•  Water sports (Swimming, Underwater diving) •  Women's sport
-Games: Amusement parks•  Strategy games (Chess, Warhammer)•  Role-playing games (Dungeons  Dragons)
-
-Video games: Final Fantasy•  Halo•  Mario•  Massively multiplayer online games•  Nintendo•  PlayStation•  Pokémon•  Sega•  SNK •  The Sims•  Sonic the Hedgehog•  Xbox•  Zelda
-
-
-
-
-Hobbies, Crafts and Other: Gardening•  Gemology and Jewelry•  Home improvement• Numismatics•  Philately•  Radio•  Scouting•  Toys (Lego)
-
-
-
-
-
-
-
-
-
-
-
-edit watch 
- Geography and places (see in all page types)
-
-
-
-
-Geography(Atlas • Islands • Mountains)
-Africa
-
-Algeria• Angola • Benin • Botswana • Burkina Faso • Burundi • Cameroon • Cape Verde • Central African Republic• Chad • Côte d'Ivoire• Republic of the Congo• Democratic Republic of the Congo• Djibouti• Egypt• Eritrea• Ethiopia • Gabon • The Gambia • Ghana• Guinea• Guinea-Bissau• Kenya (Mombasa, Nairobi) • Liberia • Libya• Madagascar • Malawi • Mali• Mauritania• Mauritius • Morocco• Mozambique• Namibia • Niger • Nigeria (Port Harcourt, Lagos) • Rwanda• São Tomé and Príncipe• Senegal• Sierra Leone• Somalia• South Africa• South Sudan• Sudan• Tanzania• Togo• Tunisia• Uganda• Western Sahara• Zambia• Zimbabwe
-
-Antarctica• Arctic
-Asia
-
-Bhutan• Bangladesh• (Bengal, Chittagong, Dhaka)• Cambodia• China (Beijing, Hong Kong, Macau, Shanghai, Shenzhen, Tibet)• Taiwan• Himalaya region• India (Andhra Pradesh, Assam, Bihar, Goa, Gujarat, Himachal Pradesh, Jharkhand, Karnataka, Kerala, Madhya Pradesh, Maharashtra, Odisha, Tamil Nadu, Telangana, Uttar Pradesh, West Bengal (Ahmedabad, Bangalore, Chandigarh, Chennai, Delhi, Hisar, Hyderabad, Kolkata, Kollam, Mumbai, Patna, Trichy, Udaipur, Jodhpur)• Indonesia• Japan (Osaka, Tokyo)• Kazakhstan• Korea (North Korea, South Korea, Seoul)• Kyrgyzstan• Malaysia• Mongolia• Nepal• Pakistan (Chitral, Karachi, Lahore, Jhelum, Islamabad, Sialkot)• Philippines (Bohol)• Punjab• SAARC• Singapore• Sri Lanka• Tajikistan• Thailand• Turkey• Vietnam
-
-Europe
-
-European Union
-
-Austria(Vienna,Tyrol)• Basque• Belgium(Brussels)• Bulgaria• Channel Islands• Corsica• Croatia• Czech Republic(Prague)• Denmark• Estonia• Finland• France(Paris,Lyon)• Germany(Baden-Württemberg• Bavaria• East Frisia• Hamburg• Lower Saxony• North Rhine-Westphalia• Saxony-Anhalt• Schleswig-Holstein)• Gibraltar• Greece(Macedonia)• Hungary (Budapest, Miskolc)• Ireland (Kilkenny)• Italy (Rome, Milan, Venice)• Latvia• Lithuania• Luxembourg• Malta• Netherlands• Poland• Portugal• Romania (Bucharest)• Silesia• Slovakia• Slovenia• Spain (Galicia)• Sweden• United Kingdom (England (Bristol, Cornwall, Devon, Hertfordshire, Lincolnshire, London, Luton, Stamford, North West England (Cheshire, Cumbria, Greater Manchester, Merseyside, Yorkshire), Somerset, Wiltshire, South East England (East Sussex, Kent, Hampshire, Oxfordshire))• Northern Ireland, Scotland, Wales)
-
-
-
-
-Albania(Tirana)• Andorra• Armenia• Azerbaijan• Belarus• Bosnia and Herzegovina• Catalan-speaking countries• Faroe Islands• Georgia• Iceland• Isle of Man• Kosovo• Republic of Macedonia• Moldova• Montenegro• Norway• Russia (Chechnya, Moscow)• Serbia• Switzerland(Geneva)• Turkey• Ukraine (Crimea)• Vatican City
-
-Latin America and Caribbean
-
-Argentina (Buenos Aires• Rosario) • Belize• Bermuda• Brazil• Bolivia• Chile (Pichilemu)• Colombia• Costa Rica• Cuba• Dominican Republic• Ecuador• El Salvador• Guatemala• Guyana• Haiti• Jamaica• Mexico• Nicaragua• Panama• Paraguay• Peru• Puerto Rico• Suriname• Trinidad and Tobago• Uruguay• Venezuela
-
-
-
-Places near you
-
-
-Middle East
-
-Afghanistan• Cyprus• Egypt• Iran (Tabaristan)• Iraq• Israel (Jerusalem)• Jordan• Kazakhstan• Kurdistan• Lebanon• Libya• Morocco• Oman• Palestine• Saudi Arabia• Syria• Tajikistan• Turkey• United Arab Emirates (Abu Dhabi)• Uzbekistan
-
-
-
-
-North America
-
-Canada: • Geography of Canada
-
-Alberta (Calgary, Edmonton)• BritishColumbia (Vancouver)• Manitoba• NewBrunswick• NewfoundlandandLabrador (St. John's)• NorthwestTerritories• NovaScotia• Nunavut• Ontario (EasternOntario• Ottawa•Toronto• Hamilton)• PrinceEdwardIsland • Quebec (Montreal, Quebec City, Estrie, Laurentides, Saguenay–Lac-Saint-Jean)• Saskatchewan• Yukon
-
-
-
-
-
-
-
-
-Mexico
-
-San Diego–Tijuana
-
-
-
-
-
-
-
-
-United States
-
-Alabama• Alaska• Arizona(Grand Canyon)• Arkansas• California(Greater Los Angeles• San Diego• San Diego–Tijuana, San Francisco Bay Area)• Colorado• Connecticut• Delaware• District of Columbia• Florida (Jacksonville• Miami)• Georgia• Hawaii• Idaho• Illinois(Chicago)• Indiana(Indianapolis)• Iowa• Kansas• Kentucky(Louisville)• Louisiana(New Orleans)• Maine• Maryland• Massachusetts (Boston)• Michigan(Detroit)• Minnesota• Mississippi• Missouri• Montana• Nebraska• Nevada(LasVegas)• New England• New Hampshire• New Jersey• New Mexico• New York(New York City• Capital District• Finger Lakes • Hudson Valley • Syracuse)• North Carolina• NorthDakota• Ohio(Cleveland)• Oklahoma• Oregon• Pennsylvania(Erie• Lancaster• Philadelphia• Pittsburgh)• Puerto Rico• Rhode Island• South Carolina• South Dakota• Tennessee• Texas(Austin• Dallas• Houston)• Utah• Vermont• Virginia• Washington(Seattle)• West Virginia• Wisconsin• Wyoming
-
-
-
-
-
-
-Oceania
-
-Australia
-
-Australian Capital Territory• New South Wales(City of Bankstown• Sydney)• Northern Territory• Queensland(Brisbane)• South Australia• Tasmania• Victoria(Melbourne)• Western Australia(Perth)
-
-
-Kiribati• Micronesia• New Zealand• Papua New Guinea• Tuvalu
-
-
-
-
-
-
-
-
-
-
-
-
-
-edit watch 
- Health and fitness (see in all page types)
-
-
-Health and fitness
-
-Medicine• Biology• Nursing• Dentistry• Food• Pharmacy and Pharmacology• Psychiatry• Pervasive developmental disorders• Complementary and Alternative Medicine• Sexuality• Viruses• Trauma  Orthopaedics• Sports
-
-
-
-
-
-
-
-
-
-edit watch 
- History and events (see in all page types)
-
-
-History
-
-Ancient Egypt• Ancient Germanic Culture• Ancient Greece• Ancient Japan• Ancient Near East• Ancient Rome (Military of ancient Rome)• Anglo-Saxon England• Crown of Aragon• Archaeology• Ashura• Austria-Hungary• British Empire• Bulgarian Empire• Byzantine Empire• Classical Civilization• Colonialism• Disasters • German Empire• Heraldry• History of Canada• History of the Latter Day Saint movement• History of Science• Indian independence movement• Khitan• Mesoamerica• Middle Ages• Nazi Germany• New France• Russian Empire• Sasanian Empire• Soviet Union
-War:American Revolutionary War• American Civil War• Cold War• Italian Wars• Liberation War• Military history of France• Military history of Africa• Military history of the Ottoman Empire• Napoleonic Wars• September 11 attacks• Syrian civil war• World War I• World War II
-1920s• 1930s• 1940s• 1950s• 1960s• 1970s• 1980s• 1990s• 2000s• 2010s
-
-Current events
-
-Sports
-
-Time
-
-Winter • Autumn
-
-Chronology
-
-
-
-
-
-
-
-edit watch 
- Mathematics and logic (see in all page types)
-
-
-Mathematics
-
-Algebra• Analysis• Category theory• Cryptography• Discrete mathematics• Geometry • Number theory• Topology
-
-Logic
-
-Set theory
-
-Statistics
-
-
-
-
-
-
-
-
-edit watch 
- Natural and physical sciences (see in all page types)
-
-
-Science
-
-History of Science• Philosophy of science• Systems science
-
-Biological science
-
-Agropedia• Amphibians and Reptiles• Animals• Arthropods• Astrobiology• Birds• Cats• Cetaceans• Crustaceans• Dinosaurs• Dogs• Ecology• Evolutionary biology• Extinct and Endangered Species• Fish• Forestry• Fungi• Gastropods• Horses• Insects • Mammals• Marine life• Molecular Anthropology• Molecular and Cellular Biology (Metabolism, Gene wiki)• Neuroscience• Paleontology• Plants• Primates• Prehistoric mammals• Rabbits and hares• Sharks• Trees• Turtles• Viruses• Wildlife of Scotland• Wetlands
-
-Physical science
-Astronomy (Space, Solar System, Mars, Moon, Uranus, Jupiter, Star, X-ray astronomy)
-Chemistry (Analytical chemistry, Organic chemistry, Physical chemistry, Crystallography)
-Earth sciences (Atmospheric sciences, Earthquakes, Environment, Fire, Global warming, Tropical cyclones, Volcanoes and Volcanology, Weather, Water)
-Physics(Cosmology, Gravitation, Electromagnetism)
-
-
-
-
-
-
-
-
-edit watch 
- People and self (see in all page types)
-
-
-
-Biography•  Death•  Human rights•  Community•  Gangs•  Mind and brain•  Thinking•  Sexuality•  LGBT•  Serer•  Transgender•  Yoruba•  Igbo
-
-
-
-
-
-
-
-edit watch 
- Philosophy and thinking (see in all page types)
-
-
-Philosophy
-Areas of philosophical inquiry
-
-Aesthetics• Epistemology• Ethics• Logic• Metaphysics• Mind and Brain (Thinking)• Philosophy of science• Social and political philosophy
-
-Philosophies and ideologies
-
-Anarchism• Animal rights• Capitalism• Communism• Confucianism• Conservatism• Existentialism• Fascism• Liberalism• Libertarianism• Left-wing populism• Right-wing populism• Socialism• Taoism• Transhumanism
-
-
-
-
-
-
-
-
-
-edit watch 
- Religion and belief systems (see in all page types)
-
-
-
-
-
-Religion(Spirituality, Occult)
-Abrahamic religions
-
-Christianity
-
-Adventism• Anabaptism• Anglicanism• Arminianism• Baptist• Bible• Calvinism• Catholicism• Christadelphians• Christianity in China• Christianity in India• Eastern Christianity• Lutheranism• Methodism• Oriental Orthodoxy• Pope• Private revelation• Saints• Seventh-day Adventist Church
-
-
-
-
-
-
-Latter Day Saints
-
-Book of Mormon• LDS Church• Community of Christ
-
-
-
-
-
-
-Islam
-
-Shia Islam• Day Of Ashura• Ahmadiyyat• Qur'an• Islam in China• Sufism
-
-
-Judaism
-
-Kabbalah
-
-
-Creationism
-
-Non-Abrahamic religions
-Indian religions
-
-Ayyavazhi
-Buddhism
-
-Mahayana Buddhism• Tibetan Buddhism• Vajrayana Buddhism• Theravada Buddhism
-Gnosticism
-
-
-Hinduism
-
-Hindu Mythology
-
-
-Jainism
-
-Digambara
-Śvētāmbara
-
-
-Sikhism
-
-
-
-
-Religions and traditions with East Asian origin
-
-Chinese Folk Religion
-Confucianism•
-Shinto•
-Taoism•
-Falun Gong
-
-Religions with West Asian origin
-
-Zoroastrianism
-Bábism
-Bahá'í Faith
-
-New religions
-
-Scientology• Falun Gong
-Theosophy
-
-Religions with European origin
-
-Heathenism
-Hellenismos
-
-Greek Mythology
-
-
-Wicca
-
-Traditional African religions
-
-African
-
-Serer
-
-
-
-Other
-
-Astrology• Mythology
-
-Non Religion or Belief
-
-Atheism• Nontheism
-
-
-
-
-
-
-
-
-
-
-
-edit watch 
- Society and social sciences (see in all page types)
-
-
-Social sciences
-
-Anthropology (Archaeology)• Economics• Education• Geography• History• Law• Linguistics• Psychology• Sociology
-
-Society
-
-Cooperatives• Disability• Discrimination• Economics and business • Education (Schools, University, University of Cambridge, University of Oxford, University of Pittsburgh)• Environment• Ethnic groups: African American, Berbers, Celts, Hispanic and Latino Americans, Indigenous peoples of the Americas, Indigenous peoples of North America, Aboriginal Canadians • Feminism•  Folklore• Freedom of speech• Freemasonry• Gender studies• Genealogy• Globalization• Holidays• Hunger relief• Journalism• LGBT (lesbian, gay, bisexual, transgender) • (Transgender) • Men's rights• Social movements• Sustainable development• Terrorism• Transhumanism• Transnational child protection•Migrant Domestic Workers in Lebanon
-Law
-
-Criminal justice• Human rights • Law of England and Wales• Laws in India• Supreme Court of the United States
-
-
-
-
-Politics and Political science
-
-Anarchism• Animal rights• British politics• Capitalism• Communism• Canadian politics• Christian democracy• Conservatism• Fascism• Geert Wilders• India Government• Right-wing populism• International organizations: (United Nations • NATO• SAARC)• Organized Labour• Pakistan Government• Philippine Presidency• Republican Party• U.S. Government (Barack Obama)• Donald Trump • Social welfare and social work
-
-
-
-
-Military science
-
-Canadian Forces • Military of Greece • Military of Australia• Military of the United Kingdom (British Army• Royal Navy• Royal Air Force)• Military of the United States (United States Air Force• United States Army • United States Coast Guard • United States Marine Corps• United States Navy)• Tank• Half-track• War• Weapons of mass destruction
-
-
-
-
-
-
-
-
-
-
-
-edit watch 
- Technology and applied sciences (see in all page types)
-
-
-Technology
-
-
-Engineering• Agriculture and Agronomy • Astronomy• Biotechnology• Bridges• Electronics (Telecommunication)• Mass surveillance• Energy (Renewable energy)• Forestry• Hazardous Materials• Infrastructure• Laser• Mining• Nanotechnology• Nuclear technology• Robotics 
-
-Computing and Information technology
-
-Computer networking (Internet, IRC)• Computer programming (Python programming, Java)• Computer science (Artificial intelligence, Computer graphics)• Computer security (Cryptography)• Software (Free software, Linux)• Amiga • Smartphone• Apple • Google(Android)• Microsoft• Alphabet
-
-Transport
-
-Aviation• Bicycles/Cycling• Buses• Cars (Australian, Japanese)• Trucks• London Transport• Nautical (Lighthouses, UK Waterways)• Roads (Australian Roads, Canada Roads, U.S. Roads, California Roads, Maryland Roads, Michigan Highways, New York Roads, Washington Roads)• Spaceflight• Trains (North American railways, Railways in India, Sri Lanka Railways, UK Railways, Trams, UK Trams)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Portals
-Featured(Criteria · Candidates)
-List
-Directory
-WikiProject
-Guidelines
-Instructions
-Categorizing(Portals category)
-Peer review
-
-
-Contents Overview Outlines Lists Portals Glossaries Categories Indices
-
-
-Reference Culture Geography Health History Mathematics Nature People Philosophy Religion Society Technology
-
-
-
-
-
-
-Content listings
-Types
-
-
-Overviews
-Featured content
-Outlines
-Lists
-Portals
-Glossaries
-Categories
-Indices
-
-
-
 Topics
-
-Current events
-Reference
 Culture
 Geography
 Health
@@ -690,38 +58,1544 @@ Technology
 
 
 
-Places, people and times
-
-Academic disciplines
-Anniversaries
-
-today
-
-
-Countries and territories
-People
-
-deaths this year
-
-
-Timelines
-
-centuries
-decades
 
 
 
+History
+Ancient Egypt
+Ancient Germanic Culture
+Ancient Greece
+Ancient Japan
+Ancient Near East
+Ancient Rome
+Anglo-Saxon England
+Archaeology
+Austria-Hungary
+British Empire
+Bulgarian Empire
+Byzantine Empire
+Classical civilisation
+Colonialism
+Crusades
+Dacia
+Disasters
+German Empire
+Heraldry
+History of Canada
+History of science
+Imperial China
+Indian independence movement
+Khitan
+Latter Day Saint movement
+Middle Ages
+Mughal Empire
+New France
+Ottoman Empire
+Russian Empire
+Sasanian Empire
+Seljuk Empire
+Soviet Union
+War
 
-Indices
 
 
-A–Z index
+
+
+
+
+
+edit
+The History Portal
+
+
+
+
+The Historians' History of the World
+
+
+History is the discovery, collection, organization, analysis, and presentation of information about past events. History can also mean a continuous, typically chronological record of important or public events or of a particular trend or institution. Scholars who write about history are called historians. It is a field of knowledge which uses a narrative to examine and analyse the sequence of events, and it sometimes attempts to objectively investigate the patterns of cause and effect that determine events. Historians debate the nature of history and its usefulness. This includes discussing the study of the discipline as an end in itself and as a way of providing "perspective" on the problems of the present. The stories common to a particular culture but not supported by external sources (such as the legends surrounding King Arthur) are usually classified as cultural heritage rather than as the "disinterested investigation" needed by the discipline of history. Events of the past prior to written record are considered prehistory.
+Amongst scholars, fifth century BC Greek historian Herodotus is considered to be the "father of history"; the methods of Herodotus along with his contemporary Thucydides form the foundations for the modern study of history. Their influence (along with other historical traditions in other parts of their world) has spawned many different interpretations of the nature of history which has developed over the centuries and are continuing to change. The modern study of history has many different fields, including those that focus on certain regions and those that focus on certain topical or thematic elements of historical investigation. Often, history is taught as part of primary and secondary education, and the academic study of history is a major discipline in university studies.
+
+
+More about History…
+
+
+
+
+
+View new selections below (purge)
+
+
+
+edit
+Selected article
+
+
+
+The formal unification of Germany into a politically and administratively integrated nation state officially occurred on 18 January 1871 at the Versailles Palace's Hall of Mirrors in France. Princes of the German states gathered there to proclaim Wilhelm of Prussia as Emperor Wilhelm of the German Empire after the French capitulation in the Franco-Prussian War. Unofficially, the transition of most of the German-speaking populations into a federated organization of states occurred over nearly a century of experimentation. Unification exposed several glaring religious, linguistic, social, and cultural differences between and among the inhabitants of the new nation, suggesting that 1871 only represents one moment in a continuum of the larger unification processes.
+The model of diplomatic spheres of influence resulting from the Congress of Vienna in 1814–15 after the Napoleonic Wars endorsed Austrian dominance in Central Europe. However, the negotiators at Vienna took no account of Prussia's growing strength within and among the German states, failing to foresee that Prussia would challenge Austria for leadership within the German states. This German dualism presented two solutions to the problem of unification: Kleindeutsche Lösung, the small Germany solution (Germany without Austria), or Großdeutsche Lösung, greater Germany solution (Germany with Austria). Reaction to Danish and French nationalism provided foci for expressions of German unity. Military successes—especially Prussian ones—in three regional wars generated enthusiasm and pride that politicians could harness to promote unification. This experience echoed the memory of mutual accomplishment in the Napoleonic Wars, particularly in the War of Liberation of 1813–14. By establishing a Germany without Austria, the political and administrative unification in 1871 at least temporarily solved the problem of dualism.
+
+
+
+...Archive/Nominations
+
+
+
+Read more...
+
+
+
+
+
+
+
+edit
+Selected biography
+
+
+
+Joel Brand (April 25, 1906 – July 13, 1964) was a Hungarian sailor and odd-job man who became known for his role during the Holocaust in trying to save the Hungarian-Jewish community from deportation to the Auschwitz concentration camp. Described by historian Yehuda Bauer as a brave adventurer who felt at home in underground conspiracies and card-playing circles, Brand teamed up with fellow Zionists in Budapest to form the Aid and Rescue Committee, a group that helped Jewish refugees in Nazi-occupied Europe escape to the relative safety of Hungary, before the Germans invaded that country too in March 1944. Shortly after the invasion, Brand was asked by SS officer Adolf Eichmann to help broker a deal between the SS and the United States or Britain. Eichmann said he would release up to one million Hungarian Jews, if the Western Allies would supply Germany with 10,000 trucks and large quantities of soap, tea, and coffee.
+The negotiations, described by The Times as one of the most loathsome stories of the war, became known as the "blood for goods" proposal. Nothing came of it and historians can only guess whether Eichmann's offer was genuine. There are theories that it was a trick intended to persuade the Jewish community to board the trains to Auschwitz thinking they were being resettled, or that it was a cover for high-ranking SS officials to negotiate a peace deal with the U.S. and Britain that excluded the Soviet Union and perhaps even Adolf Hitler himself.
+
+
+
+...Archive/Nominations
+
+
+
+Read more...
+
+
+
+
+
+
+
+edit
+Did you know...
+
+
+
+
+
+
+... that the Soviet Tupolev Tu-142 (pictured) maritime patrol aircraft was developed in response to the American UGM-27 Polaris submarine-launched ballistic missile?
+... that Harry Powers said that watching his victims die was more fun than a brothel?
+... that the effort put forth by the subject of Miró's 1937 Naked woman climbing a staircase and her heavy limbs are thought to reflect the tragedy of the Spanish Civil War?
+... that 49% of German military losses happened in the last 10 months of the Second World War in Europe?
+... that Thomas Edison lost a fortune in his ore-milling company, but "had a hell of a good time spending it"?
+... that American McCaull Comic Opera Company actress May Yohé, once the owner of the Hope Diamond, died poor?
+... that Egyptian political cartoonist Ahmad Nady took part in the 2011 Egyptian revolution, drawing cartoons while he demonstrated?
+... that finds unearthed at the Israelite Tower in Jerusalem's Jewish Quarter attest to the Babylonian sack of the city in 586 BCE?
+
+
+
+
+...Archive/Nominations
+
+
+
+More...
+
+
+
+
+
+
+
+
+
+edit
+Selected picture
+
+
+
+
+
+
+
+
+
+
+
+
+The Montgolfier brothers' balloon, 75 feet tall and 50 feet wide, was the first balloon to carry human passengers in 1783. This etching from 1786 depicts the historical flight with engineering properties and a description of its elaborate design.
+
+
+
+
+...Archive/Nominations
+
+
+
+Read more...
+
+
+
+
+
+
+
+edit
+On this day
+
+
+April 12: Yuri's Night; Cosmonautics Day in Russia
+
+
+Terry Fox
+
+
+
+1776 – The fourth North Carolina Provincial Congress passed the Halifax Resolves, the first official action in the American colonies calling for independence from Britain during the American Revolution.
+1831 – Broughton Suspension Bridge in Manchester, England, collapsed, reportedly because of mechanical resonance induced by troops marching in step over the bridge.
+1910 – SMSZrínyi, one of the last pre-dreadnoughts built by the Austro-Hungarian Navy, was launched.
+1980 – Terry Fox (pictured) dipped his artificial leg in the Atlantic Ocean at St. John's, Newfoundland and Labrador, and began running his "Marathon of Hope" towards the Pacific Ocean at Vancouver, British Columbia, to raise funds across Canada for cancer research.
+2007 – The canteen of the Council of Representatives of Iraq building was attacked by a suicide bomber, killing one Member of Parliament and wounding 23 other people.
+
+Peter Hesketh-Fleetwood (d.1866)·  Beverly Cleary (b.1916)·  Xin Fengxia (d.1998)
+More anniversaries:
+
+
+April 11
+April 12
+April 13
+
+
+
+
+
+Archive
+By email
+List of historical anniversaries
+
+
+
+
+
+
+edit
+Selected quote
+
+
+
+Victorious warriors win first and then go to war, while defeated warriors go to war first and then seek to win.
+— Sun Tzu, Ancient Chinese military strategist
+
+
+
+
+...Archive
+
+
+
+More...
+
+
+
+
+
+
+
+edit
+Selected portal
+
+
+
+
+Ancient Rome
+
+"The traveler who has contemplated the ruins of ancient Rome may conceive some imperfect idea of the sentiments which they must have inspired when they reared their heads in the splendor of unsullied beauty."
+— Edward Gibbon
+
+
+
+
+
+...Archive/Nominations
+
+
+Read more...
+
+
+
+
+
+
+
+edit
+Things you can do
+
+
+
+
+
+
+
+
+Here are some Open Tasks:
+
+Copy/edit: Hongwu Emperor, Indian independence movement, Modern history, More...
+Wikify:
+Merge: More...
+Requests: , More...
+Stubs: Panhellenic Liberation Movement, More...
+Requested pictures - of history topics
+Are you a historian, i.e. one who studies and writes history, and who has a keen interest in writing outstanding articles? Join our fine group by adding Category:Wikipedian historians to the bottom of your user page.
+
+
+
+
+
+
+
+
+
+
+
+
+edit
+WikiProjects
+
+
+History
+Ancient Near East • Australian History • Classical Greece and Rome • Dacia • Former countries • History of Canada • Chinese history • European history • Heraldry and vexillology • Indian history • Jewish history • Medieval Scotland • Mesoamerica • Military history • Middle Ages • History of Science
+Time
+Days of the Year • Years
+Biography
+Composers • Political figures • Saints • United States Presidents
+
+
+
+
+
+Topics
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Social sciences
+
+
+
+
+
+
+Primary
+
+
+
+Anthropology
+
+archaeology
+cultural
+linguistics
+social
+
+
+Economics
+
+microeconomics
+macroeconomics
+
+
+Geography
+
+human
+integrative
+
+
+History
+
+cultural
+economic
+political
+social
+
+
+Law
+
+jurisprudence
+legal history
+legal systems
+
+
+Political science
+
+international relations
+psephology
+public administration
+public policy
+
+
+Psychology
+
+abnormal
+biological
+cognitive
+developmental
+personality
+social
+
+
+Sociology
+
+criminology
+demography
+internet
+rural
+urban
+
+
+
+
+
+
+
+
+
+
+Interdisciplinary
+
+
+
+Anthrozoology
+Area studies
+Business studies
+Cognitive science
+Communication studies
+Community studies
+Cultural studies
+Development studies
+Education
+Environmental (social science
+studies)
+Food studies
+Gender studies
+Global studies
+History of technology
+Human ecology
+Information science
+International studies
+Media studies
+Philosophy of science
+
+economics
+history
+psychology
+social science
+
+
+Planning
+
+land use
+regional
+urban
+
+
+Political ecology
+Political economy
+Public health
+Regional science
+Science and technology studies
+Science studies
+
+historical
+
+
+Social work
+
+
+
+
+
+
+
+
+Other categorizations
+
+
+
+Humanities
+Geisteswissenschaft
+Human science
+
+
+
+
+
+
+
+
+
+
+
+Index
+Journals
+Outline
+Wikiversity
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Humanities
+
+
+
+
+
+
+
+
+
+Anthropology
+Digital Humanities
+History
+Law
+Literature
+Performing arts
+Politics
+Philosophy
+Religious studies
+Visual arts
+
+
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Time
+
+
+
+
+
+
+Key concepts
+
+
+
+Human
+Life
+Nature
+Past
+
+history
+deep time
+
+
+Present
+Future
+Futures studies
+Far future in religion
+Far future in science fiction and popular culture
+Timeline of the far future
+Eternity
+Eternity of the world
+
+
+
+
+
+
+
+
+Measurement and
+standards
+
+
+
+
+Chronometry
+
+
+
+UTC
+UT
+TAI
+Unit of time
+Planck time
+Second
+Minute
+Hour
+Day
+Week
+Month
+Year
+Decade
+Century
+Millennium
+Tropical year
+Sidereal year
+
+
+
+
+
+
+
+
+Measurement
+systems
+
+
+
+Time zone
+12-hour clock
+24-hour clock
+Daylight saving time
+Solar time
+Sidereal time
+Metric time
+Decimal time
+Hexadecimal time
+
+
+
+
+
+
+
+
+Calendars
+
+
+
+Gregorian
+Julian
+Hebrew
+Islamic
+Lunar
+Solar Hijri
+Mayan
+Intercalation
+Leap second
+Leap year
+
+
+
+
+
+
+
+
+
+
+
+Clocks
+
+
+
+Horology
+History of timekeeping devices
+Main types
+
+astrarium
+atomic
+
+quantum
+
+
+marine
+sundial
+sundial markup schema
+watch
+water-based
+
+
+
+
+
+
+
+
+
+
+
+
+
+Chronology
+History
+
+
+
+
+
+
+Astronomical chronology
+Big History
+Calendar era
+Chronicle
+Deep time
+Periodization
+Regnal year
+Timeline
+
+
+
+
+
+
+
+
+
+
+
+Religion
+Mythology
+
+
+
+
+
+
+Dreamtime
+Kāla
+Kalachakra
+Prophecy
+Time and fate deities
+Wheel of time
+Immortality
+
+
+
+
+
+
+
+
+Philosophy of time
+
+
+
+A-series and B-series
+B-theory of time
+Causality
+Duration
+Endurantism
+Eternal return
+Eternalism
+Event
+Perdurantism
+Presentism
+Temporal finitism
+Temporal parts
+The Unreality of Time
+
+
+
+
+
+
+
+
+Human experience
+and use of time
+
+
+
+Accounting period
+Chronemics
+Fiscal year
+Generation time
+Mental chronometry
+Music
+Procrastination
+Punctuality
+Temporal database
+Term
+Time discipline
+Time management
+Time perception
+
+Specious present
+
+
+Time-tracking software
+Time-use research
+Time-based currency (time banking)
+Time value of money
+Time clock
+Timesheet
+Yesterday
+
+
+
+
+
+
+
+
+Time in
+
+
+
+
+Geology
+
+
+
+Geological time
+
+age
+chron
+eon
+epoch
+era
+period
+
+
+Geochronology
+Geological history of Earth
+
+
+
+
+
+
+
+
+Physics
+
+
+
+Absolute time and space
+Arrow of time
+Chronon
+Coordinate time
+Imaginary time
+Planck epoch
+Planck time
+Proper time
+Rate
+Spacetime
+Theory of relativity
+Time dilation
+
+gravitational
+
+
+Time domain
+T-symmetry
+
+
+
+
+
+
+
+
+other subject
+areas
+
+
+
+Chronological dating
+Chronobiology
+Circadian rhythms
+Dating methodologies in archaeology
+Time geography
+
+
+
+
+
+
+
+
+
+
+
+Related topics
+
+
+
+Carpe diem
+Clock position
+Space
+System time
+Tempus fugit
+Time capsule
+Time complexity
+Time signature
+Time travel
+
+
+
+
+
+
+
+
+
+ Time portal
+
+
+
+
+
+
+
+
+
+
+v
+t
+e
+
+
+Chronology
+
+
+
+
+
+
+Key topics
+
+
+
+Archaeology
+Astronomy
+Geology
+History
+Human
+Life
+Nature
+Paleontology
+Time
+
+
+
+
+
+
+
+
+
+
+
+Eras
+Epochs
+
+
+
+
+
+
+
+Calendar eras
+
+
+
+Human Era
+Ab urbe condita
+Anno Domini/ Common Era
+Anno Mundi
+Byzantine era
+Seleucid era
+Spanish era
+Before Present
+Hijri
+Egyptian
+Sothic cycle
+Hindu units of time (Yuga)
+Mesoamerican
+
+Long Count
+Short Count
+Tzolk'in
+Haab'
+
+
+
+
+
+
+
+
+
+
+Regnal year
+
+
+
+Canon of Kings
+Lists of kings
+Limmu
+
+
+
+
+
+
+
+
+Era names
+
+
+
+Chinese
+Japanese
+Korean
+Vietnamese
+
+
+
+
+
+
+
+
+
+
+
+Calendars
+
+
+
+
+Pre-Julian/ Julian
+
+
+
+Pre-Julian Roman
+Original Julian
+Proleptic Julian
+Revised Julian
+
+
+
+
+
+
+
+
+Gregorian
+
+
+
+Gregorian
+Proleptic Gregorian
+Old Style and New Style dates
+Adoption of the Gregorian calendar
+Dual dating
+
+
+
+
+
+
+
+
+Astronomical
+
+
+
+Lunisolar
+Solar
+Lunar
+Astronomical year numbering
+
+
+
+
+
+
+
+
+Others
+
+
+
+Chinese sexagenary cycle
+Geologic Calendar
+Hebrew
+Iranian
+Islamic
+ISO week date
+Mesoamerican
+
+Maya
+Aztec
+
+
+Winter count (Plains Indians)
+
+
+
+
+
+
+
+
+
+
+
+Astronomic time
+
+
+
+Cosmic Calendar
+Ephemeris
+Galactic year
+Metonic cycle
+Milankovitch cycles
+
+
+
+
+
+
+
+
+Geologic time
+
+
+
+
+Concepts
+
+
+
+Deep time
+Geological history of Earth
+Geological time units
+
+
+
+
+
+
+
+
+Standards
+
+
+
+Global Standard Stratigraphic Age (GSSA)
+Global Boundary Stratotype Section and Point (GSSP)
+
+
+
+
+
+
+
+
+Methods
+
+
+
+Chronostratigraphy
+Geochronology
+Isotope geochemistry
+Law of superposition
+Luminescence dating
+Samarium-neodymium dating
+
+
+
+
+
+
+
+
+
+
+
+Chronological
+dating
+
+
+
+
+Absolute dating
+
+
+
+Amino acid racemisation
+Archaeomagnetic dating
+Dendrochronology
+Ice core
+Incremental dating
+Lichenometry
+Paleomagnetism
+Radiometric dating
+
+Radiocarbon
+Uranium–lead
+Potassium-argon
+
+
+Tephrochronology
+Luminescence dating
+
+
+
+
+
+
+
+
+Relative dating
+
+
+
+Fluorine absorption
+Nitrogen dating
+Obsidian hydration
+Seriation
+Stratigraphy
+
+
+
+
+
+
+
+
+
+
+
+Genetic methods
+
+
+
+Molecular clock
+
+
+
+
+
+
+
+
+Linguistic methods
+
+
+
+Glottochronology
+
+
+
+
+
+
+
+
+Related topics
+
+
+
+Chronicle
+New Chronology
+Periodization
+Synchronoptic view
+Timeline
+Year Zero
+Circa
+Floruit
+Terminus post quem
+ASPRO chronology
+
+
+
+
+
+
+
+
+
+
+
+ Portal
+
+
+
+
+
+
+
+
+
+
+edit
 Categories
-Dewey Decimal classes
-Library of Congress Classification
-Roget's Thesaurus
-Spoken articles
-Wikipedia books
+
+
+
+History • By period • By region • By topic • By ethnic group • Historiography • Archaeology • Books • Documents • Maps • Images • Magazines • Organizations • Fictional • Museums • Pseudohistory • Stubs • Timelines • Chronology • People •
+Wikipedia historians
+
+
+
+▼ History
+
+
+► History by ethnic group
+
+
+
+► History by location
+
+
+
+► History by period
+
+
+
+► History by topic
+
+
+
+► Fields of history
+
+
+
+► Historians
+
+
+
+► History-related lists
+
+
+
+► History awards
+
+
+
+► Bible history
+
+
+
+► Chronology
+
+
+
+► Historical controversies
+
+
+
+► Economic, social and political strategies
+
+
+
+► History education
+
+
+
+► Historical eras
+
+
+
+► Events
+
+
+
+► Historically themed events
+
+
+
+► Historical geography
+
+
+
+► Historicity
+
+
+
+► Historiography
+
+
+
+► Legacies
+
+
+
+► Media history
+
+
+
+► Historical objects
+
+
+
+► Oral history
+
+
+
+► History organizations
+
+
+
+► Phaleristics
+
+
+
+► Philosophy of history
+
+
+
+► Historic preservation
+
+
+
+► Pseudohistory
+
+
+
+► Sacred history
+
+
+
+► Theories of history
+
+
+
+► Historical timelines
+
+
+
+► Works about history
+
+
+
+► World history
+
+
+
+► Wikipedia books on history
+
+
+
+► History images
+
+
+
+► History stubs
+
+
+
+
+
+
+
+
+
+
+
+
+Associated Wikimedia
+
+
+
+
+The following Wikimedia sister projects provide more on this subject:
+
+Wikibooks
+Books
+
+
+
+
+
+Commons
+Media
+
+
+
+
+
+Wikinews
+News
+
+
+
+
+
+Wikiquote
+Quotations
+
+
+
+
+
+Wikisource
+Texts
+
+
+
+
+
+Wikiversity
+Learning resources
+
+
+
+
+
+Wikivoyage
+Travel guides
+
+
+
+
+
+Wiktionary
+Definitions
+
+
+
+
+
+Wikidata
+Database
+
+
+
+
+
+Wikispecies
+Species
+
+
+
+
+
 
 
 
@@ -734,16 +1608,6 @@ Featured portals
 
 
 
-Shortcuts to this page: Portal:Categories • P:CAT
-
-Purge cache to show recent changes
-
-
-
-
-Shortcuts to this page: WP:PORT • P:
-
-
 
 
 
@@ -754,8 +1618,8 @@ Shortcuts to this page: WP:PORT • P:
 
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Contents/Portalsoldid=746645444"					
-				Categories: Wikipedia navigationContent portalsPortalsHidden categories: Wikipedia semi-protected portals				
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Historyoldid=749756545"					
+				Categories: History portalHistory portalsHistoryHidden categories: Wikipedia semi-protected portalsFeatured portals				
 							
 		
 		
@@ -854,7 +1718,7 @@ Shortcuts to this page: WP:PORT • P:
 
 			
 									
-						WikisourceWikiversity					
+						WikibooksWikisourceWikiversity					
 							
 		
 			
@@ -862,14 +1726,14 @@ Shortcuts to this page: WP:PORT • P:
 
 			
 									
-						AfrikaansAlemannischالعربيةAragonésArpetanঅসমীয়াАварবাংলাBân-lâm-gúБашҡортсаБеларускаяБеларуская (тарашкевіца)‎БългарскиBoarischBrezhonegCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisFrysk한국어Հայերենहिन्दीHrvatskiBahasa IndonesiaItalianoעבריתქართულიҚазақшаKurdîКыргызчаLëtzebuergeschLumbaartMagyarمصرىBahasa MelayuМонголမြန်မာဘာသာNederlands日本語Norsk bokmålOccitanOʻzbekcha/ўзбекчаپنجابیپښتوភាសាខ្មែរPlattdüütschPolskiPortuguêsRipoarischRomânăРусскийShqipSicilianuසිංහලسنڌيSrpskohrvatski / српскохрватскиBasa SundaSuomiSvenskaதமிழ்Татарча/tatarçaTürkçeУкраїнськаاردوVènetoTiếng Việt文言Yorùbá粵語中文					
+						АдыгабзэAfrikaansAlemannischአማርኛÆngliscالعربيةتۆرکجهবাংলাБашҡортсаБеларуская (тарашкевіца)‎БългарскиBoarischBrezhonegCatalàCebuanoČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEuskaraفارسیFrançaisFryskGagauzGalegoGĩkũyũ한국어ՀայերենHrvatskiBahasa IndonesiaItalianoעבריתBasa JawaKapampanganქართულიҚазақшаKurdîКыргызчаLatinaLatviešuLëtzebuergeschLietuviųMagyarМакедонскиമലയാളംमराठीمصرىمازِرونیBahasa Melayuမြန်မာဘာသာNederlands日本語NapulitanoНохчийнNorsk bokmålNorsk nynorskOccitanOʻzbekcha/ўзбекчаਪੰਜਾਬੀپنجابیپښتوPlattdüütschPolskiPortuguêsRomânăRuna SimiРусскийSeelterskShqipසිංහලSlovenčinaSlovenščinaSoomaaligaکوردیی ناوەندیСрпски / srpskiSuomiSvenskaTagalogதமிழ்TaqbaylitТатарча/tatarçaไทยТоҷикӣTürkçeУкраїнськаاردوTiếng Việt文言West-VlamsWolof吴语Xitsonga粵語Zazaki中文					
 				Edit links			
 		
 				
 		
 		
 							
-											 This page was last modified on 28 October 2016, at 17:20.
+											 This page was last modified on 16 November 2016, at 00:57.
 											Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 									
@@ -890,6 +1754,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.372","walltime":"0.505","ppvisitednodes":{"value":2715,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":276361,"limit":2097152},"templateargumentsize":{"value":32968,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":10,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  242.274      1 -total"," 72.74%  176.230      1 Portal:Contents/Types_layout"," 27.23%   65.962      1 Template:Pp-semi-protected"," 21.96%   53.196      2 Portal:Contents/TOC_navbar"," 21.48%   52.036      1 Portal:Contents/Portals/Intro"," 20.67%   50.081      5 Template:Center"," 18.54%   44.914     40 Template:Clickable_button_2"," 12.64%   30.616      1 Template:Portal_nav_footer"," 11.30%   27.365      2 Template:Small","  9.82%   23.800      1 Template:Portals2"]},"scribunto":{"limitreport-timeusage":{"value":"0.073","limit":"10.000"},"limitreport-memusage":{"value":2733066,"limit":52428800}},"cachereport":{"origin":"mw1256","timestamp":"20170407030523","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":59,"wgHostname":"mw1272"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.316","walltime":"0.488","ppvisitednodes":{"value":2834,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":192757,"limit":2097152},"templateargumentsize":{"value":8625,"limit":2097152},"expansiondepth":{"value":10,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  314.070      1 -total"," 27.16%   85.288      6 Template:Random_portal_component"," 21.83%   68.562     10 Template:Navbox"," 16.86%   52.952      1 Template:Pp-semi-protected","  8.24%   25.868      1 Wikipedia:Selected_anniversaries/April_12","  7.98%   25.057      1 Template:Chronology","  7.61%   23.915      1 Template:Featured_portal","  7.26%   22.786      1 Template:Time_topics","  6.76%   21.232      1 Template:Top_icon","  5.76%   18.089      1 Template:Main_page_image"]},"scribunto":{"limitreport-timeusage":{"value":"0.100","limit":"10.000"},"limitreport-memusage":{"value":3001345,"limit":52428800}},"cachereport":{"origin":"mw1254","timestamp":"20170412175535","ttl":21600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":63,"wgHostname":"mw1175"});});
 	
 
