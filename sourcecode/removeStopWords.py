@@ -11,17 +11,14 @@ def stripStopWords(text, i):
 	#tokenized_text = word_tokenize(text)
 	#print(tokenized_text)
 	clean_text = ' '.join([word for word in text.split() if word not in stop_words])
-	print(clean_text)
-
 	#print(clean_text)
-	#path = 'noStopWords_files'
-	#if not os.path.exists(path):
-	#	os.makedirs(path)
-	#f = str(i)
-	#print(text)
+	path = 'noStopWords_files'
+	if not os.path.exists(path):
+		os.makedirs(path)
+	f = str(i)
 
-	#with open(os.path.join(path, f), 'wb') as temp_file:
-	#	temp_file.write(filtered_words#)
+	with open(os.path.join(path, f), 'wb') as temp_file:
+		temp_file.write(clean_text)
 
 def main():
 	path = 'strippedHTML_files'
