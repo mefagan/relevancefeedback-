@@ -1,6 +1,7 @@
 #http://stackoverflow.com/questions/9745056/how-to-save-user-input-data-to-redis-using-tornado-python
 from stripHTML import strip_tags
 from removeStopWords import stripStopWords
+from getWordsForScoring import getWordsForScoring
 import os
 import codecs
 import tornado.ioloop
@@ -46,8 +47,8 @@ class MainHandler(tornado.web.RequestHandler):
       items = []
       rQ = []
       
-      for key, value in doc_urls.iteritems() :
-        print (key, value)
+      #for key, value in doc_urls.iteritems() :
+       # print (key, value)
 
       for hit in hits.scoreDocs:
           #items.append({'score':hit.score, 'doc':hit.doc, 'blah':hit.toString(), 'url':doc_urls[str(hit.doc)]})
@@ -83,7 +84,7 @@ class MainHandler(tornado.web.RequestHandler):
           stripStopWords(data, i)
           i = i+1
 
-      
+      getWordsForScoring(q)
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 
