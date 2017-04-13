@@ -2,12 +2,12 @@
 
 
 
-Wikipedia:Introduction - Wikipedia
+Portal:Mathematics - Wikipedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipedia:Introduction","wgTitle":"Introduction","wgCurRevisionId":680454568,"wgRevisionId":680454568,"wgArticleId":1226609,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia basic information","Wikipedia quick introductions"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wikipedia:Introduction","wgRelevantArticleId":1226609,"wgRequestId":"WO1tzQpAIDYAAHk8UOMAAABP","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q3945","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.tmh.thumbnail.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Mathematics","wgTitle":"Mathematics","wgCurRevisionId":686628022,"wgRevisionId":686628022,"wgArticleId":1488464,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Wikipedia move-protected portals","Featured portals","Mathematics portal"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Mathematics","wgRelevantArticleId":1488464,"wgRequestId":"WO4WrApAEK0AAFVqhcAAAABQ","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q7778173","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.math.styles":"ready","ext.categoryTree.css":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+});mw.loader.load(["ext.math.scripts","ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
 
 
 
@@ -32,7 +32,9 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 							
 						
 
-			Wikipedia:Introduction
+
+
+			Portal:Mathematics
 									
 									From Wikipedia, the free encyclopedia
 								
@@ -41,62 +43,841 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 				
 				
 
-
-Help:Contents
-
-
-
-
-Introduction
-
-Learnmoreaboutediting
-
-ExploreWikipedia
-
-Tutorial
-
-
-
-What is Wikipedia?
-
-
-Play media
-
-
-A short video about the satisfaction editors get from contributing
-
-
-Wikipedia is a free encyclopedia, written collaboratively by the people who use it. It is a special type of website designed to make collaboration easy, called a wiki. Many people are constantly improving Wikipedia, making thousands of changes per hour. All of these changes are recorded in article histories and recent changes. For a more detailed account of the project, see About Wikipedia.
-
-How you can contribute
+Topics
+Culture
+Geography
+Health
+History
+Mathematics
+Nature
+People
+Philosophy
+Religion
+Society
+Technology
 
 
 
 
-Click "Edit" to change an article
+edit
+The Mathematics Portal
 
 
 
 
-Play media
+Pythagoras
 
 
-Editing tutorial for Wikipedia
+Mathematics is the study of numbers, quantity, space, structure, and change. Mathematics is used throughout the world as an essential tool in many fields, including natural science, engineering, medicine, and the social sciences. Applied mathematics, the branch of mathematics concerned with application of mathematical knowledge to other fields, inspires and makes use of new mathematical discoveries and sometimes leads to the development of entirely new mathematical disciplines, such as statistics and game theory. Mathematicians also engage in pure mathematics, or mathematics for its own sake, without having any application in mind. There is no clear line separating pure and applied mathematics, and practical applications for what began as pure mathematics are often discovered.
+More about Mathematics...
 
 
-Don't be afraid to edit – anyone can edit almost every page, and we are encouraged to be bold! Find something that can be improved and make it better—for example, spelling, grammar, rewriting for readability, adding content, or removing non-constructive edits. If you wish to add new facts, please try to provide references so they may be verified, or suggest them on the article's discussion page. Changes to controversial topics and Wikipedia's main pages should usually be discussed first. Contributing to Wikipedia will provide you with resources on all the basics needed to use, comment on, and contribute to Wikipedia.
-Remember – you can't break Wikipedia; all edits can be reversed, fixed or improved later. Wikipedia is allowed to be imperfect. So go ahead, edit an article and help make Wikipedia the best information source on the Internet!
-Donate – Wikipedia is free to use, but relies on donations and grants to do so. Please consider donating using the Donate to Wikipedia link on the left to help with the project's running costs and expansion.
 
 
-Why not try out the editor right now?
-
-Click here to edit the sandbox, a place to make test edits. (If there is already some text there, add to the end of the text.)
-Type some text.
-Click Show preview to test your changes, or Save page when you're happy with the way it looks.
 
 
-Next: Learn more about editing →
+Selected article | Selected picture | Did you know... | Topics in mathematics
+Categories | WikiProjects | Things you can do | Index | Related portals
+
+There are approximately 31,444 mathematics articles in Wikipedia.
+
+
+
+
+View new selections below (purge)
+
+
+edit
+Selected article
+
+
+
+
+
+
+
+
+
+
+
+
+e is the unique number such that the slope of y=ex (blue curve) is exactly 1 when x=0 (illustrated by the red tangent line). For comparison, the curves y=2x (dotted curve) and y=4x (dashed curve) are shown.
+Image credit: Dick Lyon
+
+
+The mathematical constant e is occasionally called Euler's number after the Swiss mathematician Leonhard Euler, or Napier's constant in honor of the Scottish mathematician John Napier who introduced logarithms. It is one of the most important numbers in mathematics, alongside the additive and multiplicative identities 0 and 1, the imaginary unit i, and π, the circumference to diameter ratio for any circle. It has a number of equivalent definitions. One is given in the caption of the image to the right, and three more are:
+
+The sum of the infinite series
+
+
+  
+    
+      
+        
+          
+            
+              
+                e
+              
+              
+                
+                =
+                
+                  
+                  
+                    n
+                    =
+                    0
+                  
+                  
+                    
+                  
+                
+                
+                  
+                    1
+                    
+                      n
+                      !
+                    
+                  
+                
+              
+            
+            
+              
+              
+                
+                =
+                
+                  
+                    1
+                    
+                      0
+                      !
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      1
+                      !
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      2
+                      !
+                    
+                  
+                
+                +
+                
+                  
+                    1
+                    
+                      3
+                      !
+                    
+                  
+                
+                +
+                
+              
+            
+          
+        
+      
+    
+    {\displaystyle {\begin{aligned}e=\sum _{n=0}^{\infty }{\frac {1}{n!}}\\={\frac {1}{0!}}+{\frac {1}{1!}}+{\frac {1}{2!}}+{\frac {1}{3!}}+\cdots \\\end{aligned}}}
+  
+
+where n! is the factorial of n.
+
+
+The global maximizer of the function
+
+
+  
+    
+      
+        f
+        (
+        x
+        )
+        =
+        
+          x
+          
+            
+              1
+              x
+            
+          
+        
+        .
+      
+    
+    {\displaystyle f(x)=x^{1 \over x}.}
+  
+
+
+
+The limit:
+
+
+  
+    
+      
+        e
+        =
+        
+          lim
+          
+            n
+            
+            
+          
+        
+        
+          
+            (
+            1
+            +
+            
+              
+                1
+                n
+              
+            
+            )
+          
+          
+            n
+          
+        
+      
+    
+    {\displaystyle e=\lim _{n\to \infty }\left(1+{\frac {1}{n}}\right)^{n}}
+  
+
+
+
+
+The number e is also the base of the natural logarithm. Since e is transcendental, and therefore irrational, its value can not be given exactly. The numerical value of e truncated to 20 decimal places is 2.71828 18284 59045 23536.
+
+
+View all selected articles
+Read More...
+
+
+
+
+
+edit
+Selected picture
+
+
+
+
+
+
+
+
+Credit: Linas Vepstas
+This is a graph of a portion of the complex-valued Riemann zeta function along the critical line (the set of complex numbers having real part equal to 1/2). More specifically, it is a graph of Im ζ(1/2 + it) versus Re ζ(1/2 + it) (the imaginary part vs.the real part) for values of the real variable t running from 0 to 34 (the curve starts at its leftmost point, with real part approximately −1.46 and imaginary part 0). The first five zeros along the critical line are visible in this graph as the five times the curve passes through the origin (which occur at t≈14.13, 21.02, 25.01, 30.42, and 32.93 — for a different perspective, see a graph of the real and imaginary parts of this function plotted separately over a wider range of values). In 1914, G. H. Hardy proved that ζ(1/2 + it) has infinitely many zeros. According to the Riemann hypothesis, zeros of this form constitute the only non-trivial zeros of the full zeta function, ζ(s), where s varies over all complex numbers. Riemann's zeta function grew out of Leonhard Euler's study of real-valued infinite series in the early 18th century. In a famous 1859 paper called "On the Number of Primes Less Than a Given Magnitude", Bernhard Riemann extended Euler's results to the complex plane and established a relation between the zeros of his zeta function and the distribution of prime numbers. The paper also contained the previously mentioned Riemann hypothesis, which is considered by many mathematicians to be the most important unsolved problem in pure mathematics. The Riemann zeta function plays a pivotal role in analytic number theory and has applications in physics, probability theory, and applied statistics.
+
+More selected pictures...Read more...
+
+
+
+
+
+edit
+Did you know...
+
+
+
+
+...that every natural number can be written as the sum of four squares?
+...that the largest known prime number is over 22 million digits long?
+...that the set of rational numbers is equal in size to the subset of integers; that is, they can be put in one-to-one correspondence?
+...that there are precisely six convex regular polytopes in four dimensions? These are analogs of the five Platonic solids known to the ancient Greeks.
+...that it is unknown whether π and e are algebraically independent?
+...that a nonconvex polygon with three convex vertices is called a pseudotriangle?
+...that it is possible for a three dimensional figure to have a finite volume but infinite surface area? An example of this is Gabriel's Horn.
+
+            
+Showing 7 items out of 72
+Moredidyouknow
+
+
+
+
+
+
+
+
+edit
+WikiProjects
+
+
+The Mathematics WikiProject is the center for mathematics-related editing on Wikipedia. Join the discussion on the project's talk page.
+
+
+
+Project pages
+
+Participants
+Current activity
+Manual of style
+Conventions
+
+Essays
+
+Advice on using Wikipedia for mathematics self-study
+Proofs
+
+Subprojects
+
+PlanetMath Exchange (Talk)
+Graphics (Talk)
+Article assessment (Talk)
+
+Related projects
+Computer science | Cryptography | Game theory | Numbers | Physics | Science | Statistics
+
+
+
+edit
+Things you can do
+
+
+
+
+Create a new article: See requested articles list
+Add a new image: Requested images list
+Improve articles: Pages needing attention (Category)
+Expand articles: Mathematics stubs
+
+
+
+
+
+edit
+Categories
+
+
+
+
+Algebra | Arithmetic | Analysis | Complexanalysis | Appliedmathematics | Calculus | Categorytheory | Chaostheory | Combinatorics | Dynamicsystems | Fractals | Gametheory | Geometry | Algebraicgeometry | Graphtheory | Grouptheory | Linearalgebra | Mathematicallogic | Modeltheory | Multi-dimensionalgeometry | Numbertheory | Numericalanalysis | Optimization | Ordertheory | Probabilityandstatistics | Settheory | Statistics | Topology | Algebraictopology | Trigonometry | Linearprogramming
+
+
+
+Mathematics (books) | History of mathematics | Mathematicians | Awards | Education | Literature | Notation | Organizations | Theorems | Proofs | Unsolved problems
+
+
+
+
+▼ Mathematics
+
+
+► Fields of mathematics
+
+
+
+► Mathematics-related lists
+
+
+
+► Mathematicians
+
+
+
+► Mathematical concepts
+
+
+
+► Mathematics and culture
+
+
+
+► Mathematical examples
+
+
+
+► History of mathematics
+
+
+
+► Mathematics and art
+
+
+
+► Mathematical modeling
+
+
+
+► Mathematical notation
+
+
+
+► Mathematical science occupations
+
+
+
+► Philosophy of mathematics
+
+
+
+► Mathematical projects
+
+
+
+► Mathematical proofs
+
+
+
+► Pseudomathematics
+
+
+
+► Set indices on mathematics
+
+
+
+► Mathematical terminology
+
+
+
+► Mathematics textbooks
+
+
+
+► Mathematical theorems
+
+
+
+► Mathematical tools
+
+
+
+► Women in mathematics
+
+
+
+► Wikipedia books on mathematics
+
+
+
+► Mathematics stubs
+
+
+
+
+
+
+More mathematics categories
+
+
+
+edit
+Topics in mathematics
+
+
+
+
+
+General
+Foundations
+Number theory
+Discrete mathematics
+
+
+
+
+
+Mathematicians
+History of mathematics
+Philosophy of mathematics
+Mathematical notation
+Mathematical beauty
+Mathematics education
+Areas of mathematics
+List of basic mathematics topics
+List of mathematical symbols
+Wikipedia Books: Mathematics
+
+
+
+
+
+Foundations of mathematics
+Mathematical logic
+
+Proof theory
+
+Gödel's incompleteness theorems
+
+
+Model theory
+Recursion theory
+
+
+
+
+Set theory (portal)
+
+Naive set theory
+Axiomatic set theory
+
+
+Category theory (portal)
+
+Topos theory
+
+
+
+
+
+
+
+Number theory (portal)
+Algebraic number theory
+Analytic number theory
+Arithmetic
+
+Fundamental theorem of arithmetic
+
+
+Numbers
+
+Natural numbers
+Prime numbers
+Rational numbers
+Algebraic numbers
+
+
+
+
+
+
+
+Discrete mathematics (portal)
+Combinatorics
+
+Combinatorial geometry
+Coding theory
+Combinatorial design
+Enumerative combinatorics
+Combinatorial optimization
+
+
+Graph theory
+Order theory
+
+Lattice theory
+
+
+
+
+
+
+
+Algebra
+Analysis
+Geometry and topology
+Applied mathematics
+
+
+
+
+
+Algebra (portal)
+Elementary algebra
+Abstract algebra
+
+Group theory
+Ring theory
+Field theory
+Commutative algebra
+
+
+Geometric algebra
+Linear algebra
+
+Matrix theory
+Multilinear algebra
+
+
+Universal algebra
+Fundamental theorem of algebra
+
+
+
+
+
+Analysis (portal)
+Calculus
+
+Fundamental theorem of calculus
+Vector calculus
+Geometric calculus
+
+
+Measure theory
+Real analysis
+Complex analysis
+Differential equations
+
+Ordinary differential equations
+Partial differential equations
+
+
+Integral equations
+Approximation theory
+Special functions
+Potential theory
+Harmonic analysis
+
+Fourier analysis
+
+
+Functional analysis
+Operator theory
+
+
+
+
+
+Geometry (portal)
+Euclidean geometry
+
+Trigonometry
+
+
+Analytic geometry
+Non-Euclidean geometry
+Affine geometry
+Projective geometry
+Convex geometry
+Discrete geometry
+Algebraic geometry
+Differential geometry
+
+Riemannian geometry
+Lie groups
+
+
+Topology (portal)
+
+General topology
+Algebraic topology
+Geometric topology
+Differential topology
+
+
+
+
+
+
+
+Applied mathematics
+Mathematical modeling
+Mathematical physics
+Dynamical systems
+
+Control theory
+
+Calculus of variations
+
+
+
+
+Optimization
+Mathematical economics
+
+Game theory
+Mathematical finance
+
+
+Statistics (portal)
+Probability theory
+
+Stochastic processes
+
+
+Numerical analysis
+Theoretical computer science
+
+Computability theory
+Complexity theory
+
+
+Cryptography (portal)
+Information theory
+
+
+
+
+
+
+
+
+edit
+Index of mathematics articles
+
+
+
+
+ARTICLE INDEX:
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (0–9)
+
+
+MATHEMATICIANS:
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+
+
+
+
+edit
+Related portals
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algebra
+Analysis
+Category
+theory
+Computer
+science
+Cryptography
+Discrete
+mathematics
+Geometry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Logic
+Mathematics
+Number
+theory
+Physics
+Science
+Set theory
+Statistics
+Topology
+
+
+
+
+Science
+ History of science  Philosophy of science  Systems science  Mathematics  Biology  Chemistry  Physics  Earth sciences  Technology 
+
+
+
+
+What are portals?
+List of portals
+Featured portals
+
+
+
+
+
+edit
+In other Wikimedia projects
+
+
+
+
+The following Wikimedia sister projects provide more on this subject:
+
+Wikibooks
+Books
+
+
+
+
+
+Commons
+Media
+
+
+
+
+
+Wikinews
+News
+
+
+
+
+
+Wikiquote
+Quotations
+
+
+
+
+
+Wikisource
+Texts
+
+
+
+
+
+Wikiversity
+Learning resources
+
+
+
+
+
+Wiktionary
+Definitions
+
+
+
+
+
+Wikidata
+Database
+
+
+
+
+
 
 
 
@@ -107,8 +888,8 @@ Next: Learn more about editing →
 
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Introductionoldid=680454568"					
-				Categories: Wikipedia basic informationWikipedia quick introductions				
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Mathematicsoldid=686628022"					
+				Categories: Mathematics portalHidden categories: Wikipedia semi-protected portalsWikipedia move-protected portalsFeatured portals				
 							
 		
 		
@@ -124,7 +905,7 @@ Next: Learn more about editing →
 										
 						Namespaces
 						
-															Project page
+															Portal
 															Talk
 													
 					
@@ -207,7 +988,7 @@ Next: Learn more about editing →
 
 			
 									
-						WikisourceWikiversity					
+						WikibooksWikinewsWikisourceWikiversity					
 							
 		
 			
@@ -215,14 +996,14 @@ Next: Learn more about editing →
 
 			
 									
-						AfrikaansAlemannischÆngliscالعربيةঅসমীয়াАварবাংলাBân-lâm-gúBasa BanyumasanБашҡортсаБългарскиBoarischBosanskiБуряадCatalàCebuanoČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraFøroysktFrançaisGaeilgeGaelgGàidhligGalegoગુજરાતી한국어HrvatskiBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתKapampanganКъарачай-малкъарქართულიҚазақшаKurdîLadinoລາວLatinaLatviešuLëtzebuergeschLietuviųLimburgsMagyarМакедонскиമലയാളംمصرىBahasa MelayuМонголမြန်မာဘာသာ日本語NapulitanoNorsk bokmålNorsk nynorskپښتوPlattdüütschPolskiPortuguêsRomânăRomaniRuna SimiРусскийSámegiellaसंस्कृतम्SarduScotsSicilianuSimple EnglishسنڌيSlovenčinaSlovenščinaکوردیی ناوەندیСрпски / srpskiBasa SundaSuomiSvenskaTagalogTarandíneТатарча/tatarçaไทยTürkçeУдмуртУкраїнськаاردوTiếng Việtייִדיש粵語中文					
+						አማርኛالعربيةАварবাংলাБеларуская (тарашкевіца)‎БългарскиCatalàCebuanoČeštinaDeutschEestiΕλληνικάEspañolEsperantoفارسیFrançaisGĩkũyũ한국어Հայերենहिन्दीBahasa IndonesiaÍslenskaItalianoעבריתქართულიҚазақшаKiswahiliKreyòl ayisyenKurdîLatinaLietuviųLumbaartMagyarМакедонскиMaltiBahasa Melayuမြန်မာဘာသာNederlands日本語Oʻzbekcha/ўзбекчаਪੰਜਾਬੀپښتوPolskiPortuguêsRomânăRuna SimiРусскийShqipසිංහලسنڌيSlovenčinaSoomaaligaکوردیی ناوەندیСрпски / srpskiSuomiSvenskaதமிழ்TaqbaylitТатарча/tatarçaไทยТоҷикӣTürkçeУкраїнськаاردوTiếng Việt文言ייִדישYorùbá粵語中文					
 				Edit links			
 		
 				
 		
 		
 							
-											 This page was last modified on 10 September 2015, at 23:28.
+											 This page was last modified on 20 October 2015, at 08:24.
 											Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 									
@@ -243,6 +1024,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.052","walltime":"0.066","ppvisitednodes":{"value":41,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":2211,"limit":2097152},"templateargumentsize":{"value":189,"limit":2097152},"expansiondepth":{"value":3,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    8.437      1 -total"," 87.89%    7.415      1 Wikipedia:Introduction/Header"," 16.49%    1.391      2 Wikipedia:Introduction/Tab2"," 15.42%    1.301      1 Wikipedia:Introduction/Tab3"," 14.77%    1.246      1 Wikipedia:Introduction/TabsTop"," 11.71%    0.988      1 Wikipedia:Introduction/TabsBottom"," 11.34%    0.957      1 Wikipedia:Introduction/Tab1"," 11.30%    0.953      1 Template:Help_contents_back"]},"cachereport":{"origin":"mw1248","timestamp":"20170330073735","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":81,"wgHostname":"mw1184"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.216","walltime":"0.445","ppvisitednodes":{"value":2377,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":92470,"limit":2097152},"templateargumentsize":{"value":12116,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  239.117      1 -total"," 23.94%   57.235      1 Template:Pp-semi-indef"," 14.90%   35.629      1 Portal:Mathematics/Did_you_know"," 12.70%   30.362      1 Portal:Mathematics/Random_portal_component","  9.89%   23.645      1 Template:Random_portal_component","  8.95%   21.390      1 Portal:Mathematics/Selected_article/28","  8.71%   20.838      1 Template:Featured_portal","  7.65%   18.302      1 Portal:Mathematics/Intro","  7.64%   18.266      1 Template:Top_icon","  6.07%   14.503     10 Portal:Mathematics/box-header"]},"scribunto":{"limitreport-timeusage":{"value":"0.044","limit":"10.000"},"limitreport-memusage":{"value":1587877,"limit":52428800}},"cachereport":{"origin":"mw1257","timestamp":"20170412115850","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":58,"wgHostname":"mw1218"});});
 	
 

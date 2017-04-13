@@ -45,10 +45,14 @@ class MainHandler(tornado.web.RequestHandler):
       print "Found %d document(s) that matched query '%s':" % (hits.totalHits, query)
       items = []
       rQ = []
+      
+      for key, value in doc_urls.iteritems() :
+        print (key, value)
 
       for hit in hits.scoreDocs:
           #items.append({'score':hit.score, 'doc':hit.doc, 'blah':hit.toString(), 'url':doc_urls[str(hit.doc)]})
           print hit.score, hit.doc, hit.toString()
+          print(len(doc_urls))
           items.append(doc_urls[str(hit.doc)])
           print(doc_urls[str(hit.doc)])
           doc = searcher.doc(hit.doc) 

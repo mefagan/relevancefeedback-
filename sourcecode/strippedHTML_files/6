@@ -2,16 +2,12 @@
 
 
 
-Wikipedia, the free encyclopedia
+Wikipedia:Introduction - Wikipedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WO6ZoApAMFgAADEtNukAAABE","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Project","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":4,"wgPageName":"Wikipedia:Introduction","wgTitle":"Introduction","wgCurRevisionId":680454568,"wgRevisionId":680454568,"wgArticleId":1226609,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia basic information","Wikipedia quick introductions"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Wikipedia:Introduction","wgRelevantArticleId":1226609,"wgRequestId":"WNy1vwpAMFMAAF07wVcAAABU","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":true},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q3945","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.tmh.thumbnail.styles":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
-
-
-
-
+});mw.loader.load(["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
 
 
 
@@ -36,7 +32,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 							
 						
 
-			Main Page
+			Wikipedia:Introduction
 									
 									From Wikipedia, the free encyclopedia
 								
@@ -46,375 +42,63 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 				
 
 
+Help:Contents
 
 
 
-Welcome to Wikipedia,
-the free encyclopedia that anyone can edit.
-5,382,713 articles in English
 
+Introduction
 
+Learnmoreaboutediting
 
+ExploreWikipedia
 
+Tutorial
 
 
-Arts
-Biography
-Geography
 
+What is Wikipedia?
 
 
+Play media
 
-History
-Mathematics
-Science
 
+A short video about the satisfaction editors get from contributing
 
 
+Wikipedia is a free encyclopedia, written collaboratively by the people who use it. It is a special type of website designed to make collaboration easy, called a wiki. Many people are constantly improving Wikipedia, making thousands of changes per hour. All of these changes are recorded in article histories and recent changes. For a more detailed account of the project, see About Wikipedia.
 
-Society
-Technology
-All portals
+How you can contribute
 
 
 
 
+Click "Edit" to change an article
 
 
 
 
+Play media
 
 
-From today's featured article
+Editing tutorial for Wikipedia
 
 
+Don't be afraid to edit – anyone can edit almost every page, and we are encouraged to be bold! Find something that can be improved and make it better—for example, spelling, grammar, rewriting for readability, adding content, or removing non-constructive edits. If you wish to add new facts, please try to provide references so they may be verified, or suggest them on the article's discussion page. Changes to controversial topics and Wikipedia's main pages should usually be discussed first. Contributing to Wikipedia will provide you with resources on all the basics needed to use, comment on, and contribute to Wikipedia.
+Remember – you can't break Wikipedia; all edits can be reversed, fixed or improved later. Wikipedia is allowed to be imperfect. So go ahead, edit an article and help make Wikipedia the best information source on the Internet!
+Donate – Wikipedia is free to use, but relies on donations and grants to do so. Please consider donating using the Donate to Wikipedia link on the left to help with the project's running costs and expansion.
 
 
+Why not try out the editor right now?
 
+Click here to edit the sandbox, a place to make test edits. (If there is already some text there, add to the end of the text.)
+Type some text.
+Click Show preview to test your changes, or Save page when you're happy with the way it looks.
 
 
+Next: Learn more about editing →
 
-Everglades National Park is a U.S. National Park in Florida that protects the southern 20percent of the original Everglades. It is the largest tropical wilderness in the United States and the third-largest national park in the lower 48states after Death Valley and Yellowstone. The park was established in 1934 when canal-building projects in South Florida were threatening the quickly vanishing Everglades, a network of wetlands and forests fed by a river flowing out of Lake Okeechobee into Florida Bay. It was the first national park created to protect a fragile ecosystem. The park is the most significant breeding ground for tropical wading birds in North America and contains the largest mangrove ecosystem in the western hemisphere. It is home to 36threatened or protected species including the Florida panther, the American crocodile, and the West Indian manatee, and supports 350species of birds, 300species of fresh and saltwater fish, 40species of mammals, and 50species of reptiles. Most of South Florida's fresh water comes from the Biscayne Aquifer, which is replenished by the Everglades. (Fullarticle...)
-Part of the Everglades series, one of Wikipedia's featured topics.
-Recently featured:
 
-
-Margaret Lea Houston
-Noel Park
-Canadian National Vimy Memorial
-
-
-
-
-
-Archive
-By email
-More featured articles...
-
-
-
-
-
-
-
-Did you know...
-
-
-
-
-
-
-
-Mary and Christ
-
-
-
-... that Michelangelo destroyed parts of his own Sistine Chapel ceiling to make room for his Last Judgement (detail pictured)?
-... that Chris Marron jointly holds the record for the most goals scored in an FA Cup match, having scored 10 in one game?
-... that as the German army invaded France in 1940, radio station Paris-Mondial began broadcasting "recordings of military marches and panicked appeals for guns, tanks, and planes"?
-... that award-winning graphic novelist Miriam Katin only started creating comics at the age of 63?
-... that J. Lamar Worzel was a recipient of the Navy Meritorious Public Service Award for his part in helping discover the first nuclear submarine lost at sea?
-... that the "I believe that we will win!" chant, used as a rallying cry by United States fans during the 2014 FIFA World Cup, was first used for the college football Army–Navy Game?
-... that Anil Kumar Mandal developed an alternative surgical protocol for treating pediatric glaucoma?
-... that Pu Songling based his pigeon collector character on a real-life stone fanatic?
-
-
-
-Recent additions
-Start a new article
-Nominate an article
-
-
-
-
-
-
-
-
-
-
-
-
-In the news
-
-
-
-
-
-
-
-Sergio García
-
-
-
-In golf, Sergio García (pictured) defeats Justin Rose in a playoff to win the Masters Tournament.
-At least 44 people are killed and 126 others injured when two Egyptian Coptic Orthodox churches are attacked on Palm Sunday by suicide bombers.
-The Basque separatist militant group ETA disarms itself.
-A stolen truck is driven through crowds and into a department store in downtown Stockholm, killing 4 people and injuring 15 others.
-The United States attacks a Syrian air base in response to a chemical attack in Khan Shaykhun that killed more than 70 people.
-Tim Berners-Lee wins the Turing Award for inventing the World Wide Web, the first web browser, and the protocols and algorithms that allow the Web to scale.
-
-
-Ongoing:
-
-
-Battle of Mosul
-
-
-
-Recent deaths:
-
-
-John Clarke
-Fishman
-Brian Matthew
-Peter Isaacson
-
-
-
-
-
-
-
-
-
-On this day...
-
-
-
-
-
-April 12: Yuri's Night; Cosmonautics Day in Russia
-
-
-Terry Fox
-
-
-
-1776 – The fourth North Carolina Provincial Congress passed the Halifax Resolves, the first official action in the American colonies calling for independence from Britain during the American Revolution.
-1831 – Broughton Suspension Bridge in Manchester, England, collapsed, reportedly because of mechanical resonance induced by troops marching in step over the bridge.
-1910 – SMSZrínyi, one of the last pre-dreadnoughts built by the Austro-Hungarian Navy, was launched.
-1980 – Terry Fox (pictured) dipped his artificial leg in the Atlantic Ocean at St. John's, Newfoundland and Labrador, and began running his "Marathon of Hope" towards the Pacific Ocean at Vancouver, British Columbia, to raise funds across Canada for cancer research.
-2007 – The canteen of the Council of Representatives of Iraq building was attacked by a suicide bomber, killing one Member of Parliament and wounding 23 other people.
-
-Peter Hesketh-Fleetwood (d.1866)·  Beverly Cleary (b.1916)·  Xin Fengxia (d.1998)
-More anniversaries:
-
-
-April 11
-April 12
-April 13
-
-
-
-
-
-Archive
-By email
-List of historical anniversaries
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Today's featured picture
-
-
-
-
-
-
-
-
-
-The lady chapel at Salisbury Cathedral, an Anglican cathedral in Salisbury, England. Pictured below the stained glass is an installation by the artist Nicholas Pope, called "The Apostles Speaking in Tongues Lit By Their Own Lamps".
-Photograph: David Iliff
-Recently featured:
-
-
-Supercell
-Schönbrunn Palace
-Christ taking leave of his Mother
-
-
-
-
-
-Archive
-More featured pictures...
-
-
-
-
-
-
-
-
-
-
-
-
-
-Other areas of Wikipedia
-
-Community portal – Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.
-Help desk – Ask questions about using Wikipedia.
-Local embassy – For Wikipedia-related communication in languages other than English.
-Reference desk – Serving as virtual librarians, Wikipedia volunteers tackle your questions on a wide range of subjects.
-Site news – Announcements, updates, articles and press releases on Wikipedia and the Wikimedia Foundation.
-Village pump – For discussions about Wikipedia itself, including areas for technical issues and policies.
-
-
-
-Wikipedia's sister projects
-Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects:
-
-
-
-Commons
-Free media repository
-
-MediaWiki
-Wiki software development
-
-Meta-Wiki
-Wikimedia project coordination
-
-
-
-Wikibooks
-Free textbooks and manuals
-
-Wikidata
-Free knowledge base
-
-Wikinews
-Free-content news
-
-
-
-Wikiquote
-Collection of quotations
-
-Wikisource
-Free-content library
-
-Wikispecies
-Directory of species
-
-
-
-Wikiversity
-Free learning materials and activities
-
-Wikivoyage
-Free travel guide
-
-Wiktionary
-Dictionary and thesaurus
-
-
-
-
-Wikipedia languages
-
-This Wikipedia is written in English. Started in 2001(2001), it currently contains 5,382,713 articles.  Many other Wikipedias are available; some of the largest are listed below.
-
-More than 1,000,000 articles:
-
-
-Deutsch
-Español
-Français
-Italiano
-Nederlands
-日本語
-Polski
-Русский
-Svenska
-Tiếng Việt
-
-
-
-More than 250,000 articles:
-
-
-العربية
-Bahasa Indonesia
-Bahasa Melayu
-Català
-Čeština
-Euskara
-فارسی
-한국어
-Magyar
-Norsk bokmål
-Português
-Română
-Srpski
-Srpskohrvatski
-Suomi
-Türkçe
-Українська
-中文
-
-
-
-More than 50,000 articles:
-
-
-Bosanski
-Български
-Dansk
-Eesti
-Ελληνικά
-English (simple form)
-Esperanto
-Galego
-עברית
-Hrvatski
-Latviešu
-Lietuvių
-Norsk nynorsk
-Slovenčina
-Slovenščina
-ไทย
-
-
-
-
-
-Complete list of Wikipedias
 
 
 
@@ -423,8 +107,8 @@ Complete list of Wikipedias
 
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Main_Pageoldid=762066868"					
-								
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Wikipedia:Introductionoldid=680454568"					
+				Categories: Wikipedia basic informationWikipedia quick introductions				
 							
 		
 		
@@ -440,7 +124,7 @@ Complete list of Wikipedias
 										
 						Namespaces
 						
-															Main Page
+															Project page
 															Talk
 													
 					
@@ -507,7 +191,7 @@ Complete list of Wikipedias
 
 			
 									
-						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page					
+						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item					
 							
 		
 			
@@ -523,7 +207,7 @@ Complete list of Wikipedias
 
 			
 									
-						Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage					
+						WikisourceWikiversity					
 							
 		
 			
@@ -531,14 +215,14 @@ Complete list of Wikipedias
 
 			
 									
-						العربيةБългарскиBosanskiCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGalego한국어HrvatskiBahasa IndonesiaItalianoעבריתქართულიLatviešuLietuviųMagyarBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăРусскийSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaไทยTürkçeУкраїнськаTiếng Việt中文					
-							
+						AfrikaansAlemannischÆngliscالعربيةঅসমীয়াАварবাংলাBân-lâm-gúBasa BanyumasanБашҡортсаБългарскиBoarischBosanskiБуряадCatalàCebuanoČeštinaCymraegDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraFøroysktFrançaisGaeilgeGaelgGàidhligGalegoગુજરાતી한국어HrvatskiBahasa IndonesiaInterlinguaÍslenskaItalianoעבריתKapampanganКъарачай-малкъарქართულიҚазақшаKurdîLadinoລາວLatinaLatviešuLëtzebuergeschLietuviųLimburgsMagyarМакедонскиമലയാളംمصرىBahasa MelayuМонголမြန်မာဘာသာ日本語NapulitanoNorsk bokmålNorsk nynorskپښتوPlattdüütschPolskiPortuguêsRomânăRomaniRuna SimiРусскийSámegiellaसंस्कृतम्SarduScotsSicilianuSimple EnglishسنڌيSlovenčinaSlovenščinaکوردیی ناوەندیСрпски / srpskiBasa SundaSuomiSvenskaTagalogTarandíneТатарча/tatarçaไทยTürkçeУдмуртУкраїнськаاردوTiếng Việtייִדיש粵語中文					
+				Edit links			
 		
 				
 		
 		
 							
-											 This page was last modified on 26 January 2017, at 12:39.
+											 This page was last modified on 10 September 2015, at 23:28.
 											Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 									
@@ -559,6 +243,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.208","walltime":"0.275","ppvisitednodes":{"value":3165,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":98257,"limit":2097152},"templateargumentsize":{"value":4825,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  195.466      1 -total"," 45.57%   89.069      8 Template:Main_page_image"," 45.18%   88.304      1 Wikipedia:Main_Page/Tomorrow"," 17.59%   34.387      2 Template:Wikipedia_languages"," 17.44%   34.087      1 Wikipedia:Today's_featured_article/April_12,_2017"," 16.95%   33.129      1 Template:Did_you_know/Queue/5"," 16.41%   32.074      8 Template:Str_number/trim"," 16.07%   31.405      2 Template:In_the_news"," 13.54%   26.471     24 Template:If_empty"," 13.53%   26.438      2 Template:In_the_news/image"]},"scribunto":{"limitreport-timeusage":{"value":"0.059","limit":"10.000"},"limitreport-memusage":{"value":2051721,"limit":52428800}},"cachereport":{"origin":"mw1176","timestamp":"20170412211814","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1253"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.052","walltime":"0.066","ppvisitednodes":{"value":41,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":2211,"limit":2097152},"templateargumentsize":{"value":189,"limit":2097152},"expansiondepth":{"value":3,"limit":40},"expensivefunctioncount":{"value":0,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%    8.437      1 -total"," 87.89%    7.415      1 Wikipedia:Introduction/Header"," 16.49%    1.391      2 Wikipedia:Introduction/Tab2"," 15.42%    1.301      1 Wikipedia:Introduction/Tab3"," 14.77%    1.246      1 Wikipedia:Introduction/TabsTop"," 11.71%    0.988      1 Wikipedia:Introduction/TabsBottom"," 11.34%    0.957      1 Wikipedia:Introduction/Tab1"," 11.30%    0.953      1 Template:Help_contents_back"]},"cachereport":{"origin":"mw1248","timestamp":"20170330073735","ttl":2592000,"transientcontent":false}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":149,"wgHostname":"mw1248"});});
 	
 

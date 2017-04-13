@@ -2,12 +2,16 @@
 
 
 
-Portal:Society - Wikipedia
+Wikipedia, the free encyclopedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Society","wgTitle":"Society","wgCurRevisionId":649229924,"wgRevisionId":649229924,"wgArticleId":2076539,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Wikipedia move-protected portals","Featured portals","Society portal","Society","Society portals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Society","wgRelevantArticleId":2076539,"wgRequestId":"WO4W5ApAAEUAADh4VWUAAAAI","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q3708001","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","mediawiki.page.gallery.styles":"ready","ext.tmh.thumbnail.styles":"ready","ext.categoryTree.css":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WO@pegpAMFoAAINPj60AAABI","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.tmh.thumbnail.styles":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+});mw.loader.load(["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
+
+
+
+
 
 
 
@@ -32,9 +36,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 							
 						
 
-
-
-			Portal:Society
+			Main Page
 									
 									From Wikipedia, the free encyclopedia
 								
@@ -43,104 +45,79 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 				
 				
 
-Topics
-Culture
+
+
+
+
+Welcome to Wikipedia,
+the free encyclopedia that anyone can edit.
+5,383,281 articles in English
+
+
+
+
+
+
+Arts
+Biography
 Geography
-Health
+
+
+
+
 History
 Mathematics
-Nature
-People
-Philosophy
-Religion
+Science
+
+
+
+
 Society
 Technology
+All portals
 
 
 
 
-Sociology portals: Arts·  Anthropology·  Community·  Culture·  Economics·  Education·  Geography·  Gender studies·  Globalization·  History·  Human rights·  Internet·  Law·  Philosophy·  Social movements·  Social sciences·  Social welfare and social work·  Society
 
 
 
 
 
 
-edit
-The Society Portal
+From today's featured article
 
 
 
-Canis lupus social ethology
 
 
-A human society is a group of people related to each other through continued relations, or a large social grouping sharing the same geographical or virtual territory, same interests, subject to the same political authority and dominant cultural expectations. Human societies are characterized by patterns of relationships (social relations) between individuals who share a distinctive culture and institutions. A given society may be described as the sum total of such relationships among its constituent members. In the social sciences, a larger society often evinces stratification and/or dominance patterns in subgroups.
-In so far as it is collaborative, a society can enable its members to benefit in ways that would not otherwise be possible on an individual basis; both individual and social (common) benefits can thus be distinguished, or in many cases found to overlap. A society can also consist of like-minded people governed by their own norms and values within a dominant, larger society. This is sometimes referred to as a subculture, a term used extensively within criminology: an organized group working together having a common interests, beliefs, or profession.
-More broadly, a society may be described as an economic, social, or industrial infrastructure, made up of a varied collection of individuals or subgroups. Members of a society may be from different ethnic groups. A society can be a particular ethnic group, such as the Saxons; a nation state, such as Bhutan; or a broader cultural group, such as a Western society. The word society may also refer to an organized voluntary association of people for religious, benevolent, cultural, scientific, political, patriotic, or other purposes. A "society" may also be a group of social organisms such as an ant colony, or any cooperative aggregate such as, for example, in some formulations of artificial intelligence.
 
 
-More about society…
+Play media
 
 
+Fez is an indie puzzle-platform video game developed by Polytron and published by Trapdoor, first released on April 13, 2012, for Xbox Live Arcade. The player-character Gomez receives a fez that reveals his two-dimensional (2D) world to be one of four sides of a three-dimensional (3D) world. The player rotates between these four 2D views to realign platforms and solve the game's puzzles. Designer Phil Fish appeared in the 2012 documentary Indie Game: The Movie, which detailed Fez's final stages of development and Polytron's related legal issues. Reviewers commended the game's emphasis on discovery and freedom, but criticized its technical issues, in-game navigation, and endgame backtracking. They likened the game's rotation mechanics to the 2D–3D shifts of Echochrome, Super Paper Mario, and Crush. Fez won the Seumas McNally Grand Prize and Eurogamer's 2012 Game of the Year award. It sold one million copies by the end of 2013, and influenced games such as Monument Valley, Crossy Road, and Secrets of Rætikon. (Fullarticle...)
+Recently featured:
 
 
+Everglades National Park
+Margaret Lea Houston
+Noel Park
 
 
-View new selections below (purge)
 
 
-edit
-Selected article
 
+Archive
+By email
+More featured articles...
 
 
-Polyethnicity refers to the close proximity of people from different ethnic backgrounds within a country or other specific geographic region. It also relates to the ability and willingness of individuals to identify themselves with multiple ethnicities. It occurs when multiple ethnicities inhabit a given area, specifically through means of immigration, intermarriage, trade, conquest, and post-war land-divisions. Professor William H. McNeill states in his series of lectures on polyethnicity that it is the societal norm for cultures to be made up of many ethnic groups. This has had many political and social implications on countries and regions. Many, if not all, countries have some level of polyethnicity, with countries like the United States and Canada having large levels and countries like Japan and Poland having relatively small levels (and more specifically, a sense of homogeneity). The amount of polyethnicity prevalent in current society has spurred some arguments against it, which include a belief that it leads to the weakening of each societies strengths, and also a belief that political-ethnic issues in countries with polyethnic populations are better handled with different laws for certain ethnicities.
 
 
 
-...Archive/Nominations
 
 
-
-More...
-
-
-
-
-
-
-
-edit
-Featured picture
-
-
-
-
-
-
-
-
-Credit: Artist: Peter F. Rothermel; Engraver: Robert Whitechurch; Restoration: Lise Broer and Jujutacular
-
-
-
-U.S. Senator Henry Clay gives a speech in the Old Senate Chamber calling for compromise on the issues dividing the United States. The result was the Compromise of 1850, a package of five bills, the first two of which were passed on September 9. Ironically, these led to a breakdown in the spirit of compromise in the years preceding the Civil War, particularly after the deaths of Clay and Daniel Webster.
-
-
-
-...Archive/Nominations
-
-
-
-More...
-
-
-
-
-
-
-
-edit
 Did you know...
 
 
@@ -148,18 +125,25 @@ Did you know...
 
 
 
-... that the Lagan Canal (pictured) was once one of the most successful canals in Ireland but closed in the 1950s after succumbing to competition from road and rail transport?
-... that in response to the Norwegian butter crisis, Danish people have donated thousands of packs to butter-starved Norwegians?
-... that Natchez Indians attacked French colonists in Louisiana in 1729, killing over 240 people?
 
+Rearing Horse and Mounted Warrior
 
 
 
-...Archive/Nominations
+... that the Nazi plunder of European treasures prevented Leonardo da Vinci's Rearing Horse and Mounted Warrior (pictured) from falling into the hands of the Red Army?
+... that the Danish illustrator Lilian Brøgger has illustrated over a hundred books in a variety of unconventional styles?
+... that Bach set a stanza from the evening hymn "Werde munter, mein Gemüte" (Become cheerful, my mind), which Johann Rist and Johann Schop created in collaboration, in his St Matthew Passion?
+... that 25 years ago today, anti-nuclear activist Richard Springer was arrested by the U.S. Secret Service after he approached Ronald Reagan and smashed a crystal statue?
+... that the Andean flicker is unusual among woodpeckers in foraging on the ground and in often nesting colonially?
+... that Birendra Nath Mallick and his team demonstrated that increased production of noradrenaline triggered REM sleep-loss, resulting in brain excitability?
+... that Hank Azaria won a lawsuit for the rights to the title character of Brockmire?
+... that during the Bonville–Courtenay feud, the Earl of Devon's men stole all Nicholas Radford's horses and the sheets off his invalid wife's bed?
 
 
 
-More...
+Recent additions
+Start a new article
+Nominate an article
 
 
 
@@ -167,872 +151,271 @@ More...
 
 
 
-edit
-Anniversaries this month
 
 
 
 
 
+In the news
 
-4 April 1930 - Foundation of the American Rocket Society, originally named the American Interplanetary Society
-13 April 1564 - Pope Pius IV approved the Society of the Holy Name
-19 April 1866 - First anti-cruelty law was passed since the founding of the American Society for the Prevention of Cruelty to Animals (Brooklyn chapter pictured)
-22 April 2008 - IEEE Power Engineering Society changed its name to IEEE Power  Energy Society
 
-More anniversaries...
 
 
 
 
 
+Sergio García
 
-edit
-Selected biography
 
 
+Pakistan sentences former Indian naval officer Kulbhushan Yadav to death for espionage and sabotage.
+In golf, Sergio García (pictured) defeats Justin Rose in a playoff to win the Masters Tournament.
+At least 44 people are killed and 126 others injured when two Egyptian Coptic Orthodox churches are attacked on Palm Sunday by suicide bombers.
+The Basque separatist militant group ETA disarms itself.
+A stolen truck is driven through crowds and into a department store in downtown Stockholm, killing 4 people and injuring 15 others.
+The United States attacks a Syrian air base in response to a chemical attack in Khan Shaykhun that killed more than 70 people.
 
-Robert Marshall (1901–1939) was an American forester, writer and wilderness activist. He developed a love for the outdoors during his childhood and became one of the first Adirondack Forty-Sixers. He also traveled to the Alaskan wilderness and wrote numerous publications, including the 1933 bestselling book Arctic Village. A scientist with a Doctor of Philosophy in plant physiology, Marshall became independently wealthy after the death of his father. He held two significant public posts during his life: chief of forestry in the Bureau of Indian Affairs, from 1933 to 1937, and head of recreation management in the Forest Service, from 1937 to 1939. Defining wilderness as a social as well as an environmental ideal, Marshall was the first to suggest a formal, national organization dedicated to the preservation of primeval land. In 1935 he became one of the principal founders of The Wilderness Society. Marshall died of heart failure at the age of 38. Today, Marshall is considered largely responsible for the wilderness preservation movement. Several landmarks and areas, including The Bob Marshall Wilderness in Montana and Mount Marshall in the Adirondacks, were named in his honor.
 
+Ongoing:
 
 
-...Archive/Nominations
+Battle of Mosul
 
 
 
-More...
+Recent deaths:
 
 
+J. Geils
+Arnold Clark
+John Clarke
+Fishman
 
 
 
 
 
-edit
-Featured audio
 
 
 
 
-1912 – The Right of the People to Rule
+On this day...
 
 
 
 
-Excerpts of a speech given by Theodore Roosevelt at Carnegie Hall, March 12, 1912, recorded August 12 by Thomas Edison. The time constraints of the wax cylinder medium probably required the abridgement.
 
+Vaisakhi (Sikhism)
 
 
+Tiger Woods
 
 
-...Archive/Nominations
 
+1111 – Henry V, the last ruler of the Salian dynasty, was crowned Holy Roman Emperor.
+1742 – Messiah, an oratorio by baroque composer George Frideric Handel, premiered in Dublin.
+1829 – The Roman Catholic Relief Act was granted Royal Assent, removing the most substantial restrictions on Catholics in the United Kingdom.
+1973 – Catch a Fire, the landmark reggae album by Bob Marley and the Wailers, was released.
+1997 – In golf, twenty-one-year-old Tiger Woods (pictured) became the youngest player to win the US Masters, breaking the tournament's record for the lowest four-round score (270 strokes, 18 under par).
 
+Thomas Jefferson (b.1743)·  Danie Mellor (b.1971) ·  Annie Jump Cannon (d.1941)·
+More anniversaries:
 
-More...
 
+April 12
+April 13
+April 14
 
 
 
 
 
+Archive
+By email
+List of historical anniversaries
 
-edit
-Categories
 
 
 
-Society
 
 
 
 
 
 
-► Society portal
 
 
 
 
 
-► Society by continent
+Today's featured picture
 
 
 
 
 
-► Society by nationality
 
 
 
 
+The Flageolet Player on the Cliff is an 1889 oil painting by the French artist Paul Gauguin. Using a patchwork of colors, it depicts a Breton couple on a narrow path precipitously overlooking the Atlantic, with the man playing a flageolet. It is held by the Indianapolis Museum of Art in Indianapolis, Indiana.
+Painting: Paul Gauguin
+Recently featured:
 
-► Sociology
 
+Lady Chapel, Salisbury Cathedral
+Supercell
+Schönbrunn Palace
 
 
 
 
-► Fictional society
 
+Archive
+More featured pictures...
 
 
 
 
-► Anti-social behaviour
 
 
 
 
 
-► Business
 
 
 
 
+Other areas of Wikipedia
 
-► Civil society
+Community portal – Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.
+Help desk – Ask questions about using Wikipedia.
+Local embassy – For Wikipedia-related communication in languages other than English.
+Reference desk – Serving as virtual librarians, Wikipedia volunteers tackle your questions on a wide range of subjects.
+Site news – Announcements, updates, articles and press releases on Wikipedia and the Wikimedia Foundation.
+Village pump – For discussions about Wikipedia itself, including areas for technical issues and policies.
 
 
 
+Wikipedia's sister projects
+Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects:
 
 
-► Clubs and societies
 
+Commons
+Free media repository
 
+MediaWiki
+Wiki software development
 
+Meta-Wiki
+Wikimedia project coordination
 
 
-► Communication
 
+Wikibooks
+Free textbooks and manuals
 
+Wikidata
+Free knowledge base
 
+Wikinews
+Free-content news
 
 
-► Corporate groups
 
+Wikiquote
+Collection of quotations
 
+Wikisource
+Free-content library
 
+Wikispecies
+Directory of species
 
 
-► Crime
 
+Wikiversity
+Free learning materials and activities
 
+Wikivoyage
+Free travel guide
 
+Wiktionary
+Dictionary and thesaurus
 
 
-► Culture
 
 
+Wikipedia languages
 
+This Wikipedia is written in English. Started in 2001(2001), it currently contains 5,383,281 articles.  Many other Wikipedias are available; some of the largest are listed below.
 
+More than 1,000,000 articles:
 
-► Disability
 
+Deutsch
+Español
+Français
+Italiano
+Nederlands
+日本語
+Polski
+Русский
+Svenska
+Tiếng Việt
 
 
 
+More than 250,000 articles:
 
-► Economics
 
+العربية
+Bahasa Indonesia
+Bahasa Melayu
+Català
+Čeština
+Euskara
+فارسی
+한국어
+Magyar
+Norsk bokmål
+Português
+Română
+Srpski
+Srpskohrvatski
+Suomi
+Türkçe
+Українська
+中文
 
 
 
+More than 50,000 articles:
 
-► Education
 
+Bosanski
+Български
+Dansk
+Eesti
+Ελληνικά
+English (simple form)
+Esperanto
+Galego
+עברית
+Hrvatski
+Latviešu
+Lietuvių
+Norsk nynorsk
+Slovenčina
+Slovenščina
+ไทย
 
 
 
 
-► Social events
 
-
-
-
-
-► Family
-
-
-
-
-
-► Feminism and society
-
-
-
-
-
-► Society in fiction
-
-
-
-
-
-► Folklore
-
-
-
-
-
-► Health
-
-
-
-
-
-► Social history
-
-
-
-
-
-► Home
-
-
-
-
-
-► Humans
-
-
-
-
-
-► Inequality
-
-
-
-
-
-► Social institutions
-
-
-
-
-
-► Social issues
-
-
-
-
-
-► Society-related lists
-
-
-
-
-
-
-
-► Mating systems
-
-
-
-
-
-► Matronymics
-
-
-
-
-
-► Medicine in society
-
-
-
-
-
-► Military
-
-
-
-
-
-► Society museums
-
-
-
-
-
-► Nationality
-
-
-
-
-
-► Organizations
-
-
-
-
-
-► Patronymics
-
-
-
-
-
-► People
-
-
-
-
-
-► Philosophy and society
-
-
-
-
-
-► Politics
-
-
-
-
-
-► Postindustrial society
-
-
-
-
-
-► Private law
-
-
-
-
-
-► Race and society
-
-
-
-
-
-► Religion and society
-
-
-
-
-
-► Rural society
-
-
-
-
-
-► Science in society
-
-
-
-
-
-► Sexuality and society
-
-
-
-
-
-► Social change
-
-
-
-
-
-► Social media
-
-
-
-
-
-► Social responsibility
-
-
-
-
-
-► Social sciences
-
-
-
-
-
-► Social work
-
-
-
-
-
-► Socioeconomics
-
-
-
-
-
-► Technology in society
-
-
-
-
-
-► Water and society
-
-
-
-
-
-► Wikipedia books on society
-
-
-
-
-
-► Society portals
-
-
-
-
-
-
-
-
-
-
-
-edit
-WikiProjects
-
-
-
-Related projects
-
-
-
-
-
-
-Community
-Ethnic groups
-Family and relationships
-Former countries
-Gender Studies
-
-
-
-
-
-LGBT studies
-Literature
-Sexology and sexuality
-Sociology
-Travel and Tourism
-
-
-
-
-
-What are WikiProjects?
-
-
-
-
-
-
-edit
-Selected quote
-
-
-
-
-
-
-
-
-
-“
-What is not good for the beehive, cannot be good for the bees.
-”
-
-
-— Marcus Aurelius, Meditations
-
-
-
-
-
-
-
-...Archive/Nominations
-
-
-More...
-
-
-
-
-
-
-edit
-Recognized content
-
-
-
-Featured articles
-
-
- 2012 phenomenon
- W. E. B. Du Bois
- Female genital mutilation
- From The Doctor to my son Thomas
- Fuck (film)
- Fuck: Word Taboo and Protecting Our First Amendment Liberties
-
-
-Featured lists
-
-
- List of awards and nominations received by Penn  Teller: Bullshit!
-
-
-Good articles
-
-
- Timeline of the Egyptian revolution of 2011
- Acting white
- African Americans in Omaha, Nebraska
- Agnosticism
- America's 60 Families
- Anarchism
- Anarchism in Cuba
- Anonymous (group)
- Anti-nuclear movement in Australia
- Archaeoastronomy
- Average Joe
- Balangoda Man
- Before the Dawn (book)
- Birth control
- Black Lives Matter
- Boerehaat
- The Bog People
- Bomis
- A Community of Witches
- Compulsory Miseducation
- Cult film
- Potential cultural impact of extraterrestrial contact
- Culture of the Song dynasty
- Cutting the Mustard
- The Daily Stormer
- Demographics of the Supreme Court of the United States
- Diaphoneme
- Double burden
- Dreamtime (book)
- Émile Durkheim
- EST and The Forum in popular culture
- Ely and Littleport riots of 1816
- Family in advertising
- Family structure in the United States
- Feminism
- Feminist economics
- The finger
- First World
- First interracial kiss on television
- Forensic anthropology
- Free Expression Policy Project
- Fucking Machines
- God's Choice
- Erving Goffman
- History of agriculture
- Hitachi Magic Wand
- Hooray Henry
- I Ching
- The impact of globalization on women in China
- Insects in culture
- Ivatan people
- Java Man
- Joint custody (United States)
- Ralph Larkin
- Lesbian
- LGBT
- Long hair
- Magic, Witchcraft and the Otherworld
- The Man-Eating Myth
- March of loyalty to martyrs
- Karl Marx
- Josef Mengele
- A More Perfect Union: Advancing New American Rights
- Mork Goes Erk
- No Lifeguard on Duty
- Nonviolent Communication
- Not in Front of the Children
- On the Internet, nobody knows you're a dog
- Otaku
- Polyethnicity
- Protests against the Sri Lankan Civil War in Canada
- Proto-globalization
- Racial wage gap in the United States
- Reborn doll
- The Road to Total Freedom
- Romania in the Early Middle Ages
- Royal intermarriage
- Edward Said
- Sex, Sin, and Blasphemy
- Sheng nu
- Social identity theory
- Sociology of leisure
- Sociology
- Stay-at-home dad
- Sustainability
- Team effectiveness
- Think of the children
- Truce term
- Max Weber
- Benjamin Lee Whorf
- Florian Znaniecki
-
-
-Featured pictures
-
-
-
-
-
-
-
-File:Jane Addams - Bain News Service.jpg
-
-
-
-
-
-
-
-
-edit
-Things you can do
-
-
-
-
-
-
-
-
-Here are some tasks awaiting attention:
-
-Article requests : Check article requests in Business and economics topics•  Social sciences topics•  Requested pictures of society topics
-Assess : Check article deletion discussions listed at Deletion sorting– Social science
-Cleanup : check new articles for cleanup from Sociology-related new article feed
-Copyedit : Check Sociology article alerts for interesting articles to copyedit
-Expand : Expand articles in categories including: Culture, Law, Education, Politics
-Featured article candidates : Review society-related articles submitted at Featured Article candidates, especially those at FAC urgents
-Good article nominations : Check out articles under review for Good Article candidacy, in the Social sciences and society section
-Maintain : Check the recent changes page for improvements, other changes, and vandalism to these articles
-Stubs : Take on project for improvement of one of the Sociology stubs
-Verify : Articles with notability concerns, listed at WikiProject Notability
-
-
-
-
-
-
-
-
-
-edit
-Related portals
-
-
-
-
-
-Arts
-
-
-
-Biography
-
-
-
-Community
-
-
-
-Culture
-
-
-
-Death
-
-
-
-Education
-
-
-
-Freedom of speech
-
-
-
-Human rights
-
-
-
-Internet
-
-
-
-Law
-
-
-
-LGBT
-
-
-
-Mind and brain
-
-
-
-Philosophy
-
-
-
-Politics
-
-
-
-Religion
-
-
-
-Sexuality
-
-
-
-Social movements
-
-
-
-Sociology
-
-
-
-Technology
-
-
-
-Writing
-
-
-
-
-
-
-edit
-Web resources
-
-
-
-
-
-
-
-Society at DMOZ
-Definition of Society from the OED.
-Lecture notes on "Defining Society" from East Carolina University.
-Internet Modern History Sourcebook: Industrial Revolution
-"The Day the World Took Off" Six part video series from the University of Cambridge tracing the question "Why did the Industrial Revolution begin when and where it did."
-
-
-
-
-BBC History Home Page– Industrial Revolution
-National Museum of Science and Industry website– machines and personalities
-Industrial Revolution and the Standard of Living by Clark Nardinelli - the debate over whether standards of living rose or fell.
-Cliff Notes on Types of Societies
-
-
-
-
-
-
-
-
-
-edit
-Associated Wikimedia
-
-
-
-
-Society onWikibooks
-Society on Wikimedia Commons
-Society onWikinews
-Society onWikiquote
-Society onWikisource
-Society onWikiversity
-Society onWiktionary
-
-
-Manuals and books
-Images and media
-News
-Quotations
-Texts
-Learning resources
-Definitions
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-What are portals?
-List of portals
-Featured portals
-
-
-
-
+Complete list of Wikipedias
 
 
 
@@ -1041,8 +424,8 @@ Featured portals
 
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Societyoldid=649229924"					
-				Categories: Society portalSocietySociety portalsHidden categories: Wikipedia semi-protected portalsWikipedia move-protected portalsFeatured portals				
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Main_Pageoldid=762066868"					
+								
 							
 		
 		
@@ -1058,7 +441,7 @@ Featured portals
 										
 						Namespaces
 						
-															Portal
+															Main Page
 															Talk
 													
 					
@@ -1125,7 +508,7 @@ Featured portals
 
 			
 									
-						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item					
+						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page					
 							
 		
 			
@@ -1137,18 +520,26 @@ Featured portals
 							
 		
 			
+			In other projects
+
+			
+									
+						Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage					
+							
+		
+			
 			Languages
 
 			
 									
-						AlemannischالعربيةАварবাংলাБашҡортсаБеларуская (тарашкевіца)‎CatalàCebuanoDeutschEestiفارسیFrançaisFryskGĩkũyũBahasa IndonesiaעבריתKapampanganქართულიҚазақшаKiswahiliLëtzebuergeschМакедонскиNederlandsНохчийнNorsk bokmålNorsk nynorskOccitanਪੰਜਾਬੀPolskiPortuguêsРусскийසිංහලSoomaaligaکوردیی ناوەندیSuomiТатарча/tatarçaTürkçeاردوייִדיש粵語中文					
-				Edit links			
+						العربيةБългарскиBosanskiCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGalego한국어HrvatskiBahasa IndonesiaItalianoעבריתქართულიLatviešuLietuviųMagyarBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăРусскийSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaไทยTürkçeУкраїнськаTiếng Việt中文					
+							
 		
 				
 		
 		
 							
-											 This page was last modified on 28 February 2015, at 14:11.
+											 This page was last modified on 26 January 2017, at 12:39.
 											Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 									
@@ -1169,6 +560,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.436","walltime":"0.739","ppvisitednodes":{"value":3922,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":176426,"limit":2097152},"templateargumentsize":{"value":47993,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  561.545      1 -total"," 32.15%  180.551      6 Template:Random_portal_component"," 20.70%  116.217      1 Portal:Society/Featured_articles"," 19.17%  107.650      3 Template:Columns-list"," 16.77%   94.160     98 Template:Icon"," 11.67%   65.526      1 Portal:Society/Subportals"," 11.43%   64.198      1 Template:Related_portals2"," 11.37%   63.824      1 Portal:Society/Categories","  9.83%   55.221     20 Template:Related_portal_item","  9.37%   52.633     20 Template:Portal_image"]},"scribunto":{"limitreport-timeusage":{"value":"0.170","limit":"10.000"},"limitreport-memusage":{"value":3025658,"limit":52428800}},"cachereport":{"origin":"mw1274","timestamp":"20170412120037","ttl":21600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":811,"wgHostname":"mw1274"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.272","walltime":"0.460","ppvisitednodes":{"value":3556,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":115525,"limit":2097152},"templateargumentsize":{"value":7544,"limit":2097152},"expansiondepth":{"value":17,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  253.862      1 -total"," 54.01%  137.120      1 Wikipedia:Main_Page/Tomorrow"," 34.25%   86.942      8 Template:Main_page_image"," 21.61%   54.863      2 Template:Wikipedia_languages"," 19.26%   48.882      1 Wikipedia:Today's_featured_list/April_14,_2017"," 18.82%   47.781      1 Template:TFLcontent"," 14.44%   36.663     88 Template:Wikipedia_languages/core"," 13.64%   34.636      1 Wikipedia:Today's_featured_article/April_13,_2017"," 12.51%   31.756      8 Template:Str_number/trim"," 12.10%   30.725      1 Template:Did_you_know/Queue/6"]},"scribunto":{"limitreport-timeusage":{"value":"0.075","limit":"10.000"},"limitreport-memusage":{"value":2478216,"limit":52428800}},"cachereport":{"origin":"mw1282","timestamp":"20170413163757","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":68,"wgHostname":"mw1255"});});
 	
 
