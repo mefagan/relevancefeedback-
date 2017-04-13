@@ -84,7 +84,8 @@ class MainHandler(tornado.web.RequestHandler):
           stripStopWords(data, i)
           i = i+1
 
-      getWordsForScoring(q)
+      uniqueWordsSansQuery = getWordsForScoring(q)
+      print(len(uniqueWordsSansQuery))
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 

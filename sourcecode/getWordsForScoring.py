@@ -19,7 +19,12 @@ def getWordsForScoring(query):
 	print(i)
 	print(len(ulist))
 
-		#removed_query_words = ' '.join([word for word in text.split() if word not in stop_words])
+	removed_query_words = ' '.join([word for word in ulist if word not in query_words])
+	print(len(query_words))
+	print(len(removed_query_words))
+
+	return removed_query_words
+
 def main():
 	getWordsForScoring("Wikipedia")
 if __name__ == '__main__':
