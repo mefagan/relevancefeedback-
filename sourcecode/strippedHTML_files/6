@@ -2,16 +2,12 @@
 
 
 
-Wikipedia, the free encyclopedia
+Portal:Arts - Wikipedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WO6ZoApAMFgAADEtNukAAABE","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Arts","wgTitle":"Arts","wgCurRevisionId":649230671,"wgRevisionId":649230671,"wgArticleId":1480241,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia move-protected portals","Featured portals","Arts portal","Arts","Visual arts","Performing arts","Arts portals"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Arts","wgRelevantArticleId":1480241,"wgRequestId":"WO0GNQpAEK4AAHyjYQ0AAAAX","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesBetaFeatureEnabled":false,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q3918365","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.tmh.thumbnail.styles":"ready","ext.categoryTree.css":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
-
-
-
-
+});mw.loader.load(["mw.MediaWikiPlayer.loader","mw.PopUpMediaTransform","mw.TMHGalleryHook.js","ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
 
 
 
@@ -36,7 +32,8 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 							
 						
 
-			Main Page
+
+			Portal:Arts
 									
 									From Wikipedia, the free encyclopedia
 								
@@ -44,37 +41,83 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 					Jump to:					navigation, 					search
 				
 				
+Shortcuts:
+
+P:A
+P:ARTS
 
 
 
 
-
-Welcome to Wikipedia,
-the free encyclopedia that anyone can edit.
-5,382,713 articles in English
-
-
-
-
-
-
-Arts
-Biography
+Topics
+Culture
 Geography
-
-
-
-
+Health
 History
 Mathematics
-Science
-
-
-
-
+Nature
+People
+Philosophy
+Religion
 Society
 Technology
-All portals
+
+
+
+
+Sociology portals: Arts·  Anthropology·  Community·  Culture·  Economics·  Education·  Geography·  Gender studies·  Globalization·  History·  Human rights·  Internet·  Law·  Philosophy·  Social movements·  Social sciences·  Social welfare and social work·  Society
+
+
+
+
+
+
+edit
+The Arts Portal
+
+
+
+
+Mona Lisa
+
+
+The arts is a vast subdivision of culture, composed of many creative endeavors and disciplines. It is a broader term than "art", which, as a description of a field, usually means only the visual arts. The arts encompass the visual arts, the literary arts and the performing arts – music, theatre, dance and film, among others. This list is by no means comprehensive, but only meant to introduce the concept of the arts. For all intents and purposes, the history of the arts begins with the history of art. The arts might have origins in early human evolutionary prehistory.
+Ancient Greek art saw the veneration of the animal form and the development of equivalent skills to show musculature, poise, beauty and anatomically correct proportions. Ancient Roman art depicted gods as idealized humans, shown with characteristic distinguishing features (e.g. Jupiter's thunderbolt). In Byzantine and Gothic art of the Middle Ages, the dominance of the church insisted on the expression of biblical and not material truths. Eastern art has generally worked in a style akin to Western medieval art, namely a concentration on surface patterning and local colour (meaning the plain colour of an object, such as basic red for a red robe, rather than the modulations of that colour brought about by light, shade and reflection). A characteristic of this style is that the local colour is often defined by an outline (a contemporary equivalent is the cartoon). This is evident in, for example, the art of India, Tibet and Japan. Religious Islamic art forbids iconography, and expresses religious ideas through geometry instead. The physical and rational certainties depicted by the 19th-century Enlightenment were shattered not only by new discoveries of relativity by Einstein and of unseen psychology by Freud, but also by unprecedented technological development. Paradoxically the expressions of new technologies were greatly influenced by the ancient tribal arts of Africa and Oceania, through the works of Paul Gauguin and the Post-Impressionists, Pablo Picasso and the Cubists, as well as the Futurists and others.
+
+
+More about The arts...
+
+
+
+
+
+
+View new selections below (purge)
+
+
+edit
+Featured article
+
+
+
+The Cottingley Fairies appear in a series of five photographs taken by Elsie Wright and Frances Griffiths, two young cousins who lived in Cottingley, near Bradford in England. In 1917, when the first two photographs were taken, Elsie was 16 years old and Frances was 10. The pictures came to the attention of writer Sir Arthur Conan Doyle, who used them to illustrate an article on fairies he had been commissioned to write for the Christmas 1920 edition of The Strand Magazine. Conan Doyle, as a Spiritualist, was enthusiastic about the photographs, and interpreted them as clear and visible evidence of psychic phenomena. Public reaction was mixed; some accepted that the images were genuine, but others believed they had been faked. Interest in the Cottingley Fairies gradually declined after 1921. Both girls grew up, married and lived abroad for a time. Yet the photographs continued to hold the public imagination; in 1966 a reporter from the Daily Express newspaper traced Elsie, who had by then returned to the UK. Elsie left open the possibility that she believed she had photographed her thoughts, and the media once again became interested in the story. In the early 1980s, both admitted that the photographs were faked using cardboard cutouts of fairies copied from a popular children's book of the time. But Frances continued to claim that the fifth and final photograph was genuine. The photographs and two of the cameras used are on display in the National Media Museum in Bradford.
+
+
+
+...Archive/Nominations
+
+
+
+More...
+
+
+
+
+
+
+
+edit
+Featured picture
 
 
 
@@ -83,33 +126,19 @@ All portals
 
 
 
-
-
-From today's featured article
-
+Credit: Cartoon: Merle De Vore Johnson; Restoration: Adam Cuerden
 
 
 
+"I did not raise my girl to be a voter": A 1915 parody from Puck of the anti-World WarI protest song "I Didn't Raise My Boy to Be a Soldier" with the context altered to women's suffrage. A conductor labeled "political boss" leads a lone female soloist surrounded by a male chorus with various labels including "procurer", "child labor employer", and "sweat shop owner". Arguments in favor of granting women the right to vote included the contention that female voters would support laws that reduced prostitution, labor abuses, and other perceived social evils. The fight for women's suffrage in the United States began in the 1830s, and concluded with the passage of the Nineteenth Amendment to the United States Constitution on August 18, 1920.
 
 
 
-
-Everglades National Park is a U.S. National Park in Florida that protects the southern 20percent of the original Everglades. It is the largest tropical wilderness in the United States and the third-largest national park in the lower 48states after Death Valley and Yellowstone. The park was established in 1934 when canal-building projects in South Florida were threatening the quickly vanishing Everglades, a network of wetlands and forests fed by a river flowing out of Lake Okeechobee into Florida Bay. It was the first national park created to protect a fragile ecosystem. The park is the most significant breeding ground for tropical wading birds in North America and contains the largest mangrove ecosystem in the western hemisphere. It is home to 36threatened or protected species including the Florida panther, the American crocodile, and the West Indian manatee, and supports 350species of birds, 300species of fresh and saltwater fish, 40species of mammals, and 50species of reptiles. Most of South Florida's fresh water comes from the Biscayne Aquifer, which is replenished by the Everglades. (Fullarticle...)
-Part of the Everglades series, one of Wikipedia's featured topics.
-Recently featured:
-
-
-Margaret Lea Houston
-Noel Park
-Canadian National Vimy Memorial
+...Archive/Nominations
 
 
 
-
-
-Archive
-By email
-More featured articles...
+More...
 
 
 
@@ -117,6 +146,7 @@ More featured articles...
 
 
 
+edit
 Did you know...
 
 
@@ -124,25 +154,18 @@ Did you know...
 
 
 
+... that the United States Class II 1804 Silver Dollar (pictured) is alleged to have been struck over a Swiss Shooting Thaler?
+... that a heckling comb is used when hand processing flax to comb out and clean the fibers?
+... that between 1970 and 1984 the WE Seal of approval program aided in an estimated US$100,000 in restitution being made to collectors of comics and other memorabilia victimized by mail fraud?
 
-Mary and Christ
 
 
 
-... that Michelangelo destroyed parts of his own Sistine Chapel ceiling to make room for his Last Judgement (detail pictured)?
-... that Chris Marron jointly holds the record for the most goals scored in an FA Cup match, having scored 10 in one game?
-... that as the German army invaded France in 1940, radio station Paris-Mondial began broadcasting "recordings of military marches and panicked appeals for guns, tanks, and planes"?
-... that award-winning graphic novelist Miriam Katin only started creating comics at the age of 63?
-... that J. Lamar Worzel was a recipient of the Navy Meritorious Public Service Award for his part in helping discover the first nuclear submarine lost at sea?
-... that the "I believe that we will win!" chant, used as a rallying cry by United States fans during the 2014 FIFA World Cup, was first used for the college football Army–Navy Game?
-... that Anil Kumar Mandal developed an alternative surgical protocol for treating pediatric glaucoma?
-... that Pu Songling based his pigeon collector character on a real-life stone fanatic?
+...Archive/Nominations
 
 
 
-Recent additions
-Start a new article
-Nominate an article
+More...
 
 
 
@@ -150,91 +173,88 @@ Nominate an article
 
 
 
+edit
+In this month
 
 
 
 
 
-In the news
 
+9 April 2000 – Jackie Evancho is born. At the age of 10, she becomes the youngest singer in history with a platinum album, O Holy Night.
+10 April 1900 – Scottish soprano Mary Garden makes her professional debut singing the title role in Gustave Charpentier's Louise at the Opéra-Comique in Paris
+11 April 1869 – Norwegian sculptor Gustav Vigeland, designer of the Nobel Peace Prize medal, is born near Halse og Harkmark
+12 April 1937 – Abdülhak Hâmid Tarhan, an early 20th-century Turkish playwright and poet who was one of the leading lights of the Turkish Romantic period dies in Istanbul
+23 April 1616 – William Shakespeare (pictured), often considered the greatest English playwright, dies in Stratford-upon-Avon at the age of 52
+29 April 1968 – Hair, which defined the genre of the "rock musical", has its Broadway premiere at the Biltmore Theatre
 
+More anniversaries...
 
 
 
 
+edit
+News
 
-Sergio García
 
 
 
-In golf, Sergio García (pictured) defeats Justin Rose in a playoff to win the Masters Tournament.
-At least 44 people are killed and 126 others injured when two Egyptian Coptic Orthodox churches are attacked on Palm Sunday by suicide bombers.
-The Basque separatist militant group ETA disarms itself.
-A stolen truck is driven through crowds and into a department store in downtown Stockholm, killing 4 people and injuring 15 others.
-The United States attacks a Syrian air base in response to a chemical attack in Khan Shaykhun that killed more than 70 people.
-Tim Berners-Lee wins the Turing Award for inventing the World Wide Web, the first web browser, and the protocols and algorithms that allow the Web to scale.
+April 3: Pop-artist James Rosenquist dies aged 83
+March 27: Fans unite at Toronto Comicon, meet Degrassi stars
+March 1: Politically concerned movie Zootopia wins Academy Award for Best Animated Feature Film
+February 15: Adele and David Bowie each win five Grammys
+January 29: Black Sabbath ex-keyboardist Geoff Nicholls dies
 
+Arts on Wikinews
 
-Ongoing:
 
 
-Battle of Mosul
 
 
 
-Recent deaths:
+edit
+Featured biography
 
 
-John Clarke
-Fishman
-Brian Matthew
-Peter Isaacson
 
+John Douglas (1830–1911) was an English architect who designed about 500buildings in Cheshire, North Wales and northwest England, in particular in the estate of Eaton Hall. Douglas' output included the creation, restoration and renovation of churches, church furnishings, houses and other buildings. His architectural styles were eclectic and many of his works incorporate elements of the English Gothic style. He was also influenced by architectural styles from the mainland of Europe and included elements of French, German and Netherlandish architecture into his works. He is remembered for his use of half-timbering, tile-hanging, pargeting, decorative brick in diapering and the design of tall chimney stacks. Of particular importance is Douglas' use of joinery and highly detailed wood carving. Throughout his career he attracted commissions from wealthy landowners and industrialists. Most of his works have survived. The city of Chester contains a number of his structures, the most admired of which are his half-timbered black-and-white buildings and Eastgate Clock. The highest concentration of his work is found in the Eaton Hall estate and the surrounding villages of Eccleston, Aldford and Pulford.
 
 
 
+...Archive/Nominations
 
 
 
+More...
 
 
-On this day...
 
 
 
 
 
-April 12: Yuri's Night; Cosmonautics Day in Russia
+edit
+Featured audio
 
 
-Terry Fox
 
 
+Victimae Paschali Laudes
 
-1776 – The fourth North Carolina Provincial Congress passed the Halifax Resolves, the first official action in the American colonies calling for independence from Britain during the American Revolution.
-1831 – Broughton Suspension Bridge in Manchester, England, collapsed, reportedly because of mechanical resonance induced by troops marching in step over the bridge.
-1910 – SMSZrínyi, one of the last pre-dreadnoughts built by the Austro-Hungarian Navy, was launched.
-1980 – Terry Fox (pictured) dipped his artificial leg in the Atlantic Ocean at St. John's, Newfoundland and Labrador, and began running his "Marathon of Hope" towards the Pacific Ocean at Vancouver, British Columbia, to raise funds across Canada for cancer research.
-2007 – The canteen of the Council of Representatives of Iraq building was attacked by a suicide bomber, killing one Member of Parliament and wounding 23 other people.
 
-Peter Hesketh-Fleetwood (d.1866)·  Beverly Cleary (b.1916)·  Xin Fengxia (d.1998)
-More anniversaries:
 
 
-April 11
-April 12
-April 13
+The 11th-century "Victimae Paschali Laudes", traditionally attributed to Wipo of Burgundy, is one of the few traditional Latin "sequences" still used by the Roman Catholic Church today.
 
 
 
 
 
-Archive
-By email
-List of historical anniversaries
+...Archive/Nominations
 
 
 
+More...
 
 
 
@@ -242,12 +262,14 @@ List of historical anniversaries
 
 
 
+edit
+Categories
 
 
 
 
 
-Today's featured picture
+► Arts
 
 
 
@@ -257,164 +279,442 @@ Today's featured picture
 
 
 
-The lady chapel at Salisbury Cathedral, an Anglican cathedral in Salisbury, England. Pictured below the stained glass is an installation by the artist Nicholas Pope, called "The Apostles Speaking in Tongues Lit By Their Own Lamps".
-Photograph: David Iliff
-Recently featured:
 
+► Arts portal
 
-Supercell
-Schönbrunn Palace
-Christ taking leave of his Mother
 
 
 
 
+► Arts by culture
 
-Archive
-More featured pictures...
 
 
 
 
+► Arts by place
 
 
 
 
 
+► Arts-related lists
 
 
 
 
-Other areas of Wikipedia
 
-Community portal – Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.
-Help desk – Ask questions about using Wikipedia.
-Local embassy – For Wikipedia-related communication in languages other than English.
-Reference desk – Serving as virtual librarians, Wikipedia volunteers tackle your questions on a wide range of subjects.
-Site news – Announcements, updates, articles and press releases on Wikipedia and the Wikimedia Foundation.
-Village pump – For discussions about Wikipedia itself, including areas for technical issues and policies.
+► Aesthetics
 
 
 
-Wikipedia's sister projects
-Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects:
 
 
+► Arts genres by country or nationality
 
-Commons
-Free media repository
 
-MediaWiki
-Wiki software development
 
-Meta-Wiki
-Wikimedia project coordination
 
 
+► Arts awards
 
-Wikibooks
-Free textbooks and manuals
 
-Wikidata
-Free knowledge base
 
-Wikinews
-Free-content news
 
 
+► Censorship in the arts
 
-Wikiquote
-Collection of quotations
 
-Wikisource
-Free-content library
 
-Wikispecies
-Directory of species
 
 
+► Crafts
 
-Wikiversity
-Free learning materials and activities
 
-Wikivoyage
-Free travel guide
 
-Wiktionary
-Dictionary and thesaurus
 
 
+► Creative works
 
 
-Wikipedia languages
 
-This Wikipedia is written in English. Started in 2001(2001), it currently contains 5,382,713 articles.  Many other Wikipedias are available; some of the largest are listed below.
 
-More than 1,000,000 articles:
 
+► Arts districts
 
-Deutsch
-Español
-Français
-Italiano
-Nederlands
-日本語
-Polski
-Русский
-Svenska
-Tiếng Việt
 
 
 
-More than 250,000 articles:
 
+► Arts events
 
-العربية
-Bahasa Indonesia
-Bahasa Melayu
-Català
-Čeština
-Euskara
-فارسی
-한국어
-Magyar
-Norsk bokmål
-Português
-Română
-Srpski
-Srpskohrvatski
-Suomi
-Türkçe
-Українська
-中文
 
 
 
-More than 50,000 articles:
 
 
-Bosanski
-Български
-Dansk
-Eesti
-Ελληνικά
-English (simple form)
-Esperanto
-Galego
-עברית
-Hrvatski
-Latviešu
-Lietuvių
-Norsk nynorsk
-Slovenčina
-Slovenščina
-ไทย
 
+► Literature
 
 
 
 
-Complete list of Wikipedias
+
+► Arts occupations
+
+
+
+
+
+► Arts organizations
+
+
+
+
+
+► Arts portals
+
+
+
+
+
+► Performing arts
+
+
+
+
+
+► Religion and the arts
+
+
+
+
+
+► Arts venues
+
+
+
+
+
+► Visual arts
+
+
+
+
+
+► Women and the arts
+
+
+
+
+
+► Works about the arts
+
+
+
+
+
+► Wikipedia books on arts
+
+
+
+
+
+► Art stubs
+
+
+
+
+
+
+
+
+
+
+
+edit
+WikiProjects
+
+
+
+Parent project
+
+
+
+Arts
+
+
+Descendant projects
+
+
+
+
+
+
+Aesthetics
+Architecture
+Books
+
+Novels
+
+
+Collections care
+Dance
+Films
+Horror
+Literature
+Magic
+
+
+
+
+Music
+
+Albums
+Classical music
+Composers
+Guitar
+Musicians
+Music Venues
+
+
+Opera
+
+Gilbert and Sullivan
+Richard Wagner
+
+
+Poetry
+Television
+
+
+
+
+Theatre
+
+Elizabethan theatre
+Musical theatre
+
+
+Visual arts
+
+Animation
+Anime and manga
+Contemporary art
+Comics
+Graffiti
+Graphic design
+Fashion
+Photography
+Public art
+
+
+
+
+
+
+
+What are WikiProjects?
+
+
+
+
+
+
+edit
+Selected quote
+
+
+
+
+
+
+
+
+“
+Pop art is the inedible raised to the unspeakable.
+”
+
+
+— Leonard Baskin, Publishers Weekly (April 5, 1965)
+
+
+
+
+
+
+
+...Archive/Nominations
+
+
+More...
+
+
+
+
+
+
+edit
+Related portals
+
+
+
+
+
+Architecture
+
+
+
+Culture
+
+
+
+Dance
+
+
+
+Film
+
+
+
+Literature
+
+
+
+Music
+
+
+
+Philosophy
+
+
+
+Poetry
+
+
+
+Television
+
+
+
+Theatre
+
+
+
+Video games
+
+
+
+Visual arts
+
+
+
+Writing
+
+
+
+
+
+
+edit
+Things you can do
+
+
+
+
+
+
+
+
+Check the recent changes page for improvements, other changes, and vandalism to these articles
+Article requests: Requests articles (arts and entertainment)
+Deletion discussions: Listed at Wikipedia:WikiProject Deletion sorting/Arts
+Expand: check Art stubs to expand
+Notability: Articles with notability concerns, listed at WikiProject Notability
+Requested pictures: Arts topics, requested pictures
+
+
+
+
+
+
+
+
+
+edit
+Associated Wikimedia
+
+
+
+
+Arts onWikibooks
+Arts on Wikimedia Commons
+Arts onWikinews
+Arts onWikiquote
+Arts onWikisource
+Arts onWikiversity
+Arts onWiktionary
+
+
+Manuals and books
+Images and media
+News
+Quotations
+Texts
+Learning resources
+Definitions
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+What are portals?
+List of portals
+Featured portals
+
+
+
+
 
 
 
@@ -423,8 +723,8 @@ Complete list of Wikipedias
 
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Main_Pageoldid=762066868"					
-								
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Artsoldid=649230671"					
+				Categories: Arts portalArtsVisual artsPerforming artsArts portalsHidden categories: Wikipedia move-protected portalsFeatured portals				
 							
 		
 		
@@ -440,7 +740,7 @@ Complete list of Wikipedias
 										
 						Namespaces
 						
-															Main Page
+															Portal
 															Talk
 													
 					
@@ -507,7 +807,7 @@ Complete list of Wikipedias
 
 			
 									
-						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page					
+						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item					
 							
 		
 			
@@ -523,7 +823,7 @@ Complete list of Wikipedias
 
 			
 									
-						Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage					
+						Wikiversity					
 							
 		
 			
@@ -531,14 +831,14 @@ Complete list of Wikipedias
 
 			
 									
-						العربيةБългарскиBosanskiCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGalego한국어HrvatskiBahasa IndonesiaItalianoעבריתქართულიLatviešuLietuviųMagyarBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăРусскийSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaไทยTürkçeУкраїнськаTiếng Việt中文					
-							
+						AlemannischአማርኛالعربيةAzərbaycancaБеларуская (тарашкевіца)‎БългарскиBoarischCatalàČeštinaDeutschEestiΕλληνικάEspañolفارسیFrançais한국어ՀայերենBahasa IndonesiaItalianoעבריתBasa JawaKapampanganქართულიKiswahiliKreyòl ayisyenKurdîLatinaLatviešuLëtzebuergeschLietuviųMagyarМакедонскиMalagasyമലയാളംBahasa Melayuမြန်မာဘာသာNederlandsНохчийнNorsk bokmålNorsk nynorskOccitanОлык марийپنجابیPlattdüütschPolskiPortuguêsRomânăRuna SimiРусскийසිංහලکوردیی ناوەندیСрпски / srpskiSvenskaTaqbaylitТатарча/tatarçaТоҷикӣTürkçeУкраїнськаTiếng Việt文言West-Vlams吴语Xitsonga粵語Zazaki中文					
+				Edit links			
 		
 				
 		
 		
 							
-											 This page was last modified on 26 January 2017, at 12:39.
+											 This page was last modified on 28 February 2015, at 14:19.
 											Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 									
@@ -559,6 +859,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.208","walltime":"0.275","ppvisitednodes":{"value":3165,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":98257,"limit":2097152},"templateargumentsize":{"value":4825,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":5,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  195.466      1 -total"," 45.57%   89.069      8 Template:Main_page_image"," 45.18%   88.304      1 Wikipedia:Main_Page/Tomorrow"," 17.59%   34.387      2 Template:Wikipedia_languages"," 17.44%   34.087      1 Wikipedia:Today's_featured_article/April_12,_2017"," 16.95%   33.129      1 Template:Did_you_know/Queue/5"," 16.41%   32.074      8 Template:Str_number/trim"," 16.07%   31.405      2 Template:In_the_news"," 13.54%   26.471     24 Template:If_empty"," 13.53%   26.438      2 Template:In_the_news/image"]},"scribunto":{"limitreport-timeusage":{"value":"0.059","limit":"10.000"},"limitreport-memusage":{"value":2051721,"limit":52428800}},"cachereport":{"origin":"mw1176","timestamp":"20170412211814","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":72,"wgHostname":"mw1253"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.300","walltime":"0.945","ppvisitednodes":{"value":2679,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":102190,"limit":2097152},"templateargumentsize":{"value":7865,"limit":2097152},"expansiondepth":{"value":9,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  804.734      1 -total"," 56.58%  455.337      6 Template:Random_portal_component"," 15.01%  120.783      1 Portal:Arts/Intro"," 14.78%  118.979      1 Portal:Arts/Intro/Image"," 14.61%  117.569      1 Template:Random_subpage"," 13.64%  109.758      1 Portal:Arts/Intro/5","  8.22%   66.137      1 Portal:Arts/Categories","  7.26%   58.393      1 Portal:Arts/Related_portals","  7.06%   56.803      1 Template:Related_portals2","  5.62%   45.214     13 Template:Related_portal_item"]},"scribunto":{"limitreport-timeusage":{"value":"0.095","limit":"10.000"},"limitreport-memusage":{"value":2353864,"limit":52428800}},"cachereport":{"origin":"mw1179","timestamp":"20170411163602","ttl":21600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":58,"wgHostname":"mw1219"});});
 	
 
