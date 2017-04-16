@@ -34,7 +34,7 @@ def getWordsForScoring(query):
 	#print(len(query_words))
 	#print(len(removed_query_words))
 
-	#return removed_query_words
+	return removed_query_words
 
 def main():
 	getWordsForScoring("Wikipedia wikipedia mary hi hello ryan")
