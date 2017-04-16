@@ -2,6 +2,7 @@
 from stripHTML import strip_tags
 from removeStopWords import stripStopWords
 from getWordsForScoring import getWordsForScoring
+from calcgW import calcgW
 import os
 import codecs
 import tornado.ioloop
@@ -85,15 +86,15 @@ class MainHandler(tornado.web.RequestHandler):
           i = i+1
 
       uniqueWordsSansQuery = getWordsForScoring(q)
-      print(len(uniqueWordsSansQuery))
-      print(uniqueWordsSansQuery[0])
-      print(uniqueWordsSansQuery[110])
-      print(uniqueWordsSansQuery[100])
-      print(uniqueWordsSansQuery[93])
+      i = calcgW(uniqueWordsSansQuery[138])
+      print(uniqueWordsSansQuery[138])
+      print("documents containing word, should be under 10")
+      print(i)
+      i = calcgW("wikipedia")
+      print("wikipedia")
+      print("documents containing word, should be 10")
+      print(i)
 
-      print(uniqueWordsSansQuery[52])
-
-      print(uniqueWordsSansQuery[1823])
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 
