@@ -86,6 +86,14 @@ class MainHandler(tornado.web.RequestHandler):
 
       uniqueWordsSansQuery = getWordsForScoring(q)
       print(len(uniqueWordsSansQuery))
+      print(uniqueWordsSansQuery[0])
+      print(uniqueWordsSansQuery[110])
+      print(uniqueWordsSansQuery[100])
+      print(uniqueWordsSansQuery[93])
+
+      print(uniqueWordsSansQuery[52])
+
+      print(uniqueWordsSansQuery[1823])
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 
