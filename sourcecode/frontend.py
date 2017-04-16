@@ -1,5 +1,6 @@
 #http://stackoverflow.com/questions/9745056/how-to-save-user-input-data-to-redis-using-tornado-python
 from stripHTML import strip_tags
+from calculateWordScore import calculateWordScore
 from removeStopWords import stripStopWords
 from getWordsForScoring import getWordsForScoring
 from calcgW import calcgW
@@ -86,14 +87,11 @@ class MainHandler(tornado.web.RequestHandler):
           i = i+1
 
       uniqueWordsSansQuery = getWordsForScoring(q)
-      i = calcgW(uniqueWordsSansQuery[138])
+      print("should be 10")
+      print(calculateWordScore("wikipedia"))
       print(uniqueWordsSansQuery[138])
-      print("documents containing word, should be under 10")
-      print(i)
-      i = calcgW("wikipedia")
-      print("wikipedia")
-      print("documents containing word, should be 10")
-      print(i)
+      print(calculateWordScore(uniqueWordsSansQuery[138]))
+     
 
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
