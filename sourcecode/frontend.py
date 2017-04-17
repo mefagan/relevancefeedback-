@@ -104,7 +104,7 @@ class MainHandler(tornado.web.RequestHandler):
           
           i = i + 1
           if i == 4:
-            calculateDocScore(myfile, "wikipedia", q)
+            calculateDocScore(myfile, "wikipedia", q, rqSize)
 
       
       

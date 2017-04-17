@@ -1,9 +1,11 @@
 from __future__ import division
 import os
+import math
 from calczWQ import calczWQ
+from calculateWordScore import calculateWordScore
 from calcGW import calcGW
 
-def calculateDocScore(doc, word, q):
+def calculateDocScore(doc, word, q, rqSize):
 	print(doc)
 	query_words = q.split()
 	for pic in query_words:
@@ -49,3 +51,16 @@ def calculateDocScore(doc, word, q):
 	print(mQD)
 	print("fWQD = ")
 	print(fWQD)
+
+	partone = math.sqrt(fWQD/mQD)
+	print("part one = ")
+	print(partone)
+	parttwo = math.sqrt(cWD/lD)
+	print("part two = ")
+	print(parttwo)
+	yWQ = calculateWordScore(word, rqSize)
+	print("yWQ = ")
+	print(yWQ)
+	sWQD = partone + yWQ*parttwo
+	print("final score =")
+	print(sWQD)

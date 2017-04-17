@@ -23,3 +23,4 @@ def calculateWordScore(word, rqSize):
  	yWQ = max(0, a-b)
  	print("yWQ = ")
  	print(yWQ)
+ 	return yWQ
