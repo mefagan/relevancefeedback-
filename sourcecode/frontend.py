@@ -92,6 +92,9 @@ class MainHandler(tornado.web.RequestHandler):
           i = i+1
       if k>0:
         newQuery = calcNewQuery(k, q, rqSize)
+        q = newQuery
+        print("new query is ")
+        print(q)
 
       
 
@@ -101,10 +104,6 @@ class MainHandler(tornado.web.RequestHandler):
         
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
-
-      
-     
-    
 
 
 
