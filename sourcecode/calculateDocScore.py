@@ -6,15 +6,17 @@ from calculateWordScore import calculateWordScore
 from calcGW import calcGW
 
 def calculateDocScore(doc, word, q, rqSize):
+
 	query_words = q.split()
-	data = doc.read()
-	words = data.split()
+	words = doc.split()
+	
 	lD = len(words)
 	cWD = 0
 	mQD = 0
 	fWQD = 0
 
 	for i in range(len(words)):
+	
 		w = words[i]
 		if w==word:
 			cWD = cWD + 1
@@ -40,13 +42,16 @@ def calculateDocScore(doc, word, q, rqSize):
 			if query==w:
 				mQD = mQD +1
 	
-
+	if mQD == 0:
+		return 0
 	partone = math.sqrt(fWQD/mQD)
+	
 	parttwo = math.sqrt(cWD/lD)
+	
 	yWQ = calculateWordScore(word, rqSize)
+	
 	if cWD == 0: 	
 		sWQD = 0
 	else:
 		sWQD = partone + yWQ*parttwo
-	print("final score =")
-	print(sWQD)
+	return sWQD

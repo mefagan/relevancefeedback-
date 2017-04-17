@@ -50,7 +50,7 @@ class MainHandler(tornado.web.RequestHandler):
       items = []
       rQ = []
       
-      #for key, value in doc_urls.iteritems() :
+      #for key, value in doc_urls.iteritems() 
        # print (key, value)
 
       for hit in hits.scoreDocs:
@@ -92,19 +92,23 @@ class MainHandler(tornado.web.RequestHandler):
       
 
       uniqueWordsSansQuery = getWordsForScoring(q)
-      print("should be 10")
-      print(calculateWordScore("wikipedia", rqSize))
-      print(calculateWordScore("wiki", rqSize))
-      print(calculateWordScore("dog", rqSize))
-      
+     
+
       i = 0
       path = 'noStopWords_files'
+      #for word in uniqueWordsSansQuery:
+      score = 0
       for filename in os.listdir(path):
         with open(os.path.join(path, filename), 'r') as myfile:
           
-          i = i + 1
-          if i == 4:
-            calculateDocScore(myfile, "wikipedia", q, rqSize)
+         
+          word = "wikipedia"
+          text = myfile.read()
+          if word in text:
+            score = score + calculateDocScore(text, word, q, rqSize)
+      print("final score for word = " )
+      print(score)
+
 
       
       
