@@ -1,4 +1,4 @@
-from calcgW import calcgW
+from calczWQ import calczWQ
 def calculateWordScore(word):
-	i = calcgW(word)
+	i = calczWQ(word)
  	print(i)

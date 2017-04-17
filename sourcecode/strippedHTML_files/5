@@ -2,16 +2,12 @@
 
 
 
-Wikipedia, the free encyclopedia
+Portal:Mathematics - Wikipedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WPO7VwpAMFgAABqOPZwAAABB","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"Portal","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":100,"wgPageName":"Portal:Mathematics","wgTitle":"Mathematics","wgCurRevisionId":686628022,"wgRevisionId":686628022,"wgArticleId":1488464,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":["Wikipedia semi-protected portals","Wikipedia move-protected portals","Featured portals","Mathematics portal"],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Portal:Mathematics","wgRelevantArticleId":1488464,"wgRequestId":"WPSS0ApAAEMAAYjgbt0AAABO","wgIsProbablyEditable":false,"wgRestrictionEdit":["autoconfirmed"],"wgRestrictionMove":["sysop"],"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q7778173","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.categoryTree.css":"ready","wikibase.client.init":"ready","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
-});mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
-
-
-
-
+});mw.loader.load(["ext.categoryTree","mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
 
 
 
@@ -36,7 +32,9 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 							
 						
 
-			Main Page
+
+
+			Portal:Mathematics
 									
 									From Wikipedia, the free encyclopedia
 								
@@ -45,36 +43,68 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 				
 				
 
-
-
-
-
-Welcome to Wikipedia,
-the free encyclopedia that anyone can edit.
-5,385,759 articles in English
-
-
-
-
-
-
-Arts
-Biography
+Topics
+Culture
 Geography
-
-
-
-
+Health
 History
 Mathematics
-Science
-
-
-
-
+Nature
+People
+Philosophy
+Religion
 Society
 Technology
-All portals
+
+
+
+
+edit
+The Mathematics Portal
+
+
+
+
+Pythagoras
+
+
+Mathematics is the study of numbers, quantity, space, structure, and change. Mathematics is used throughout the world as an essential tool in many fields, including natural science, engineering, medicine, and the social sciences. Applied mathematics, the branch of mathematics concerned with application of mathematical knowledge to other fields, inspires and makes use of new mathematical discoveries and sometimes leads to the development of entirely new mathematical disciplines, such as statistics and game theory. Mathematicians also engage in pure mathematics, or mathematics for its own sake, without having any application in mind. There is no clear line separating pure and applied mathematics, and practical applications for what began as pure mathematics are often discovered.
+More about Mathematics...
+
+
+
+
+
+
+Selected article | Selected picture | Did you know... | Topics in mathematics
+Categories | WikiProjects | Things you can do | Index | Related portals
+
+There are approximately 31,444 mathematics articles in Wikipedia.
+
+
+
+
+View new selections below (purge)
+
+
+edit
+Selected article
+
+
+Game theory is a branch of mathematics that is often used in the context of economics. It studies strategic interactions between agents. In strategic games, agents choose strategies which will maximize their return, given the strategies the other agents choose. The essential feature is that it provides a formal modelling approach to social situations in which decision makers interact with other agents. Game theory extends the simpler optimisation approach developed in neoclassical economics.
+The field of game theory came into being with the 1944 classic Theory of Games and Economic Behavior by John von Neumann and Oskar Morgenstern. A major center for the development of game theory was RAND Corporation where it helped to define nuclear strategies.
+Game theory has played, and continues to play a large role in the social sciences, and is now also used in many diverse academic fields. Beginning in the 1970s, game theory has been applied to animal behaviour, including evolutionary theory. Many games, especially the prisoner's dilemma, are used to illustrate ideas in political science and ethics. Game theory has recently drawn attention from computer scientists because of its use in artificial intelligence and cybernetics.
+
+
+View all selected articles
+Read More...
+
+
+
+
+
+edit
+Selected picture
 
 
 
@@ -83,339 +113,595 @@ All portals
 
 
 
+Credit: Pbroks13
+The four conic sections arise when a plane cuts through a double cone in different ways. If the plane cuts through parallel to the side of the cone (case 1), a parabola results (to be specific, the parabola is the shape of the planar graph that is formed by the set of points of intersection of the plane and the cone). If the plane is perpendicular to the cone's axis of symmetry (case 2, lower plane), a circle results. If the plane cuts through at some angle between these two cases (case 2, upper plane) — that is, if the angle between the plane and the axis of symmetry is larger than that between the side of the cone and the axis, but smaller than a right angle — an ellipse results. If the plane is parallel to the axis of symmetry (case 3), or makes a smaller positive angle with the axis than the side of the cone does (not shown), a hyperbola results. In all of these cases, if the plane passes through the point at which the two cones meet (the vertex), a degenerate conic results. First studied by the ancient Greeks in the 4th century BCE, conic sections were still considered advanced mathematics by the time Euclid (fl.c.300BCE) created his Elements, and so do not appear in that famous work. Euclid did write a work on conics, but it was lost after Apollonius of Perga (d.c.190BCE) collected the same information and added many new results in his Conics. Other important results on conics were discovered by the medieval Persian mathematician Omar Khayyám (d.1131CE), who used conic sections to solve algebraic equations.
 
-
-From today's featured article
-
-
-
-
-
-
-
-Political cartoon depicting Kalākaua
-auctioning off the Hawaiian Islands
-
-
-King Kalākaua's world tour in 1881 made him the first monarch to circumnavigate the globe. His agenda was to negotiate contract labor for the Kingdom of Hawaii's sugar plantations, with hopes of saving the dwindling Native Hawaiian population by drawing immigration from Asia-Pacific nations. Rumors circulated that the King secretly intended to use the trip to sell the Hawaiian Islands to the highest bidder. He visited American legislators and had an audience with the Pope in Rome. He also met with European and Asian heads of state, and was influenced by their ornate ceremonies and displays of military power. In between negotiations, Kalākaua and his companions visited tourist sites and attended local Freemasonry lodge meetings. As a result of his visit with Thomas Edison on the return trip through New York, Iolani Palace later became the first building in Hawaii with electric lighting. Kalākaua's amiable personality generated goodwill around the world, and he succeeded in increasing Hawaii's labor force. The Japanese workers he attracted were commemorated a century later with a new statue of Kalākaua in Waikiki. (Fullarticle...)
-Recently featured:
-
-
-Me and Juliet
-Crucifix (Cimabue, Santa Croce)
-Fez (video game)
+More selected pictures...Read more...
 
 
 
 
 
-Archive
-By email
-More featured articles...
-
-
-
-
-
-
-
+edit
 Did you know...
 
 
 
 
+... that an equitable coloring of a graph, in which the numbers of vertices of each color are as nearly equal as possible, may require far more colors than a graph coloring without this constraint?
+... that no matter how biased a coin one uses, flipping a coin to determine whether each edge is present or absent in a countably infinite graph will always produce the same graph, the Rado graph?
+...that it is possible to stack identical dominoes off the edge of a table to create an arbitrarily large overhang?
+...that in Floyd's algorithm for cycle detection, the tortoise and hare move at very different speeds, but always finish at the same spot?
+...that in graph theory, a pseudoforest can contain trees and pseudotrees, but cannot contain any butterflies, diamonds, handcuffs, or bicycles?
+...that it is not possible to configure two mutually inscribed quadrilaterals in the Euclidean plane, but the Möbius–Kantor graph describes a solution in the complex projective plane?
+...that the six permutations of the vector (1,2,3) form a hexagon in 3d space, the 24 permutations of (1,2,3,4) form a truncated octahedron in four dimensions, and both are examples of permutohedra?
 
+            
+Showing 7 items out of 72
+Moredidyouknow
 
 
-Rimatara lorikeet
 
 
 
-... that Queen Tamaeva V saved the Rimatara lorikeet (pictured) from extinction through a royal taboo that forbade her people from harming or exporting the birds?
-... that the 20th-century Easter hymn "Ye Watchers and Ye Holy Ones" takes its melody from "Lasst uns erfreuen" (Let us rejoice), a tune published in 1623 by a German activist against witch-hunts?
-... that a career-threatening knee injury to Tasmanian Roar cricketer Erin Burns was successfully treated with stem cell injections by the Sydney Swans' club doctor, Nathan Gibbs?
-... that the tongue of the golden-belted bumble bee is about two-thirds as long as its body?
-... that passenger service on the Staten Island Railway's North Shore Branch was discontinued 16 years after it was rebuilt?
-... that Ursula Zollenkopf, a contralto of the NWDR Chor, performed solo and choral parts in a posthumous Schoenberg opera premiere and in an Easter cantata by Bach?
-... that Chocorua Island Chapel at Squam Lake, New Hampshire, part of the first summer youth camp in America, was built by the camp's boys with an erratic boulder, trees, and beach sand?
-... that Juan Tepano was proclaimed "king" of Easter Island by officers of the Chilean Navy, but no one – including Tepano – took the ceremony seriously?
 
 
 
-Recent additions
-Start a new article
-Nominate an article
+edit
+WikiProjects
 
 
+The Mathematics WikiProject is the center for mathematics-related editing on Wikipedia. Join the discussion on the project's talk page.
 
 
 
+Project pages
 
+Participants
+Current activity
+Manual of style
+Conventions
 
+Essays
 
+Advice on using Wikipedia for mathematics self-study
+Proofs
 
+Subprojects
 
+PlanetMath Exchange (Talk)
+Graphics (Talk)
+Article assessment (Talk)
 
+Related projects
+Computer science | Cryptography | Game theory | Numbers | Physics | Science | Statistics
 
-In the news
 
 
+edit
+Things you can do
 
 
 
 
+Create a new article: See requested articles list
+Add a new image: Requested images list
+Improve articles: Pages needing attention (Category)
+Expand articles: Mathematics stubs
 
-Sergio García
 
 
 
-Pakistan sentences former Indian naval officer Kulbhushan Jadhav to death for espionage and sabotage.
-In golf, Sergio García (pictured) defeats Justin Rose in a playoff to win the Masters Tournament.
-At least 44 people are killed and 126 others injured when two Egyptian Coptic Orthodox churches are attacked on Palm Sunday by suicide bombers.
-The Basque separatist militant group ETA disarms itself.
-A stolen truck is driven through crowds and into a department store in downtown Stockholm, killing 4 people and injuring 15 others.
 
+edit
+Categories
 
-Ongoing:
 
 
-Battle of Mosul
 
+Algebra | Arithmetic | Analysis | Complexanalysis | Appliedmathematics | Calculus | Categorytheory | Chaostheory | Combinatorics | Dynamicsystems | Fractals | Gametheory | Geometry | Algebraicgeometry | Graphtheory | Grouptheory | Linearalgebra | Mathematicallogic | Modeltheory | Multi-dimensionalgeometry | Numbertheory | Numericalanalysis | Optimization | Ordertheory | Probabilityandstatistics | Settheory | Statistics | Topology | Algebraictopology | Trigonometry | Linearprogramming
 
 
-Recent deaths:
 
+Mathematics (books) | History of mathematics | Mathematicians | Awards | Education | Literature | Notation | Organizations | Theorems | Proofs | Unsolved problems
 
-Emma Morano
-Sheila Abdus-Salaam
-J. Geils
-Arnold Clark
 
 
 
+▼ Mathematics
 
 
+► Fields of mathematics
 
 
 
+► Mathematics-related lists
 
-On this day...
 
 
+► Mathematicians
 
 
 
-April 16
+► Mathematical concepts
 
 
-Bernard Baruch
 
+► Mathematics and culture
 
 
-1520 – Citizens of Toledo, Castile, who were opposed to the rule of the foreign-born Charles V, rose up in revolt when the royal government attempted to unseat radical city councilors.
-1847 – New Zealand Wars: A minor Māori chief was accidentally shot by a junior British Army officer in the Petre settlement of New Zealand's North Island, triggering the Wanganui Campaign.
-1917 – World War I: A massive assault by several French army corps against the German-occupied Chemin des Dames ridge began south of Laon, France.
-1947 – American financier and presidential adviser Bernard Baruch (pictured) first described the post–World WarII tensions between the Soviet Union and the United States as a "cold war".
-2007 – In one of the deadliest shooting incidents in United States history, a gunman killed 32 people and wounded over 20 more before committing suicide at the Virginia Polytechnic Institute and State University in Blacksburg, Virginia.
 
-Tabinshwehti (b.1516)·  Francisco Goya (d.1828)·  John Millington Synge (b.1871)
-More anniversaries:
+► Mathematical examples
 
 
-April 15
-April 16
-April 17
 
+► History of mathematics
 
 
 
+► Mathematics and art
 
-Archive
-By email
-List of historical anniversaries
 
 
+► Mathematical modeling
 
 
 
+► Mathematical notation
 
 
 
+► Mathematical science occupations
 
 
 
+► Philosophy of mathematics
 
 
 
+► Mathematical projects
 
-Today's featured picture
 
 
+► Mathematical proofs
 
 
 
+► Pseudomathematics
 
 
 
+► Set indices on mathematics
 
-Todi is a town and comune (municipality) of the province of Perugia in central Italy. Perched on a tall two-crested hill overlooking the east bank of the river Tiber, it had a population of more than 17,000 in 2007.
-Photograph: Livioandronico2013
-Recently featured:
 
 
-Tribuna of the Uffizi
-Nembrotha kubaryana
-The Flageolet Player on the Cliff
+► Mathematical terminology
 
 
 
+► Mathematics textbooks
 
 
-Archive
-More featured pictures...
 
+► Mathematical theorems
 
 
 
+► Mathematical tools
 
 
 
+► Women in mathematics
 
 
 
+► Wikipedia books on mathematics
 
 
 
-Other areas of Wikipedia
+► Mathematics stubs
 
-Community portal – Bulletin board, projects, resources and activities covering a wide range of Wikipedia areas.
-Help desk – Ask questions about using Wikipedia.
-Local embassy – For Wikipedia-related communication in languages other than English.
-Reference desk – Serving as virtual librarians, Wikipedia volunteers tackle your questions on a wide range of subjects.
-Site news – Announcements, updates, articles and press releases on Wikipedia and the Wikimedia Foundation.
-Village pump – For discussions about Wikipedia itself, including areas for technical issues and policies.
 
 
 
-Wikipedia's sister projects
-Wikipedia is hosted by the Wikimedia Foundation, a non-profit organization that also hosts a range of other projects:
+
+
+More mathematics categories
+
+
+
+edit
+Topics in mathematics
+
+
+
+
+
+General
+Foundations
+Number theory
+Discrete mathematics
+
+
+
+
+
+Mathematicians
+History of mathematics
+Philosophy of mathematics
+Mathematical notation
+Mathematical beauty
+Mathematics education
+Areas of mathematics
+List of basic mathematics topics
+List of mathematical symbols
+Wikipedia Books: Mathematics
+
+
+
+
+
+Foundations of mathematics
+Mathematical logic
+
+Proof theory
+
+Gödel's incompleteness theorems
+
+
+Model theory
+Recursion theory
+
+
+
+
+Set theory (portal)
+
+Naive set theory
+Axiomatic set theory
+
+
+Category theory (portal)
+
+Topos theory
+
+
+
+
+
+
+
+Number theory (portal)
+Algebraic number theory
+Analytic number theory
+Arithmetic
+
+Fundamental theorem of arithmetic
+
+
+Numbers
+
+Natural numbers
+Prime numbers
+Rational numbers
+Algebraic numbers
+
+
+
+
+
+
+
+Discrete mathematics (portal)
+Combinatorics
+
+Combinatorial geometry
+Coding theory
+Combinatorial design
+Enumerative combinatorics
+Combinatorial optimization
+
+
+Graph theory
+Order theory
+
+Lattice theory
+
+
+
+
+
+
+
+Algebra
+Analysis
+Geometry and topology
+Applied mathematics
+
+
+
+
+
+Algebra (portal)
+Elementary algebra
+Abstract algebra
+
+Group theory
+Ring theory
+Field theory
+Commutative algebra
+
+
+Geometric algebra
+Linear algebra
+
+Matrix theory
+Multilinear algebra
+
+
+Universal algebra
+Fundamental theorem of algebra
+
+
+
+
+
+Analysis (portal)
+Calculus
+
+Fundamental theorem of calculus
+Vector calculus
+Geometric calculus
+
+
+Measure theory
+Real analysis
+Complex analysis
+Differential equations
+
+Ordinary differential equations
+Partial differential equations
+
+
+Integral equations
+Approximation theory
+Special functions
+Potential theory
+Harmonic analysis
+
+Fourier analysis
+
+
+Functional analysis
+Operator theory
+
+
+
+
+
+Geometry (portal)
+Euclidean geometry
+
+Trigonometry
+
+
+Analytic geometry
+Non-Euclidean geometry
+Affine geometry
+Projective geometry
+Convex geometry
+Discrete geometry
+Algebraic geometry
+Differential geometry
+
+Riemannian geometry
+Lie groups
+
+
+Topology (portal)
+
+General topology
+Algebraic topology
+Geometric topology
+Differential topology
+
+
+
+
+
+
+
+Applied mathematics
+Mathematical modeling
+Mathematical physics
+Dynamical systems
+
+Control theory
+
+Calculus of variations
+
+
+
+
+Optimization
+Mathematical economics
+
+Game theory
+Mathematical finance
+
+
+Statistics (portal)
+Probability theory
+
+Stochastic processes
+
+
+Numerical analysis
+Theoretical computer science
+
+Computability theory
+Complexity theory
+
+
+Cryptography (portal)
+Information theory
+
+
+
+
+
+
+
+
+edit
+Index of mathematics articles
+
+
+
+
+ARTICLE INDEX:
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z (0–9)
+
+
+MATHEMATICIANS:
+A B C D E F G H I J K L M N O P Q R S T U V W X Y Z
+
+
+
+
+
+edit
+Related portals
+
+
+
+
+
+
+
+
+
+
+
+
+
+Algebra
+Analysis
+Category
+theory
+Computer
+science
+Cryptography
+Discrete
+mathematics
+Geometry
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Logic
+Mathematics
+Number
+theory
+Physics
+Science
+Set theory
+Statistics
+Topology
+
+
+
+
+Science
+ History of science  Philosophy of science  Systems science  Mathematics  Biology  Chemistry  Physics  Earth sciences  Technology 
+
+
+
+
+What are portals?
+List of portals
+Featured portals
+
+
+
+
+
+edit
+In other Wikimedia projects
+
+
+
+
+The following Wikimedia sister projects provide more on this subject:
+
+Wikibooks
+Books
+
+
 
 
 
 Commons
-Free media repository
-
-MediaWiki
-Wiki software development
-
-Meta-Wiki
-Wikimedia project coordination
+Media
 
 
 
-Wikibooks
-Free textbooks and manuals
 
-Wikidata
-Free knowledge base
 
 Wikinews
-Free-content news
+News
+
+
 
 
 
 Wikiquote
-Collection of quotations
+Quotations
+
+
+
+
 
 Wikisource
-Free-content library
+Texts
 
-Wikispecies
-Directory of species
+
 
 
 
 Wikiversity
-Free learning materials and activities
+Learning resources
 
-Wikivoyage
-Free travel guide
+
+
+
 
 Wiktionary
-Dictionary and thesaurus
-
-
-
-
-Wikipedia languages
-
-This Wikipedia is written in English. Started in 2001(2001), it currently contains 5,385,759 articles.  Many other Wikipedias are available; some of the largest are listed below.
-
-More than 1,000,000 articles:
-
-
-Deutsch
-Español
-Français
-Italiano
-Nederlands
-日本語
-Polski
-Русский
-Svenska
-Tiếng Việt
-
-
-
-More than 250,000 articles:
-
-
-العربية
-Bahasa Indonesia
-Bahasa Melayu
-Català
-Čeština
-Euskara
-فارسی
-한국어
-Magyar
-Norsk bokmål
-Português
-Română
-Srpski
-Srpskohrvatski
-Suomi
-Türkçe
-Українська
-中文
-
-
-
-More than 50,000 articles:
-
-
-Bosanski
-Български
-Dansk
-Eesti
-Ελληνικά
-English (simple form)
-Esperanto
-Galego
-עברית
-Hrvatski
-Latviešu
-Lietuvių
-Norsk nynorsk
-Slovenčina
-Slovenščina
-ไทย
+Definitions
 
 
 
 
 
-Complete list of Wikipedias
+Wikidata
+Database
+
+
+
+
+
+
+
 
 
 
@@ -424,8 +710,8 @@ Complete list of Wikipedias
 
 
 					
-						Retrieved from "https://en.wikipedia.org/w/index.php?title=Main_Pageoldid=762066868"					
-								
+						Retrieved from "https://en.wikipedia.org/w/index.php?title=Portal:Mathematicsoldid=686628022"					
+				Categories: Mathematics portalHidden categories: Wikipedia semi-protected portalsWikipedia move-protected portalsFeatured portals				
 							
 		
 		
@@ -441,7 +727,7 @@ Complete list of Wikipedias
 										
 						Namespaces
 						
-															Main Page
+															Portal
 															Talk
 													
 					
@@ -508,7 +794,7 @@ Complete list of Wikipedias
 
 			
 									
-						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata itemCite this page					
+						What links hereRelated changesUpload fileSpecial pagesPermanent linkPage informationWikidata item					
 							
 		
 			
@@ -524,7 +810,7 @@ Complete list of Wikipedias
 
 			
 									
-						Wikimedia CommonsMediaWikiMeta-WikiWikispeciesWikibooksWikidataWikinewsWikiquoteWikisourceWikiversityWikivoyage					
+						WikibooksWikinewsWikisourceWikiversity					
 							
 		
 			
@@ -532,14 +818,14 @@ Complete list of Wikipedias
 
 			
 									
-						العربيةБългарскиBosanskiCatalàČeštinaDanskDeutschEestiΕλληνικάEspañolEsperantoEuskaraفارسیFrançaisGalego한국어HrvatskiBahasa IndonesiaItalianoעבריתქართულიLatviešuLietuviųMagyarBahasa MelayuNederlands日本語Norsk bokmålNorsk nynorskPolskiPortuguêsRomânăРусскийSimple EnglishSlovenčinaSlovenščinaСрпски / srpskiSrpskohrvatski / српскохрватскиSuomiSvenskaไทยTürkçeУкраїнськаTiếng Việt中文					
-							
+						አማርኛالعربيةАварবাংলাБеларуская (тарашкевіца)‎БългарскиCatalàCebuanoČeštinaDeutschEestiΕλληνικάEspañolEsperantoفارسیFrançaisGĩkũyũ한국어Հայերենहिन्दीBahasa IndonesiaÍslenskaItalianoעבריתქართულიҚазақшаKiswahiliKreyòl ayisyenKurdîLatinaLietuviųLumbaartMagyarМакедонскиMaltiBahasa Melayuမြန်မာဘာသာNederlands日本語Oʻzbekcha/ўзбекчаਪੰਜਾਬੀپښتوPolskiPortuguêsRomânăRuna SimiРусскийShqipසිංහලسنڌيSlovenčinaSoomaaligaکوردیی ناوەندیСрпски / srpskiSuomiSvenskaதமிழ்TaqbaylitТатарча/tatarçaไทยТоҷикӣTürkçeУкраїнськаاردوTiếng Việt文言ייִדישYorùbá粵語中文					
+				Edit links			
 		
 				
 		
 		
 							
-											 This page was last modified on 26 January 2017, at 12:39.
+											 This page was last modified on 20 October 2015, at 08:24.
 											Text is available under the Creative Commons Attribution-ShareAlike License;
 additional terms may apply.  By using this site, you agree to the Terms of Use and Privacy Policy. Wikipedia® is a registered trademark of the Wikimedia Foundation, Inc., a non-profit organization.
 									
@@ -560,6 +846,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.232","walltime":"0.297","ppvisitednodes":{"value":3400,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":112843,"limit":2097152},"templateargumentsize":{"value":7660,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  214.122      1 -total"," 47.71%  102.159      9 Template:Main_page_image"," 40.13%   85.930      1 Wikipedia:Main_Page/Tomorrow"," 19.23%   41.185      1 Wikipedia:Today's_featured_article/April_16,_2017"," 16.47%   35.262      9 Template:Str_number/trim"," 16.37%   35.053      2 Template:Wikipedia_languages"," 14.60%   31.256     18 Template:Remove_file_prefix"," 14.19%   30.384      2 Template:In_the_news"," 13.55%   29.008     27 Template:If_empty"," 12.25%   26.240      2 Template:In_the_news/image"]},"scribunto":{"limitreport-timeusage":{"value":"0.067","limit":"10.000"},"limitreport-memusage":{"value":2106643,"limit":52428800}},"cachereport":{"origin":"mw1189","timestamp":"20170416184324","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":50,"wgHostname":"mw1253"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.252","walltime":"0.726","ppvisitednodes":{"value":2290,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":83931,"limit":2097152},"templateargumentsize":{"value":9305,"limit":2097152},"expansiondepth":{"value":21,"limit":40},"expensivefunctioncount":{"value":3,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  553.298      1 -total"," 48.37%  267.606      1 Portal:Mathematics/Did_you_know"," 26.87%  148.662      1 Portal:Mathematics/Did_you_know/58"," 14.61%   80.839      1 Portal:Mathematics/Did_you_know/53"," 11.11%   61.492      1 Portal:Mathematics/Categories"," 11.07%   61.239      1 Template:Pp-semi-indef"," 10.88%   60.226      1 Portal:Mathematics/Random_portal_component","  9.32%   51.543      1 Portal:Mathematics/Selected_article/19","  3.84%   21.232      1 Template:Featured_portal","  3.52%   19.484      1 Template:Random_portal_component"]},"scribunto":{"limitreport-timeusage":{"value":"0.047","limit":"10.000"},"limitreport-memusage":{"value":1565493,"limit":52428800}},"cachereport":{"origin":"mw1181","timestamp":"20170417100236","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":61,"wgHostname":"mw1272"});});
 	
 

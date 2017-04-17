@@ -3,7 +3,7 @@ from stripHTML import strip_tags
 from calculateWordScore import calculateWordScore
 from removeStopWords import stripStopWords
 from getWordsForScoring import getWordsForScoring
-from calcgW import calcgW
+from calczWQ import calczWQ
 import os
 import codecs
 import tornado.ioloop
@@ -63,7 +63,9 @@ class MainHandler(tornado.web.RequestHandler):
           rQ.append("html_files/" + str(hit.doc))
       
       i = 0
+      N = 0
       for url in rQ:
+        N = N +1
         print(url)
         f=codecs.open(url, 'r')
         html = f.read()
@@ -85,6 +87,8 @@ class MainHandler(tornado.web.RequestHandler):
           data=myfile.read()
           stripStopWords(data, i)
           i = i+1
+
+      
 
       uniqueWordsSansQuery = getWordsForScoring(q)
       print("should be 10")

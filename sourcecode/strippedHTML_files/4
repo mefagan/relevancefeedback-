@@ -4,7 +4,7 @@
 
 Wikipedia, the free encyclopedia
 document.documentElement.className = document.documentElement.className.replace( /(^|\s)client-nojs(\s|$)/, "$1client-js$2" );
-(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WPO7VwpAMFgAABqOPZwAAABB","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
+(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgCanonicalNamespace":"","wgCanonicalSpecialPageName":false,"wgNamespaceNumber":0,"wgPageName":"Main_Page","wgTitle":"Main Page","wgCurRevisionId":762066868,"wgRevisionId":762066868,"wgArticleId":15580374,"wgIsArticle":true,"wgIsRedirect":false,"wgAction":"view","wgUserName":null,"wgUserGroups":["*"],"wgCategories":[],"wgBreakFrames":false,"wgPageContentLanguage":"en","wgPageContentModel":"wikitext","wgSeparatorTransformTable":["",""],"wgDigitTransformTable":["",""],"wgDefaultDateFormat":"dmy","wgMonthNames":["","January","February","March","April","May","June","July","August","September","October","November","December"],"wgMonthNamesShort":["","Jan","Feb","Mar","Apr","May","Jun","Jul","Aug","Sep","Oct","Nov","Dec"],"wgRelevantPageName":"Main_Page","wgRelevantArticleId":15580374,"wgRequestId":"WPSy-gpAAEAAAe-tSXoAAACV","wgIsProbablyEditable":false,"wgRestrictionEdit":["sysop"],"wgRestrictionMove":["sysop"],"wgIsMainPage":true,"wgFlaggedRevsParams":{"tags":{}},"wgStableRevisionId":null,"wgWikiEditorEnabledModules":{"toolbar":true,"dialogs":true,"preview":false,"publish":false},"wgBetaFeaturesFeatures":[],"wgMediaViewerOnClick":true,"wgMediaViewerEnabledByDefault":true,"wgPopupsShouldSendModuleToUser":false,"wgPopupsConflictsWithNavPopupGadget":false,"wgVisualEditor":{"pageLanguageCode":"en","pageLanguageDir":"ltr","usePageImages":true,"usePageDescriptions":true},"wgPreferredVariant":"en","wgMFDisplayWikibaseDescriptions":{"search":true,"nearby":true,"watchlist":true,"tagline":false},"wgRelatedArticles":null,"wgRelatedArticlesUseCirrusSearch":true,"wgRelatedArticlesOnlyUseCirrusSearch":false,"wgULSCurrentAutonym":"English","wgNoticeProject":"wikipedia","wgCentralNoticeCookiesToDelete":[],"wgCentralNoticeCategoriesUsingLegacy":["Fundraising","fundraising"],"wgCategoryTreePageCategoryOptions":"{\"mode\":0,\"hideprefix\":20,\"showcount\":true,\"namespaces\":false}","wgWikibaseItemId":"Q5296","wgCentralAuthMobileDomain":false,"wgVisualEditorToolbarScrollOffset":0,"wgEditSubmitButtonLabelPublish":false});mw.loader.state({"ext.globalCssJs.user.styles":"ready","ext.globalCssJs.site.styles":"ready","site.styles":"ready","noscript":"ready","user.styles":"ready","user":"ready","user.options":"loading","user.tokens":"loading","ext.visualEditor.desktopArticleTarget.noscript":"ready","ext.uls.interlanguage":"ready","ext.wikimediaBadges":"ready","mediawiki.legacy.shared":"ready","mediawiki.legacy.commonPrint":"ready","mediawiki.sectionAnchor":"ready","mediawiki.skinning.interface":"ready","skins.vector.styles":"ready","ext.globalCssJs.user":"ready","ext.globalCssJs.site":"ready"});mw.loader.implement("user.options@0j3lz3q",function($,jQuery,require,module){mw.user.options.set({"variant":"en"});});mw.loader.implement("user.tokens@1dqfd7l",function ( $, jQuery, require, module ) {
 mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","csrfToken":"+\\"});/*@nomin*/;
 
 });mw.loader.load(["mediawiki.action.view.postEdit","site","mediawiki.page.startup","mediawiki.user","mediawiki.hidpi","mediawiki.page.ready","mediawiki.legacy.wikibits","mediawiki.searchSuggest","ext.gadget.teahouse","ext.gadget.ReferenceTooltips","ext.gadget.watchlist-notice","ext.gadget.DRN-wizard","ext.gadget.charinsert","ext.gadget.refToolbar","ext.gadget.extra-toolbar-buttons","ext.gadget.switcher","ext.gadget.featured-articles-links","ext.centralauth.centralautologin","mmv.head","mmv.bootstrap.autostart","ext.visualEditor.desktopArticleTarget.init","ext.visualEditor.targetLoader","ext.eventLogging.subscriber","ext.wikimediaEvents","ext.navigationTiming","ext.uls.eventlogger","ext.uls.init","ext.uls.interface","ext.quicksurveys.init","ext.centralNotice.geoIP","ext.centralNotice.startUp","skins.vector.js"]);});
@@ -51,7 +51,7 @@ mw.user.tokens.set({"editToken":"+\\","patrolToken":"+\\","watchToken":"+\\","cs
 
 Welcome to Wikipedia,
 the free encyclopedia that anyone can edit.
-5,385,759 articles in English
+5,386,106 articles in English
 
 
 
@@ -93,17 +93,15 @@ From today's featured article
 
 
 
-Political cartoon depicting Kalākaua
-auctioning off the Hawaiian Islands
 
-
-King Kalākaua's world tour in 1881 made him the first monarch to circumnavigate the globe. His agenda was to negotiate contract labor for the Kingdom of Hawaii's sugar plantations, with hopes of saving the dwindling Native Hawaiian population by drawing immigration from Asia-Pacific nations. Rumors circulated that the King secretly intended to use the trip to sell the Hawaiian Islands to the highest bidder. He visited American legislators and had an audience with the Pope in Rome. He also met with European and Asian heads of state, and was influenced by their ornate ceremonies and displays of military power. In between negotiations, Kalākaua and his companions visited tourist sites and attended local Freemasonry lodge meetings. As a result of his visit with Thomas Edison on the return trip through New York, Iolani Palace later became the first building in Hawaii with electric lighting. Kalākaua's amiable personality generated goodwill around the world, and he succeeded in increasing Hawaii's labor force. The Japanese workers he attracted were commemorated a century later with a new statue of Kalākaua in Waikiki. (Fullarticle...)
+Villa Park is an association football stadium in Aston, Birmingham, England, with a seating capacity of 42,682. Formerly a sports ground in a Victorian amusement park, it has been the home of Aston Villa Football Club since 17 April 1897. The ground has hosted sixteen England internationals at senior level, the first in 1899 and the most recent in 2005. It has hosted 55 FA Cup semi-finals, more than any other stadium. The club has initial planning permission to redevelop its North Stand, which will increase its capacity to around 50,000. Aside from football-related uses, the stadium has seen concerts and other sporting events, including boxing matches and international rugby league and rugby union matches. In 1999, the last ever final of the UEFA Cup Winners' Cup took place at Villa Park. It also hosted the 2012 FA Community Shield, as Wembley Stadium was being used for the final of the Olympic football tournament. (Fullarticle...)
+Part of the Aston Villa F.C. series, one of Wikipedia's featured topics.
 Recently featured:
 
 
+King Kalākaua's world tour
 Me and Juliet
 Crucifix (Cimabue, Santa Croce)
-Fez (video game)
 
 
 
@@ -127,18 +125,18 @@ Did you know...
 
 
 
-Rimatara lorikeet
+Chupe de camarones
 
 
 
-... that Queen Tamaeva V saved the Rimatara lorikeet (pictured) from extinction through a royal taboo that forbade her people from harming or exporting the birds?
-... that the 20th-century Easter hymn "Ye Watchers and Ye Holy Ones" takes its melody from "Lasst uns erfreuen" (Let us rejoice), a tune published in 1623 by a German activist against witch-hunts?
-... that a career-threatening knee injury to Tasmanian Roar cricketer Erin Burns was successfully treated with stem cell injections by the Sydney Swans' club doctor, Nathan Gibbs?
-... that the tongue of the golden-belted bumble bee is about two-thirds as long as its body?
-... that passenger service on the Staten Island Railway's North Shore Branch was discontinued 16 years after it was rebuilt?
-... that Ursula Zollenkopf, a contralto of the NWDR Chor, performed solo and choral parts in a posthumous Schoenberg opera premiere and in an Easter cantata by Bach?
-... that Chocorua Island Chapel at Squam Lake, New Hampshire, part of the first summer youth camp in America, was built by the camp's boys with an erratic boulder, trees, and beach sand?
-... that Juan Tepano was proclaimed "king" of Easter Island by officers of the Chilean Navy, but no one – including Tepano – took the ceremony seriously?
+... that a week in honor of the prawn soup chupe de camarones (pictured) took place in areas of Peru in 2016?
+... that Pendleton Dudley refused to talk about the work he did to launch Woodrow Wilson's political career?
+... that Bach's cantata for Easter Monday, Bleib bei uns, denn es will Abend werden, BWV 6, is based on the Road to Emmaus narration?
+... that Brigadier General Guy Fort is the only American-born general officer to be executed by enemy forces?
+... that records of the Wetar ground dove in West Timor are from just three localities?
+... that Constance Davey established the first "opportunity classes" for children with special educational needs in South Australia?
+... that at the 2017 Rey de Reyes, professional wrestler Johnny Mundo became a triple champion, holding the AAA Mega, Cruiserweight, and Latin American Championships?
+... that the cheese producer Wyke Farms still uses an 1861 recipe?
 
 
 
@@ -169,11 +167,11 @@ Sergio García
 
 
 
+A suicide bombing of civilian evacuation buses near Aleppo, Syria, kills more than 120people, including 68 children.
 Pakistan sentences former Indian naval officer Kulbhushan Jadhav to death for espionage and sabotage.
 In golf, Sergio García (pictured) defeats Justin Rose in a playoff to win the Masters Tournament.
 At least 44 people are killed and 126 others injured when two Egyptian Coptic Orthodox churches are attacked on Palm Sunday by suicide bombers.
 The Basque separatist militant group ETA disarms itself.
-A stolen truck is driven through crowds and into a department store in downtown Stockholm, killing 4 people and injuring 15 others.
 
 
 Ongoing:
@@ -205,26 +203,26 @@ On this day...
 
 
 
-April 16
+April 17: Patriots' Day in Maine and Massachusetts (2017)
 
 
-Bernard Baruch
+Kaunas Castle (reconstructed)
 
 
 
-1520 – Citizens of Toledo, Castile, who were opposed to the rule of the foreign-born Charles V, rose up in revolt when the royal government attempted to unseat radical city councilors.
-1847 – New Zealand Wars: A minor Māori chief was accidentally shot by a junior British Army officer in the Petre settlement of New Zealand's North Island, triggering the Wanganui Campaign.
-1917 – World War I: A massive assault by several French army corps against the German-occupied Chemin des Dames ridge began south of Laon, France.
-1947 – American financier and presidential adviser Bernard Baruch (pictured) first described the post–World WarII tensions between the Soviet Union and the United States as a "cold war".
-2007 – In one of the deadliest shooting incidents in United States history, a gunman killed 32 people and wounded over 20 more before committing suicide at the Virginia Polytechnic Institute and State University in Blacksburg, Virginia.
+1362 – Lithuanian Crusade: After a month-long siege, the Teutonic Order captured and destroyed Kaunas Castle (reconstruction pictured) in Lithuania.
+1907 – Brazil became the third country in the world to start construction on a dreadnought battleship, sparking a vastly expensive South American naval arms race.
+1961 – Armed Cuban exiles backed by the CIA invaded Cuba, landing in the Bay of Pigs, with the aim of overthrowing the Cuban government under Fidel Castro.
+1975 – The Khmer Rouge under Pol Pot captured Phnom Penh, ending the Cambodian Civil War, and established Democratic Kampuchea.
+2014 – NASA announced the discovery of Kepler-186f, the first exoplanet with a radius similar to Earth's discovered in the habitable zone of another star.
 
-Tabinshwehti (b.1516)·  Francisco Goya (d.1828)·  John Millington Synge (b.1871)
+Karen Blixen (b.1885)·  Sean Bean (b.1959) ·  Elda Emma Anderson (d.1961)
 More anniversaries:
 
 
-April 15
 April 16
 April 17
+April 18
 
 
 
@@ -233,6 +231,47 @@ April 17
 Archive
 By email
 List of historical anniversaries
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+From today's featured list
+
+
+
+
+
+
+
+The band's current lineup (left to right):
+Andrew Stockdale, Ian Peres and Alex Carapetis
+
+
+The discography of Australian hard rock band Wolfmother consists of four studio albums, four extended plays (EPs), eleven singles, twelve music videos and one video album. The band have also contributed to two soundtracks and one tribute album. Wolfmother were formed in 2000 by vocalist and guitarist Andrew Stockdale, bassist and keyboardist Chris Ross, and drummer Myles Heskett. After signing with Modular Recordings and releasing their self-titled debut EP in 2004, the band's debut full-length studio album, also titled Wolfmother, was released in Australia in 2005 and reached number three on the Australian Albums Chart. The album was released internationally the following year, selling over 1.5 million copies worldwide by 2009. In August 2008, Ross and Heskett left the band due to "irreconcilable personal and musical differences". Wolfmother returned in early 2010 with a new lineup featuring bassist and keyboardist Ian Peres, rhythm guitarist Aidan Nemeth and drummer Dave Atkins. The follow-up to Wolfmother, Cosmic Egg was released in October 2009, again reaching number three in Australia. (Fulllist...)
+Recently featured:
+
+
+Cities and towns in Montana
+Shannen Doherty filmography
+Padma Bhushan award recipients (1960–69)
+
+
+
+
+
+Archive
+More featured lists...
 
 
 
@@ -258,14 +297,16 @@ Today's featured picture
 
 
 
-Todi is a town and comune (municipality) of the province of Perugia in central Italy. Perched on a tall two-crested hill overlooking the east bank of the river Tiber, it had a population of more than 17,000 in 2007.
-Photograph: Livioandronico2013
+
+
+Whaler's Cove, the largest cove at Point Lobos, a group of three protected areas in California. Point Lobos contains a number of hiking trails, many next to the ocean, and a smaller number of beaches. It is also home to a museum on whaling, which includes a historic building once used by area fishermen.
+Photograph: David Iliff
 Recently featured:
 
 
+Todi
 Tribuna of the Uffizi
 Nembrotha kubaryana
-The Flageolet Player on the Cliff
 
 
 
@@ -349,7 +390,7 @@ Dictionary and thesaurus
 
 Wikipedia languages
 
-This Wikipedia is written in English. Started in 2001(2001), it currently contains 5,385,759 articles.  Many other Wikipedias are available; some of the largest are listed below.
+This Wikipedia is written in English. Started in 2001(2001), it currently contains 5,386,106 articles.  Many other Wikipedias are available; some of the largest are listed below.
 
 More than 1,000,000 articles:
 
@@ -560,6 +601,6 @@ additional terms may apply.  By using this site, you agree to the Terms of Use a
 									
 						
 		
-		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.232","walltime":"0.297","ppvisitednodes":{"value":3400,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":112843,"limit":2097152},"templateargumentsize":{"value":7660,"limit":2097152},"expansiondepth":{"value":16,"limit":40},"expensivefunctioncount":{"value":7,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  214.122      1 -total"," 47.71%  102.159      9 Template:Main_page_image"," 40.13%   85.930      1 Wikipedia:Main_Page/Tomorrow"," 19.23%   41.185      1 Wikipedia:Today's_featured_article/April_16,_2017"," 16.47%   35.262      9 Template:Str_number/trim"," 16.37%   35.053      2 Template:Wikipedia_languages"," 14.60%   31.256     18 Template:Remove_file_prefix"," 14.19%   30.384      2 Template:In_the_news"," 13.55%   29.008     27 Template:If_empty"," 12.25%   26.240      2 Template:In_the_news/image"]},"scribunto":{"limitreport-timeusage":{"value":"0.067","limit":"10.000"},"limitreport-memusage":{"value":2106643,"limit":52428800}},"cachereport":{"origin":"mw1189","timestamp":"20170416184324","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":50,"wgHostname":"mw1253"});});
+		(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgPageParseReport":{"limitreport":{"cputime":"0.228","walltime":"0.302","ppvisitednodes":{"value":3254,"limit":1000000},"ppgeneratednodes":{"value":0,"limit":1500000},"postexpandincludesize":{"value":109374,"limit":2097152},"templateargumentsize":{"value":7091,"limit":2097152},"expansiondepth":{"value":14,"limit":40},"expensivefunctioncount":{"value":6,"limit":500},"entityaccesscount":{"value":0,"limit":400},"timingprofile":["100.00%  212.966      1 -total"," 44.48%   94.720      8 Template:Main_page_image"," 42.59%   90.708      1 Wikipedia:Main_Page/Tomorrow"," 17.51%   37.282      2 Template:Wikipedia_languages"," 17.30%   36.835      1 Wikipedia:Today's_featured_article/April_17,_2017"," 16.51%   35.164      1 Template:Did_you_know/Queue/4"," 16.19%   34.473      8 Template:Str_number/trim"," 14.99%   31.924      2 Template:In_the_news"," 13.56%   28.876     24 Template:If_empty"," 12.77%   27.204     15 Template:Remove_file_prefix"]},"scribunto":{"limitreport-timeusage":{"value":"0.063","limit":"10.000"},"limitreport-memusage":{"value":1950619,"limit":52428800}},"cachereport":{"origin":"mw1218","timestamp":"20170417122001","ttl":3600,"transientcontent":true}}});});(window.RLQ=window.RLQ||[]).push(function(){mw.config.set({"wgBackendResponseTime":73,"wgHostname":"mw1269"});});
 	
 
