@@ -63,9 +63,9 @@ class MainHandler(tornado.web.RequestHandler):
           rQ.append("html_files/" + str(hit.doc))
       
       i = 0
-      N = 0
+      rqSize = 0
       for url in rQ:
-        N = N +1
+        rqSize = rqSize +1
         print(url)
         f=codecs.open(url, 'r')
         html = f.read()
@@ -92,9 +92,10 @@ class MainHandler(tornado.web.RequestHandler):
 
       uniqueWordsSansQuery = getWordsForScoring(q)
       print("should be 10")
-      print(calculateWordScore("wikipedia"))
-      print(uniqueWordsSansQuery[138])
-      print(calculateWordScore(uniqueWordsSansQuery[138]))
+      print(calculateWordScore("wikipedia", rqSize))
+      print(calculateWordScore("wiki", rqSize))
+      print(calculateWordScore("dog", rqSize))
+      
      
 
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
