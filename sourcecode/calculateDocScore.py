@@ -6,18 +6,13 @@ from calculateWordScore import calculateWordScore
 from calcGW import calcGW
 
 def calculateDocScore(doc, word, q, rqSize):
-	print(doc)
 	query_words = q.split()
-	for pic in query_words:
-		print(pic)
 	data = doc.read()
 	words = data.split()
 	lD = len(words)
-	print(lD)
 	cWD = 0
 	mQD = 0
 	fWQD = 0
-
 
 	for i in range(len(words)):
 		w = words[i]
@@ -25,7 +20,6 @@ def calculateDocScore(doc, word, q, rqSize):
 			cWD = cWD + 1
 			start = max(0, i-5)
 			end = min(len(words)-1, i+5)
-			print(end)
 			j = start
 			k = 0
 			while (j<end+1):
@@ -45,22 +39,14 @@ def calculateDocScore(doc, word, q, rqSize):
 			
 			if query==w:
 				mQD = mQD +1
-	print("cWD, which is the number of occurances of random word in doc = ")
-	print(cWD)
-	print("mQDm which is number of occurances of any query word in doc = ")
-	print(mQD)
-	print("fWQD = ")
-	print(fWQD)
+	
 
 	partone = math.sqrt(fWQD/mQD)
-	print("part one = ")
-	print(partone)
 	parttwo = math.sqrt(cWD/lD)
-	print("part two = ")
-	print(parttwo)
 	yWQ = calculateWordScore(word, rqSize)
-	print("yWQ = ")
-	print(yWQ)
-	sWQD = partone + yWQ*parttwo
+	if cWD == 0: 	
+		sWQD = 0
+	else:
+		sWQD = partone + yWQ*parttwo
 	print("final score =")
 	print(sWQD)
