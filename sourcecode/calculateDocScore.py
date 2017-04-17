@@ -16,8 +16,8 @@ def calculateDocScore(doc, word, q):
 	mQD = 0
 
 
-	for w in words:
-		
+	for i in range(len(words)):
+		w = words[i]
 		if w==word:
 			cWD = cWD + 1
 		for query in query_words:
