@@ -2,4 +2,7 @@ from __future__ import division
 from calczWQ import calczWQ
 from calcGW import calcGW
 
-def calculateDocScore(doc, word):
+def calculateDocScore(doc):
+	data = doc.read()
+	lD = len(data.split())
+	print(lD)

@@ -3,6 +3,7 @@ from stripHTML import strip_tags
 from calculateWordScore import calculateWordScore
 from removeStopWords import stripStopWords
 from getWordsForScoring import getWordsForScoring
+from calculateDocScore import calculateDocScore
 from calczWQ import calczWQ
 import os
 import codecs
@@ -96,6 +97,11 @@ class MainHandler(tornado.web.RequestHandler):
       print(calculateWordScore("wiki", rqSize))
       print(calculateWordScore("dog", rqSize))
       
+      path = 'noStopWords_files'
+      i = 0
+      for filename in os.listdir(path):
+        with open(os.path.join(path, filename), 'r') as myfile:
+          calculateDocScore(myfile)
      
 
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
