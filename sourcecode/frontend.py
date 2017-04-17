@@ -4,6 +4,7 @@ from calculateWordScore import calculateWordScore
 from removeStopWords import stripStopWords
 from getWordsForScoring import getWordsForScoring
 from calculateDocScore import calculateDocScore
+from calculateKNewWords import calcNewQuery
 from calczWQ import calczWQ
 import os
 import codecs
@@ -89,44 +90,20 @@ class MainHandler(tornado.web.RequestHandler):
           data=myfile.read()
           stripStopWords(data, i)
           i = i+1
+      if k>0:
+        newQuery = calcNewQuery(k, q, rqSize)
 
       
 
-      uniqueWordsSansQuery = getWordsForScoring(q)
+
+
+
         
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
 
 
       
-      i = 0
-      d = {}
-      path = 'noStopWords_files'
-      words = ["hey", "hi", "wikipedia", "test", "math", "like", "liquid", "geological"]
-      for word in words:
-      #for word in uniqueWordsSansQuery:
-        score = 0
-        for filename in os.listdir(path):
-          with open(os.path.join(path, filename), 'r') as myfile:
-          
-            text = myfile.read()
-            if word in text:
-              score = score + calculateDocScore(text, word, q, rqSize)
-        print("score = ")
-        print(score)
-        print(word)
-        d[word] = score
-      sorted_d = sorted(d.items(), key=operator.itemgetter(1))
-      print("length of list")
-      end = len(sorted_d)-1
-      
-      m = 0
-      while m < int(k):
-        x = sorted_d[end]
-        print("here")
-        print x[0], x[1]
-        end = end - 1
-        m = m+1
-
+     
     
 
 
