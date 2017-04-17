@@ -97,11 +97,17 @@ class MainHandler(tornado.web.RequestHandler):
       print(calculateWordScore("wiki", rqSize))
       print(calculateWordScore("dog", rqSize))
       
-      path = 'noStopWords_files'
       i = 0
+      path = 'noStopWords_files'
       for filename in os.listdir(path):
         with open(os.path.join(path, filename), 'r') as myfile:
-          calculateDocScore(myfile)
+          
+          i = i + 1
+          if i == 4:
+            calculateDocScore(myfile, "wikipedia", q)
+
+      
+      
      
 
       self.render("index.html", title="Results", items=items, query=q, kTerms = k)
